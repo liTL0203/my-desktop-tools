@@ -1,7 +1,7 @@
 {
-  "core": "0.16.0",
-  "coreNotes": "## 新增功能\r\n- **选择性插件发版**: release.mjs 新增 `--plugins` 参数，支持仅构建指定插件（如 `--plugins=proxy-switch`），跳过未变更的插件，大幅缩短发版时间\r\n\r\n## 优化改进\r\n- **发版脚本修复**: 修复 release-with-sign.ps1 中重复代码块导致解析错误的问题\r\n- **发版脚本增强**: release-with-sign.ps1 新增 -Plugins 参数透传，支持端到端选择性发版",
-  "pubDate": "2026-07-13T06:59:22.128Z",
+  "core": "0.17.0",
+  "coreNotes": "## 新增功能\r\n- **插件设置默认路径填充**: 插件设置页面新增默认路径自动填充功能，提升配置效率\r\n\r\n## 修复\r\n- **网格布局溢出修复**: 修复首页分类网格布局水平溢出问题和响应式断点适配异常\r\n\r\n## 优化改进\r\n- **首页布局优化**: 优化 RecentTools 和 CategoryGrid 组件的响应式布局逻辑\r\n- **插件设置增强**: 插件设置 composable 新增默认路径生成与填充机制\r\n\r\n\r\n\r\n## 新增功能\r\n- **选择性插件发版**: release.mjs 新增 `--plugins` 参数，支持仅构建指定插件（如 `--plugins=proxy-switch`），跳过未变更的插件，大幅缩短发版时间\r\n\r\n## 优化改进\r\n- **发版脚本修复**: 修复 release-with-sign.ps1 中重复代码块导致解析错误的问题\r\n- **发版脚本增强**: release-with-sign.ps1 新增 -Plugins 参数透传，支持端到端选择性发版",
+  "pubDate": "2026-07-13T14:43:18.140Z",
   "plugins": {
     "pomodoro": "2.0.0",
     "proxy-switch": "2.0.1"

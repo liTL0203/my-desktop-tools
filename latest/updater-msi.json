@@ -1,11 +1,11 @@
 {
-  "version": "0.16.0",
-  "notes": "## 新增功能\r\n- **选择性插件发版**: release.mjs 新增 `--plugins` 参数，支持仅构建指定插件（如 `--plugins=proxy-switch`），跳过未变更的插件，大幅缩短发版时间\r\n\r\n## 优化改进\r\n- **发版脚本修复**: 修复 release-with-sign.ps1 中重复代码块导致解析错误的问题\r\n- **发版脚本增强**: release-with-sign.ps1 新增 -Plugins 参数透传，支持端到端选择性发版",
-  "pub_date": "2026-07-13T06:59:22.127Z",
+  "version": "0.17.0",
+  "notes": "## 新增功能\r\n- **插件设置默认路径填充**: 插件设置页面新增默认路径自动填充功能，提升配置效率\r\n\r\n## 修复\r\n- **网格布局溢出修复**: 修复首页分类网格布局水平溢出问题和响应式断点适配异常\r\n\r\n## 优化改进\r\n- **首页布局优化**: 优化 RecentTools 和 CategoryGrid 组件的响应式布局逻辑\r\n- **插件设置增强**: 插件设置 composable 新增默认路径生成与填充机制\r\n\r\n\r\n\r\n## 新增功能\r\n- **选择性插件发版**: release.mjs 新增 `--plugins` 参数，支持仅构建指定插件（如 `--plugins=proxy-switch`），跳过未变更的插件，大幅缩短发版时间\r\n\r\n## 优化改进\r\n- **发版脚本修复**: 修复 release-with-sign.ps1 中重复代码块导致解析错误的问题\r\n- **发版脚本增强**: release-with-sign.ps1 新增 -Plugins 参数透传，支持端到端选择性发版",
+  "pub_date": "2026-07-13T14:43:18.078Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEE3WG94L2E5ZG1hM0hrdlc1dlhTbGxBOGwyK2dqcDNOKzZtUHMrOWlSKzRQL2V4ODNSamNDK2d6d2NlYUptNzhYci8zaVpxbGtFT1hIUVN4c2NsMUF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTI1OTQ5CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjE2LjBfeDY0X2VuLVVTLm1zaQptbHA5YXg5WUVHRkg0RU9SZHZNK01DeWRqaDU0emN5N1l0RGJlSTdpUHROWnp5MXNGanVTVGpGK3NienFZdnZNd1FXaEZyRGw2MkJtT2tMbndpZjRCdz09Cg==",
-      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.16.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZE9yQi9KaDBkRmN2YVF6OUhyTVowL295VXN0bGNPdjJ6WmNoTVY0WWNiWnRkQlhjY2I1bEQ0enVjREVCSHBHUmhTRFU0OHNZaDBZVkVPazdjQ2lLZWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTUzNzk3CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjE3LjBfeDY0X2VuLVVTLm1zaQpBSFY4c25Eenk2UXVEd010eFhtbWo2OG1OZWhQeW9GWUcwWE5yN1JTYmlsdTgrT1FGS1ZYSFlKTitFVTN0Z1R3SjRkSmZ0ZU05M1ZHbkNwaDNWQlBBUT09Cg==",
+      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.17.0_x64_en-US.msi"
     }
   }
 }
