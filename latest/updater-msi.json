@@ -1,11 +1,11 @@
 {
-  "version": "0.17.0",
-  "notes": "## 新增功能\r\n- **插件设置默认路径填充**: 插件设置页面新增默认路径自动填充功能，提升配置效率\r\n\r\n## 修复\r\n- **网格布局溢出修复**: 修复首页分类网格布局水平溢出问题和响应式断点适配异常\r\n\r\n## 优化改进\r\n- **首页布局优化**: 优化 RecentTools 和 CategoryGrid 组件的响应式布局逻辑\r\n- **插件设置增强**: 插件设置 composable 新增默认路径生成与填充机制\r\n\r\n\r\n\r\n## 新增功能\r\n- **选择性插件发版**: release.mjs 新增 `--plugins` 参数，支持仅构建指定插件（如 `--plugins=proxy-switch`），跳过未变更的插件，大幅缩短发版时间\r\n\r\n## 优化改进\r\n- **发版脚本修复**: 修复 release-with-sign.ps1 中重复代码块导致解析错误的问题\r\n- **发版脚本增强**: release-with-sign.ps1 新增 -Plugins 参数透传，支持端到端选择性发版",
-  "pub_date": "2026-07-13T14:43:18.078Z",
+  "version": "0.18.0",
+  "notes": "## 新增功能\r\n- **插件分类系统**: 新增 `category` 字段，proxy-switch 插件归类为 `network-control`，为后续插件分类筛选奠定基础\r\n- **插件版本历史增强**: 版本历史 composable 新增对插件独立 CHANGELOG.md 的优先读取支持\r\n\r\n## 修复\r\n- **搜索栏裁剪修复**: 修复搜索栏在不同视口宽度下的文字裁剪问题，提升响应式适配\r\n\r\n## 优化改进\r\n- **proxy-switch 插件升级至 v2.5.0**: 新增全局快捷键、TCP 请求日志、仪表盘导航、流量链导入导出、网络接口动态列表；优化提权通信机制和启动性能\r\n- **CHANGELOG 生成修复**: 修复 release.mjs 中版本排序和日期来源逻辑，确保语义版本正确排序、日期准确\r\n- **文档清理**: 删除过时的安全认证机制文档和搜索栏验证脚本，精简项目文档结构",
+  "pub_date": "2026-07-13T22:58:20.716Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZE9yQi9KaDBkRmN2YVF6OUhyTVowL295VXN0bGNPdjJ6WmNoTVY0WWNiWnRkQlhjY2I1bEQ0enVjREVCSHBHUmhTRFU0OHNZaDBZVkVPazdjQ2lLZWc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTUzNzk3CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjE3LjBfeDY0X2VuLVVTLm1zaQpBSFY4c25Eenk2UXVEd010eFhtbWo2OG1OZWhQeW9GWUcwWE5yN1JTYmlsdTgrT1FGS1ZYSFlKTitFVTN0Z1R3SjRkSmZ0ZU05M1ZHbkNwaDNWQlBBUT09Cg==",
-      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.17.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEVJWnc4VVkvblNtUmRIV0NMWjlqZHpES3NKMFQvRkZHVFJLMU1hZjdPc2laK1lGQ2FuRkdvTi9iZ3Bmb2d3VFNPcHNDOWFHSXRIUlh6cERzUWFadHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTgzNDc2CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjE4LjBfeDY0X2VuLVVTLm1zaQo1SEhPMDRSb0gxcEpjQlUzcHp1dmFvOWJwb0hWRFltMy9nVmtpNXhUZ3hJNjdNelpEdncxa1Q2VVQvRHkxbUVHV1JXS2daV2cyRGpXb1pyNEIzbi9CUT09Cg==",
+      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.18.0_x64_en-US.msi"
     }
   }
 }

@@ -2,7 +2,7 @@
 
 > 桌面工具箱安装包与插件下载
 
-## 当前版本: v0.17.0
+## 当前版本: v0.18.0
 
 ### 安装包
 
@@ -10,7 +10,7 @@
 
 | 文件 | 说明 |
 |------|------|
-| `latest/My Desktop Tools_0.17.0_x64_en-US.msi` | Windows MSI 安装包 |
+| `latest/My Desktop Tools_0.18.0_x64_en-US.msi` | Windows MSI 安装包 |
 
 ### 插件
 
@@ -19,7 +19,7 @@
 | 插件 | 版本 | 说明 | 版本历史 | 下载 |
 |------|------|------|----------|------|
 | pomodoro | 2.0.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](plugins/pomodoro/pomodoro-2.0.0.zip) |
-| proxy-switch | 2.0.1 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](plugins/proxy-switch/proxy-switch-2.0.1.zip) |
+| proxy-switch | 2.5.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](plugins/proxy-switch/proxy-switch-2.5.0.zip) |
 
 ## 系统要求
 
