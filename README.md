@@ -2,7 +2,7 @@
 
 > 桌面工具箱安装包与插件下载
 
-## 当前版本: v0.18.0
+## 当前版本: v0.19.0
 
 ### 安装包
 
@@ -10,7 +10,7 @@
 
 | 文件 | 说明 |
 |------|------|
-| `latest/My Desktop Tools_0.18.0_x64_en-US.msi` | Windows MSI 安装包 |
+| `latest/My Desktop Tools_0.19.0_x64_en-US.msi` | Windows MSI 安装包 |
 
 ### 插件
 

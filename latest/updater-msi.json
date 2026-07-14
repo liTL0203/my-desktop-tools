@@ -1,11 +1,11 @@
 {
-  "version": "0.18.0",
-  "notes": "## 新增功能\r\n- **插件分类系统**: 新增 `category` 字段，proxy-switch 插件归类为 `network-control`，为后续插件分类筛选奠定基础\r\n- **插件版本历史增强**: 版本历史 composable 新增对插件独立 CHANGELOG.md 的优先读取支持\r\n\r\n## 修复\r\n- **搜索栏裁剪修复**: 修复搜索栏在不同视口宽度下的文字裁剪问题，提升响应式适配\r\n\r\n## 优化改进\r\n- **proxy-switch 插件升级至 v2.5.0**: 新增全局快捷键、TCP 请求日志、仪表盘导航、流量链导入导出、网络接口动态列表；优化提权通信机制和启动性能\r\n- **CHANGELOG 生成修复**: 修复 release.mjs 中版本排序和日期来源逻辑，确保语义版本正确排序、日期准确\r\n- **文档清理**: 删除过时的安全认证机制文档和搜索栏验证脚本，精简项目文档结构",
-  "pub_date": "2026-07-13T22:58:20.716Z",
+  "version": "0.19.0",
+  "notes": "## 新增功能\r\n- **自定义标题栏**: 实现自定义窗口标题栏，替换原生 Windows 窗口装饰，提供更精致的全平台一致体验\r\n- **更新检测来源标记**: 新增更新检测来源选项，区分手动检查与自动检测，便于精准追踪更新触发路径\r\n\r\n## 优化改进\r\n- **文档精简**: 删除过时的快速开始指南和 API 参考文档，减少维护负担",
+  "pub_date": "2026-07-14T03:30:40.483Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEVJWnc4VVkvblNtUmRIV0NMWjlqZHpES3NKMFQvRkZHVFJLMU1hZjdPc2laK1lGQ2FuRkdvTi9iZ3Bmb2d3VFNPcHNDOWFHSXRIUlh6cERzUWFadHdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTgzNDc2CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjE4LjBfeDY0X2VuLVVTLm1zaQo1SEhPMDRSb0gxcEpjQlUzcHp1dmFvOWJwb0hWRFltMy9nVmtpNXhUZ3hJNjdNelpEdncxa1Q2VVQvRHkxbUVHV1JXS2daV2cyRGpXb1pyNEIzbi9CUT09Cg==",
-      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.18.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEwxQUplUTlXaG1ELzZkMUpwS3FaajVxdGdHRVJPdUxlMzJGUlo0MHhXTktmRVM5cnhVSGtVdnRnTkE2TmNBekRmQnI0VU1DWG12RW5zUVdWS0NTblEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTk5ODQwCWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjE5LjBfeDY0X2VuLVVTLm1zaQp1eEFCQ2x6SXo1Slg4WHpHNklSOFNBdU1qVW5Lc0x0UFNuaFI5UFFDR3JBa0FXUENOdnIwL2ppc3I2SWxSc3NraDJhMzgxS1I5Y0crb055Q2ZjMVlDQT09Cg==",
+      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.19.0_x64_en-US.msi"
     }
   }
 }
