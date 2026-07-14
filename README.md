@@ -6,7 +6,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.19.0 | Windows 10+（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.19.0_x64_en-US.msi) |
+| v0.20.0 | Windows 10+（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.20.0_x64_en-US.msi) |
 
 ## 🔌 插件
 
