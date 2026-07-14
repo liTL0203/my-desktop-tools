@@ -1,7 +1,7 @@
 {
   "version": "0.19.0",
   "notes": "## 新增功能\r\n- **自定义标题栏**: 实现自定义窗口标题栏，替换原生 Windows 窗口装饰，提供更精致的全平台一致体验\r\n- **更新检测来源标记**: 新增更新检测来源选项，区分手动检查与自动检测，便于精准追踪更新触发路径\r\n\r\n## 优化改进\r\n- **文档精简**: 删除过时的快速开始指南和 API 参考文档，减少维护负担",
-  "pub_date": "2026-07-14T03:30:40.483Z",
+  "pub_date": "2026-07-14T04:47:01.702Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEwxQUplUTlXaG1ELzZkMUpwS3FaajVxdGdHRVJPdUxlMzJGUlo0MHhXTktmRVM5cnhVSGtVdnRnTkE2TmNBekRmQnI0VU1DWG12RW5zUVdWS0NTblEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgzOTk5ODQwCWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjE5LjBfeDY0X2VuLVVTLm1zaQp1eEFCQ2x6SXo1Slg4WHpHNklSOFNBdU1qVW5Lc0x0UFNuaFI5UFFDR3JBa0FXUENOdnIwL2ppc3I2SWxSc3NraDJhMzgxS1I5Y0crb055Q2ZjMVlDQT09Cg==",
