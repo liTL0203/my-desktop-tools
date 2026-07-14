@@ -6,7 +6,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.20.0 | Windows 10+（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.20.0_x64_en-US.msi) |
+| v0.21.0 | Windows 10+（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.21.0_x64_en-US.msi) |
 
 ## 🔌 插件
 
@@ -14,8 +14,8 @@
 
 | 插件 | 版本 | 说明 | 版本历史 | 下载 |
 |------|------|------|----------|------|
-| pomodoro | 2.0.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](plugins/pomodoro/pomodoro-2.0.0.zip) |
-| proxy-switch | 2.5.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](plugins/proxy-switch/proxy-switch-2.5.0.zip) |
+| pomodoro | 2.1.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](plugins/pomodoro/pomodoro-2.1.0.zip) |
+| proxy-switch | 2.6.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](plugins/proxy-switch/proxy-switch-2.6.0.zip) |
 
 ## 💻 系统要求
 
