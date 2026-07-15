@@ -1,6 +1,6 @@
 {
   "version": "0.23.0",
-  "notes": "## Bug 修复\r\n- **更新安装修复**: 修复更新安装过程中的文件锁定问题，提升自动更新成功率\r\n\r\n## 新增功能\r\n- **双语更新说明**: 更新通知弹窗支持中英文双语显示，国际化体验进一步提升\r\n\r\n## 优化改进\r\n- **文档体系**: 完善版本历史文档结构，新增快速开始和 API 参考文档",
+  "notes": "## Bug Fixes\r\n- **Update Installation Fix**: Fixed file locking issues during the update installation process, improving auto-update success rate\r\n\r\n## New Features\r\n- **Bilingual Release Notes**: Update notification popups now support bilingual (Chinese/English) display, further enhancing the internationalization experience\r\n\r\n## Improvements\r\n- **Documentation System**: Improved version history document structure with quick-start guide and API reference documentation\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n# v0.23.0 更新说明 (2026-07-15)\r\n\r\n## Bug 修复\r\n- **更新安装修复**: 修复更新安装过程中的文件锁定问题，提升自动更新成功率\r\n\r\n## 新增功能\r\n- **双语更新说明**: 更新通知弹窗支持中英文双语显示，国际化体验进一步提升\r\n\r\n## 优化改进\r\n- **文档体系**: 完善版本历史文档结构，新增快速开始和 API 参考文档\r\n\r\n</details>",
   "pub_date": "2026-07-15T03:52:15.412Z",
   "platforms": {
     "windows-x86_64": {

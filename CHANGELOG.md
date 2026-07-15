@@ -4,7 +4,21 @@
 
 ---
 
-# v0.23.0 (2026-07-15)
+# v0.23.0 Release Notes (2026-07-15)
+
+## Bug Fixes
+- **Update Installation Fix**: Fixed file locking issues during the update installation process, improving auto-update success rate
+
+## New Features
+- **Bilingual Release Notes**: Update notification popups now support bilingual (Chinese/English) display, further enhancing the internationalization experience
+
+## Improvements
+- **Documentation System**: Improved version history document structure with quick-start guide and API reference documentation
+
+<details>
+<summary>中文说明</summary>
+
+# v0.23.0 更新说明 (2026-07-15)
 
 ## Bug 修复
 - **更新安装修复**: 修复更新安装过程中的文件锁定问题，提升自动更新成功率
@@ -14,6 +28,8 @@
 
 ## 优化改进
 - **文档体系**: 完善版本历史文档结构，新增快速开始和 API 参考文档
+
+</details>
 
 ---
 
