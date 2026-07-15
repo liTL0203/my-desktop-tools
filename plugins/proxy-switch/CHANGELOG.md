@@ -1,3 +1,14 @@
+# v2.6.0 Release Notes (2026-07-14)
+
+## New Features
+- **Internationalization**: Plugin name and UI text now support automatic Chinese/English switching, following the core application language setting
+
+## Improvements
+- **Settings Architecture**: Extracted plugin settings update logic into standalone functions, improving maintainability
+
+<details>
+<summary>中文说明</summary>
+
 # v2.6.0 更新说明 (2026-07-14)
 
 ## 新增功能
@@ -6,7 +17,28 @@
 ## 优化改进
 - **设置架构**: 插件设置更新逻辑提取为独立函数，提升可维护性
 
+</details>
+
 ---
+
+# v2.5.0 Release Notes (2026-07-12)
+
+## New Features
+- **Global Hotkey Configuration**: Quick proxy toggle via hotkeys, with new RPC interface
+- **DNS Settings Panel**: Complete DNS settings and cache management UI for visual management of DNS cache entries
+- **TCP Request Logging**: New TCP request log panel with pagination and auto-refresh auto-scroll
+- **Dashboard Navigation**: Dashboard UI refactor with rule navigation and quick jump
+- **Traffic Chain Import/Export**: Import/export support for traffic chain configurations
+- **Dynamic Network Interface List**: Node management replaces hardcoded dropdown with dynamic system network interface detection
+
+## Improvements
+- **Elevation Communication Simplification**: Simplified plugin elevation communication mechanism, reducing architectural complexity
+- **Startup Performance**: Optimized plugin startup flow, improving launch speed
+- **Driver Management**: Improved driver directory opening and status detection logic
+- **Dependency Upgrades**: axum 0.7 → 0.8, ipstack 0.4 → 1.0
+
+<details>
+<summary>中文说明</summary>
 
 # v2.5.0 更新说明 (2026-07-12)
 
@@ -24,7 +56,22 @@
 - **驱动管理增强**: 优化驱动目录打开和状态检测逻辑
 - **依赖升级**: axum 0.7 → 0.8, ipstack 0.4 → 1.0
 
+</details>
+
 ---
+
+# v2.4.0 Release Notes (2026-06-06)
+
+## Bug Fixes
+- TUN adapter lifecycle deep fix: resolved adapter deletion on plugin close
+  - Root cause: wintun's `WintunCloseAdapter` removes the adapter created by `WintunCreateAdapter`; cannot persist across processes
+  - Fix: Use fixed GUID for adapter creation; Windows remembers IP config by GUID; rebuild via same GUID on each enable (open if exists, create if not)
+  - `shutdown()` proactively releases adapter handle; `resume()` rebuilds adapter via fixed GUID and checks if IP auto-recovered
+  - `cmd_delete_tun_adapter` simplified to drop TunRuntime (wintun auto-removes)
+  - Added `TUN_ADAPTER_GUID` fixed constant for consistent adapter identity and IP config across restarts
+
+<details>
+<summary>中文说明</summary>
 
 # v2.4.0 更新说明 (2026-06-06)
 
@@ -36,7 +83,20 @@
   - `cmd_delete_tun_adapter` 简化为丢弃 TunRuntime（wintun 自动移除）
   - 新增 `TUN_ADAPTER_GUID` 固定常量，确保适配器身份和 IP 配置跨重启一致
 
+</details>
+
 ---
+
+# v2.3.0 Release Notes (2026-06-06)
+
+## Bug Fixes
+- TUN adapter lifecycle fix (initial): Added `TunRuntime::disable()` / `resume()` methods
+  - Root cause: `*tun = None` in `disable_proxy_background` triggers Arc cascade drop
+  - `cmd_enable_proxy` detects disabled TunRuntime and calls resume to reuse
+  - Extracted `spawn_accept_loop` common function; start/resume share accept loop logic
+
+<details>
+<summary>中文说明</summary>
 
 # v2.3.0 更新说明 (2026-06-06)
 
@@ -46,7 +106,21 @@
   - `cmd_enable_proxy` 支持检测已禁用的 TunRuntime 并调用 resume 复用
   - 抽取 `spawn_accept_loop` 公共函数，start/resume 共享接受循环逻辑
 
+</details>
+
 ---
+
+# v2.2.0 Release Notes (2026-05-25)
+
+## New Features
+- **Traffic Chain Management**: Create, edit, import/export traffic chains supporting multi-level proxy chaining
+- **Rule Tag System**: Rule tags and filtering for quick proxy rule location and management
+- **Node Connection Testing**: Visual node connectivity status
+- **Traffic Chain Health Monitoring**: Real-time link availability health checks
+- **TUN 2.0 Rule Refactor**: Designed and implemented rule engine refactoring for enhanced rule matching flexibility
+
+<details>
+<summary>中文说明</summary>
 
 # v2.2.0 更新说明 (2026-05-25)
 
@@ -57,7 +131,24 @@
 - **流量链健康监控**: 新增流量链健康检查机制，实时检测链路可用性
 - **TUN 2.0 规则重构**: 设计并实现规则引擎重构方案，增强规则匹配灵活性
 
+</details>
+
 ---
+
+# v2.1.0 Release Notes (2026-05-23)
+
+## New Features
+- **TLS SNI Domain Extraction**: When DNS misses, extracts target domain via TLS ClientHello parsing and writes back to DNS cache
+- **IPv6 TUN Support**: Complete IPv6 traffic support in TUN mode
+
+## Improvements
+- Cache physical NIC IPv6 addresses for improved DNS forwarding performance
+- Optimized IPv6 support and DNS query parsing (compression pointer 0xC0 support)
+- Resolved multi-interface DNS bypassing local DNS issue
+- OnceLock cache made resettable for network change refresh
+
+<details>
+<summary>中文说明</summary>
 
 # v2.1.0 更新说明 (2026-05-23)
 
@@ -71,7 +162,53 @@
 - 解决多接口 DNS 绕过本地 DNS 的问题
 - OnceLock 缓存改为可重置，支持网络变更时刷新
 
+</details>
+
 ---
+
+# v2.0.0 Release Notes (2026-06-05)
+
+## Refactoring
+- Refactored from system proxy mode to TUN mode (virtual NIC traffic interception)
+- 100% global traffic interception, covering apps that bypass system proxy (games, CLI tools, etc.)
+
+## New Features
+- TUN virtual NIC management (based on WinTun driver)
+- Traffic chains (multi-level proxy chaining)
+- Local DNS server (127.0.0.1:53) + DNS relay + DNS hijack + persistent cache
+- DNS cache management RPC interface (list/clear/delete/update)
+- WinTun driver one-click install/update/uninstall/version detection
+- Node management (HTTP/SOCKS5/VPN/chain proxy)
+- Rule engine upgrade (domain suffix, keyword, port, protocol, process matching)
+- Dashboard status monitoring
+- Rule import/export (AutoProxy/SwitchyOmega/plaintext)
+
+## Removed
+- Removed legacy system proxy mode (only modified WinInet settings)
+- Dead code cleanup (~2860 lines, 6 files)
+
+## Security Fixes
+- Named pipe access control: NULL DACL replaced with Authenticated Users + SYSTEM DACL to prevent arbitrary process connecting to elevated sidecar
+- URL open command injection prevention: Only http/https protocols allowed, using ShellExecuteW instead of cmd /c start
+- Security descriptor memory leak fix: Box::leak replaced with PipeSecurity struct holding ownership
+
+## Bug Fixes
+- IPv6 route recovery fully implemented (restore backed-up routes instead of just deleting default route)
+- IPv6 routing table independent parsing logic (no subnet mask format)
+- OnceLock cache made resettable (DNS address + physical NIC IP/index, supporting network change refresh)
+- Fake IP allocation conflict detection (253 iterations to avoid IP reuse conflicts)
+- Atomic config file writes (write .tmp then rename; crash won't corrupt file)
+- save_config field handling clarified (enabled/dns managed by independent RPC)
+
+## Robustness Enhancements
+- DNS relay retry mechanism (retry once after 3s timeout)
+- HTTP CONNECT response parsing: Parse HTTP status line to extract status code, replacing loose string matching
+- SOCKS5 proxy: Support RFC 1929 Username/Password authentication + IPv6 address support
+- DNS query parsing supports compression pointer (0xC0)
+- DNS response parsing adds bounds checking and label length validation
+
+<details>
+<summary>中文说明</summary>
 
 # v2.0.0 更新说明 (2026-06-05)
 
@@ -114,7 +251,26 @@
 - DNS 查询解析支持压缩指针 (0xC0)
 - DNS 响应解析增加边界检查和标签长度校验
 
+</details>
+
 ---
+
+# v1.2.0 Release Notes (2026-05-05)
+
+## New Features
+- Auto rule switching
+- Multi-profile management
+- Auto-start support
+
+## Improvements
+- Optimized proxy detection speed
+- Improved system tray interaction
+
+## Bug Fixes
+- Fixed Windows proxy setting failure
+
+<details>
+<summary>中文说明</summary>
 
 # v1.2.0 更新说明 (2026-05-05)
 
@@ -130,7 +286,18 @@
 ## 修复
 - 修复 Windows 代理设置失败问题
 
+</details>
+
 ---
+
+# v1.1.0 Release Notes (2026-04-15)
+
+## New Features
+- System-level proxy management
+- Proxy rule configuration
+
+<details>
+<summary>中文说明</summary>
 
 # v1.1.0 更新说明 (2026-04-15)
 
@@ -138,10 +305,23 @@
 - 系统级代理管理
 - 代理规则配置
 
+</details>
+
 ---
+
+# v1.0.0 Release Notes (2026-04-01)
+
+## New Features
+- Initial release
+- Basic proxy switching functionality
+
+<details>
+<summary>中文说明</summary>
 
 # v1.0.0 更新说明 (2026-04-01)
 
 ## 新增
 - 初始版本
 - 基础代理切换功能
+
+</details>
