@@ -1,11 +1,11 @@
 {
-  "version": "0.21.0",
-  "notes": "## 新增功能\r\n- **国际化（i18n）支持**: 集成 vue-i18n，实现全栈国际化架构，支持中英文切换，覆盖设置页、统计面板、插件名称等核心界面\r\n- **插件名称国际化**: 插件显示名称支持根据系统语言自动切换，提升多语言用户体验\r\n\r\n## 优化改进\r\n- **插件设置架构**: 提取插件设置更新逻辑为独立函数，降低耦合度，提升代码可维护性\r\n- **文档精简**: 移除过时的快速开始指南和 API 参考文档，减少维护负担",
-  "pub_date": "2026-07-14T16:33:54.329Z",
+  "version": "0.22.0",
+  "notes": "## 新增功能\r\n- **Markdown 渲染支持**: 更新通知弹窗中的版本说明支持 Markdown 格式解析，新增通用 Markdown 解析工具模块，提升更新信息的排版和可读性",
+  "pub_date": "2026-07-15T01:17:09.295Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZFB2WHpaYWRPdWdPK05sUGkrWE5acWdqY0F3NXRsRDlVZy9KMjR4bFd6elNYVjYwVGMvK2dya3pVK000WkNxOUFPWnJSYkdiSmtvcWFYZFluR3I1U2c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDQ2NzgwCWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjIxLjBfeDY0X2VuLVVTLm1zaQpORHR5aWU4dGxsdDhwVkdVVEtDdUxVTE5uQW1GSDJZYkRkcmI2T3dQeVBWSXdlTllMU0htbDJQbHpVSHFuOWtYWjFxTDZJbWtWUndaOGZQYkx3VTZDZz09Cg==",
-      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.21.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEJSTDNnb3V3ckV3VWxwVWZwMjZ2SmxEOXI5SGZWc29XVW9HV0JTZE8rM3JHWlZBZGptRkJuZDFYUGNrc0g5QzdLVHNlNHdvcm1wc1k4bkxDQXlKakFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDc4MjI5CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjIyLjBfeDY0X2VuLVVTLm1zaQpYbUs5SlltS3pHdzhLcXhrWWJ5NTR0R2oybFJkNXFjRU8zSldKVzhNVnRwSysyVzNGbnBnU2ZrVURVS0hTNEZUK2NKOHRKQXRVek5kdkZxcHBPSldCUT09Cg==",
+      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.22.0_x64_en-US.msi"
     }
   }
 }
