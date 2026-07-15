@@ -1,7 +1,7 @@
 {
-  "core": "0.22.0",
-  "coreNotes": "## New Features\n- **Markdown Rendering Support**: Release notes in update notification popups now support Markdown format parsing, with a new universal Markdown parsing utility module for improved formatting and readability\n\n<details>\n<summary>中文说明</summary>\n\n# v0.22.0 更新说明 (2026-07-15)\n\n## 新增功能\n- **Markdown 渲染支持**: 更新通知弹窗中的版本说明支持 Markdown 格式解析，新增通用 Markdown 解析工具模块，提升更新信息的排版和可读性\n\n</details>",
-  "pubDate": "2026-07-15T01:17:09.315Z",
+  "core": "0.23.0",
+  "coreNotes": "## Bug 修复\r\n- **更新安装修复**: 修复更新安装过程中的文件锁定问题，提升自动更新成功率\r\n\r\n## 新增功能\r\n- **双语更新说明**: 更新通知弹窗支持中英文双语显示，国际化体验进一步提升\r\n\r\n## 优化改进\r\n- **文档体系**: 完善版本历史文档结构，新增快速开始和 API 参考文档",
+  "pubDate": "2026-07-15T03:52:15.420Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.6.0"
