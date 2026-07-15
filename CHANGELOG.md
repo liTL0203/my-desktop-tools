@@ -4,6 +4,25 @@
 
 ---
 
+# v0.24.0 (2026-07-15)
+
+## New Features
+
+- **Resource Table i18n**: Resource table columns and content now support automatic Chinese/English switching, following the core application language setting
+- **Bilingual Release Flow**: Release process now fully supports bilingual format, ensuring all downstream artifacts (update notifications, changelogs) are delivered in both languages
+
+<details>
+<summary>中文说明</summary>
+
+## 新增功能
+
+- **资源表格国际化**: 资源表格列名和内容支持中英文自动切换，跟随核心程序语言设置
+- **双语发布流程**: 发布流程全面支持双语格式，确保所有下游制品（更新通知、变更日志）以中英双语呈现
+
+</details>
+
+---
+
 # v0.23.0 Release Notes (2026-07-15)
 
 ## Bug Fixes

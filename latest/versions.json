@@ -1,7 +1,7 @@
 {
-  "core": "0.23.0",
-  "coreNotes": "## Bug Fixes\r\n- **Update Installation Fix**: Fixed file locking issues during the update installation process, improving auto-update success rate\r\n\r\n## New Features\r\n- **Bilingual Release Notes**: Update notification popups now support bilingual (Chinese/English) display, further enhancing the internationalization experience\r\n\r\n## Improvements\r\n- **Documentation System**: Improved version history document structure with quick-start guide and API reference documentation\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n# v0.23.0 更新说明 (2026-07-15)\r\n\r\n## Bug 修复\r\n- **更新安装修复**: 修复更新安装过程中的文件锁定问题，提升自动更新成功率\r\n\r\n## 新增功能\r\n- **双语更新说明**: 更新通知弹窗支持中英文双语显示，国际化体验进一步提升\r\n\r\n## 优化改进\r\n- **文档体系**: 完善版本历史文档结构，新增快速开始和 API 参考文档\r\n\r\n</details>",
-  "pubDate": "2026-07-15T03:52:15.420Z",
+  "core": "0.24.0",
+  "coreNotes": "## New Features\r\n\r\n- **Resource Table i18n**: Resource table columns and content now support automatic Chinese/English switching, following the core application language setting\r\n- **Bilingual Release Flow**: Release process now fully supports bilingual format, ensuring all downstream artifacts (update notifications, changelogs) are delivered in both languages\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **资源表格国际化**: 资源表格列名和内容支持中英文自动切换，跟随核心程序语言设置\r\n- **双语发布流程**: 发布流程全面支持双语格式，确保所有下游制品（更新通知、变更日志）以中英双语呈现\r\n\r\n</details>",
+  "pubDate": "2026-07-15T05:44:24.528Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.6.0"

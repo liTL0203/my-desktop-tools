@@ -6,7 +6,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v0.23.0 | Windows 10 or later (64-bit) | [MSI](latest/My%20Desktop%20Tools_0.23.0_x64_en-US.msi) |
+| v0.24.0 | Windows 10 or later (64-bit) | [MSI](latest/My%20Desktop%20Tools_0.24.0_x64_en-US.msi) |
 
 ## 🔌 Plugins
 
@@ -49,7 +49,7 @@ Previous versions are stored in the `archive/` directory, organized by version n
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.23.0 | Windows 10 及以上（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.23.0_x64_en-US.msi) |
+| v0.24.0 | Windows 10 及以上（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.24.0_x64_en-US.msi) |
 
 ## 🔌 插件
 
