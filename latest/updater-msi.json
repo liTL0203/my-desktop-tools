@@ -1,11 +1,11 @@
 {
-  "version": "0.24.0",
-  "notes": "## New Features\r\n\r\n- **Resource Table i18n**: Resource table columns and content now support automatic Chinese/English switching, following the core application language setting\r\n- **Bilingual Release Flow**: Release process now fully supports bilingual format, ensuring all downstream artifacts (update notifications, changelogs) are delivered in both languages\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **资源表格国际化**: 资源表格列名和内容支持中英文自动切换，跟随核心程序语言设置\r\n- **双语发布流程**: 发布流程全面支持双语格式，确保所有下游制品（更新通知、变更日志）以中英双语呈现\r\n\r\n</details>",
-  "pub_date": "2026-07-15T05:44:24.506Z",
+  "version": "0.25.0",
+  "notes": "## New Features\r\n\r\n- **Plugin Settings Directory**: Quickly open a plugin's local settings directory from the plugin manager, making it easier to access configuration files\r\n- **Plugin Upgrade Dialog**: Improved plugin upgrade dialog with clearer version information display and better user experience\r\n\r\n## Improvements\r\n\r\n- **Bilingual Validation**: Enhanced release pipeline with early pre-build validation for bilingual release notes format, preventing wasted build time on non-compliant input\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **插件设置目录**: 可从插件管理器快速打开插件的本地设置目录，方便访问配置文件\r\n- **插件升级对话框**: 优化插件升级对话框，版本信息展示更清晰，交互体验更好\r\n\r\n## 优化改进\r\n\r\n- **双语校验**: 发版流程增强为构建前预检 + Step 3.5 双重校验，避免格式不合规时浪费构建时间\r\n\r\n</details>",
+  "pub_date": "2026-07-15T10:12:49.816Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZE9ITGN2ZjZKZjdpeWJpQmZVMWowRk9VYVdlenRWMDFWTmdOK2h2RTJINEhTU0FYU0pXV2F0QjBBQ3BVK0lwMi9JbjI3bjYyY0JOaEgzUEt2VDVQOHdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MDk0MjY0CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjI0LjBfeDY0X2VuLVVTLm1zaQpuMVc5M2FZZE1qeEJyN0puZ2JsMkpBRnk2MjlBWmRQblVvSVdEeVp5VUxqbWlscHBOZXMwc3hoOVVHMktvdSs5QktNeTVZNzZOR2hnMlRRVlR4YndDQT09Cg==",
-      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.24.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEc3Nlk0anpWTkpuaUptWTY4bEZMenNRYTNEU3YzWEQ0MWppMytvak1PSVNQcEhPQ000dzByYVEzU1FvN3dJMi9DejlNN1NpY1BUdkU0NHhnRWVVYlFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTEwMzY5CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjI1LjBfeDY0X2VuLVVTLm1zaQpRSUs3UERPNmNSRFA1U2N6WWpRaEZLVzM3TS92ZU5IZk41Nm5RQ1YxN2hxM0k0dllMcnVhcFVPYU1LMmt3dW9BT0c5QUtzQ0hmbnVtVlMxTnI3eUREdz09Cg==",
+      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.25.0_x64_en-US.msi"
     }
   }
 }

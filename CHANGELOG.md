@@ -4,6 +4,33 @@
 
 ---
 
+# v0.25.0 (2026-07-15)
+
+## New Features
+
+- **Plugin Settings Directory**: Quickly open a plugin's local settings directory from the plugin manager, making it easier to access configuration files
+- **Plugin Upgrade Dialog**: Improved plugin upgrade dialog with clearer version information display and better user experience
+
+## Improvements
+
+- **Bilingual Validation**: Enhanced release pipeline with early pre-build validation for bilingual release notes format, preventing wasted build time on non-compliant input
+
+<details>
+<summary>中文说明</summary>
+
+## 新增功能
+
+- **插件设置目录**: 可从插件管理器快速打开插件的本地设置目录，方便访问配置文件
+- **插件升级对话框**: 优化插件升级对话框，版本信息展示更清晰，交互体验更好
+
+## 优化改进
+
+- **双语校验**: 发版流程增强为构建前预检 + Step 3.5 双重校验，避免格式不合规时浪费构建时间
+
+</details>
+
+---
+
 # v0.24.0 (2026-07-15)
 
 ## New Features

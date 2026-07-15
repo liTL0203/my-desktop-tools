@@ -1,7 +1,7 @@
 {
-  "core": "0.24.0",
-  "coreNotes": "## New Features\r\n\r\n- **Resource Table i18n**: Resource table columns and content now support automatic Chinese/English switching, following the core application language setting\r\n- **Bilingual Release Flow**: Release process now fully supports bilingual format, ensuring all downstream artifacts (update notifications, changelogs) are delivered in both languages\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **资源表格国际化**: 资源表格列名和内容支持中英文自动切换，跟随核心程序语言设置\r\n- **双语发布流程**: 发布流程全面支持双语格式，确保所有下游制品（更新通知、变更日志）以中英双语呈现\r\n\r\n</details>",
-  "pubDate": "2026-07-15T05:44:24.528Z",
+  "core": "0.25.0",
+  "coreNotes": "## New Features\r\n\r\n- **Plugin Settings Directory**: Quickly open a plugin's local settings directory from the plugin manager, making it easier to access configuration files\r\n- **Plugin Upgrade Dialog**: Improved plugin upgrade dialog with clearer version information display and better user experience\r\n\r\n## Improvements\r\n\r\n- **Bilingual Validation**: Enhanced release pipeline with early pre-build validation for bilingual release notes format, preventing wasted build time on non-compliant input\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **插件设置目录**: 可从插件管理器快速打开插件的本地设置目录，方便访问配置文件\r\n- **插件升级对话框**: 优化插件升级对话框，版本信息展示更清晰，交互体验更好\r\n\r\n## 优化改进\r\n\r\n- **双语校验**: 发版流程增强为构建前预检 + Step 3.5 双重校验，避免格式不合规时浪费构建时间\r\n\r\n</details>",
+  "pubDate": "2026-07-15T10:12:49.829Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.6.0"
