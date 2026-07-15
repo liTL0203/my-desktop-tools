@@ -1,11 +1,11 @@
 {
-  "version": "0.26.0",
-  "notes": "## Bug Fixes\r\n\r\n- **Version History Language Switching**: Fixed an issue where version history records did not switch language correctly when changing the application language setting\r\n\r\n## Improvements\r\n\r\n- **Bilingual Release Docs**: Release repository now generates independent English (`README.md`, `CHANGELOG.md`) and Chinese (`README.zh-CN.md`, `CHANGELOG.zh-CN.md`) files, enabling Gitee's automatic language switching\r\n- **Plugin Development Documentation**: Updated plugin development guide with correct repository clone address and template path configuration\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 问题修复\r\n\r\n- **版本历史语言切换**: 修复切换应用语言时，版本历史记录未能正确切换语言的Bug\r\n\r\n## 优化改进\r\n\r\n- **双语发布文档**: 制品仓库现在生成独立的英文（`README.md`、`CHANGELOG.md`）和中文（`README.zh-CN.md`、`CHANGELOG.zh-CN.md`）文件，支持 Gitee 自动语言切换\r\n- **插件开发文档**: 更新插件开发指南中的仓库克隆地址和模板路径配置\r\n\r\n</details>",
-  "pub_date": "2026-07-15T16:11:01.399Z",
+  "version": "0.27.0",
+  "notes": "## Bug Fixes\r\n\r\n- **Plugin Upgrade**: Fixed plugin upgrade logic and enhanced ZIP extraction functionality, improving upgrade reliability and error handling\r\n\r\n## Improvements\r\n\r\n- **Documentation**: Added quick start guide and API reference documentation for better developer onboarding experience\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 问题修复\r\n\r\n- **插件升级**: 修复插件升级逻辑并增强 ZIP 解压功能，提升升级可靠性和错误处理能力\r\n\r\n## 优化改进\r\n\r\n- **文档**: 新增快速开始指南和 API 参考文档，改善开发者上手体验\r\n\r\n</details>",
+  "pub_date": "2026-07-15T16:49:05.169Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEFhcE5RK1pncDRWRTFsOE9TV1Q5bUx6MGdrTHR6RkdOMW5RZ3JEZnp3dlZXei9sNGdZMGFISWZ2aS9qdFZkYm1KWFVUc3cvUXZRdnJRdXJuOHU4OWdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTMxODYxCWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjI2LjBfeDY0X2VuLVVTLm1zaQo3cFRSdHcyMVIzSnN6OGNhQUYrRlMyNTMveWNDZjhKZ2UyVmRqSUJSZXRnelhDbUVrd2tSbGF4bWpodnpaVFRIMFVpZFRTOFFjT2d3cVFJMVZrMDREQT09Cg==",
-      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.26.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEdiL3MwVkM3dEozWjBrRENNbjVuVHJFd3d5UTMrVTlHQklhYkRSTXladEJ1emVYYkFQWTVGY0E5em1ndFVxazgvYlVmdlc1KzlFWGJIeVFZVHIzbGdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0MTM0MTQ0CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjI3LjBfeDY0X2VuLVVTLm1zaQpsUmZhSHlmYk1Sc1lGeVJXeC9sSXpmTlVCcXBWTG9EZHFMa2RTaXl1VE5sVnRtbjRtM2UvblFPaUJ6ajA1OTVmWEE3ZXBwY2dPL3FxTHloam1XMU5EUT09Cg==",
+      "url": "https://gitee.com/li_tl/my-desktop-tools/raw/master/latest/My%20Desktop%20Tools_0.27.0_x64_en-US.msi"
     }
   }
 }

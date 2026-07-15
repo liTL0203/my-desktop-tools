@@ -6,6 +6,18 @@
 
 ---
 
+# v0.27.0 (2026-07-15)
+
+## Bug Fixes
+
+- **Plugin Upgrade**: Fixed plugin upgrade logic and enhanced ZIP extraction functionality, improving upgrade reliability and error handling
+
+## Improvements
+
+- **Documentation**: Added quick start guide and API reference documentation for better developer onboarding experience
+
+---
+
 # v0.26.0 (2026-07-15)
 
 ## Bug Fixes
