@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.25.0 | Windows 10 及以上（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.25.0_x64_en-US.msi) |
+| v0.26.0 | Windows 10 及以上（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.26.0_x64_en-US.msi) |
 
 ## 🔌 插件
 

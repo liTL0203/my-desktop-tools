@@ -6,6 +6,19 @@
 
 ---
 
+# v0.26.0 (2026-07-15)
+
+## Bug Fixes
+
+- **Version History Language Switching**: Fixed an issue where version history records did not switch language correctly when changing the application language setting
+
+## Improvements
+
+- **Bilingual Release Docs**: Release repository now generates independent English (`README.md`, `CHANGELOG.md`) and Chinese (`README.zh-CN.md`, `CHANGELOG.zh-CN.md`) files, enabling Gitee's automatic language switching
+- **Plugin Development Documentation**: Updated plugin development guide with correct repository clone address and template path configuration
+
+---
+
 # v0.25.0 (2026-07-15)
 
 ## New Features

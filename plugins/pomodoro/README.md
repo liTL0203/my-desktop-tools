@@ -88,18 +88,3 @@
 - **Plugin Disclaimer**: Plugins in this application are independent modules. The developer makes no guarantee regarding the behavior, security, or stability of third-party plugins. Users must assess and bear the risks of using third-party plugins.
 
 > Downloading or using this software indicates that you have read and agree to the above disclaimer.
-
-<details>
-<summary>中文免责声明</summary>
-
-## ⚠️ 免责声明
-
-- **按"原样"提供**：本软件按"原样"（AS IS）提供，开发者不提供任何明示或暗示的担保，包括但不限于适销性、特定用途适用性和非侵权担保。
-- **风险自担**：用户因使用本软件而造成的任何直接或间接损失（包括但不限于数据丢失、系统损坏、业务中断等），开发者不承担任何责任。请用户自行评估并承担使用风险。
-- **数据备份**：建议在使用本软件前备份重要数据，以防意外情况导致不可恢复的丢失。
-- **兼容性风险**：本软件可能存在未知缺陷，或与特定的系统环境、硬件配置、第三方软件不兼容，开发者不保证在所有环境下均可正常运行。
-- **插件免责**：本应用的插件由独立模块构成，开发者不对第三方插件的行为、安全性及稳定性作出任何保证。用户应自行评估并承担使用第三方插件的风险。
-
-> 下载或使用本软件即表示您已阅读并同意以上免责声明。
-
-</details>
