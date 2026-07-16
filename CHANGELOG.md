@@ -6,6 +6,21 @@
 
 ---
 
+# v0.30.0 (2026-07-16)
+
+## New Features
+
+- **Multi-Remote Architecture**: Refactored release pipeline to support independent publishing to multiple remote repositories, enabling separated core and plugin release workflows
+- **Release Automation**: Added standardized release command templates and automated task flow for streamlined version publishing
+- **Plugin Settings i18n**: Comprehensive internationalization for all plugin settings operations, including install, uninstall, enable, disable, and configuration actions
+
+## Improvements
+
+- **Startup Performance**: Optimized application startup sequence for faster launch times and smoother user experience
+- **Production Manifest**: Pomodoro plugin build script now strips development configurations to generate clean production manifests
+
+---
+
 # v0.29.0 (2026-07-16)
 
 ## New Features

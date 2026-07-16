@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.29.0 | Windows 10 及以上（64 位） | [MSI 安装包](latest/My%20Desktop%20Tools_0.29.0_x64_en-US.msi) |
+| v0.30.0 | Windows 10 及以上（64 位） | [MSI 安装包](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.30.0/My%20Desktop%20Tools_0.30.0_x64_en-US.msi) |
 
 ## 🔌 插件
 
@@ -16,8 +16,8 @@
 
 | 插件 | 版本 | 说明 | 版本历史 | 下载 |
 |------|------|------|----------|------|
-| pomodoro | 2.1.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](plugins/pomodoro/pomodoro-2.1.0.zip) |
-| proxy-switch | 2.6.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](plugins/proxy-switch/proxy-switch-2.6.0.zip) |
+| pomodoro | 2.1.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.0/pomodoro-2.1.0.zip) |
+| proxy-switch | 2.6.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.6.0/proxy-switch-2.6.0.zip) |
 
 ## 💻 系统要求
 
@@ -52,4 +52,5 @@
 
 ---
 
-**项目主页**: https://gitee.com/li_tl/my-desktop-tools
+**项目主页**: https://github.com/liTL0203/my-desktop-tools/releases
+Gitee 镜像: https://gitee.com/li_tl/my-desktop-tools
