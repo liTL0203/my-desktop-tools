@@ -6,6 +6,19 @@
 
 ---
 
+# v0.29.0 (2026-07-16)
+
+## New Features
+
+- **Plugin Cache Clearing**: Added plugin cache clearing functionality to resolve issues where stale cached data prevents upgrades from being detected
+- **Plugin Force-Fetch Enhancement**: Improved plugin manifest force-fetch mechanism with better cache invalidation for more reliable upgrade detection
+
+## Improvements
+
+- **Documentation**: Updated plugin upgrade module documentation with comprehensive v0.28.0 changelog records
+
+---
+
 # v0.28.0 (2026-07-16)
 
 ## New Features

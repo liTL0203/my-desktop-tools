@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v0.28.0 | Windows 10 or later (64-bit) | [MSI](latest/My%20Desktop%20Tools_0.28.0_x64_en-US.msi) |
+| v0.29.0 | Windows 10 or later (64-bit) | [MSI](latest/My%20Desktop%20Tools_0.29.0_x64_en-US.msi) |
 
 ## 🔌 Plugins
 

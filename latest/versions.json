@@ -1,7 +1,7 @@
 {
-  "core": "0.28.0",
-  "coreNotes": "## New Features\r\n\r\n- **Plugin Upgrade Force-Fetch**: Plugins now force-fetch the latest manifest during upgrade checks, ensuring users always get up-to-date version information\r\n\r\n## Bug Fixes\r\n\r\n- **Version Consistency**: Added build-time validation to detect version mismatches between `package.json` and `manifest.json` before packaging, preventing corrupted plugin upgrades\r\n- **Plugin Upgrade Reliability**: Fixed plugin upgrade logic and enhanced ZIP extraction with better error handling\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **插件升级强制获取**: 插件升级检查时强制获取最新 manifest，确保用户始终获得最新版本信息\r\n\r\n## 问题修复\r\n\r\n- **版本一致性校验**: 新增构建时校验，在打包前检测 `package.json` 与 `manifest.json` 的版本号不匹配，防止插件升级异常\r\n- **插件升级可靠性**: 修复插件升级逻辑并增强 ZIP 解压的错误处理能力\r\n\r\n</details>",
-  "pubDate": "2026-07-16T01:46:20.555Z",
+  "core": "0.29.0",
+  "coreNotes": "## New Features\r\n\r\n- **Plugin Cache Clearing**: Added plugin cache clearing functionality to resolve issues where stale cached data prevents upgrades from being detected\r\n- **Plugin Force-Fetch Enhancement**: Improved plugin manifest force-fetch mechanism with better cache invalidation for more reliable upgrade detection\r\n\r\n## Improvements\r\n\r\n- **Documentation**: Updated plugin upgrade module documentation with comprehensive v0.28.0 changelog records\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **插件缓存清理**: 新增插件缓存清理功能，解决缓存数据过期导致无法检测升级的问题\r\n- **强制获取增强**: 改进插件 manifest 强制获取机制，优化缓存失效逻辑以提升升级检测可靠性\r\n\r\n## 优化改进\r\n\r\n- **文档**: 更新插件升级模块文档，补充 v0.28.0 版本日志记录\r\n\r\n</details>",
+  "pubDate": "2026-07-16T04:59:46.281Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.6.0"
