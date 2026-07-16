@@ -6,6 +6,19 @@
 
 ---
 
+# v0.28.0 (2026-07-16)
+
+## New Features
+
+- **Plugin Upgrade Force-Fetch**: Plugins now force-fetch the latest manifest during upgrade checks, ensuring users always get up-to-date version information
+
+## Bug Fixes
+
+- **Version Consistency**: Added build-time validation to detect version mismatches between `package.json` and `manifest.json` before packaging, preventing corrupted plugin upgrades
+- **Plugin Upgrade Reliability**: Fixed plugin upgrade logic and enhanced ZIP extraction with better error handling
+
+---
+
 # v0.27.0 (2026-07-15)
 
 ## Bug Fixes
