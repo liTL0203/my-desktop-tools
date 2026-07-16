@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v0.30.0 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.30.0/My%20Desktop%20Tools_0.30.0_x64_en-US.msi) |
+| v0.30.0 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.30.0/My.Desktop.Tools_0.30.0_x64_en-US.msi) |
 
 ## 🔌 Plugins
 
