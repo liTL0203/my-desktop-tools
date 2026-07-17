@@ -18,6 +18,7 @@
 ## Bug Fixes
 
 - **GitHub Release Asset Naming**: Fixed MSI download URL mismatch caused by GitHub converting spaces to dots in asset filenames, now correctly tracks actual asset name
+- **Window Visibility**: Fixed production build window initialization issue by restoring visible:true in tauri.conf.json
 
 ## Improvements
 

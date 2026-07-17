@@ -18,6 +18,7 @@
 ## 问题修复
 
 - **GitHub Release 资源命名**: 修复 GitHub 将 MSI 文件名中的空格转换为点号导致下载 URL 不匹配的问题，现已正确追踪实际资源名
+- **窗口可见性**: 修复生产构建中窗口初始化问题，恢复 tauri.conf.json 中 visible:true 配置
 
 ## 优化改进
 
