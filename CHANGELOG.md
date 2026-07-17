@@ -6,13 +6,18 @@
 
 ---
 
-# v0.30.0 (2026-07-16)
+# v0.30.0 (2026-07-17)
 
 ## New Features
 
 - **Multi-Remote Architecture**: Refactored release pipeline to support independent publishing to multiple remote repositories, enabling separated core and plugin release workflows
 - **Release Automation**: Added standardized release command templates and automated task flow for streamlined version publishing
 - **Plugin Settings i18n**: Comprehensive internationalization for all plugin settings operations, including install, uninstall, enable, disable, and configuration actions
+- **Multi-Source Download Strategy**: Added ghproxy fallback for GitHub Releases downloads, automatically detecting optimal source for users in different regions
+
+## Bug Fixes
+
+- **GitHub Release Asset Naming**: Fixed MSI download URL mismatch caused by GitHub converting spaces to dots in asset filenames, now correctly tracks actual asset name
 
 ## Improvements
 
