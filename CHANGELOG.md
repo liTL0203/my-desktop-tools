@@ -24,6 +24,7 @@
 
 - **Startup Performance**: Optimized application startup sequence for faster launch times and smoother user experience
 - **Production Manifest**: Pomodoro plugin build script now strips development configurations to generate clean production manifests
+- **MSI Installer**: Added bilingual WiX installer UI with custom banner and dialog images for a polished installation experience
 
 ---
 
