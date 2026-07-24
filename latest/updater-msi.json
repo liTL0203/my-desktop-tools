@@ -1,10 +1,10 @@
 {
   "version": "0.31.0",
   "notes": "## New Features\r\n\r\n- **Privacy Controls**: Three-tier data collection controls (Core/Aggregate/Detailed) in Settings → Privacy. All optional analytics are opt-in only and disabled by default\r\n- **Privacy Policy Dialog**: View detailed privacy policy from Settings, including data collection levels, your rights, and data storage practices\r\n- **First-Run Consent**: New consent dialog on first launch to choose your analytics sharing preferences\r\n- **Delete My Data**: Clear all uploaded cloud analytics data with one click from Settings → Privacy\r\n- **Legal Documents**: Privacy Policy and Disclaimer (bilingual) are now bundled with the application installer\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **隐私控制**：设置 → 隐私中新增三级数据收集开关（核心运行/聚合统计/细粒度行为）。所有可选分析均为默认关闭，需用户主动开启\r\n- **隐私政策弹窗**：可从设置页查看详细隐私政策，包括数据收集分级、您的权利和数据存储方式\r\n- **首次授权弹窗**：首次启动时弹出授权弹窗，用户可选择数据分析共享偏好\r\n- **删除我的数据**：在设置 → 隐私中一键清除已上报的云端分析数据\r\n- **法律文档**：隐私政策和免责声明（中英双语）随应用安装包分发\r\n\r\n</details>",
-  "pub_date": "2026-07-24T15:02:08.976Z",
+  "pub_date": "2026-07-24T15:50:31.548Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEhZUVlaMjFTWCtGSFFHN1c3eXJGVHYyYTJKb3ZiTSttVis0cHlDTFZMRzE0UzhjRVoyM3RGbzBYYUI4WjN3Y25ocGxGdFJtWU1EZUc1bEJyUVNnd2dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTA1MjQ3CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjMxLjBfeDY0X2VuLVVTLm1zaQphc2kvVTh1dlpnVjV1QkdqVzdpcitWUDVhZm9rRjJ3NkZWK21ObjFtSzNCVE56U2NQQlkrNElDZHRQY2ZGMDdYb082eTVQVlhjUDBSbEVrUU83VHBDQT09Cg==",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEcyR0FneCsxZHd6cGREdEdleGVEaWMyT1RkQnFMTVZ0L1JBKzdwZHl5KzU2M0N4OVZpY0YreGYrV1B4aVpBMHRPVnBxRjd4UVNBWlA0NWpSYWgxQkFRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg0OTA4MjAxCWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjMxLjBfeDY0X2VuLVVTLm1zaQpMUmhXYjQ5bFY1eThFZkpIdDloN1p0VVpIYVBEY1VnTDd2RVFtVmszZmFIcVg1ZW5ZSzNRbGhXQVlZQXpaMGt0OGg4dVZXWUh5cDFDaGh3TWVKY0tBZz09Cg==",
       "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.31.0/My.Desktop.Tools_0.31.0_x64_en-US.msi"
     }
   }
