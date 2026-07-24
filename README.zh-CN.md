@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.30.0 | Windows 10 及以上（64 位） | [MSI 安装包](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.30.0/My.Desktop.Tools_0.30.0_x64_zh-CN.msi) |
+| v0.31.0 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.31.0/My.Desktop.Tools_0.31.0_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.31.0/My.Desktop.Tools_0.31.0_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -37,6 +37,14 @@
 旧版本安装包存放在 `archive/` 目录，按版本号命名子目录：
 
 `archive/v0.3.6/`, `archive/v0.3.5/`, ...
+
+---
+
+## 🔒 隐私
+
+本应用仅收集维持运行所需的最少数据。可选分析（聚合统计和细粒度行为）均为**默认关闭**，需用户主动开启。
+
+完整说明请参阅[隐私政策](LEGAL/PRIVACY.zh-CN.md)。
 
 ---
 

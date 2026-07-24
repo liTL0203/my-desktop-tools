@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v0.30.0 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.30.0/My.Desktop.Tools_0.30.0_x64_zh-CN.msi) |
+| v0.31.0 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.31.0/My.Desktop.Tools_0.31.0_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.31.0/My.Desktop.Tools_0.31.0_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -37,6 +37,14 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 Previous versions are stored in the `archive/` directory, organized by version number:
 
 `archive/v0.3.6/`, `archive/v0.3.5/`, ...
+
+---
+
+## 🔒 Privacy
+
+This application collects minimal data necessary for operation. Optional analytics (aggregate statistics and detailed behavior) are **opt-in only** and disabled by default.
+
+For full details, see the [Privacy Policy](LEGAL/PRIVACY.md).
 
 ---
 

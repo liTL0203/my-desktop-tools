@@ -6,6 +6,18 @@
 
 ---
 
+# v0.31.0 (2026-07-24)
+
+## New Features
+
+- **Privacy Controls**: Three-tier data collection controls (Core/Aggregate/Detailed) in Settings → Privacy. All optional analytics are opt-in only and disabled by default
+- **Privacy Policy Dialog**: View detailed privacy policy from Settings, including data collection levels, your rights, and data storage practices
+- **First-Run Consent**: New consent dialog on first launch to choose your analytics sharing preferences
+- **Delete My Data**: Clear all uploaded cloud analytics data with one click from Settings → Privacy
+- **Legal Documents**: Privacy Policy and Disclaimer (bilingual) are now bundled with the application installer
+
+---
+
 # v0.30.0 (2026-07-18)
 
 ## New Features
