@@ -1,7 +1,7 @@
 {
   "core": "0.31.0",
   "coreNotes": "## New Features\r\n\r\n- **Privacy Controls**: Three-tier data collection controls (Core/Aggregate/Detailed) in Settings → Privacy. All optional analytics are opt-in only and disabled by default\r\n- **Privacy Policy Dialog**: View detailed privacy policy from Settings, including data collection levels, your rights, and data storage practices\r\n- **First-Run Consent**: New consent dialog on first launch to choose your analytics sharing preferences\r\n- **Delete My Data**: Clear all uploaded cloud analytics data with one click from Settings → Privacy\r\n- **Legal Documents**: Privacy Policy and Disclaimer (bilingual) are now bundled with the application installer\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **隐私控制**：设置 → 隐私中新增三级数据收集开关（核心运行/聚合统计/细粒度行为）。所有可选分析均为默认关闭，需用户主动开启\r\n- **隐私政策弹窗**：可从设置页查看详细隐私政策，包括数据收集分级、您的权利和数据存储方式\r\n- **首次授权弹窗**：首次启动时弹出授权弹窗，用户可选择数据分析共享偏好\r\n- **删除我的数据**：在设置 → 隐私中一键清除已上报的云端分析数据\r\n- **法律文档**：隐私政策和免责声明（中英双语）随应用安装包分发\r\n\r\n</details>",
-  "pubDate": "2026-07-24T13:42:49.272Z",
+  "pubDate": "2026-07-24T15:02:08.988Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.6.0"
