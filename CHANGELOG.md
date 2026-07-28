@@ -6,7 +6,39 @@
 
 ---
 
-# v0.31.0 (2026-07-24)
+# v0.32.0 (2026-07-28)
+
+## New Features
+
+- **Plugin Smart Unloading**: Intelligent plugin process lifecycle management with KeepAlive cache optimization. Inactive plugin processes are automatically unloaded to reduce memory footprint, while keeping their state cached for instant reactivation
+- **Communication Log Toggle**: Per-plugin communication log enable/disable switch with optimized logging performance. Users can now control which plugins' IPC traffic is logged
+- **Background Task Progress Indicator**: Status bar component showing real-time progress of background operations (scans, downloads, plugin operations) with animated indicators
+- **Main Window Idle Memory Release**: Automatically releases unused WebView2 memory when the main window is idle, keeping baseline memory footprint within 30-80MB target
+- **Quick Launcher Configurable Hotkeys**: Users can now customize the global hotkey for Quick Launcher toggle via Settings → Hotkey. Full hotkey recorder UI with visual key capture
+- **Quick Launcher Pin Mode**: Pin the Quick Launcher popup to keep it visible while interacting with other windows. Click the pin icon to toggle always-on-top behavior
+- **Skeleton Loading Screens**: All major pages (Home, Plugin Manager, Settings) now show skeleton placeholders during initial data loading instead of blank screens
+- **Quick Launcher Standalone Window**: Quick Launcher applications can now be opened in independent desktop windows with configurable size and behavior
+
+## Improvements
+
+- **Plugin Management Architecture**: Refactored plugin orchestration and performance monitoring for better modularity and maintainability
+- **Modal & Icon Selector UX**: Polished modal dialog styles and expanded icon selector with sticky search and improved scrolling behavior
+- **Context Menu Robustness**: Enhanced right-click menu boundary detection, scroll-to-close, and mutual exclusion between multiple menus
+- **Quick Launcher Search**: Optimized drag interaction logic and client-side filtering for recent items
+- **Log System Tuning**: Adjusted log levels for production and reduced plugin log file size limits
+- **Dependency Updates**: Updated Vue, Vite, Naive UI, Tauri CLI, and other dependencies to latest stable versions
+
+## Bug Fixes
+
+- Fixed context menu boundary detection failures and scroll-close behavior
+- Fixed Quick Launcher search returning empty results when background scan completes
+- Fixed standalone window right-click menu security issue and concurrent creation race condition
+- Fixed MSI download checksum and installation file lock contention issues
+- Fixed Quick Launcher "Recent" tab showing empty when app cache is incomplete
+
+---
+
+# v0.31.0 (2026-07-26)
 
 ## New Features
 
@@ -15,6 +47,16 @@
 - **First-Run Consent**: New consent dialog on first launch to choose your analytics sharing preferences
 - **Delete My Data**: Clear all uploaded cloud analytics data with one click from Settings → Privacy
 - **Legal Documents**: Privacy Policy and Disclaimer (bilingual) are now bundled with the application installer
+- **Smart Unload (M1)**: Plugin windows automatically release WebView memory after idle timeout (Level 1/2 tiered suspension). Configurable in Settings → Performance
+- **Main Window Idle Release**: Main window WebView is destroyed after configurable idle timeout when minimized to tray. Tray click dynamically rebuilds the window
+- **Background Task Indicator**: Status bar shows running background tasks (plugin startup, update checks, app scanning) with VSCode-style progress display and click-to-expand details
+- **Performance Optimization (S1-S5 + L1-L3)**: Resource polling self-adaptation, log batching, Condvar sleep, ArcSwap cache, quick-launcher lazy creation, iframe keep-alive pool (LRU=3), watchdog thread merged into heartbeat
+
+### Improvements
+
+- **Log System Audit**: Sensitive info redaction (paths, device IDs, sponsor IDs downgraded to debug), high-frequency info logs downgraded to debug, plugin log cap reduced from 5MB to 3MB
+- **Dependency Upgrades**: lnk 0.5→0.6 (fixes panic bug), png 0.17→0.18, ico 0.4→0.5, pinyin 0.10→0.11, winreg 0.52→0.56, ~80 transitive deps updated
+- **i18n Fix**: HotkeyRecorder component localized (Clear/Restore Default), app manager table column overflow fixed for English mode
 
 ---
 
