@@ -1,0 +1,30 @@
+{
+  "plugins": [
+    {
+      "id": "pomodoro",
+      "name": "番茄钟",
+      "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",
+      "author": "My Desktop Tools",
+      "category": "focus",
+      "icon": "timer",
+      "iconVariant": "blue",
+      "tags": ["专注效率", "白噪音"],
+      "downloadSize": 3200000,
+      "requiresPayment": false,
+      "supportedModes": ["desktop", "popup"]
+    },
+    {
+      "id": "proxy-switch",
+      "name": "代理管理",
+      "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
+      "author": "My Desktop Tools",
+      "category": "network-control",
+      "icon": "globe",
+      "iconVariant": "orange",
+      "tags": ["网络控制", "规则引擎"],
+      "downloadSize": 5100000,
+      "requiresPayment": false,
+      "supportedModes": ["desktop", "popup"]
+    }
+  ]
+}
