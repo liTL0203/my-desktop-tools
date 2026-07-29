@@ -6,6 +6,16 @@
 
 ---
 
+# v0.33.0 (2026-07-29)
+
+## New Features
+
+- **Plugin Marketplace**: Browse, filter, and install plugins directly from the in-app marketplace. Features banner carousel with featured plugins, category single-select and status multi-select cross-filtering, and a refresh button to pull the latest catalog
+- **Marketplace Data Source**: Auto-generated `plugins.json` catalog metadata from plugin manifests, served via Gitee raw URL with automatic `updatedAt` timestamps extracted from CHANGELOG entries
+- **Markdown Changelog Rendering**: Plugin update logs and release notes are now rendered as properly formatted Markdown with XSS-safe sanitization (via `marked` + `dompurify`). Structured changelog data replaces raw text for consistent display across update dialogs, detail popups, and version history
+
+---
+
 # v0.32.0 (2026-07-28)
 
 ## New Features
