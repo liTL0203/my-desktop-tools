@@ -11,7 +11,8 @@
       "tags": ["专注效率", "白噪音"],
       "downloadSize": 3200000,
       "requiresPayment": false,
-      "supportedModes": ["desktop", "popup"]
+      "supportedModes": ["desktop", "popup"],
+      "updatedAt": "2026-07-14"
     },
     {
       "id": "proxy-switch",
@@ -24,7 +25,8 @@
       "tags": ["网络控制", "规则引擎"],
       "downloadSize": 5100000,
       "requiresPayment": false,
-      "supportedModes": ["desktop", "popup"]
+      "supportedModes": ["desktop", "popup"],
+      "updatedAt": "2026-07-14"
     }
   ]
 }
