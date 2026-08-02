@@ -6,6 +6,21 @@
 
 ---
 
+# v0.34.0 (2026-08-02)
+
+## New Features
+
+- **Medical Insurance API Assistant Plugin**: New plugin providing medical insurance interface navigation, parameter lookup, and standard dictionary data. Includes usage notice dialog, copyright notice, and comprehensive tree-structured interface definitions with hierarchical node grouping
+- **Quick Action Panel Plugin**: New plugin offering quick access to frequently used operations through a streamlined action panel. Features optimized interface design and full internationalization (i18n) support for both Chinese and English
+- **Afdian Settings Link**: Added external link to the Afdian (爱发电) sponsorship page directly from the Settings page, making it easier for users to support the project
+
+## Improvements
+
+- **Marketplace Data Accuracy**: The `plugins.json` catalog metadata now reads actual download sizes from built ZIP files instead of relying on static manifest values, ensuring accurate size display in the marketplace
+- **Dev Server Configuration**: Changed dev server URL from `localhost` to `127.0.0.1` for improved reliability and reduced DNS resolution overhead during development
+
+---
+
 # v0.33.0 (2026-07-29)
 
 ## New Features
