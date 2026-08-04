@@ -1,11 +1,11 @@
 {
   "version": "0.34.0",
   "notes": "## New Features\r\n\r\n- **Afdian Settings Link**: Added external link to the Afdian (爱发电) sponsorship page directly from the Settings page, making it easier for users to support the project\r\n\r\n## Improvements\r\n\r\n- **Marketplace Data Accuracy**: The `plugins.json` catalog metadata now reads actual download sizes from built ZIP files instead of relying on static manifest values, ensuring accurate size display in the marketplace\r\n- **Dev Server Configuration**: Changed dev server URL from `localhost` to `127.0.0.1` for improved reliability and reduced DNS resolution overhead during development\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **爱发电设置链接**：在设置页面添加了爱发电赞助页面的外部链接，方便用户支持本项目\r\n\r\n## 改进\r\n\r\n- **商城数据准确性**：`plugins.json` 商城元数据现从构建的 ZIP 文件读取实际下载大小，替代静态 manifest 值，确保商城中显示准确的文件大小\r\n- **开发服务器配置**：开发服务器 URL 从 `localhost` 改为 `127.0.0.1`，提升可靠性并减少 DNS 解析开销\r\n\r\n</details>",
-  "pub_date": "2026-08-03T00:28:38.438Z",
+  "pub_date": "2026-08-04T00:21:59.263Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEdaOXg4UTg5MCtXQldJQTBldlFFSlc5anpJWUNYa0lObTRMN1l5R0o2S2MvTVJYY25vR1NUeWFIQm1mRHBvYll6SWxNU1lLOTkwL3NHcjB6MVp2blFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg1NzE2ODk1CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjM0LjBfeDY0X2VuLVVTLm1zaQppMHd5WnorUU1ydWVCWmVkNlJYVytydmZDeGZpMHZpQ0pmQTFSRUFYYlArZjhHY3M1b1lIV0Eya1M5RXdDT3Qwdmg3eVVDRW4xdVZ5Uk1Bbjl6Ym5EUT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.34.0/My.Desktop.Tools_0.34.0_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.34.0/My%20Desktop%20Tools_0.34.0_x64_en-US.msi"
     }
   }
 }

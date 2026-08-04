@@ -1,3 +1,38 @@
+# v2.7.0 Release Notes (2026-08-03)
+
+## Improvements
+- **Code Quality**: Extracted common utility functions into shared modules, eliminating code duplication across composables and components
+- **Performance**: Optimized RulesTab matching from O(N×M) array traversal to Map-based lookup for significantly faster rule evaluation
+- **Type Safety**: Eliminated all `any` types with proper TypeScript type definitions throughout the frontend
+- **Logging**: Replaced `console.error` calls with unified `feLog` logging for consistent error handling
+- **Architecture**: Extracted large composables into focused modules (useDns, useDriver, useProfileCrud, useProxyCore) and added reusable UI components (AppIcon, BaseModal, ColorPicker, TagInput)
+
+## Bug Fixes
+- Fixed DashboardTab using mock data and random port generation instead of real values
+- Fixed SettingsTab placeholder implementations with empty function bodies
+- Removed unused ProfileTab component (905 lines of dead code)
+
+<details>
+<summary>中文说明</summary>
+
+# v2.7.0 更新说明 (2026-08-03)
+
+## 优化改进
+- **代码质量**：提取公共工具函数到共享模块，消除组合式函数和组件间的重复代码
+- **性能优化**：RulesTab 规则匹配从 O(N×M) 数组遍历优化为 Map 查找，大幅提升规则求值速度
+- **类型安全**：全面消除 `any` 类型，替换为完整的 TypeScript 类型定义
+- **日志统一**：将 `console.error` 调用替换为统一的 `feLog` 日志处理
+- **架构重构**：将大型组合式函数拆分为聚焦模块（useDns、useDriver、useProfileCrud、useProxyCore），新增可复用 UI 组件（AppIcon、BaseModal、ColorPicker、TagInput）
+
+## Bug 修复
+- 修复 DashboardTab 使用假数据和随机端口生成，改为真实值
+- 修复 SettingsTab 空壳功能实现（空函数体）
+- 移除无用的 ProfileTab 组件（905 行死代码）
+
+</details>
+
+---
+
 # v2.6.0 Release Notes (2026-07-14)
 
 ## New Features

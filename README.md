@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v0.34.0 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.34.0/My.Desktop.Tools_0.34.0_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.34.0/My.Desktop.Tools_0.34.0_x64_zh-CN.msi) |
+| v0.34.0 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.34.0/My%20Desktop%20Tools_0.34.0_x64_en-US.msi) |
 
 ## 🔌 Plugins
 
@@ -17,7 +17,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
 | pomodoro | 2.1.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.0/pomodoro-2.1.0.zip) |
-| proxy-switch | 2.6.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.6.0/proxy-switch-2.6.0.zip) |
+| proxy-switch | 2.7.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.0/proxy-switch-2.7.0.zip) |
 
 ## 💻 System Requirements
 

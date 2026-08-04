@@ -10,7 +10,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 428165,
+      "downloadSize": 429540,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -28,13 +28,13 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 3158928,
+      "downloadSize": 3165607,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-07-14"
+      "updatedAt": "2026-08-03"
     }
   ]
 }
