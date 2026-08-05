@@ -1,6 +1,23 @@
 {
   "plugins": [
     {
+      "id": "ai-translator",
+      "name": "AI 翻译",
+      "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
+      "author": "My Desktop Tools",
+      "authorUrl": "",
+      "category": "ai-assist",
+      "icon": "package",
+      "iconVariant": "blue",
+      "tags": [],
+      "downloadSize": 0,
+      "requiresPayment": false,
+      "supportedModes": [
+        "popup"
+      ],
+      "updatedAt": ""
+    },
+    {
       "id": "pomodoro",
       "name": "番茄钟",
       "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",

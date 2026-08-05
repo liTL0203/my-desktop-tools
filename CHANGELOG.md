@@ -6,6 +6,22 @@
 
 ---
 
+# v0.35.0 (2026-08-05)
+
+## New Features
+
+- **AI Service Infrastructure**: Built-in AI service backend with multi-model support (OpenAI-compatible, Ollama, Anthropic Claude). Includes API key management, usage tracking, and a dedicated AI service settings page with usage charts
+- **Plugin Custom Icons**: Plugins can now provide custom icons (`icon.png`) in their manifest, displayed in the sidebar navigation, tool cards, and quick action panel
+- **Background Task Indicator Optimization**: Refactored the background task progress indicator with improved responsiveness and smoother animation
+
+## Improvements
+
+- **Markdown Rendering**: Implemented lazy-loading for the Markdown renderer component, reducing initial bundle size and improving page load performance
+- **Workspace Architecture**: Completed the monorepo split into `mydt-core` + `mydt-plugins` multi-workspace layout, with release scripts fully adapted to the new path configuration
+- **Release Attribution Filtering**: Added automated commit attribution filtering to the release pipeline, preventing plugin changes from being incorrectly included in core release notes
+
+---
+
 # v0.34.0 (2026-08-03)
 
 ## New Features
