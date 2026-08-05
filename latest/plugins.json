@@ -10,7 +10,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 429540,
+      "downloadSize": 427746,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -25,10 +25,10 @@
       "author": "My Desktop Tools",
       "authorUrl": "",
       "category": "network-control",
-      "icon": "package",
+      "icon": "icon.png",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 3165607,
+      "downloadSize": 3169820,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
