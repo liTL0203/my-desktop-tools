@@ -6,6 +6,22 @@
 
 ---
 
+# v0.36.0 (2026-08-07)
+
+## New Features
+
+- **AI Service Settings Page Redesign**: Completely refactored the AI service settings page with improved layout, provider management, and API key configuration flow. Added request log detail expansion for inspecting individual AI call payloads and responses
+- **AI Usage Tracking Enhancement**: Enhanced usage tracking with per-model statistics and improved charts visualization on the settings page
+- **Context Data Passing Optimization**: Optimized context data delivery mechanism for standalone plugin windows, improving plugin-to-core communication reliability
+
+## Improvements
+
+- **AI Settings UI Polish**: Refined AI settings interface styling details for better visual hierarchy and user experience
+- **Plugin Frame Communication**: Improved PluginFrame component to better handle AI-related plugin interactions
+- **Resource Monitor Tab**: Updated resource monitor tab component for consistency with the new AI settings design
+
+---
+
 # v0.35.0 (2026-08-05)
 
 ## New Features
