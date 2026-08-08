@@ -4,6 +4,7 @@
   "pubDate": "2026-08-07T16:00:36.189Z",
   "plugins": {
     "pomodoro": "2.1.0",
-    "proxy-switch": "2.7.0"
+    "proxy-switch": "2.7.0",
+    "ai-translator": "1.0.0"
   }
 }
