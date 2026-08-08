@@ -1,11 +1,11 @@
 {
   "version": "0.36.0",
   "notes": "## New Features\r\n\r\n- **AI Service Settings Page Redesign**: Completely refactored the AI service settings page with improved layout, provider management, and API key configuration flow. Added request log detail expansion for inspecting individual AI call payloads and responses\r\n- **AI Usage Tracking Enhancement**: Enhanced usage tracking with per-model statistics and improved charts visualization on the settings page\r\n- **Context Data Passing Optimization**: Optimized context data delivery mechanism for standalone plugin windows, improving plugin-to-core communication reliability\r\n\r\n## Improvements\r\n\r\n- **AI Settings UI Polish**: Refined AI settings interface styling details for better visual hierarchy and user experience\r\n- **Plugin Frame Communication**: Improved PluginFrame component to better handle AI-related plugin interactions\r\n- **Resource Monitor Tab**: Updated resource monitor tab component for consistency with the new AI settings design\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **AI 服务设置页面重构**：完全重构 AI 服务设置页面，改进布局、Provider 管理和 API 密钥配置流程。新增请求日志详情展开功能，可查看单次 AI 调用的请求体和响应内容\r\n- **AI 用量跟踪增强**：增强用量统计，支持按模型维度的数据展示，改进设置页的图表可视化效果\r\n- **上下文数据传递优化**：优化独立插件窗口的上下文数据传递机制，提升插件与核心程序的通信可靠性\r\n\r\n## 改进\r\n\r\n- **AI 设置界面细节打磨**：优化 AI 设置界面样式细节，提升视觉层次和用户体验\r\n- **PluginFrame 通信**：改进 PluginFrame 组件，更好地处理 AI 相关的插件交互\r\n- **资源监控标签页**：更新资源监控标签页组件，与新 AI 设置设计保持一致\r\n\r\n</details>",
-  "pub_date": "2026-08-08T03:28:50.377Z",
+  "pub_date": "2026-08-08T10:15:08.883Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEFGZjF5TlpvS0VnWVkrMk10VXBOY2kzcm9nUzVHOHh3YzNmQ3AvOXRwVG5zZHdJd2o4d2VpMnZhZ0JESW5FaEZGQUtBVUIzeFNYY2U0cWxuTUFsWGdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MTE4Mzc4CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjM2LjBfeDY0X2VuLVVTLm1zaQpwbmphdTlHREJiNG9OaTFqeVpEL205dENtTDFpclZlYWtmUWNZUmtiTjFCWm82UXduM1FpQXkydGphdVJsT3hCSGRxZTM1eXgxZExiQXRsZmFTL2VEdz09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.36.0/My.Desktop.Tools_0.36.0_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.36.0/My%20Desktop%20Tools_0.36.0_x64_en-US.msi"
     }
   }
 }

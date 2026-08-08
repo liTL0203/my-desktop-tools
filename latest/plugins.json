@@ -1,6 +1,24 @@
 {
   "plugins": [
     {
+      "id": "ai-translator",
+      "name": "AI 翻译",
+      "version": "1.0.0",
+      "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
+      "author": "My Desktop Tools",
+      "authorUrl": "",
+      "category": "ai-assist",
+      "icon": "package",
+      "iconVariant": "blue",
+      "tags": [],
+      "downloadSize": 317212,
+      "requiresPayment": false,
+      "supportedModes": [
+        "popup"
+      ],
+      "updatedAt": "2026-08-08"
+    },
+    {
       "id": "pomodoro",
       "name": "番茄钟",
       "version": "2.1.0",
@@ -11,7 +29,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 427746,
+      "downloadSize": 428532,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -30,7 +48,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 3169820,
+      "downloadSize": 3171016,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
