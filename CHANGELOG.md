@@ -6,6 +6,14 @@
 
 ---
 
+# v0.36.2 (2026-08-08)
+
+## Bug Fixes
+
+- **Standalone Window Mode Detection**: Fixed plugin detection mechanism for standalone window mode. The iframe window name is now used as the primary mode detection signal (set by core), replacing the unreliable hash-based detection that was affected by WebView runtime differences in blob URL hash handling
+
+---
+
 # v0.36.1 (2026-08-08)
 
 ## Bug Fixes

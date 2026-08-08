@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v0.36.1 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.36.1/My%20Desktop%20Tools_0.36.1_x64_en-US.msi) |
+| v0.36.2 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.36.2/My.Desktop.Tools_0.36.2_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.36.2/My.Desktop.Tools_0.36.2_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -16,7 +16,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
-| ai-translator | 1.0.1 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.0.1/ai-translator-1.0.1.zip) |
+| ai-translator | 1.0.2 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.0.2/ai-translator-1.0.2.zip) |
 | pomodoro | 2.1.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.0/pomodoro-2.1.0.zip) |
 | proxy-switch | 2.7.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.0/proxy-switch-2.7.0.zip) |
 
