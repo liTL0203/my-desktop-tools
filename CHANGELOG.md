@@ -6,6 +6,22 @@
 
 ---
 
+# v0.36.1 (2026-08-08)
+
+## Bug Fixes
+
+- **Modal/Dialog Background Opacity**: Replaced semi-transparent modal background variables (`--modal-material`, `--popover-bg`) with fully opaque solid color variables (`--modal-solid-bg`, `--popover-solid-bg`) across all 11 popup components, and removed `backdrop-filter: blur()` declarations that caused visual bleed-through in dark themes
+- **QuickAction Panel Transparency**: Changed QuickAction window's native `transparent` property from `true` to `false`, preventing desktop content from showing through the semi-transparent panel background
+- **Plugin Marketplace Version Field**: Added `version` field to `plugins.json` catalog entries (read from manifest.json), and updated frontend parsing logic to prioritize catalog version with `versions.json` fallback, fixing incorrect version display in the marketplace
+
+## Improvements
+
+- **Plugin Template Default Private**: Plugin scaffolding template (`plugin-dev-kit`) now defaults to `"private": true` in manifest.json, preventing accidental public marketplace exposure of new plugins before they are ready
+- **Release Script Private Plugin Prompt**: Release script now detects private plugins and interactively asks developers whether to publish them as public, with `--publish-private` CLI parameter for non-interactive environments
+- **Standalone Window Hash Injection**: Added hash marker injection for standalone plugin window mode, improving plugin identification in independent windows
+
+---
+
 # v0.36.0 (2026-08-07)
 
 ## New Features

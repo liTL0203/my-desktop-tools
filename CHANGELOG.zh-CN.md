@@ -6,6 +6,22 @@
 
 ---
 
+# v0.36.1 (2026-08-08)
+
+## Bug 修复
+
+- **弹窗/对话框背景不透明**：将所有 11 个弹出层组件的半透明背景变量（`--modal-material`、`--popover-bg`）替换为完全不透明纯色变量（`--modal-solid-bg`、`--popover-solid-bg`），并移除了导致深色主题下视觉穿透的 `backdrop-filter: blur()` 声明
+- **快捷操作面板透明度**：将 QuickAction 窗口的原生 `transparent` 属性从 `true` 改为 `false`，防止桌面内容透过半透明面板背景显示
+- **插件商城版本字段**：为 `plugins.json` 目录条目补充 `version` 字段（从 manifest.json 读取），更新前端解析逻辑优先从 catalog 读取版本号（versions.json 兜底），修复商城中版本号显示不正确的问题
+
+## 改进
+
+- **插件模板默认私有**：插件脚手架模板（`plugin-dev-kit`）现默认在 manifest.json 中设置 `"private": true`，防止新插件在准备好之前意外出现在公开商城
+- **发版脚本私有插件询问**：发版脚本现可检测私有插件并交互式询问开发者是否放开为公共发布，非交互环境可通过 `--publish-private` 参数控制
+- **独立窗口 Hash 标记注入**：为独立窗口模式的插件添加了 hash 标记注入功能，改善独立窗口中的插件识别
+
+---
+
 # v0.36.0 (2026-08-07)
 
 ## 新增功能
