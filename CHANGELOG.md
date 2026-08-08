@@ -6,6 +6,21 @@
 
 ---
 
+# v0.37.0 (2026-08-08)
+
+## New Features
+
+- **Plugin Uninstall**: Added uninstall button to plugin marketplace cards, allowing users to remove installed plugins directly from the marketplace interface
+- **Standalone Window Stop-on-Close Option**: Plugins with standalone window mode can now configure `stopOnClose: true` to automatically stop the sidecar process when the window is closed
+
+## Bug Fixes
+
+- **Plugin Frame Loading Mask**: Fixed loading mask not dismissing when plugin iframe content loads via blob URL; added proper blob URL revocation to prevent memory leaks
+- **AI Log Detail Expansion**: Fixed AI request log detail expansion not rendering properly when response content contains complex nested JSON
+- **Standalone Window Mode Detection**: Fixed mode detection mechanism that incorrectly identified popup vs inapp mode due to WebView runtime differences in blob URL hash handling
+
+---
+
 # v0.36.2 (2026-08-08)
 
 ## Bug Fixes
