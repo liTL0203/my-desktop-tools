@@ -1,3 +1,22 @@
+# v1.0.2 Release Notes (2026-08-08)
+
+## Bug Fixes
+- **Popup Mode Detection**: Fixed an issue where the plugin rendered the full InApp layout instead of the simplified Popup UI when triggered from the QuickAction panel on some systems. Mode detection now primarily relies on the iframe window name (set by core v0.36.2+), which is immune to WebView runtime differences in blob URL hash handling; the previous hash-based detection is retained as a fallback
+- **Diagnostics**: The plugin now reports its detected runtime mode to the core frontend log, making future popup/inapp identification issues easier to diagnose
+
+<details>
+<summary>中文说明</summary>
+
+# v1.0.2 更新说明 (2026-08-08)
+
+## 修复
+- **Popup 模式检测**：修复部分系统中从快捷操作面板触发时渲染完整 InApp 界面而非精简 Popup 界面的问题。模式检测现主要依赖 iframe 窗口名（由核心 v0.36.2+ 设置），不受 WebView 运行时对 blob URL hash 处理差异的影响；原 hash 检测保留作为兼容通道
+- **诊断能力**：插件现在会向核心前端日志上报实际识别到的运行模式，便于后续定位 popup/inapp 识别问题
+
+</details>
+
+---
+
 # v1.0.1 Release Notes (2026-08-08)
 
 ## Improvements

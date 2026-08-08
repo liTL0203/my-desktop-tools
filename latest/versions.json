@@ -1,10 +1,10 @@
 {
   "core": "0.36.2",
   "coreNotes": "## Bug Fixes\r\n\r\n- **Standalone Window Mode Detection**: Fixed plugin detection mechanism for standalone window mode. The iframe window name is now used as the primary mode detection signal (set by core), replacing the unreliable hash-based detection that was affected by WebView runtime differences in blob URL hash handling\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## Bug 修复\r\n\r\n- **独立窗口模式检测**：修复了插件在独立窗口模式下的检测机制。现使用 iframe 窗口名作为主要模式检测信号（由核心设置），替代了因 WebView 运行时对 blob URL hash 处理差异而不可靠的 hash 检测方案\r\n\r\n</details>",
-  "pubDate": "2026-08-08T14:20:04.392Z",
+  "pubDate": "2026-08-08T14:24:38.363Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.7.0",
-    "ai-translator": "1.0.1"
+    "ai-translator": "1.0.2"
   }
 }
