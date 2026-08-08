@@ -1,3 +1,20 @@
+# v1.0.1 Release Notes (2026-08-08)
+
+## Improvements
+- **Public Release**: Changed from private to public plugin, now visible and installable from the marketplace
+
+<details>
+<summary>中文说明</summary>
+
+# v1.0.1 更新说明 (2026-08-08)
+
+## 改进
+- **公开发布**：从私有插件改为公共插件，现可在商城中查看和安装
+
+</details>
+
+---
+
 # v1.0.0 Release Notes (2026-08-08)
 
 ## New Features
