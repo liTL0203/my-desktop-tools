@@ -3,6 +3,7 @@
     {
       "id": "pomodoro",
       "name": "番茄钟",
+      "version": "2.1.0",
       "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -21,6 +22,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
+      "version": "2.7.0",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
