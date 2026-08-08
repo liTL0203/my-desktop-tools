@@ -1,3 +1,22 @@
+# v1.1.0 Release Notes (2026-08-08)
+
+## New Features
+- **Popup Mode Support**: Added popup window mode support triggered from QuickAction panel, rendering a simplified translation interface optimized for small popup windows
+- **Stop-on-Close**: Added `stopOnClose: true` configuration to automatically stop the sidecar process when the popup window is closed, freeing system resources
+
+<details>
+<summary>中文说明</summary>
+
+# v1.1.0 更新说明 (2026-08-08)
+
+## 新增功能
+- **Popup 模式支持**：新增从快捷操作面板触发的 popup 窗口模式，渲染精简翻译界面，针对小窗口优化
+- **关闭即停止**：新增 `stopOnClose: true` 配置，关闭 popup 窗口时自动停止 sidecar 进程，释放系统资源
+
+</details>
+
+---
+
 # v1.0.2 Release Notes (2026-08-08)
 
 ## Bug Fixes

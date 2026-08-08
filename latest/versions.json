@@ -1,10 +1,10 @@
 {
   "core": "0.37.0",
   "coreNotes": "## New Features\r\n\r\n- **Plugin Uninstall**: Added uninstall button to plugin marketplace cards, allowing users to remove installed plugins directly from the marketplace interface\r\n- **Standalone Window Stop-on-Close Option**: Plugins with standalone window mode can now configure `stopOnClose: true` to automatically stop the sidecar process when the window is closed\r\n\r\n## Bug Fixes\r\n\r\n- **Plugin Frame Loading Mask**: Fixed loading mask not dismissing when plugin iframe content loads via blob URL; added proper blob URL revocation to prevent memory leaks\r\n- **AI Log Detail Expansion**: Fixed AI request log detail expansion not rendering properly when response content contains complex nested JSON\r\n- **Standalone Window Mode Detection**: Fixed mode detection mechanism that incorrectly identified popup vs inapp mode due to WebView runtime differences in blob URL hash handling\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **插件卸载**：在商城插件卡片中添加卸载按钮，用户可直接从商城界面移除已安装的插件\r\n- **独立窗口停止关闭选项**：独立窗口模式的插件现可配置 `stopOnClose: true`，关闭窗口时自动停止 sidecar 进程\r\n\r\n## Bug 修复\r\n\r\n- **插件框架加载遮罩**：修复通过 blob URL 加载插件 iframe 内容时加载遮罩未消失的问题；添加 blob URL 释放以防止内存泄漏\r\n- **AI 日志详情展开**：修复 AI 请求日志详情展开时响应内容包含复杂嵌套 JSON 的渲染异常\r\n- **独立窗口模式检测**：修复因 WebView 运行时对 blob URL hash 处理差异导致的 popup/inapp 模式误判\r\n\r\n</details>",
-  "pubDate": "2026-08-08T23:23:03.923Z",
+  "pubDate": "2026-08-08T23:26:59.901Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.7.0",
-    "ai-translator": "1.0.2"
+    "ai-translator": "1.1.0"
   }
 }
