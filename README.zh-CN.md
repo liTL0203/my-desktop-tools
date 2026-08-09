@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.37.0 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.37.0/My%20Desktop%20Tools_0.37.0_x64_en-US.msi) |
+| v0.38.0 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.38.0/My.Desktop.Tools_0.38.0_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.38.0/My.Desktop.Tools_0.38.0_x64_zh-CN.msi) |
 
 ## 🔌 插件
 

@@ -6,6 +6,23 @@
 
 ---
 
+# v0.38.0 (2026-08-09)
+
+## Improvements
+
+- **QuickAction Instant Hide**: Removed the blur fade-out animation from the QuickAction panel, achieving instant hide for faster response
+- **Standalone Window Shortcut Bar**: Redesigned the bottom shortcut hint bar in standalone plugin windows as a floating capsule design for better visual hierarchy
+- **Plugin Crash Recovery**: Added detection for externally terminated plugin processes with automatic restart capability, enhancing error recovery
+- **Real-time Plugin Status**: Implemented real-time plugin status monitoring to keep enable/disable operations in sync across multiple windows
+- **Quick Launcher Startup Performance**: Moved first-time quick launcher creation to a background thread to avoid blocking the message pump
+
+## Bug Fixes
+
+- **Window Focus Management**: Fixed focus management issues when switching windows, resolving WebView2 focus delay stability problems
+- **Async Window Commands**: Made window operation commands asynchronous to prevent main thread blocking and deadlock risks
+
+---
+
 # v0.37.0 (2026-08-08)
 
 ## New Features
