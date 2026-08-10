@@ -6,6 +6,19 @@
 
 ---
 
+# v0.39.0 (2026-08-10)
+
+## New Features
+
+- **Standalone Window Multi-Instance**: Plugin standalone windows now support opening multiple instances simultaneously, with a stop confirmation dialog before closing to prevent accidental termination
+- **Quick Launcher Icon & Stats Optimization**: Replaced quick launcher icons with refined versions and optimized usage statistics logic for more accurate tracking
+
+## Improvements
+
+- **Standalone Title Bar Icons**: Replaced title bar icons with Lucide icon components for consistent visual styling across standalone plugin windows
+
+---
+
 # v0.38.0 (2026-08-09)
 
 ## Improvements

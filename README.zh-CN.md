@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.38.0 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.38.0/My.Desktop.Tools_0.38.0_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.38.0/My.Desktop.Tools_0.38.0_x64_zh-CN.msi) |
+| v0.39.0 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.39.0/My.Desktop.Tools_0.39.0_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.39.0/My.Desktop.Tools_0.39.0_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -17,6 +17,7 @@
 | 插件 | 版本 | 说明 | 版本历史 | 下载 |
 |------|------|------|----------|------|
 | ai-translator | 1.1.0 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.1.0/ai-translator-1.1.0.zip) |
+| json-format | 1.0.0 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.0.0/json-format-1.0.0.zip) |
 | pomodoro | 2.1.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.0/pomodoro-2.1.0.zip) |
 | proxy-switch | 2.7.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.0/proxy-switch-2.7.0.zip) |
 

@@ -19,6 +19,25 @@
       "updatedAt": "2026-08-08"
     },
     {
+      "id": "json-format",
+      "name": "JSON 格式化",
+      "version": "1.0.0",
+      "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
+      "author": "My Desktop Tools",
+      "authorUrl": "",
+      "category": "system-tools",
+      "icon": "package",
+      "iconVariant": "blue",
+      "tags": [],
+      "downloadSize": 439939,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop",
+        "popup"
+      ],
+      "updatedAt": ""
+    },
+    {
       "id": "pomodoro",
       "name": "番茄钟",
       "version": "2.1.0",
