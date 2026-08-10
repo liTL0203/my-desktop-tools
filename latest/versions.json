@@ -1,7 +1,7 @@
 {
-  "core": "0.40.0",
-  "coreNotes": "## New Features\r\n\r\n- **Background Task Management**: Added a unified background task management system with visual progress indicators. Long-running operations (plugin installation, updates, core upgrades) now show real-time progress with the ability to cancel mid-operation, preventing frozen UI states during lengthy downloads\r\n- **Task Cancel Capability**: Users can now cancel in-progress operations via a dedicated UI indicator, with proper cleanup of Rust-side resources and rollback of incomplete state changes\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **后台任务管理**：新增统一的后台任务管理系统，提供可视化进度指示器。长时间运行的操作（插件安装、更新、核心升级）现可显示实时进度，并支持中途取消，避免下载期间界面冻结\r\n- **任务取消能力**：用户可通过专用 UI 指示器取消正在进行的操作，Rust 端资源会被正确清理并回滚未完成的状态变更\r\n\r\n</details>",
-  "pubDate": "2026-08-10T10:34:49.975Z",
+  "core": "0.40.1",
+  "coreNotes": "## Maintenance\r\n\r\n- **Dependency Sync**: Synchronized Cargo.lock and tauri.conf.json with updated crate dependencies from the latest build cycle\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 维护\r\n\r\n- **依赖同步**：同步 Cargo.lock 和 tauri.conf.json 与最新构建周期的 crate 依赖更新\r\n\r\n</details>",
+  "pubDate": "2026-08-10T13:41:37.664Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.7.0",

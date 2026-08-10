@@ -6,6 +6,14 @@
 
 ---
 
+# v0.40.1 (2026-08-10)
+
+## Maintenance
+
+- **Dependency Sync**: Synchronized Cargo.lock and tauri.conf.json with updated crate dependencies from the latest build cycle
+
+---
+
 # v0.40.0 (2026-08-10)
 
 ## New Features
