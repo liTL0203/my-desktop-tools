@@ -1,3 +1,10 @@
+# v1.0.2 Release Notes (2026-08-10)
+
+## Bug Fixes
+- **Worker Cross-Origin Fix**: Fixed `Failed to construct 'Worker'` error in standalone/desktop window mode by switching from URL-based Worker construction to Vite's `?worker&inline` import, which inlines the Worker script as a base64 data URL and completely bypasses the Tauri v2 same-origin policy restriction (`asset.localhost` vs `tauri.localhost`)
+
+---
+
 # v1.0.1 Release Notes (2026-08-10)
 
 ## Improvements

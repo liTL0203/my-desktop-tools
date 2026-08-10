@@ -1,11 +1,11 @@
 {
   "core": "0.39.1",
   "coreNotes": "## Bug Fixes\r\n\r\n- **Discrete API Dark Theme Sync**: Fixed an issue where Naive UI discrete API components (notification, dialog) were not following the user's dark/light theme preference. The dark mode state is now synchronized from the theme store to the discrete API's config provider via a reactive intermediate object, ensuring all out-of-component UI elements respect the active theme\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## Bug 修复\r\n\r\n- **离散 API 暗色主题同步**：修复 Naive UI 离散 API 组件（通知、对话框）未跟随用户明暗主题偏好的问题。暗色模式状态现通过响应式中间对象从主题 Store 同步到离散 API 的配置提供者，确保所有组件外 UI 元素遵循当前活动主题\r\n\r\n</details>",
-  "pubDate": "2026-08-10T05:00:23.409Z",
+  "pubDate": "2026-08-10T05:04:37.431Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.7.0",
     "ai-translator": "1.1.0",
-    "json-format": "1.0.1"
+    "json-format": "1.0.2"
   }
 }
