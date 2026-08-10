@@ -6,6 +6,15 @@
 
 ---
 
+# v0.40.0 (2026-08-10)
+
+## New Features
+
+- **Background Task Management**: Added a unified background task management system with visual progress indicators. Long-running operations (plugin installation, updates, core upgrades) now show real-time progress with the ability to cancel mid-operation, preventing frozen UI states during lengthy downloads
+- **Task Cancel Capability**: Users can now cancel in-progress operations via a dedicated UI indicator, with proper cleanup of Rust-side resources and rollback of incomplete state changes
+
+---
+
 # v0.39.1 (2026-08-10)
 
 ## Bug Fixes
