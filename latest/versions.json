@@ -1,7 +1,7 @@
 {
-  "core": "0.39.0",
-  "coreNotes": "## New Features\r\n\r\n- **Standalone Window Multi-Instance**: Plugin standalone windows now support opening multiple instances simultaneously, with a stop confirmation dialog before closing to prevent accidental termination\r\n- **Quick Launcher Icon & Stats Optimization**: Replaced quick launcher icons with refined versions and optimized usage statistics logic for more accurate tracking\r\n\r\n## Improvements\r\n\r\n- **Standalone Title Bar Icons**: Replaced title bar icons with Lucide icon components for consistent visual styling across standalone plugin windows\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **独立窗口多实例**：插件独立窗口现支持同时打开多个实例，关闭前增加停止确认弹窗，防止误操作终止进程\r\n- **快捷启动器图标与统计优化**：替换快捷启动器图标为更精细的版本，优化使用统计逻辑以获得更准确的追踪数据\r\n\r\n## 改进\r\n\r\n- **独立窗口标题栏图标**：将标题栏图标替换为 Lucide 图标组件，统一独立插件窗口的视觉风格\r\n\r\n</details>",
-  "pubDate": "2026-08-10T01:29:36.008Z",
+  "core": "0.39.1",
+  "coreNotes": "## Bug Fixes\r\n\r\n- **Discrete API Dark Theme Sync**: Fixed an issue where Naive UI discrete API components (notification, dialog) were not following the user's dark/light theme preference. The dark mode state is now synchronized from the theme store to the discrete API's config provider via a reactive intermediate object, ensuring all out-of-component UI elements respect the active theme\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## Bug 修复\r\n\r\n- **离散 API 暗色主题同步**：修复 Naive UI 离散 API 组件（通知、对话框）未跟随用户明暗主题偏好的问题。暗色模式状态现通过响应式中间对象从主题 Store 同步到离散 API 的配置提供者，确保所有组件外 UI 元素遵循当前活动主题\r\n\r\n</details>",
+  "pubDate": "2026-08-10T05:00:23.409Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.7.0",

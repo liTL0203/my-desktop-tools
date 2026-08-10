@@ -6,6 +6,14 @@
 
 ---
 
+# v0.39.1 (2026-08-10)
+
+## Bug Fixes
+
+- **Discrete API Dark Theme Sync**: Fixed an issue where Naive UI discrete API components (notification, dialog) were not following the user's dark/light theme preference. The dark mode state is now synchronized from the theme store to the discrete API's config provider via a reactive intermediate object, ensuring all out-of-component UI elements respect the active theme
+
+---
+
 # v0.39.0 (2026-08-10)
 
 ## New Features
