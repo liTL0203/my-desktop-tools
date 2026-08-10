@@ -1,3 +1,10 @@
+# v1.0.1 Release Notes (2026-08-10)
+
+## Improvements
+- **Pipeline Error Logging**: Added frontend diagnostic logging to all JSON pipeline catch blocks (parse, format, minify, auto-format), writing structured error details to `frontend.log` for remote troubleshooting without blocking the UI
+
+---
+
 # v1.0.0 Release Notes (2026-08-10)
 
 ---

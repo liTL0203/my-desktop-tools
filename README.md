@@ -17,7 +17,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
 | ai-translator | 1.1.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.1.0/ai-translator-1.1.0.zip) |
-| json-format | 1.0.0 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.0.0/json-format-1.0.0.zip) |
+| json-format | 1.0.1 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.0.1/json-format-1.0.1.zip) |
 | pomodoro | 2.1.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.0/pomodoro-2.1.0.zip) |
 | proxy-switch | 2.7.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.0/proxy-switch-2.7.0.zip) |
 

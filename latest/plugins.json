@@ -11,7 +11,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 320730,
+      "downloadSize": 317843,
       "requiresPayment": false,
       "supportedModes": [
         "popup"
@@ -21,7 +21,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -29,7 +29,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 814423,
+      "downloadSize": 814699,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -48,7 +48,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 431232,
+      "downloadSize": 428014,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -67,7 +67,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 3168816,
+      "downloadSize": 3169628,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
