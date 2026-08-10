@@ -1,3 +1,13 @@
+# v1.1.0 Release Notes (2026-08-10)
+
+## New Features
+- **Table View Enhancements**: Improved table view with better column alignment, hover details, and double-click cell copy functionality for large datasets
+- **Editor Improvements**: Enhanced CodeMirror editor integration with better update handling and layout state management
+- **Toolbar Refinement**: Updated toolbar component with cleaner action grouping and improved i18n support
+- **Type System Updates**: Synchronized TypeScript and Rust type definitions for better frontend-sidecar communication
+
+---
+
 # v1.0.2 Release Notes (2026-08-10)
 
 ## Bug Fixes

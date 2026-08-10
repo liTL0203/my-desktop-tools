@@ -1,11 +1,11 @@
 {
   "version": "0.40.1",
   "notes": "## Maintenance\r\n\r\n- **Dependency Sync**: Synchronized Cargo.lock and tauri.conf.json with updated crate dependencies from the latest build cycle\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 维护\r\n\r\n- **依赖同步**：同步 Cargo.lock 和 tauri.conf.json 与最新构建周期的 crate 依赖更新\r\n\r\n</details>",
-  "pub_date": "2026-08-10T13:41:37.653Z",
+  "pub_date": "2026-08-10T16:03:30.590Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZFB6UWNNTGRrKys1VDZ1aENNamtnRVRYbStQam9COGUwYjhyMmRpSDdUZC96RFFDZ0xmRU1nTnB6T3E0SGJwOEt4TmJ2SnhyNXVVNmN2amVRUENZa3drPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2MzY5Mjg1CWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjQwLjFfeDY0X2VuLVVTLm1zaQowR3M0WGZDSCtZM2xtNnIvNWE2aU1DUzZmdmFiM1FjdGptTnMwTDBvbVpvT01TUFBzQ1VzclBReXJjLzZjdnhKblloejNZRVQ4QmZwQW1ybUEzOS9BUT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.40.1/My.Desktop.Tools_0.40.1_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.40.1/My%20Desktop%20Tools_0.40.1_x64_en-US.msi"
     }
   }
 }
