@@ -1,11 +1,11 @@
 {
   "version": "0.41.0",
   "notes": "## Improvements\r\n\r\n- **Marketplace Card Icon Loading**: Optimized icon loading logic for marketplace cards, reducing unnecessary network requests and improving render performance when scrolling through the catalog\r\n- **Card State Management**: Refactored state management for marketplace cards, ensuring consistent enabled/disabled/installed states across rapid user interactions\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 改进\r\n\r\n- **商城卡片图标加载**：优化商城卡片的图标加载逻辑，减少不必要的网络请求，提升目录滚动时的渲染性能\r\n- **卡片状态管理**：重构商城卡片的状态管理，确保快速交互时启用/禁用/已安装状态的一致性\r\n\r\n</details>",
-  "pub_date": "2026-08-11T16:43:35.970Z",
+  "pub_date": "2026-08-11T16:46:06.115Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEVHTjljQlRiL0d1a1VFVUFSZ3pLMkZnbFZxYXVJbENQNHBabTdzQW5ycytQdnNCUUExbTJUNm9wK1ZXV3Zjb1ltb1poTHdVcE5tQ0JjMWREeWVpM1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NDY2NTYzCWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjQxLjBfeDY0X2VuLVVTLm1zaQp6ekpIK0pOVnZUUzA2azhHcTA2MEl5Z0pEMEhqc25PSURZNnBZK0hnSVg3T3ZadTVIN2ZESWFjd1dFdk5lTGMzNzJCQUVqaFpPQWVNanp5RHJKT2lCQT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.41.0/My.Desktop.Tools_0.41.0_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.41.0/My%20Desktop%20Tools_0.41.0_x64_en-US.msi"
     }
   }
 }
