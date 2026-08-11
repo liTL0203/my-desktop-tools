@@ -21,7 +21,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -35,7 +35,7 @@
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-10"
+      "updatedAt": "2026-08-12"
     },
     {
       "id": "pomodoro",
@@ -74,6 +74,25 @@
         "popup"
       ],
       "updatedAt": "2026-08-03"
+    },
+    {
+      "id": "sys-info",
+      "name": "系统信息",
+      "version": "0.1.0",
+      "description": "一键获取电脑系统、硬件、网络全量信息，支持实时监控与报告导出",
+      "author": "My Desktop Tools",
+      "authorUrl": "",
+      "category": "system-tools",
+      "icon": "package",
+      "iconVariant": "blue",
+      "tags": [],
+      "downloadSize": 0,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop",
+        "popup"
+      ],
+      "updatedAt": "2026-08-11"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
-  "core": "0.40.1",
-  "coreNotes": "## Maintenance\r\n\r\n- **Dependency Sync**: Synchronized Cargo.lock and tauri.conf.json with updated crate dependencies from the latest build cycle\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 维护\r\n\r\n- **依赖同步**：同步 Cargo.lock 和 tauri.conf.json 与最新构建周期的 crate 依赖更新\r\n\r\n</details>",
-  "pubDate": "2026-08-10T16:03:30.595Z",
+  "core": "0.41.0",
+  "coreNotes": "## Improvements\r\n\r\n- **Marketplace Card Icon Loading**: Optimized icon loading logic for marketplace cards, reducing unnecessary network requests and improving render performance when scrolling through the catalog\r\n- **Card State Management**: Refactored state management for marketplace cards, ensuring consistent enabled/disabled/installed states across rapid user interactions\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 改进\r\n\r\n- **商城卡片图标加载**：优化商城卡片的图标加载逻辑，减少不必要的网络请求，提升目录滚动时的渲染性能\r\n- **卡片状态管理**：重构商城卡片的状态管理，确保快速交互时启用/禁用/已安装状态的一致性\r\n\r\n</details>",
+  "pubDate": "2026-08-11T16:43:35.987Z",
   "plugins": {
     "pomodoro": "2.1.0",
     "proxy-switch": "2.7.0",

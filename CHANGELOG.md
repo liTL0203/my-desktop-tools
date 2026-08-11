@@ -6,6 +6,15 @@
 
 ---
 
+# v0.41.0 (2026-08-11)
+
+## Improvements
+
+- **Marketplace Card Icon Loading**: Optimized icon loading logic for marketplace cards, reducing unnecessary network requests and improving render performance when scrolling through the catalog
+- **Card State Management**: Refactored state management for marketplace cards, ensuring consistent enabled/disabled/installed states across rapid user interactions
+
+---
+
 # v0.40.1 (2026-08-10)
 
 ## Maintenance

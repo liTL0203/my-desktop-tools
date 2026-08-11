@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v0.40.1 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.40.1/My%20Desktop%20Tools_0.40.1_x64_en-US.msi) |
+| v0.41.0 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.41.0/My.Desktop.Tools_0.41.0_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.41.0/My.Desktop.Tools_0.41.0_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -17,9 +17,10 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
 | ai-translator | 1.1.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.1.0/ai-translator-1.1.0.zip) |
-| json-format | 1.1.0 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.1.0/json-format-1.1.0.zip) |
+| json-format | 1.1.1 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.1.1/json-format-1.1.1.zip) |
 | pomodoro | 2.1.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.0/pomodoro-2.1.0.zip) |
 | proxy-switch | 2.7.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.0/proxy-switch-2.7.0.zip) |
+| sys-info | 0.1.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v0.1.0/sys-info-0.1.0.zip) |
 
 ## 💻 System Requirements
 
