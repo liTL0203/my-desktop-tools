@@ -20,7 +20,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | json-format | 1.1.1 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.1.1/json-format-1.1.1.zip) |
 | pomodoro | 2.1.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.0/pomodoro-2.1.0.zip) |
 | proxy-switch | 2.7.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.0/proxy-switch-2.7.0.zip) |
-| sys-info | 0.1.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v0.1.0/sys-info-0.1.0.zip) |
+| sys-info | 1.0.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v1.0.0/sys-info-1.0.0.zip) |
 
 ## 💻 System Requirements
 

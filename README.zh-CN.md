@@ -20,7 +20,7 @@
 | json-format | 1.1.1 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.1.1/json-format-1.1.1.zip) |
 | pomodoro | 2.1.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.0/pomodoro-2.1.0.zip) |
 | proxy-switch | 2.7.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.0/proxy-switch-2.7.0.zip) |
-| sys-info | 0.1.0 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v0.1.0/sys-info-0.1.0.zip) |
+| sys-info | 1.0.0 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v1.0.0/sys-info-1.0.0.zip) |
 
 ## 💻 系统要求
 
