@@ -16,7 +16,43 @@
       "supportedModes": [
         "popup"
       ],
-      "updatedAt": "2026-08-08"
+      "updatedAt": "2026-08-08",
+      "purpose": {
+        "en": "Frequent context switching to translation tools disrupts workflow. This plugin embeds AI translation into the desktop—select text, get instant results.",
+        "zh": "在阅读外文资料、编写国际化代码或与海外同事沟通时，频繁切换翻译工具打断工作流。AI 翻译插件将翻译能力嵌入桌面，选中即译，让语言不再成为障碍。"
+      },
+      "useCases": {
+        "en": [
+          "Reading foreign docs: translate selected paragraphs instantly",
+          "Code comments: quickly understand foreign annotations",
+          "Cross-language communication: translate emails and messages",
+          "Language learning: translate vocabulary and example sentences"
+        ],
+        "zh": [
+          "阅读外文文档：选中段落一键翻译，无需复制粘贴",
+          "代码注释翻译：快速理解外文注释和文档",
+          "跨语言沟通：翻译邮件、聊天消息后发送",
+          "学习辅助：翻译生词和例句，辅助语言学习"
+        ]
+      },
+      "longDescription": {
+        "en": "AI Translator leverages advanced AI models to support one-click translation of selected text, with automatic source language detection and multi-target language switching.",
+        "zh": "AI 翻译插件利用先进的 AI 模型，支持选中文字后一键翻译，自动识别源语言并切换多目标语言，让跨语言沟通无障碍。"
+      },
+      "features": {
+        "en": [
+          "Automatic source language detection, no manual selection needed",
+          "Multi-target language switching (English, Japanese, Korean, French, German, etc.)",
+          "Quick Action panel integration—select text to translate",
+          "Standalone popup mode, translation results don't obscure original text"
+        ],
+        "zh": [
+          "自动识别源语言，无需手动选择",
+          "多目标语言切换（英、日、韩、法、德等）",
+          "快捷操作面板集成，选中文本即可翻译",
+          "独立弹窗模式，翻译结果不遮挡原文"
+        ]
+      }
     },
     {
       "id": "json-format",
@@ -35,7 +71,43 @@
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-12"
+      "updatedAt": "2026-08-12",
+      "purpose": {
+        "en": "Developers frequently handle complex JSON data when debugging APIs, editing configs, or exchanging data. This plugin integrates formatting, compression, querying, and visualization into one tool.",
+        "zh": "开发者在调试 API、配置文件、数据交换时经常需要处理复杂的 JSON 数据。JSON 格式化插件将格式化、压缩、查询、可视化整合到一个工具中，替代多个在线工具。"
+      },
+      "useCases": {
+        "en": [
+          "API debugging: format compressed JSON responses",
+          "Config editing: beautify and validate JSON config files",
+          "Data analysis: browse large JSON datasets in table view",
+          "Data transformation: filter and map JSON with JS processing engine"
+        ],
+        "zh": [
+          "API 调试：格式化 API 返回的压缩 JSON 响应",
+          "配置编辑：美化和验证 JSON 配置文件",
+          "数据分析：表格视图浏览大型 JSON 数据集",
+          "数据转换：用 JS 处理引擎对 JSON 进行筛选和映射"
+        ]
+      },
+      "longDescription": {
+        "en": "JSON Format provides parsing, beautification, compression, JS processing, and multi-dimensional visualization—the Swiss Army knife for developers working with JSON data.",
+        "zh": "JSON 格式化插件提供解析、美化、压缩、JS 处理与多维可视化，是开发者处理 JSON 数据的瑞士军刀。"
+      },
+      "features": {
+        "en": [
+          "JSON beautify (2/4 space indent) and single-line minify",
+          "JS processing engine: custom function body to process JSON data",
+          "Multi-dimensional visualization: table, image, tree, text views",
+          "Web Worker async processing, zero UI blocking"
+        ],
+        "zh": [
+          "JSON 美化（2/4 空格缩进）与单行压缩",
+          "JS 处理引擎：自定义 JS 函数体处理 JSON 数据",
+          "多维可视化：表格、图片、树形、文本视图",
+          "Web Worker 异步处理，UI 零阻塞"
+        ]
+      }
     },
     {
       "id": "pomodoro",
@@ -54,7 +126,49 @@
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-07-14"
+      "updatedAt": "2026-07-14",
+      "purpose": {
+        "en": "Modern life is full of distractions. This plugin applies the classic Pomodoro Technique (25min focus + 5min break) to help overcome procrastination and build healthy deep work habits.",
+        "zh": "现代生活中干扰无处不在，社交媒体、邮件、消息通知不断打断专注。番茄钟 Pro 基于经典的番茄工作法（25 分钟专注 + 5 分钟休息），帮助你克服拖延症，建立健康的深度工作习惯。"
+      },
+      "useCases": {
+        "en": [
+          "Study and exam prep: sustained focus for long study sessions",
+          "Remote work: manage work rhythm and avoid prolonged sitting",
+          "Project management: break complex tasks into manageable pomodoros",
+          "Habit building: maintain daily pomodoro count for consistent rhythm"
+        ],
+        "zh": [
+          "学习备考：考研、考证、语言学习等需要长时间专注的场景",
+          "远程办公：居家办公时自我管理工作节奏，避免久坐",
+          "项目管理：将复杂任务拆解为多个番茄钟，逐步推进",
+          "习惯养成：每日固定番茄钟数量，培养稳定的工作节律"
+        ]
+      },
+      "longDescription": {
+        "en": "Pomodoro Pro is a focus efficiency tool based on the scientific Pomodoro Technique. Through 25-minute focus + 5-minute break cycles, it helps you overcome procrastination and boost productivity.",
+        "zh": "番茄钟 Pro 是一款基于科学番茄工作法的专注效率工具。通过 25 分钟专注 + 5 分钟休息的循环，帮助你克服拖延症，提升工作效率。"
+      },
+      "features": {
+        "en": [
+          "Customizable focus/break durations (5/15/25/45/60 min)",
+          "Multiple white noise backgrounds (rain, cafe, fireplace, keyboard)",
+          "Task management integration with pomodoro timer binding",
+          "Daily/weekly focus statistics with visual charts",
+          "Desktop floating window and standalone window dual mode",
+          "Focus achievement system and level unlocking",
+          "Local encrypted data storage, privacy secured"
+        ],
+        "zh": [
+          "自定义专注时长和休息时长（5/15/25/45/60 分钟）",
+          "多种白噪音背景音（雨声、咖啡馆、壁炉、键盘声）",
+          "任务管理集成，支持番茄计时绑定任务",
+          "每日/每周专注数据统计和可视化图表",
+          "桌面悬浮窗和独立窗口双模式",
+          "专注成就系统和等级解锁",
+          "数据本地加密存储，隐私安全"
+        ]
+      }
     },
     {
       "id": "proxy-switch",
@@ -73,7 +187,47 @@
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-03"
+      "updatedAt": "2026-08-03",
+      "purpose": {
+        "en": "Manually switching proxy nodes in multi-proxy environments is tedious and error-prone. This plugin integrates node management, rule engine, and auto-switching strategies into one tool.",
+        "zh": "在多代理环境下手动切换代理节点既繁琐又容易出错。代理切换插件将节点管理、规则引擎、自动切换策略整合到一个工具中，让网络代理管理变得简单高效。"
+      },
+      "useCases": {
+        "en": [
+          "Dev debugging: frequently switch regional proxies for API testing",
+          "Network optimization: multi-node management and latency testing",
+          "Enterprise network: hybrid config for intranet direct + external proxy",
+          "Gaming: route specific game domains to low-latency nodes"
+        ],
+        "zh": [
+          "开发调试：需要频繁切换不同地区代理测试 API 可用性",
+          "科学上网：多节点管理与延迟测试，选择最优线路",
+          "企业网络：内网直连 + 外网代理的混合策略配置",
+          "游戏加速：针对特定游戏域名路由到低延迟节点"
+        ]
+      },
+      "longDescription": {
+        "en": "Proxy Switch is a professional network proxy management tool that helps you easily manage multiple proxy nodes with a rule engine for automated proxy switching.",
+        "zh": "代理切换是一款专业的网络代理管理工具，帮助你轻松管理多个代理节点，配合规则引擎实现自动化代理切换。"
+      },
+      "features": {
+        "en": [
+          "Multi-node management (HTTP/SOCKS5)",
+          "Rule engine: domain suffix, keyword, regex, IP-CIDR",
+          "Auto-switching strategies",
+          "Bypass list (localhost/LAN auto direct)",
+          "Real-time request log viewing",
+          "Latency testing"
+        ],
+        "zh": [
+          "多节点管理（HTTP/SOCKS5）",
+          "规则引擎：域名后缀、关键词、正则、IP-CIDR",
+          "自动切换策略",
+          "绕过列表（localhost/局域网自动直连）",
+          "请求日志实时查看",
+          "延迟测试"
+        ]
+      }
     },
     {
       "id": "sys-info",
@@ -92,7 +246,43 @@
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-12"
+      "updatedAt": "2026-08-12",
+      "purpose": {
+        "en": "When troubleshooting hardware, upgrading configs, or diagnosing networks, users need a quick system overview. This plugin consolidates scattered system tools into a unified interface.",
+        "zh": "在排查硬件问题、升级配置、网络诊断时，用户需要快速获取系统全貌。系统信息插件将分散在各处的系统工具整合为统一界面，一站式查看所有关键信息。"
+      },
+      "useCases": {
+        "en": [
+          "Hardware checkup: confirm current specs before purchasing upgrades",
+          "Network diagnostics: check IP config, WiFi signal, connectivity",
+          "Performance analysis: monitor CPU/memory/disk usage",
+          "Peripheral inspection: verify USB devices and listening ports"
+        ],
+        "zh": [
+          "硬件排查：购买新硬件前确认当前配置和接口",
+          "网络诊断：检查 IP 配置、WiFi 信号、连通性",
+          "性能分析：查看 CPU/内存/磁盘使用率",
+          "外设检查：确认 USB 设备和监听端口状态"
+        ]
+      },
+      "longDescription": {
+        "en": "System Info provides one-click access to comprehensive system, hardware, and network information, with real-time monitoring and report export.",
+        "zh": "系统信息插件一键获取电脑系统、硬件、网络全量信息，支持实时监控与报告导出，是了解电脑状态的必备工具。"
+      },
+      "features": {
+        "en": [
+          "System info: OS version, hostname, uptime, timezone",
+          "Hardware info: CPU, memory, disk, GPU, motherboard/BIOS",
+          "Network info: IP/MAC/gateway/DNS/WiFi details",
+          "Peripherals & ports: USB/Bluetooth/monitors/printers/listening ports"
+        ],
+        "zh": [
+          "系统信息：OS 版本、主机名、运行时长、时区",
+          "硬件信息：CPU、内存、磁盘、GPU、主板/BIOS",
+          "网络信息：IP/MAC/网关/DNS/WiFi 详情",
+          "外设与端口：USB/蓝牙/显示器/打印机/监听端口"
+        ]
+      }
     }
   ]
 }

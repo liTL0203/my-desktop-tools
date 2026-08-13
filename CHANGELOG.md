@@ -6,6 +6,21 @@
 
 ---
 
+# v0.42.0 (2026-08-13)
+
+## New Features
+
+- **Plugin Detail Modal Enhancement**: Added structured information tabs (Purpose, Use Cases, Overview, Changelog) to the plugin detail modal, with bilingual metadata support via per-plugin `metadata.json` files
+- **Plugin Market Performance**: Optimized plugin market loading with local icon display support and cached data for faster rendering
+
+## Improvements
+
+- **Window Loading Performance**: Improved window initialization and data caching mechanisms for snappier startup
+- **Statistics Performance**: Added caching layer to usage statistics data loading, reducing redundant API calls
+- **Plugin Upgrade Flow**: Unified plugin upgrade entry points by consolidating dialog components
+
+---
+
 # v0.41.0 (2026-08-11)
 
 ## Improvements
