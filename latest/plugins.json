@@ -3,7 +3,7 @@
     {
       "id": "ai-translator",
       "name": "AI 翻译",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -11,7 +11,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 319713,
+      "downloadSize": 319117,
       "requiresPayment": false,
       "supportedModes": [
         "popup"
@@ -57,7 +57,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -65,7 +65,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 840784,
+      "downloadSize": 841920,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -112,7 +112,7 @@
     {
       "id": "pomodoro",
       "name": "番茄钟",
-      "version": "2.1.0",
+      "version": "2.1.1",
       "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -120,7 +120,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 428319,
+      "downloadSize": 427551,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -173,7 +173,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
-      "version": "2.7.0",
+      "version": "2.7.1",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -181,7 +181,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 3169137,
+      "downloadSize": 3170996,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -232,7 +232,7 @@
     {
       "id": "sys-info",
       "name": "系统信息",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "一键获取电脑系统、硬件、网络全量信息，支持实时监控与报告导出",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -240,7 +240,7 @@
       "icon": "package",
       "iconVariant": "blue",
       "tags": [],
-      "downloadSize": 351763,
+      "downloadSize": 349098,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",

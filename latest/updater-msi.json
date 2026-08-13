@@ -1,11 +1,11 @@
 {
   "version": "0.42.0",
   "notes": "## New Features\r\n\r\n- **Plugin Detail Modal Enhancement**: Added structured information tabs (Purpose, Use Cases, Overview, Changelog) to the plugin detail modal, with bilingual metadata support via per-plugin `metadata.json` files\r\n- **Plugin Market Performance**: Optimized plugin market loading with local icon display support and cached data for faster rendering\r\n\r\n## Improvements\r\n\r\n- **Window Loading Performance**: Improved window initialization and data caching mechanisms for snappier startup\r\n- **Statistics Performance**: Added caching layer to usage statistics data loading, reducing redundant API calls\r\n- **Plugin Upgrade Flow**: Unified plugin upgrade entry points by consolidating dialog components\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **插件详情弹窗增强**：新增结构化信息标签页（创建目的、适用场景、功能介绍、更新日志），通过每个插件的 `metadata.json` 文件支持双语元数据\r\n- **商城加载性能**：优化商城加载性能，支持本地图标显示和缓存数据加速渲染\r\n\r\n## 改进\r\n\r\n- **窗口加载性能**：改进窗口初始化和数据缓存机制，启动更流畅\r\n- **统计性能**：为使用统计数据加载添加缓存层，减少冗余 API 调用\r\n- **插件升级流程**：统一插件升级入口，合并对话框组件\r\n\r\n</details>",
-  "pub_date": "2026-08-13T10:30:20.204Z",
+  "pub_date": "2026-08-13T10:39:04.728Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZERaY1NqMGI1MnR6eGhqMU1DRTZ4V3MxRFppSFRZcnhIczRVSDg0aCtEQ2ZsRU8zTWNPK01pNGMrRWg5UU03ZldpaVBOdkdoUE5KRk4vajJReis1SlFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg2NjE2NzQxCWZpbGU6TXkgRGVza3RvcCBUb29sc18wLjQyLjBfeDY0X2VuLVVTLm1zaQpiMjN5Tm94cGpZeUY1bkxOWkhULzIvMFB3RVZXVU1TbnhsNU9CNldzb1BPOWdDd2l2NG1OSnFOQzdZam4wODdNUkdOYi9VcEc4cWx1akp6U2pMVGNBdz09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.42.0/My.Desktop.Tools_0.42.0_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v0.42.0/My%20Desktop%20Tools_0.42.0_x64_en-US.msi"
     }
   }
 }
