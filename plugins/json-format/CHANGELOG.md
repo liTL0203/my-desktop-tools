@@ -1,3 +1,20 @@
+# v1.1.3 Release Notes (2026-08-13)
+
+## Bug Fixes
+- **CodeMirror Content Bleed-through**: Fixed a visual issue where editor content from the input panel would bleed through and appear on top of other panels (FilterSlotsPanel, ResultPanel) in certain layout configurations
+
+<details>
+<summary>中文说明</summary>
+
+# v1.1.3 更新说明 (2026-08-13)
+
+## 修复
+- **CodeMirror 内容穿透**：修复特定布局配置下输入面板的编辑器内容穿透显示到其他面板（FilterSlotsPanel、ResultPanel）上方的视觉问题
+
+</details>
+
+---
+
 # v1.1.1 Release Notes (2026-08-12)
 
 ## Improvements
