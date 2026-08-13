@@ -6,6 +6,15 @@
 
 ---
 
+# v0.42.1 (2026-08-13)
+
+## Improvements
+
+- **Plugin Metadata Bilingual Support**: Updated remote plugin entry struct to support bilingual metadata fields (purpose, useCases, longDescription, features) from per-plugin `metadata.json` files, enabling localized detail modal display
+- **Settings Page Cleanup**: Removed redundant update download progress display from general settings page, streamlining the update notification flow
+
+---
+
 # v0.42.0 (2026-08-13)
 
 ## New Features
