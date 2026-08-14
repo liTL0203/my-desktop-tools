@@ -18,6 +18,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 |------|------|------|----------|------|
 | ai-translator | 1.1.1 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.1.1/ai-translator-1.1.1.zip) |
 | json-format | 1.1.3 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.1.3/json-format-1.1.3.zip) |
+| json-to-excel | 1.0.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v1.0.0/json-to-excel-1.0.0.zip) |
 | pomodoro | 2.1.1 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.1/pomodoro-2.1.1.zip) |
 | proxy-switch | 2.7.1 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.1/proxy-switch-2.7.1.zip) |
 | sys-info | 1.0.1 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v1.0.1/sys-info-1.0.1.zip) |

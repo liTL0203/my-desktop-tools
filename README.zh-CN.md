@@ -18,6 +18,7 @@
 |------|------|------|----------|------|
 | ai-translator | 1.1.1 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.1.1/ai-translator-1.1.1.zip) |
 | json-format | 1.1.3 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.1.3/json-format-1.1.3.zip) |
+| json-to-excel | 1.0.0 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v1.0.0/json-to-excel-1.0.0.zip) |
 | pomodoro | 2.1.1 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.1/pomodoro-2.1.1.zip) |
 | proxy-switch | 2.7.1 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.7.1/proxy-switch-2.7.1.zip) |
 | sys-info | 1.0.1 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v1.0.1/sys-info-1.0.1.zip) |

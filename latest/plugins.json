@@ -110,6 +110,28 @@
       }
     },
     {
+      "id": "json-to-excel",
+      "name": "JSON 转 Excel",
+      "version": "1.0.0",
+      "description": "将 JSON 数据一键转换为 Excel 表格，支持嵌套展开、多 Sheet、数据预览",
+      "author": "My Desktop Tools",
+      "authorUrl": "",
+      "category": "system-tools",
+      "icon": "package",
+      "iconVariant": "blue",
+      "tags": [],
+      "downloadSize": 711297,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop"
+      ],
+      "updatedAt": "2026-08-14",
+      "purpose": {},
+      "useCases": {},
+      "longDescription": {},
+      "features": {}
+    },
+    {
       "id": "pomodoro",
       "name": "番茄钟",
       "version": "2.1.1",
