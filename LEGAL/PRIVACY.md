@@ -1,15 +1,19 @@
 ---
 title: Privacy Policy
-version: 1.5.0
-updated: 2026-07-20
+version: 1.7.0
+updated: 2026-08-16
 language: en
 ---
 
 # Privacy Policy
 
-**Last Updated:** 2026-07-20  
-**Effective Date:** 2026-07-20
+**Last Updated:** 2026-08-16  
+**Effective Date:** 2026-08-16
 
+> **v1.7.0 changelog:** Further narrowed the collection surface and simplified to a **single switch** — screen resolution and CPU architecture are no longer collected; the fixed `referrer` field (formerly the project repository link) is removed from every request; the former L0 (Core) and L1 (Aggregate) switches are merged into a single "anonymous usage statistics" switch.
+>
+> **v1.6.0 changelog:** Narrowed the collection surface — removed the Level 2 detailed-behavior tier (tab switches, page dwell time, sidebar toggles, and theme changes are no longer collected); removed update-check events; plugin start/stop no longer reports plugin names (plugin ID only); quick launcher clicks report item IDs for plugin/app types only (file/URL types do not report item IDs, preventing file-path leakage).
+>
 > **v1.5.0 changelog:** Enriched data fields across all levels — L0 adds CPU architecture and session duration; L1 adds plugin names, item IDs, and update check events; L2 adds sidebar toggle and theme change events.
 >
 > **v1.4.0 changelog:** All data collection levels (including L0 Core) are now fully opt-in. Removed forced/mandatory language for L0. No data is collected until the user explicitly enables cloud analytics in Settings.
@@ -20,60 +24,32 @@ language: en
 
 This Privacy Policy describes how My Desktop Tools ("the Application", "we") collects, uses, and protects your data.
 
-## Data Collection Levels
+## Data Collection
 
-We implement a three-tier data collection model:
+Cloud analytics is a **single, fully optional switch (opt-in, disabled by default)**: until you explicitly enable it in "Settings → Privacy", the Application sends no analytics data to any server.
 
-### Level 0 — Core Runtime Data (Optional, Opt-in)
+When enabled, the following **anonymous usage statistics** are collected:
 
-When enabled, the following data points are collected:
-
-- Application start/exit events (including session duration in seconds)
-- **Session initialization event** (a "pageview" sent once on startup to establish a visitor session in the analytics dashboard; enables aggregate visitor counts, country distribution, and referrer statistics)
+- Application start / exit events (the exit event includes session duration in seconds)
+- **Session initialization event** (a "pageview" sent once on startup to establish a visitor session in the analytics dashboard; enables aggregate visitor counts)
 - Application version number
-- Operating system type (Windows/macOS/Linux)
-- CPU architecture (e.g., x86_64, aarch64)
-- Interface language (e.g., zh-CN, en-US)
-- Anonymous device identifier (randomly generated UUID v4, not derived from hardware fingerprints)
-- Screen resolution (e.g., 1920x1080, for device analytics only)
+- Operating system type (Windows / macOS / Linux)
+- Interface language (zh-CN / en-US)
+- Plugin start / stop events (plugin ID only; the stop event includes duration in seconds, **no plugin names**)
+- Quick launcher click events (item type only; plugin/app types include the item ID, **file/URL types do not report item IDs and no file paths are collected**)
+- Anonymous device identifier (randomly generated UUID, not derived from hardware fingerprints)
 
 In addition, every analytics request carries the following **fixed metadata** (constant values shared by all users, containing no personal or device-specific information):
 
-- `url`: A virtual route identifier (e.g., `app://main`, `app://plugin/pomodoro`)
+- `url`: A virtual route identifier (e.g., `app://main`)
 - `title`: The constant application name "My Desktop Tools"
 - `hostname`: The constant pseudo-hostname `app.my-desktop-tools.local`
-- `referrer`: The constant project homepage URL (the open-source repository link)
-
-These fixed values are used solely for the analytics dashboard's routing/context display and do not vary per user.
-
-**Legal Basis:** Consent — opt-in only, disabled by default. The user can enable this in Settings → Privacy → Cloud Analytics.
-
-> **Note:** The anonymous device ID is generated once using SHA-256(timestamp + process ID), persisted locally, and used solely for session grouping in the analytics dashboard. It cannot be reversed to identify your hardware or identity.
-
-### Level 1 — Aggregate Statistics (Optional, Opt-in)
-
-When enabled, the following aggregated data is collected:
-
-- Plugin start/stop events (plugin ID, plugin name, duration in seconds)
-- Quick launcher click events (item ID, item type)
-- Update check events (source: auto, attempt number)
-
-All data is aggregated and contains no personal identifiers.
 
 **Legal Basis:** Consent — opt-in only, disabled by default.
 
-### Level 2 — Detailed Behavior (Optional, Opt-in)
+> **Anonymous device ID note:** Generated once at random (not derived from hardware fingerprints) and stored locally only; used solely for session grouping in the analytics dashboard. It cannot be reversed to identify your hardware or identity.
 
-When enabled, the following behavioral data is collected:
-
-- Tab switches (route path transitions)
-- Page dwell time (duration per route)
-- Sidebar toggle events (visibility state)
-- Theme change events (dark/light)
-
-Requires Level 1 to be enabled first.
-
-**Legal Basis:** Consent — opt-in only, disabled by default.
+> **Historical tiers note:** Versions up to v1.6.0 used an L0 / L1 / L2 tiered model. The L2 detailed-behavior tier (tab switches, page dwell, sidebar, theme) was removed in v1.6.0; as of v1.7.0, L0 and L1 are merged into the single list above, and screen resolution, CPU architecture, and the referrer field are no longer collected. The corresponding tier switches in older configuration files are deprecated and have no effect.
 
 ## What We Do NOT Collect
 
@@ -84,6 +60,7 @@ We explicitly do **not** collect:
 - Clipboard contents
 - Browser history or credentials
 - Hardware serial numbers
+- Hardware specs such as screen resolution or CPU model/architecture
 
 ## IP Address & Network Data
 
@@ -123,8 +100,8 @@ When cloud analytics is enabled, data is sent to a developer self-hosted Umami a
 
 ## Your Rights
 
-- **Access:** You can view what data types are collected (see Data Collection Levels above)
-- **Deletion:** You can clear all uploaded cloud analytics data at any time via Settings → Privacy → "Delete My Data"
+- **Access:** You can view what data types are collected (see Data Collection Levels above; the Settings → Privacy page provides a transparency card covering "what is collected / where it is sent / how to manage it")
+- **Deletion (local):** You can clear the local pending upload queue and turn off reporting at any time via Settings → Privacy → "Delete My Data". Note that this does **not** delete data already uploaded to the cloud (the analytics service has no per-record deletion API); uploaded data is automatically purged after the 90-day retention period
 - **Revocation:** You can disable cloud analytics at any time via Settings → Privacy
 - **Opt-out:** All optional data collection is opt-in (off by default). No action needed to stay fully offline
 

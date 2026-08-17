@@ -1,3 +1,20 @@
+# v1.2.0 Release Notes (2026-08-17)
+
+## Maintenance
+- Version sync release: no functional changes; aligned metadata versioning with the latest release pipeline
+
+<details>
+<summary>中文说明</summary>
+
+# v1.2.0 更新说明 (2026-08-17)
+
+## 维护
+- 版本同步发布：无功能性变更，与最新发版流程的元数据版本对齐
+
+</details>
+
+---
+
 # v1.0.0 Release Notes (2026-08-12)
 
 ## Features

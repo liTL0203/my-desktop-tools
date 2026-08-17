@@ -1,3 +1,22 @@
+# v1.1.0 Release Notes (2026-08-17)
+
+## Maintenance
+- Added bilingual metadata (purpose/useCases/longDescription/features) via metadata.json to enrich marketplace detail display
+- Version sync release: no functional changes
+
+<details>
+<summary>中文说明</summary>
+
+# v1.1.0 更新说明 (2026-08-17)
+
+## 维护
+- 新增 metadata.json 双语元数据（purpose/useCases/longDescription/features），丰富商城详情弹窗展示
+- 版本同步发布：无功能性变更
+
+</details>
+
+---
+
 # v1.0.0 Release Notes (2026-08-14)
 
 ## New Features

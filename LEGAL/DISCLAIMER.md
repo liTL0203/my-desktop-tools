@@ -1,13 +1,13 @@
 ---
 title: Disclaimer
-version: 1.0.1
-updated: 2026-07-20
+version: 1.1.0
+updated: 2026-08-16
 language: en
 ---
 
 # Disclaimer
 
-**Last Updated:** 2026-06-25
+**Last Updated:** 2026-08-16
 
 By downloading, installing, or using My Desktop Tools ("the Software", "the Application"), you acknowledge that you have read and understood the following disclaimer and agree to be bound by its terms.
 
@@ -27,9 +27,11 @@ By downloading, installing, or using My Desktop Tools ("the Software", "the Appl
 
 This application collects minimal data necessary for operation. For details on data collection levels and your rights, please refer to the [Privacy Policy](./PRIVACY.md).
 
-## Open Source
+## Licensing & Availability
 
-This application is open-source software. The source code is available on the [Gitee repository](https://gitee.com/li_tl/my-desktop-tools).
+- This software is **free-to-use but closed-source**: installers can be downloaded and used for free from the [project release page](https://github.com/liTL0203/my-desktop-tools/releases); the source code is not publicly available.
+- Free use comes with minor feature limitations (e.g., a cap on simultaneously running plugins), which can be unlocked via sponsorship — see "Settings → Sponsor Verification" in the app.
+- The **plugin development template** (plugin-dev-kit) for developers is a separate open-source project, unrelated to the licensing of this application.
 
 ## Responsible Party
 
