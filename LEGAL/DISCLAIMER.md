@@ -1,13 +1,13 @@
 ---
 title: Disclaimer
-version: 1.1.0
-updated: 2026-08-16
+version: 1.2.0
+updated: 2026-08-18
 language: en
 ---
 
 # Disclaimer
 
-**Last Updated:** 2026-08-16
+**Last Updated:** 2026-08-18
 
 By downloading, installing, or using My Desktop Tools ("the Software", "the Application"), you acknowledge that you have read and understood the following disclaimer and agree to be bound by its terms.
 
@@ -29,9 +29,10 @@ This application collects minimal data necessary for operation. For details on d
 
 ## Licensing & Availability
 
-- This software is **free-to-use but closed-source**: installers can be downloaded and used for free from the [project release page](https://github.com/liTL0203/my-desktop-tools/releases); the source code is not publicly available.
-- Free use comes with minor feature limitations (e.g., a cap on simultaneously running plugins), which can be unlocked via sponsorship — see "Settings → Sponsor Verification" in the app.
-- The **plugin development template** (plugin-dev-kit) for developers is a separate open-source project, unrelated to the licensing of this application.
+- This software is a **non-commercial free application**, independently developed and maintained by a single developer in spare time, not for profit.
+- The core source code is not publicly available; installers can be downloaded and used for free from the [project release page](https://github.com/liTL0203/my-desktop-tools/releases).
+- Free use comes with a few usage limits (e.g., a cap on simultaneously running plugins). If you find this software helpful, you are welcome to **sponsor** the developer on Afdian — a voluntary token of appreciation and support that removes these limits. Sponsorship is not a purchase or paid unlock of the software; see "Settings → Sponsor Verification" in the app.
+- The plugin ecosystem is open: you can manually download, install and use any plugin you like from the in-app marketplace or the release page, and you can build your own plugins on top of the open-source **plugin development template** (plugin-dev-kit) to integrate with this application. The template is a separate open-source project, unrelated to the licensing of this application.
 
 ## Responsible Party
 

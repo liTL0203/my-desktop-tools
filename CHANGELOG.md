@@ -6,6 +6,27 @@
 
 ---
 
+# v0.43.0 (2026-08-18)
+
+## New Features
+
+- **Quick Launcher File Tree**: Added a file result tree panel with directory hierarchy for file search results, making navigation faster and more intuitive
+- **Quick Launcher AI Assistance**: Added AI intent parsing and full-disk content search, with AI intent cards and context menu icons for smarter retrieval
+- **Unified Background Task Center**: Replaced frontend aggregation with a unified background task center, providing consistent task status management
+- **Quick Action Search Box**: Added an operation search box with Quick Launcher entry to the Quick Action panel
+
+## Improvements
+
+- **Quick Launcher Performance**: Optimized responsiveness and rendering speed
+- **Quick Launcher i18n**: Implemented full multilingual support with shortcut key display optimization
+- **Lucide Icon Unification**: Replaced text icons with Lucide icons in background task indicators
+- **Privacy Analytics Simplified**: Reduced analytics system to a single toggle
+- **Legal Documents Refactored**: Rebuilt legal document display with a generic Markdown dialog
+- **Plugin Stop Stability**: Fixed UI flicker and caching issues when stopping plugins on Windows
+- **Icon Redesign**: Completed project icon redesign and updated installer resources
+
+---
+
 # v0.42.1 (2026-08-13)
 
 ## Improvements
