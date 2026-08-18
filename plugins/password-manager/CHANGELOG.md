@@ -1,3 +1,20 @@
+# v1.2.1 Release Notes (2026-08-18)
+
+## Maintenance
+- Version sync release: no functional changes since v1.2.0
+
+<details>
+<summary>中文说明</summary>
+
+# v1.2.1 更新说明 (2026-08-18)
+
+## 维护
+- 版本同步发布：自 v1.2.0 以来无功能性变更
+
+</details>
+
+---
+
 # v1.2.0 Release Notes (2026-08-17)
 
 ## Maintenance

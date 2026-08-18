@@ -1,3 +1,20 @@
+# v1.1.1 Release Notes (2026-08-18)
+
+## Maintenance
+- Version sync release: no functional changes; aligned with the latest marketplace icon loading optimization
+
+<details>
+<summary>中文说明</summary>
+
+# v1.1.1 更新说明 (2026-08-18)
+
+## 维护
+- 版本同步发布：无功能性变更，与最新商城图标加载优化对齐
+
+</details>
+
+---
+
 # v1.1.0 Release Notes (2026-08-17)
 
 ## Maintenance

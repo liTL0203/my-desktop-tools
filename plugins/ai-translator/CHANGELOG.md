@@ -1,3 +1,20 @@
+# v1.2.1 Release Notes (2026-08-18)
+
+## Improvements
+- **Marketplace Icon Loading**: Optimized plugin market icon loading mechanism with unified sponsorship terminology
+
+<details>
+<summary>中文说明</summary>
+
+# v1.2.1 更新说明 (2026-08-18)
+
+## 改进
+- **商城图标加载**：优化商城插件图标加载机制，统一付费相关术语为赞助
+
+</details>
+
+---
+
 # v1.2.0 Release Notes (2026-08-17)
 
 ## Maintenance

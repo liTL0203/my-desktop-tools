@@ -1,3 +1,22 @@
+# v1.2.1 Release Notes (2026-08-18)
+
+## Bug Fixes
+- **Cascading Dialog Close**: Fixed multi-dialog cascading close issue when closing from a table view context
+- **Table View Enhancements**: Improved table view functionality and interaction
+
+<details>
+<summary>中文说明</summary>
+
+# v1.2.1 更新说明 (2026-08-18)
+
+## 修复
+- **多弹窗连锁关闭**：修复从表格视图上下文关闭时多弹窗连锁关闭问题
+- **表格视图增强**：改进表格视图功能与交互
+
+</details>
+
+---
+
 # v1.2.0 Release Notes (2026-08-17)
 
 ## Maintenance

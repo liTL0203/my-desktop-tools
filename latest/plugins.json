@@ -3,7 +3,7 @@
     {
       "id": "ai-translator",
       "name": "AI 翻译",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -13,12 +13,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/ai-translator/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/ai-translator/icon.png",
       "tags": [],
-      "downloadSize": 320100,
+      "downloadSize": 322574,
       "requiresPayment": false,
       "supportedModes": [
         "popup"
       ],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-18",
       "purpose": {
         "en": "Frequent context switching to translation tools disrupts workflow. This plugin embeds AI translation into the desktop—select text, get instant results.",
         "zh": "在阅读外文资料、编写国际化代码或与海外同事沟通时，频繁切换翻译工具打断工作流。AI 翻译插件将翻译能力嵌入桌面，选中即译，让语言不再成为障碍。"
@@ -59,7 +59,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -69,13 +69,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-format/icon.png",
       "tags": [],
-      "downloadSize": 853567,
+      "downloadSize": 881191,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-18",
       "purpose": {
         "en": "Developers frequently handle complex JSON data when debugging APIs, editing configs, or exchanging data. This plugin integrates formatting, compression, querying, and visualization into one tool.",
         "zh": "开发者在调试 API、配置文件、数据交换时经常需要处理复杂的 JSON 数据。JSON 格式化插件将格式化、压缩、查询、可视化整合到一个工具中，替代多个在线工具。"
@@ -116,7 +116,7 @@
     {
       "id": "json-to-excel",
       "name": "JSON 转 Excel",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "将 JSON 数据一键转换为 Excel 表格，支持嵌套展开、多 Sheet、数据预览",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -126,12 +126,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-to-excel/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-to-excel/icon.png",
       "tags": [],
-      "downloadSize": 733728,
+      "downloadSize": 729466,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-18",
       "purpose": {
         "en": "Manually converting JSON data into Excel spreadsheets is tedious, and online converters pose data privacy risks. This plugin provides a local, offline JSON-to-Excel converter with nested object flattening and multi-sheet support.",
         "zh": "手动将 JSON 数据转换为 Excel 表格既繁琐又耗时，在线转换工具还存在数据隐私风险。本插件提供本地离线的 JSON 转 Excel 工具，支持嵌套对象自动展开和多 Sheet 导出。"
@@ -176,7 +176,7 @@
     {
       "id": "password-manager",
       "name": "密码管理器",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "本地零知识加密密码保险库：主密码 + Windows Hello 解锁、密码生成器、安全体检、Popup 快速取密",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -186,13 +186,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/password-manager/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/password-manager/icon.png",
       "tags": [],
-      "downloadSize": 1660406,
+      "downloadSize": 1661245,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-18",
       "purpose": {
         "en": "Reusing a few passwords across dozens of sites is the norm, and cloud password managers raise privacy concerns. This plugin provides a local zero-knowledge vault with fast Windows Hello unlock, instant search-copy, and a password health dashboard.",
         "zh": "在几十个网站之间复用少量密码是常态，而云端密码管理器又带来隐私顾虑。本插件提供本地零知识加密密码保险库，支持 Windows Hello 快速解锁、即搜即复制和密码健康体检。"
@@ -239,7 +239,7 @@
     {
       "id": "pomodoro",
       "name": "番茄钟",
-      "version": "2.1.1",
+      "version": "2.1.2",
       "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -249,13 +249,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pomodoro/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pomodoro/icon.png",
       "tags": [],
-      "downloadSize": 427551,
+      "downloadSize": 429094,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-07-14",
+      "updatedAt": "2026-08-18",
       "purpose": {
         "en": "Modern life is full of distractions. This plugin applies the classic Pomodoro Technique (25min focus + 5min break) to help overcome procrastination and build healthy deep work habits.",
         "zh": "现代生活中干扰无处不在，社交媒体、邮件、消息通知不断打断专注。番茄钟 Pro 基于经典的番茄工作法（25 分钟专注 + 5 分钟休息），帮助你克服拖延症，建立健康的深度工作习惯。"
@@ -302,7 +302,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
-      "version": "2.8.0",
+      "version": "2.8.1",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -312,13 +312,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/proxy-switch/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/proxy-switch/icon.png",
       "tags": [],
-      "downloadSize": 3170005,
+      "downloadSize": 3171132,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-18",
       "purpose": {
         "en": "Manually switching proxy nodes in multi-proxy environments is tedious and error-prone. This plugin integrates node management, rule engine, and auto-switching strategies into one tool.",
         "zh": "在多代理环境下手动切换代理节点既繁琐又容易出错。代理切换插件将节点管理、规则引擎、自动切换策略整合到一个工具中，让网络代理管理变得简单高效。"
@@ -363,7 +363,7 @@
     {
       "id": "sys-info",
       "name": "系统信息",
-      "version": "1.2.0",
+      "version": "1.2.1",
       "description": "一键获取电脑系统、硬件、网络全量信息，支持实时监控与报告导出",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -373,13 +373,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sys-info/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sys-info/icon.png",
       "tags": [],
-      "downloadSize": 374026,
+      "downloadSize": 373212,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-17",
+      "updatedAt": "2026-08-18",
       "purpose": {
         "en": "When troubleshooting hardware, upgrading configs, or diagnosing networks, users need a quick system overview. This plugin consolidates scattered system tools into a unified interface.",
         "zh": "在排查硬件问题、升级配置、网络诊断时，用户需要快速获取系统全貌。系统信息插件将分散在各处的系统工具整合为统一界面，一站式查看所有关键信息。"

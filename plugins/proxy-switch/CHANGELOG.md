@@ -1,3 +1,22 @@
+# v2.8.1 Release Notes (2026-08-18)
+
+## Maintenance
+- **Build File Update**: Refreshed plugin build configuration files for release pipeline alignment
+- Version sync release: no functional changes
+
+<details>
+<summary>中文说明</summary>
+
+# v2.8.1 更新说明 (2026-08-18)
+
+## 维护
+- **构建文件更新**：刷新插件构建配置文件以对齐发版流水线
+- 版本同步发布：无功能性变更
+
+</details>
+
+---
+
 # v2.8.0 Release Notes (2026-08-17)
 
 ## Maintenance

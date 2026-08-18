@@ -1,3 +1,20 @@
+# v2.1.2 Release Notes (2026-08-18)
+
+## Maintenance
+- Version sync release: no functional changes; explicitly marked as public plugin (private: false)
+
+<details>
+<summary>中文说明</summary>
+
+# v2.1.2 更新说明 (2026-08-18)
+
+## 维护
+- 版本同步发布：无功能性变更；显式标记为公开插件（private: false）
+
+</details>
+
+---
+
 # v2.1.0 Release Notes (2026-07-14)
 
 ## New Features
