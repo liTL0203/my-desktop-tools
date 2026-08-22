@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.43.0 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.43.0/My%20Desktop%20Tools_0.43.0_x64_en-US.msi) |
+| v0.44.0 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.44.0/My.Desktop.Tools_0.44.0_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.44.0/My.Desktop.Tools_0.44.0_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -19,10 +19,10 @@
 | ai-translator | 1.2.1 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.2.1/ai-translator-1.2.1.zip) |
 | json-format | 1.2.1 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.2.1/json-format-1.2.1.zip) |
 | json-to-excel | 1.1.1 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v1.1.1/json-to-excel-1.1.1.zip) |
-| password-manager | 1.2.1 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v1.2.1/password-manager-1.2.1.zip) |
+| password-manager | 1.3.0 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v1.3.0/password-manager-1.3.0.zip) |
 | pomodoro | 2.1.2 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.2/pomodoro-2.1.2.zip) |
 | proxy-switch | 2.8.1 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v2.8.1/proxy-switch-2.8.1.zip) |
-| sys-info | 1.2.1 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v1.2.1/sys-info-1.2.1.zip) |
+| sys-info | 1.3.0 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v1.3.0/sys-info-1.3.0.zip) |
 
 ## 💻 系统要求
 

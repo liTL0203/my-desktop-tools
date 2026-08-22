@@ -6,6 +6,27 @@
 
 ---
 
+# v0.44.0 (2026-08-22)
+
+## New Features
+
+- **Quick Launcher Shortcut Redesign**: Redefined shortcut keys with type-label counts and Tab cycling for faster navigation
+- **Quick Launcher Two-Zone Architecture**: Rebuilt result area into a two-zone layout, fixing four navigation defects
+- **UWP & App Paths Support**: Quick Launcher now discovers UWP applications and App Paths registry sources for more complete app search
+- **Feedback UI System**: New in-app feedback UI with channel guidelines for reporting issues
+- **CSV Auto-Open**: Exported CSV files now open automatically after export
+
+## Improvements
+
+- **Quick Action Performance**: Optimized panel performance and data transfer mechanism
+- **Plugin Architecture Stability**: Improved plugin orchestration stability and resource management
+- **Backup Rollback Reliability**: Rebuilt core backup rollback mechanism for higher reliability
+- **Quick Launcher UX**: Enhanced overall experience and responsiveness
+- **Sidebar Layout**: Optimized sidebar structure and scroll behavior
+- **Markdown Table Style**: Fixed table styling in Markdown document dialogs
+
+---
+
 # v0.43.0 (2026-08-18)
 
 ## New Features

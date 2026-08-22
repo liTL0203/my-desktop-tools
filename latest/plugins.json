@@ -176,7 +176,7 @@
     {
       "id": "password-manager",
       "name": "密码管理器",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "description": "本地零知识加密密码保险库：主密码 + Windows Hello 解锁、密码生成器、安全体检、Popup 快速取密",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -186,13 +186,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/password-manager/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/password-manager/icon.png",
       "tags": [],
-      "downloadSize": 1661245,
+      "downloadSize": 1675419,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-08-18",
+      "updatedAt": "2026-08-19",
       "purpose": {
         "en": "Reusing a few passwords across dozens of sites is the norm, and cloud password managers raise privacy concerns. This plugin provides a local zero-knowledge vault with fast Windows Hello unlock, instant search-copy, and a password health dashboard.",
         "zh": "在几十个网站之间复用少量密码是常态，而云端密码管理器又带来隐私顾虑。本插件提供本地零知识加密密码保险库，支持 Windows Hello 快速解锁、即搜即复制和密码健康体检。"
@@ -363,7 +363,7 @@
     {
       "id": "sys-info",
       "name": "系统信息",
-      "version": "1.2.1",
+      "version": "1.3.0",
       "description": "一键获取电脑系统、硬件、网络全量信息，支持实时监控与报告导出",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -373,7 +373,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sys-info/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sys-info/icon.png",
       "tags": [],
-      "downloadSize": 373212,
+      "downloadSize": 397921,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
