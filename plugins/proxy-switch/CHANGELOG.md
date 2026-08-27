@@ -1,3 +1,20 @@
+# v3.1.1 Release Notes (2026-08-27)
+
+## Improvements
+- **SettingsTab Layout**: Added component inner padding to improve visual spacing and readability of the settings page
+
+<details>
+<summary>中文说明</summary>
+
+# v3.1.1 更新说明 (2026-08-27)
+
+## 改进
+- **设置页布局**：为设置页组件添加内边距，改善视觉间距与可读性
+
+</details>
+
+---
+
 # v3.1.0 Release Notes (2026-08-27)
 
 ## Maintenance

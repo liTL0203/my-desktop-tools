@@ -21,7 +21,7 @@
 | json-to-excel | 1.1.1 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v1.1.1/json-to-excel-1.1.1.zip) |
 | password-manager | 1.4.1 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v1.4.1/password-manager-1.4.1.zip) |
 | pomodoro | 2.1.2 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.1.2/pomodoro-2.1.2.zip) |
-| proxy-switch | 3.1.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.1.0/proxy-switch-3.1.0.zip) |
+| proxy-switch | 3.1.1 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.1.1/proxy-switch-3.1.1.zip) |
 | sys-info | 1.3.0 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v1.3.0/sys-info-1.3.0.zip) |
 
 ## 💻 系统要求
