@@ -6,6 +6,18 @@
 
 ---
 
+# v0.44.1 (2026-08-27)
+
+## New Features
+
+- **Quick Action Warm-up i18n**: The quick action panel now supports full internationalization during its pre-warm phase, so localized labels render correctly even on first launch
+
+## Fixes
+
+- **Display Consistency**: Improved label rendering consistency across locales in the quick action panel
+
+---
+
 # v0.44.0 (2026-08-22)
 
 ## New Features
