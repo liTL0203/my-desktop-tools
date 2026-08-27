@@ -302,7 +302,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
-      "version": "3.0.4",
+      "version": "3.1.0",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -312,7 +312,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/proxy-switch/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/proxy-switch/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 3225571,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",

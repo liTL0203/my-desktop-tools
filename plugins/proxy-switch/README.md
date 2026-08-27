@@ -28,6 +28,7 @@
 - When TUN is enabled, all system traffic will be intercepted — ensure at least one working proxy node is available
 - If using V2RayN/Clash simultaneously, keep only their port listening enabled and disable their system proxy/TUN
 - Data is stored locally and never uploaded
+- **DNS safety net**: While TUN is enabled, physical NIC DNS is set to 127.0.0.1. The plugin declares `gracefulShutdown` — on normal stop/exit, Core gives it up to 2s to restore original DNS. If the sidecar is force-killed in Task Manager while TUN is active, DNS may be left pointing to 127.0.0.1; simply start the plugin once again and it will self-heal automatically on startup
 
 ## Version History
 
@@ -83,6 +84,7 @@
 - 启用 TUN 后系统所有流量将被拦截，请确保至少有一个可用的代理节点
 - 如果同时使用 V2RayN/Clash 等工具，请仅保留其端口监听功能，关闭其系统代理/TUN
 - 数据存储在本地，不会上传
+- **DNS 保底保障**：TUN 启用期间物理网卡 DNS 会被设为 127.0.0.1。插件已声明 `gracefulShutdown`，正常停止/退出时 Core 会给最多 2 秒恢复原 DNS；若在任务管理器强制结束 sidecar 进程，DNS 可能遗留为 127.0.0.1，此时再次启动本插件即可在启动时自动检测并恢复（自愈）
 
 ## 版本信息
 

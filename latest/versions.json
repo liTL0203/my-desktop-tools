@@ -1,10 +1,10 @@
 {
   "core": "0.44.1",
   "coreNotes": "## New Features\r\n\r\n- **Quick Action Warm-up i18n**: The quick action panel now supports full internationalization during its pre-warm phase, so localized labels render correctly even on first launch\r\n\r\n## Fixes\r\n\r\n- **Display Consistency**: Improved label rendering consistency across locales in the quick action panel\r\n\r\n<details>\r\n<summary>中文说明</summary>\r\n\r\n## 新增功能\r\n\r\n- **快捷操作预热国际化**：快捷操作面板在预热阶段支持完整国际化，首次启动也能正确渲染本地化文案\r\n\r\n## 修复\r\n\r\n- **显示一致性**：改进快捷操作面板在不同语言环境下的标签渲染一致性\r\n\r\n</details>",
-  "pubDate": "2026-08-27T10:48:25.732Z",
+  "pubDate": "2026-08-27T10:53:04.378Z",
   "plugins": {
     "pomodoro": "2.1.2",
-    "proxy-switch": "2.8.1",
+    "proxy-switch": "3.1.0",
     "ai-translator": "1.2.1",
     "json-format": "1.2.1",
     "sys-info": "1.2.1",
