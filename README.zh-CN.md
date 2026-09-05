@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v0.44.1 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.44.1/My%20Desktop%20Tools_0.44.1_x64_en-US.msi) |
+| v0.45.0 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.45.0/My.Desktop.Tools_0.45.0_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.45.0/My.Desktop.Tools_0.45.0_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -17,6 +17,7 @@
 | 插件 | 版本 | 说明 | 版本历史 | 下载 |
 |------|------|------|----------|------|
 | ai-translator | 1.2.1 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.2.1/ai-translator-1.2.1.zip) |
+| crypto-toolkit | 1.2.0 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.2.0/crypto-toolkit-1.2.0.zip) |
 | json-format | 1.2.1 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.2.1/json-format-1.2.1.zip) |
 | json-to-excel | 1.1.1 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v1.1.1/json-to-excel-1.1.1.zip) |
 | password-manager | 1.4.1 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v1.4.1/password-manager-1.4.1.zip) |

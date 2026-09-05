@@ -6,6 +6,30 @@
 
 ---
 
+# v0.45.0 (2026-09-05)
+
+## New Features
+
+- **Tool Tabs**: Tools you open now stay as tabs at the top of the window — switch with a single click, close any of them individually, and each tool remembers exactly where you left off
+- **Refreshed Top Bar**: History and Settings have moved into the top bar for quicker access, together with a new collapsible side panel that keeps useful pages within reach
+- **Quick Action Guide**: A dedicated help panel in the Quick Action bar now explains every shortcut in one place, making power features easier to discover
+
+## Bug Fixes
+
+- **Hotkey Reliability**: Fixed an issue where shortcuts could still fire while a tool tab was hidden in the background
+- **Layout Fixes**: Resolved misaligned labels in the navigation area and an overflowing shortcut bar on narrow windows
+- **Stability**: Hardened chart rendering and the AI quick-answer experience against rare edge cases that could leave them in an inconsistent state
+
+## Improvements
+
+- **Lower Background Footprint**: While the main window is hidden, the app now shifts background processes into a power-saving state and reclaims unused memory, so the toolbox stays light while resting in the tray
+- **Reduced Memory Usage**: Finer control over page caching and chart lifecycles brings the overall memory footprint of the main window down
+- **Faster Navigation**: The app no longer runs unnecessary polling while hidden, and switching between pages feels noticeably snappier
+- **Quality Hardening**: A comprehensive internal quality pass across the entire codebase makes this release more stable and dependable overall
+- **Polish**: Minor spacing refinements in the Settings page
+
+---
+
 # v0.44.1 (2026-08-27)
 
 ## New Features

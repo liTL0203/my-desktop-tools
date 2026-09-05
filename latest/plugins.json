@@ -57,13 +57,74 @@
       }
     },
     {
+      "id": "crypto-toolkit",
+      "name": "加密解密工具箱",
+      "version": "1.2.0",
+      "description": "本地加密解密与压缩工具：Base64/Hex/URL 编码、AES/ChaCha20/国密加解密、哈希摘要、经典密码、文件压缩成字符串与还原",
+      "author": "My Desktop Tools",
+      "authorUrl": "",
+      "category": "dev-tools",
+      "icon": "package",
+      "iconVariant": "blue",
+      "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/crypto-toolkit/icon.png",
+      "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/crypto-toolkit/icon.png",
+      "tags": [],
+      "downloadSize": 1383073,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop",
+        "popup"
+      ],
+      "updatedAt": "",
+      "purpose": {
+        "en": "Developers constantly juggle encoded strings (Base64/Hex/JWT), digests, and cipher payloads between browsers, terminals, and docs — usually via random websites that leak data. This plugin bundles the full crypto/encoding workflow into one offline toolbox with zero-trace privacy.",
+        "zh": "开发者经常在浏览器、终端、文档之间来回处理编码字符串（Base64/Hex/JWT）、摘要与密文，通常求助随机网站、存在数据泄露风险。本插件把完整加密/编码工作流装进一个离线工具箱，零痕迹保护隐私。"
+      },
+      "useCases": {
+        "en": [
+          "Decode base64/hex/JWT strings from API responses during integration debugging",
+          "Compress a file into a base64 string, send it over any text channel, and restore it on the other side",
+          "Cross-check AES-256-GCM encryption between frontend (WebCrypto) and backend (openssl)",
+          "Solve CTF-style classical ciphers (Caesar brute force, Vigenere, rail fence) locally"
+        ],
+        "zh": [
+          "联调时解码 API 响应里的 Base64/Hex/JWT 字符串",
+          "把文件压缩成 Base64 字符串，经任意文本通道发送后在对端还原",
+          "交叉验证前端（WebCrypto）与后端（openssl）的 AES-256-GCM 加密结果",
+          "本地破解 CTF 风格经典密码（凯撒枚举、维吉尼亚、栅栏）"
+        ]
+      },
+      "longDescription": {
+        "en": "An offline cryptography and compression toolbox: 11 encoding schemes (Base16-85, URL, HTML entity, Unicode escape, Morse), hashing (MD5/SHA/SHA3/SM3/CRC32/HMAC), symmetric ciphers (AES all modes, ChaCha20, SM4, DES/3DES, RC4, Blowfish), RSA and JWT tooling, KDF (PBKDF2/Argon2id), classical ciphers, smart format detection, and two-way file-to-compressed-string transfer. All heavy computation runs in a local Rust sidecar — nothing ever leaves your device.",
+        "zh": "离线加密与压缩工具箱：11 种编码（Base16-85、URL、HTML 实体、Unicode 转义、摩斯电码）、哈希（MD5/SHA 全系/SHA3/SM3/CRC32/HMAC）、对称加密（AES 全模式、ChaCha20、SM4、DES/3DES、RC4、Blowfish）、RSA 与 JWT 工具、密钥派生（PBKDF2/Argon2id）、经典密码、智能格式识别、文件⇄压缩字符串双向互转。重计算全部在本地 Rust sidecar 中完成——数据永不出设备。"
+      },
+      "features": {
+        "en": [
+          "23 tools: encoding, hashing, symmetric/asymmetric ciphers, JWT, KDF, compression, generators",
+          "Smart detection: paste anything, get ranked candidates with confidence and one-click jump",
+          "QuickAction integration: decode/hash/parse selected text directly from the popup",
+          "File pipeline: hash / compress / Base64 / encrypt files up to 200MB with progress",
+          "Zero-trace: keys and plaintext never touch logs or disk cache",
+          "Live computing with 120ms adaptive debounce, all crypto in native Rust"
+        ],
+        "zh": [
+          "23 个工具：编码、哈希、对称/非对称加密、JWT、KDF、压缩、生成器",
+          "智能识别：粘贴任意内容，按置信度排序候选并一键跳转预填",
+          "QuickAction 联动：弹窗中直接解码/哈希/解析选中文本",
+          "文件管线：哈希/压缩/Base64/加密最高 200MB 文件，带进度与取消",
+          "零痕迹：密钥与明文永不写日志、不落盘",
+          "即算模式 120ms 自适应防抖，全部密码学计算走原生 Rust"
+        ]
+      }
+    },
+    {
       "id": "json-format",
       "name": "JSON 格式化",
       "version": "1.2.1",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
-      "category": "system-tools",
+      "category": "dev-tools",
       "icon": "package",
       "iconVariant": "blue",
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
@@ -120,7 +181,7 @@
       "description": "将 JSON 数据一键转换为 Excel 表格，支持嵌套展开、多 Sheet、数据预览",
       "author": "My Desktop Tools",
       "authorUrl": "",
-      "category": "system-tools",
+      "category": "dev-tools",
       "icon": "package",
       "iconVariant": "blue",
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-to-excel/icon.png",

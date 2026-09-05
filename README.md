@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v0.44.1 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.44.1/My%20Desktop%20Tools_0.44.1_x64_en-US.msi) |
+| v0.45.0 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.45.0/My.Desktop.Tools_0.45.0_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v0.45.0/My.Desktop.Tools_0.45.0_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -17,6 +17,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
 | ai-translator | 1.2.1 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v1.2.1/ai-translator-1.2.1.zip) |
+| crypto-toolkit | 1.2.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.2.0/crypto-toolkit-1.2.0.zip) |
 | json-format | 1.2.1 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.2.1/json-format-1.2.1.zip) |
 | json-to-excel | 1.1.1 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v1.1.1/json-to-excel-1.1.1.zip) |
 | password-manager | 1.4.1 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v1.4.1/password-manager-1.4.1.zip) |
