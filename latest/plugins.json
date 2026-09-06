@@ -69,13 +69,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/crypto-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/crypto-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 1383073,
+      "downloadSize": 1484046,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "",
+      "updatedAt": "2026-09-05",
       "purpose": {
         "en": "Developers constantly juggle encoded strings (Base64/Hex/JWT), digests, and cipher payloads between browsers, terminals, and docs — usually via random websites that leak data. This plugin bundles the full crypto/encoding workflow into one offline toolbox with zero-trace privacy.",
         "zh": "开发者经常在浏览器、终端、文档之间来回处理编码字符串（Base64/Hex/JWT）、摘要与密文，通常求助随机网站、存在数据泄露风险。本插件把完整加密/编码工作流装进一个离线工具箱，零痕迹保护隐私。"
