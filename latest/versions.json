@@ -11,5 +11,10 @@
     "json-to-excel": "1.1.1",
     "password-manager": "1.2.1",
     "crypto-toolkit": "1.2.0"
+  },
+  "everything": {
+    "version": "1.4.1.1032",
+    "url": "https://www.voidtools.com/Everything-1.4.1.1032.x64-Setup.exe",
+    "sha256": "c42efad041d4c0bb4d4ac97ae7cbe89f153ec1fe078772392e749c7f5d5282d3"
   }
 }
