@@ -16,5 +16,31 @@
     "version": "1.4.1.1032",
     "url": "https://www.voidtools.com/Everything-1.4.1.1032.x64-Setup.exe",
     "sha256": "c42efad041d4c0bb4d4ac97ae7cbe89f153ec1fe078772392e749c7f5d5282d3"
+  },
+  "aiRuntime": {
+    "version": "0.1.5-rc.2",
+    "revision": "7cfbf046f17ca177",
+    "minCoreVersion": "0.45.0",
+    "size": 366041666,
+    "sha256": "7cfbf046f17ca17794f397ddc90fa3a3058dad65c92a1d6b3b13039206300201",
+    "releasedAt": "2026-09-14",
+    "notes": [
+      {
+        "type": "feat",
+        "text": "AI 引擎支持独立获取与更新，不再随核心安装包分发"
+      },
+      {
+        "type": "imp",
+        "text": "首次启用 AI 服务时自动下载并安装运行时（支持暂停与断点续传）"
+      },
+      {
+        "type": "imp",
+        "text": "运行时与核心版本解耦，引擎可独立升级"
+      }
+    ],
+    "urls": {
+      "gitee": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.1.5-rc.2/dsh-runtime-0.1.5-rc.2.tar.gz",
+      "github": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.1.5-rc.2/dsh-runtime-0.1.5-rc.2.tar.gz"
+    }
   }
 }
