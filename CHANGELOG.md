@@ -6,6 +6,15 @@
 
 ---
 
+# v1.0.2 (2026-09-16)
+
+## New Features
+
+- **One-Click Batch Update**: The plugin marketplace can now update all updatable plugins in a single action — review the list in a confirmation dialog, watch live progress on the toolbar, and let the toolbox handle the rest
+- **Safer for Developers**: Plugins running in development mode are now excluded from batch updates, so your work-in-progress can never be overwritten by published versions
+
+---
+
 # v1.0.1 (2026-09-16)
 
 ## Bug Fixes

@@ -1,7 +1,7 @@
 {
-  "core": "1.0.1",
-  "coreNotes": "## Bug Fixes\n\n- **AI Engine Install Reliability**: Fixed an issue where installing or updating the local AI engine from the cloud could lose track of its installation state, causing the process to appear stuck or unresponsive in rare cases — the engine page now always reflects the true, up-to-date progress\n\n## Improvements\n\n- **Live Progress for AI Engine Setup**: The engine's installation state now updates in real time at every stage — from the moment a download begins, so the status page always shows exactly where things stand\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **AI 引擎安装可靠性**：修复了从云端安装或更新本地 AI 引擎时，个别情况下安装状态记录缺失、导致进度显示停滞或无响应的问题——引擎页现在始终反映真实、最新的进展\n\n## 优化改进\n\n- **AI 引擎部署实时进度**：引擎安装状态现于每个阶段实时更新——自下载开始的那一刻起，状态页始终准确呈现当前所处环节\n\n</details>",
-  "pubDate": "2026-09-16T06:14:25.024Z",
+  "core": "1.0.2",
+  "coreNotes": "## New Features\n\n- **One-Click Batch Update**: The plugin marketplace can now update all updatable plugins in a single action — review the list in a confirmation dialog, watch live progress on the toolbar, and let the toolbox handle the rest\n- **Safer for Developers**: Plugins running in development mode are now excluded from batch updates, so your work-in-progress can never be overwritten by published versions\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **一键批量更新**：插件商城现支持一次更新全部可更新插件——确认弹窗中核对更新列表，工具栏实时显示进度，其余交给工具箱完成\n- **开发者更安心**：开发模式运行的插件不参与批量更新，避免开发中的工作被线上版本覆盖\n\n</details>",
+  "pubDate": "2026-09-16T09:50:11.171Z",
   "plugins": {
     "pomodoro": "2.2.2",
     "proxy-switch": "3.2.1",
