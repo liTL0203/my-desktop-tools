@@ -6,6 +6,18 @@
 
 ---
 
+# v1.0.1 (2026-09-16)
+
+## Bug Fixes
+
+- **AI Engine Install Reliability**: Fixed an issue where installing or updating the local AI engine from the cloud could lose track of its installation state, causing the process to appear stuck or unresponsive in rare cases — the engine page now always reflects the true, up-to-date progress
+
+## Improvements
+
+- **Live Progress for AI Engine Setup**: The engine's installation state now updates in real time at every stage — from the moment a download begins, so the status page always shows exactly where things stand
+
+---
+
 # v1.0.0 (2026-09-16)
 
 ## New Features
