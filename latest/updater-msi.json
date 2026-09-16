@@ -1,11 +1,11 @@
 {
   "version": "1.0.1",
   "notes": "## Bug Fixes\n\n- **AI Engine Install Reliability**: Fixed an issue where installing or updating the local AI engine from the cloud could lose track of its installation state, causing the process to appear stuck or unresponsive in rare cases — the engine page now always reflects the true, up-to-date progress\n\n## Improvements\n\n- **Live Progress for AI Engine Setup**: The engine's installation state now updates in real time at every stage — from the moment a download begins, so the status page always shows exactly where things stand\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **AI 引擎安装可靠性**：修复了从云端安装或更新本地 AI 引擎时，个别情况下安装状态记录缺失、导致进度显示停滞或无响应的问题——引擎页现在始终反映真实、最新的进展\n\n## 优化改进\n\n- **AI 引擎部署实时进度**：引擎安装状态现于每个阶段实时更新——自下载开始的那一刻起，状态页始终准确呈现当前所处环节\n\n</details>",
-  "pub_date": "2026-09-16T03:35:29.289Z",
+  "pub_date": "2026-09-16T06:14:25.019Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEFMOTgycjNtSXd3ajdGQWNXQndMbkxvcjFGY0VSUnV0TUJ0RGdhRFJPSjJPdzhZU0U1RW13U2lKVzBoQ3NGZmEzdTNaQWRCZHpvM1FWbG90QWE4R1FvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NTI5NzExCWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjAuMV94NjRfZW4tVVMubXNpCkZZWUtoajBhWmRHWFN3ekxUS282L080SXVCbDBNOGVGNWhaMUJFajdjNmZpNm9aWFRYamNlS1NUZW5HZXo2M0VHM1FQRytaRk9FUmpzSHpadEdQb0N3PT0K",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.0.1/My.Desktop.Tools_1.0.1_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.0.1/My%20Desktop%20Tools_1.0.1_x64_en-US.msi"
     }
   }
 }

@@ -1,97 +1,51 @@
-# Password Manager
+# 密码管理器 v2.0（M1）用户说明 / Password Manager v2.0 (M1)
 
-> Local zero-knowledge password vault plugin — master password encryption (Argon2id + AES-256-GCM), quick unlock, password generator, health dashboard, and Auto-Type.
+> 本地零知识加密密码保险库——重写版 M1 里程碑。主密码派生密钥 + AES-256-GCM 字段级加密，数据永不出设备。
+> Local zero-knowledge password vault (v2 rewrite, milestone M1). Master-password key derivation + AES-256-GCM field-level encryption; data never leaves your device.
 
-## Features
+## 功能（v2.0 完整版 = M1 + M2）
 
-- **Zero-Knowledge Vault**: All sensitive fields are encrypted with AES-256-GCM; the key is derived from your master password (Argon2id) and never written to disk. Losing the master password means the data cannot be recovered — by design
-- **Master Password Unlock/Lock**: full-state machine with brute-force throttling and idle auto-lock (default 5 minutes)
-- **Entries, Folders & Tags**: login entries with title / username / password / URL / notes, organized by folders and tags
-- **Search / Favorites / Recent**: instant fuzzy search, pinned favorites, recent-use grouping
-- **Password Generator**: random password, passphrase, or PIN with live entropy meter
-- **Clipboard Guard**: every copy starts a visible countdown that wipes the clipboard (default 30s)
-- **Encrypted Backup (.mdvault)**: export the whole vault to an encrypted file; restore on any machine with merge or overwrite modes
-- **Windows Hello Quick Unlock** (optional, off by default): DPAPI-protected key cache for instant unlock
-- **Security Dashboard**: health score plus weak / reused / stale password findings and fix guidance
-- **Trash & Password History**: deleted entries stay 30 days; every password change is snapshotted (last 20) and can be rolled back
-- **CSV Import/Export**: import from Chrome / Edge / Bitwarden; plaintext export requires re-entering the master password
-- **Auto-Type**: "Fill into previous window" fills username → TAB → password → ENTER into the window that was focused before the popup opened
-- **Default Account**: mark one default account per site (eTLD+1) for quick selection
-- **Recovery Key**: one-time 160-bit recovery key (shown once, keep offline) unlocks the vault when you forget the master password, then forces a master password reset
-- **Forgot-Password Wizard**: lock-screen self-check offers every recovery option available on this machine (Hello / recovery key / rebuild from backup / rebuild with archive — the old vault is archived, never deleted)
+- **零知识加密保险库**：标题/账号/密码/网址/备注/标签/自定义字段全部 AES-256-GCM 加密落盘，密钥由主密码派生（Argon2id），永不明文存储。主密码丢失无法找回任何数据（设计使然）
+- **创建向导**：主密码强度实时评估 + 恢复密钥内嵌生成（160-bit，仅显示一次，离线抄写保管；可跳过需确认风险）
+- **解锁与锁定**：防暴力延迟（连续失败 5 次起递增等待）、闲置自动锁定（默认 5 分钟，可调）、Ctrl+L 手动锁定
+- **条目管理**：标题/用户名/密码/网址（自动补 https://）/备注/收藏；**自定义字段**（key-value，可标记「密码型」遮蔽显示、复制走自动清除通道）
+- **组织**：一层文件夹（编辑器内下拉可选、可就地新建）+ 标签 + 收藏 + 最近使用 + 默认账号（同站点唯一，eTLD+1 聚合，列表置顶）
+- **搜索**：标题/账号/网址/标签/自定义字段名即时过滤，支持拼音首字母（如「淘宝」输 tb）
+- **密码生成器**：随机密码 / 口令短语（EFF 词表）/ PIN，实时熵与强度评估；锁屏态亦可使用
+- **剪贴板守护**：条目内复制后倒计时自动清空（默认 30 秒，可调）；你在此期间复制了其他内容则自动让路
+- **密码历史**：改密自动留痕（每条目最多 10 条），详情侧滑可查看
+- **加密备份**：全库导出为 .mdvault 加密文件（备份密码独立于主密码）；恢复支持合并（标题+账号判重跳过）与覆盖（自动先留档当前库）
+- **忘记主密码**：锁屏「忘记主密码？」→ 用恢复密钥解锁
+- **Windows Hello 快速解锁**：指纹 / PIN 秒解（DPAPI 绑定当前 Windows 用户；设置页开关，启用需主密码验证；失效自动回退主密码）
+- **TOTP 动态验证码**：条目绑定验证器密钥（Base32 / otpauth:// 链接粘贴即用，SHA1/SHA256），列表行内直显当前码 + 30 秒倒计时环（剩 5 秒变红），点击复制
+- **Popup 取密流**（默认独立小窗 400×560）：打开即搜索、↑↓ 选择、Enter 复制密码、Alt+Enter 复制账号、⌨ 一键填入前台窗口
+- **安全体检 2.0**：健康评分 + 五类风险（弱密码 / 重复密码 / 长期未更换 / http 明文站 / 可加 2FA 未加）+ 每条带「去修改」整改入口
+- **自动快照**：每日首次解锁自动快照，改密 / 覆盖恢复 / 快照恢复前强制快照；设置页可查看 / 立即快照 / 一键恢复（滚动保留 10 份）
+- **回收站**：删除进回收站（30 天自动清除），可一键恢复到原位置
+- **自动输入（Auto-Type）**：点目标程序输入框 → 回插件点「⌨ 填入前台」（10 秒内）→ 自动键入 账号→TAB→密码→ENTER；多账号出候选列表（数字键快选）；焦点被抢 / 管理员窗口自动中止并提示
+- **修改主密码**：验证旧密码 → 重包裹密钥（不重加密数据）→ 自动先快照；Hello 缓存同步刷新
+- **忘记主密码向导**：自检四条恢复路径（Hello / 恢复密钥 / 从备份重建 / 归档重建空库），旧库归档永不删除
+- **QA 快速保存**：选中文本（账号/密码/网址）→ 中键 → 「保存到密码管理器」→ 自动识别凭据并打开编辑器预填
+- **键盘流**：↑↓ 选择、Enter 复制密码、Alt+Enter 复制账号、Ctrl+F 搜索、Ctrl+N 新建、Ctrl+L 锁定
 
-## Usage
+## 重要说明
 
-1. Open My Desktop Tools and launch "Password Manager" (popup opens by default)
-2. On first run, create a master password (entered twice, with strength feedback and an unrecoverable warning)
-3. Add entries, generate passwords, and organize them with folders, tags, and favorites
-4. Copy any field — the clipboard clears automatically after the countdown
-5. Export periodic `.mdvault` backups to a USB drive or another safe location
+- **不兼容 v1 数据**：v2 是全新实现的保险库格式。若数据目录存在旧版库文件，v2 会将其**自动改名隔离**（`vault-legacy-incompatible-*.db`，不读取不删除），并按全新保险库开始。
+- **数据目录**：`%APPDATA%\my-desktop-tools\plugin-data\password-manager\`（vault.db / settings.json / backups/），独立于插件安装目录，卸载重装不影响数据。
+- **恢复密钥解锁会话限制**：经恢复密钥解锁后，复制 / 导出 / 自动输入暂停，重设主密码后恢复（防数据与失控密钥共存）。
 
-## Security Notes
+## Features (English, M1)
 
-- The vault lives in `%APPDATA%/my-desktop-tools/plugins/password-manager/vault.db`; sensitive fields are encrypted at rest
-- Master password is never stored; there is no backdoor. **If the master password is lost and no recovery key or backup exists, the data cannot be recovered — we strongly recommend generating a recovery key and keeping it offline**
-- Logs never contain passwords, usernames, titles, URLs, or notes — entry IDs and error codes only
-- Auto-Type refuses to type when the foreground window changed between matching and typing (focus-guard)
-- The recovery key is shown only once; after a rebuild the old vault is archived to `backups/vault-orphaned-*.db` (never deleted) and can be re-imported with the old master password
+- Zero-knowledge vault: every sensitive field encrypted (AES-256-GCM), keys derived via Argon2id, never stored in plaintext
+- Setup wizard with live strength meter and one-time 160-bit recovery key (offline keep)
+- Brute-force throttling, idle auto-lock, manual lock (Ctrl+L)
+- Entries with custom fields (secret masking + guarded copy), folders (inline create), tags, favorites, recents, per-site default account
+- Instant search incl. Chinese pinyin initials; password generator (random / passphrase / PIN) with entropy meter, usable from the lock screen
+- Clipboard guard with countdown auto-clear and user-copy yield
+- Encrypted .mdvault backup export / restore (merge or overwrite with automatic pre-restore snapshot)
+- Password history (last 10 per entry)
 
-## Version History
-
-| Version | Date | Notes |
-|---------|------|-------|
-| 1.1.0 | 2026-08-16 | Recovery key, forgot-password wizard, import old vault, reset without current password, lock-screen hint deadlock fix |
-| 1.0.0 | 2026-08-14 | Initial release |
-
----
-
-**Plugin ID**: password-manager
-**Author**: My Desktop Tools
-
----
-
-<details>
-<summary>中文说明</summary>
-
-# 密码管理器
-
-> 本地零知识加密密码保险库插件 —— 主密码加密（Argon2id + AES-256-GCM）、快速解锁、密码生成器、安全仪表盘与自动输入。
-
-## 功能介绍
-
-- **零知识保险库**：所有敏感字段以 AES-256-GCM 加密；密钥由主密码（Argon2id）派生，永不落盘。主密码丢失即数据无法恢复——这是设计使然
-- **主密码解锁/锁定**：完整状态机，含防暴力递增延迟与闲置自动锁定（默认 5 分钟）
-- **条目/文件夹/标签**：登录类条目（标题/用户名/密码/URL/备注），文件夹与标签双维度组织
-- **搜索/收藏/最近**：即时模糊搜索、收藏置顶、最近使用分组
-- **密码生成器**：随机密码/密码短语/PIN，实时熵评估
-- **剪贴板守护**：每次复制启动可视倒计时，到点自动清空（默认 30 秒）
-- **加密备份（.mdvault）**：全库导出为加密文件，可在任意机器恢复（合并/覆盖两种模式）
-- **Windows Hello 快速解锁**（可选，默认关闭）：DPAPI 保护的密钥缓存，秒级解锁
-- **安全仪表盘**：健康评分 + 弱密码/重复密码/长期未更换检测与整改引导
-- **回收站与密码历史**：删除条目保留 30 天；每次改密留存快照（上限 20 条），可回滚
-- **CSV 导入导出**：支持 Chrome/Edge/Bitwarden 导入；明文导出需再次输入主密码
-- **自动输入**：「填入前台窗口」将 账号 → TAB → 密码 → ENTER 键入 popup 打开前的焦点窗口
-- **默认账号**：按站点（eTLD+1）标记默认账号，快速预选
-- **恢复密钥**：一次性 160-bit 恢复密钥（仅显示一次，离线保管），忘记主密码时可解锁并强制重设主密码
-- **忘记主密码向导**：锁屏自检本机全部可用恢复方式（Hello / 恢复密钥 / 重建并从备份恢复 / 重建归档——旧库只归档不删除）
-
-## 使用说明
-
-1. 打开 My Desktop Tools，启动「密码管理器」（默认弹出小窗）
-2. 首次使用需创建主密码（双次输入 + 强度评估 + 不可恢复警示）
-3. 添加条目、生成密码，用文件夹/标签/收藏组织
-4. 复制任意字段，剪贴板将在倒计时后自动清除
-5. 定期导出 `.mdvault` 备份到 U 盘或其他安全位置
-
-## 安全说明
-
-- 保险库位于 `%APPDATA%/my-desktop-tools/plugins/password-manager/vault.db`，敏感字段静态加密
-- 主密码不存储；没有后门。**主密码丢失且无恢复密钥/备份时数据不可恢复，强烈建议生成恢复密钥并离线保管**
-- 日志绝不包含密码、用户名、标题、URL、备注——仅条目 ID 与错误码
-- 自动输入在匹配与键入之间检测到前台窗口变化时会立即中止（焦点守护）
-- 恢复密钥仅显示一次；重建后旧库归档为 `backups/vault-orphaned-*.db`（绝不删除），想起旧主密码时可导入恢复
-
-</details>
+**v1 data is not compatible**: legacy vault files are quarantined (renamed, never read or deleted) and v2 starts fresh.
 
 ---
 

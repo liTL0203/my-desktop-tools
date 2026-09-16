@@ -1,3 +1,46 @@
+# v2.1.0 更新说明 (2026-09-16)
+
+## 新增
+- 全新双栏工作台：列管理与数据预览并排，所见即所得
+- 支持 CSV 导入与导出
+- 错误定位：解析失败时精确提示行列位置
+
+## 优化
+- 代码质量加固
+
+---
+
+# v2.0.0 Release Notes (2026-09-12)
+
+## Redesign
+- New dual-pane workbench UI (Plan A): JSON source editor on the left (line numbers, syntax highlight, format/paste/sample), preview grid with sheet tabs on the right; frequent options (flatten, header style) moved to the top bar, low-frequency settings consolidated into the ⚙ advanced popover
+- Column management: click any column header to rename, exclude, or override its write type (auto / text / number / date) — fixes IDs turning into scientific notation and dates staying text
+- Input: drag & drop .json files, clipboard paste button, parse error located to line:col with the error line highlighted
+- Export: CSV current sheet / CSV all sheets (one file per sheet, UTF-8 BOM), in addition to xlsx
+- Resizable split pane (drag the divider, double-click to reset, width persisted)
+- Grid ↔ editor linking: click a cell to locate its source in the JSON editor; double-click to edit the value inline and write it back (typed encoding keeps JSON valid)
+- Editor horizontal viewing: wheel pans sideways after vertical ends; Alt-drag or middle-drag to pan
+- Kept: QuickAction auto-fill & preview, multi-sheet auto split, nested flatten, open-after-save, light/dark theme, zh/en i18n
+
+<details>
+<summary>中文说明</summary>
+
+# v2.0.0 更新说明 (2026-09-12)
+
+## 重设计
+- 全新双栏工作台界面（方案 A）：左侧 JSON 源（行号、语法高亮、格式化/粘贴/示例），右侧预览网格 + 底部 Sheet 标签；高频选项（嵌套展开、表头样式）移至顶栏，低频设置归拢 ⚙ 高级设置弹层
+- 列管理：点列头即可重命名 / 排除 / 覆盖写入类型（自动·文本·数字·日期）——解决编号变科学计数法、日期被当文本
+- 输入增强：拖拽 .json 文件、剪贴板一键粘贴、解析错误定位到行:列并高亮错误行
+- 导出增强：新增 CSV 当前 Sheet / 全部 Sheet（每表一文件，UTF-8 BOM 防乱码），xlsx 保持不变
+- 分栏可拖动：拖动中缝调整左右宽度（双击复位，宽度自动记忆）
+- 表格 ↔ 源码联动：单击单元格定位左侧对应 JSON 位置；双击直接编辑该值并按类型写回（JSON 始终合法）
+- 编辑器横向查看：长行滚轮到边后自动转横向；Alt 拖动 / 中键拖动平移
+- 保留：QuickAction 自动填入预览、多数组多 Sheet、嵌套展开、保存后打开、明暗主题、中英双语
+
+</details>
+
+---
+
 # v1.1.1 Release Notes (2026-08-18)
 
 ## Maintenance

@@ -1,10 +1,17 @@
+# v1.3.0 更新说明 (2026-09-16)
+
+## 优化
+- 代码规范与导入结构清理，随核心 1.0 生态整体质量加固
+
+---
+
 # Changelog
 
 ## v1.2.0 (2026-09-05)
 
 ### 新增
 
-- **QuickAction 上下文联动（M12）★**：manifest contextMenu 7 直达条目（智能识别/Base64 解码/JWT 解析/SHA-256/URL 解码/Hex 解码/AES 解密，全部带 dataTypes 过滤）；Sidecar 新增 context-data-available（按选中内容智能改写 QA 操作名，如「识别为 JWT · 点击解析」）/ context-action-execute（内存缓存零痕迹）/ get_pending_context（一次性拉取）三方法；前端双通道接收（Core postMessage + RPC 兜底，指纹去重）+ actionId 路由——编码类/JWT/哈希/识别开窗即出结果，AES 预填密文与解密方向待用户输密钥；supportedTypes 扩展 plaintext/base64/url/json
+- **QuickAction 上下文联动（M12）★**：manifest contextMenu 7 直达条目（智能识别/Base64 解码/JWT 解析/SHA-256/URL 解码/Hex 解码/AES 解密，全部带 dataTypes 过滤）；Sidecar 新增 context-data-available（按选中内容智能改写 QA 操作名，如「识别为 JWT · 点击解析」）/ context-action-execute（内存缓存零痕迹）/ get_pending_context（一次性拉取）三方法；前端双通道接收（Core postMessage + RPC 兜底，指纹去重）+ actionId 路由——编码类/JWT/哈希/识别开窗即出结果，AES 预填密文与解密方向待用户输密钥；supportedTypes 扩展 plaintext/base64/url/json；QA 条目名「智能识别」→「加密解密·智能识别」（动作名带插件身份前缀）
 - **SM2 国密工具箱（M14）**：GB/T 32918 全套——密钥对生成（PKCS#8/SPKI PEM + 裸 hex，瞬时完成）；加解密（C1‖C3‖C2，SM3 KDF，C3 校验失败统一话术）；签名验签（64B r‖s，用户 ID 参与 ZA 默认 1234567812345678）；密钥信息解析。签名用 sm2 crate 官方 dsa；PKE 按国标手写（sm2 0.13 已移除 pke）并以 round-trip/篡改/换钥单测验证
 - **工具帮助系统（M13/F062）**：23 个工具的五段式说明（简介/来源与标准/怎么用/选项区别/安全提示）内容库；顶栏 ？按钮看当前工具 + 编码类工具头 ？就地弹层；点外部/Esc/× 关闭，不占功能区
 - **UI 图标化**：全量 emoji → lucide 图标（@lucide/vue，分类/导航/工具栏/按钮/横幅/Tab）；NavTree 重构（搜索图标/折叠箭头/收藏星标/分类图标/选中指示条）；运行按钮加载态旋转动画；插件图标资产 icon.svg + icon.png（scripts/gen-icon.mjs 程序化可复现）；metadata.json 双语填充；build-zip 补 icon.png 打包
@@ -18,6 +25,10 @@
 - **工作区标签页（M13）**：打开的工具自动成 tab（点击切换 / × 与中键关闭 / 关闭激活时相邻激活）；KeepAlive 缓存面板实例——切换工具不丢操作内容（JWT 解码结果、哈希勾选、识别候选等全部保留）；预填通道与快捷键监听做激活期适配，关闭 tab 即释放缓存内存
 - **管理入口上收顶栏 + 右侧边栏（M13）**：NavTree「管理」分组移除；顶栏独立图标（历史/设置）直开对应功能，内容显示在右侧 320px 可收起边栏（同图标再点或 X 收起，收起后工作台占满；收藏不设顶栏入口，由导航常用区承载）；HistoryPanel 重构为 section 驱动，历史卡片窄栏三行布局适配边栏宽度；history-settings 不再占工作台（旧收藏 id 自动转开边栏）；标签页条置于工作台顶部（不压导航）；导航 41px 对齐基线统一（分类标题/工具项/常用区文本同列、选中指示条移至箭头列、常用区行补收藏星标）；⚡📦 残留图标 lucide 化，模板 emoji 全量清零
 - **帮助入口全面化**：12 个独立面板（哈希/对称/经典/压缩/生成器/识别/文件/RSA/SM2/JWT/KDF/文件加密）首行各加「说明」按钮（flex order:99 恒行尾右对齐），与顶栏 ？、工具头 ？ 共三入口；标签页条支持右键菜单（关闭左侧/关闭右侧/关闭所有，首尾项自动禁用）；🗜🔤📊 等最后一批 emoji 图标归零
+- **QA 直达自动复制结果（M13/F062 配套）**：QA 右键直达（Base64/URL/Hex 解码、SHA-256）成功后结果自动进入剪贴板——「选中→右键→解码→粘贴」三步闭环；设置边栏新增开关（默认开，带剪贴板留痕提示）；JWT/AES 类结果不自动复制；transform_run 失败时清空旧结果防误复制
+- **QA 解码直达容错路由**：Base64/URL/Hex/JWT 直达前先跑识别引擎（4KB 采样），目标类型未命中（低置信以下）自动改走智能识别页并给出候选，不再直接报解码错误；识别 RPC 失败时按用户选择直达（fail-open）
+- **QA 右键菜单动态化（核心 v1.7 契约首批接入）**：context-data-available 探测命中时仅返回 Top-2 相关条目（类型直达 + 智能识别；base32/base58 归入 Base64 解码、htmlEntity/unicodeEscape 归入 URL 解码、byteStr2 归入 Hex 解码），无命中不带字段回退 manifest 全量 7 条；actionId 共用既有执行链路，前端路由零改动
+- **QA 直达同工具内容滞留修复**：核心复用窗口后，QA 直达的目标 tab 若「已打开且激活」，预填通道写入无人消费（onMounted/onActivated 不再触发）导致窗口内容停留在旧值——pendingInput/pendingKeyIv 通道改 reactive 并新增 watchPendingInput/watchPendingKeyIv（写入即消费，幂等），五面板接入；同族修复生成器「填入对称加密」到已激活对称页失效的问题
 - 挂载即算缺陷：识别跳转/预填输入后工具不自动运行（ToolCanvas watch 补 immediate + 空输入守卫）
 
 

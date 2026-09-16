@@ -1,3 +1,52 @@
+# v1.3.1 更新说明 (2026-09-16)
+
+## 新增
+- JSON 折叠标记支持 VSCode 式点击展开/收起
+
+## 优化
+- 小窗口布局优化，长行滚动更顺滑
+- 快速打开与粘贴响应更快
+- 代码质量加固
+
+---
+
+# v1.3.0 Release Notes (2026-09-12, 未发布增补 2026-09-15)
+
+## Performance
+- **Instant Format on Paste / QA Direct-Open**: pasting content or opening via QuickAction no longer sits through the 400ms typing-debounce before auto-formatting — results render immediately (debounce now applies to manual typing only)
+- **Window Reuse for Faster QA Round-Trips**: `allowMultiple` is now `false` — re-triggering from QuickAction (or Quick Launcher) focuses the existing window and streams the new content into it, instead of paying the full cold window+page load every time
+
+## Features
+- **Responsive Layout for Small Windows**: Toolbar redesigned with a 3-zone structure (brand / high-frequency actions / overflow menu). High-frequency actions (Validate / Format / Minify / Paste / Copy) are always one click away; low-frequency actions are grouped into a single "More" menu (Data / Editor / Panels)
+- **Adaptive Breakpoints**: ≥1140px full labels; 840–1139px icon-only buttons with tooltips; <840px dual-pane tab mode (Editor / Result) with slimmed status bar
+- **Smaller Minimum Window**: standalone minWidth 900 → 720, enabling a true compact popup form
+- **Snippet Drawer Adaptivity**: drawer now uses `min(560px, 100%)` — full-width on small windows instead of squeezing both columns
+
+## Fixes
+- **Horizontal Scrollbar in Editor**: Long JSON lines no longer bleed under the right panel — the editor width is now properly constrained (`min-width: 0` on the flex chain), so the horizontal scrollbar appears and works; scrollbar thumb is guaranteed visible via standard `scrollbar-color` (with `::-webkit-scrollbar` fallback for older engines) and higher thumb contrast
+
+<details>
+<summary>中文说明</summary>
+
+# v1.3.0 更新说明 (2026-09-12，未发布增补 2026-09-15)
+
+## 性能
+- **粘贴/QA 直达即时格式化**：粘贴内容或从快捷操作直达打开时不再白等 400ms 键入防抖，格式化结果立即呈现（防抖仅对手动键入生效）
+- **窗口复用加速 QA 往返**：`allowMultiple` 改为 `false`——再次从快捷操作（或快捷启动）触发时聚焦已有窗口并把新内容送入，不再每次支付全新窗口+页面冷加载
+
+## 功能
+- **小窗口响应式布局**：工具栏重构为三段结构（品牌区 / 高频操作 / 收纳菜单）。高频操作（校验/格式化/压缩/粘贴/复制）任意宽度一键直达；低频功能统一收进「⋯ 更多」菜单（数据/编辑器/面板分组）
+- **自适应断点**：≥1140px 完整文字按钮；840–1139px 图标化（悬停显示全名）；<840px 双面板 tab 化（编辑/结果）+ 状态栏次要信息隐藏
+- **更小的最小窗口**：独立窗口 minWidth 900 → 720，支持真正的小弹窗形态
+- **片段抽屉自适应**：抽屉宽度改为 min(560px, 100%)，小窗口下全屏展示不再双列互挤
+
+## 修复
+- **编辑器横向滚动条**：超长 JSON 行不再延伸到右侧面板底下被盖住——修复 flex 链缺失 `min-width: 0` 导致编辑器被内容撑宽、横向滚动条永不出现的问题；滑块通过标准 `scrollbar-color`（旧内核回退 `::-webkit-scrollbar`）保证可见，并提高对比度
+
+</details>
+
+---
+
 # v1.2.1 Release Notes (2026-08-18)
 
 ## Bug Fixes
