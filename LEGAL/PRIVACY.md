@@ -82,6 +82,13 @@ However, as inherent to all HTTPS communication, the self-hosted analytics serve
 - IP is **not** used for individual user tracking, profiling, or cross-site identification
 - Server-side access logs (if any) are retained for no more than 7 days for security auditing purposes only
 
+**User-initiated third-party connections (e.g., the Everything official download guide):**
+
+- Both "check for updates" and the download/installation for "Everything Full-Disk Search" are triggered **only by your explicit click**; there is no background polling
+- When you click download, the Application connects **directly to the official voidtools website** (www.voidtools.com) to fetch the installer. Only a standard HTTPS request is sent, carrying no personal data. The downloaded file is verified against the official checksum, and the original official installer completes the installation
+- During that connection, the voidtools server sees your source IP at the network level — identical to you downloading it yourself in a browser; the Application neither forwards nor stores it
+- The version manifest is fetched from the product's own release repository and contains only version numbers and official checksums, with no relation to your identity
+
 ## Data Storage
 
 ### Local Storage

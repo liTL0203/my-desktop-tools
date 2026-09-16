@@ -6,6 +6,25 @@
 
 ---
 
+# v1.0.0 (2026-09-16)
+
+## New Features
+
+- **Stable Milestone**: My Desktop Tools officially enters its stable era — the toolbox has matured into a dependable daily companion, with a continuously growing collection of built-in tools and extensions
+- **Local AI Engine, One Click Away**: Download, deploy, and update the built-in AI engine entirely inside the app — with pause, resume, and cancel always at hand, and clear progress from start to finish
+- **Model Directory**: A curated, always up-to-date directory of AI models — pick the right model for each task without any manual configuration
+- **Redesigned AI Page**: The AI service page has been reorganized around what matters — runtime status and the model directory now take center stage, with clearer separation of concerns
+- **Universal Command Bar**: The quick launcher gains an all-purpose input bar that understands natural language — type what you want and let AI take it from there
+- **Smarter Quick Actions**: Right-click menus now adapt to the content you selected, and XML content is recognized automatically
+
+## Improvements
+
+- **Better Quick Launcher**: Guided setup for locating the Everything search tool on first use, plus refined keyboard handling and menu behavior throughout
+- **Polish Everywhere**: Dozens of interface refinements — theme switches apply instantly everywhere, sticky tabs while scrolling, and steadier window behavior in edge cases
+- **Quality Hardening**: Another comprehensive stability and quality pass across the whole application
+
+---
+
 # v0.45.0 (2026-09-05)
 
 ## New Features
