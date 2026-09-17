@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.0.2 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.0.2/My.Desktop.Tools_1.0.2_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.0.2/My.Desktop.Tools_1.0.2_x64_zh-CN.msi) |
+| v1.1.0 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.1.0/My.Desktop.Tools_1.1.0_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.1.0/My.Desktop.Tools_1.1.0_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -19,7 +19,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | ai-translator | 2.2.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.2.0/ai-translator-2.2.0.zip) |
 | crypto-toolkit | 1.3.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.3.0/crypto-toolkit-1.3.0.zip) |
 | image-toolkit | 1.0.0 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.0.0/image-toolkit-1.0.0.zip) |
-| json-format | 1.3.1 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.3.1/json-format-1.3.1.zip) |
+| json-format | 1.3.2 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.3.2/json-format-1.3.2.zip) |
 | json-to-excel | 2.1.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.1.0/json-to-excel-2.1.0.zip) |
 | password-manager | 2.1.0 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.1.0/password-manager-2.1.0.zip) |
 | pdf-toolkit | 1.0.0 | [Description](plugins/pdf-toolkit/) | [Changelog](plugins/pdf-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.0.0/pdf-toolkit-1.0.0.zip) |

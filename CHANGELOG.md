@@ -6,6 +6,21 @@
 
 ---
 
+# v1.1.0 (2026-09-17)
+
+## New Features
+
+- **Smarter AI Approvals**: A single "Accept All" action now completes an approval in one step, and approving a skill can grant it lasting trust — fewer interruptions while you stay in control; approval summaries are also rewritten in plain, friendly language
+- **Instant Interface Sync**: When AI reorganizes your tools into a different group, the interface follows immediately — no refresh required
+- **Plugin Overlay Windows**: Plugins gain a new always-on-top window form for lightweight, glanceable content, alongside the existing window types
+
+## Bug Fixes
+
+- **Floating Ball Clarity**: Icons on the AI floating ball are now clearly readable in every state and on any background
+- **Faster Tool Launching**: Fixed a regression in the launch-speed optimization that could interrupt the quick reopening of tools
+
+---
+
 # v1.0.2 (2026-09-16)
 
 ## New Features
