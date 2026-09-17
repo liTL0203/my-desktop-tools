@@ -1,12 +1,12 @@
 {
   "core": "1.1.0",
   "coreNotes": "## New Features\n\n- **Smarter AI Approvals**: A single \"Accept All\" action now completes an approval in one step, and approving a skill can grant it lasting trust — fewer interruptions while you stay in control; approval summaries are also rewritten in plain, friendly language\n- **Instant Interface Sync**: When AI reorganizes your tools into a different group, the interface follows immediately — no refresh required\n- **Plugin Overlay Windows**: Plugins gain a new always-on-top window form for lightweight, glanceable content, alongside the existing window types\n\n## Bug Fixes\n\n- **Floating Ball Clarity**: Icons on the AI floating ball are now clearly readable in every state and on any background\n- **Faster Tool Launching**: Fixed a regression in the launch-speed optimization that could interrupt the quick reopening of tools\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **更聪明的 AI 审批**：新增\"全部接受\"，一键完成审批；对技能的授权可长期生效——打扰更少，掌控不减；审批摘要也改用平实易懂的语言呈现\n- **界面即时同步**：AI 将工具调整到其他分组后，界面立即跟随，无需刷新\n- **插件覆盖窗口**：插件获得全新的置顶窗口形态，可展示轻量、一眼可读的内容，与既有窗口类型并存\n\n## 问题修复\n\n- **悬浮球清晰可读**：AI 悬浮球的图标在任意状态、任意背景下都清晰可辨\n- **工具启动提速修复**：修复了启动速度优化可能打断工具快速重新打开的回归问题\n\n</details>",
-  "pubDate": "2026-09-17T10:45:11.152Z",
+  "pubDate": "2026-09-17T11:00:33.316Z",
   "plugins": {
     "pomodoro": "2.2.2",
     "proxy-switch": "3.2.1",
     "ai-translator": "2.2.0",
-    "json-format": "1.3.1",
+    "json-format": "1.4.0",
     "sys-info": "2.1.0",
     "json-to-excel": "2.1.0",
     "password-manager": "2.1.0",

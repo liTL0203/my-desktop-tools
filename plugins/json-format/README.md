@@ -45,6 +45,58 @@ JSON 解析、格式化、压缩、JS 处理与多维可视化工具。
 
 ---
 
+<details>
+<summary>English</summary>
+
+# JSON Formatter
+
+> JSON parsing, formatting, minification, custom JS processing and multi-view visualization tool.
+
+## Features
+
+- **Formatting / Minification**: Beautify or minify JSON with one click; 2/4 space indentation supported
+- **Custom JS Processing**: Write custom JS scripts to filter, map and transform data with real-time result preview
+- **Multi-view Visualization**: Automatically detects and switches among table, image, tree and text views
+  - Table: virtual scrolling for large data, column sorting, hover to view full values
+  - Image: grid display of base64 / URL images, click to zoom
+  - Tree: lazy expansion, deep nesting without lag
+  - Text: syntax highlighting + line numbers + paginated loading
+- **JS Snippet Library**: Save frequently used processing logic; supports grouping, sorting, one-click insertion and quick run
+- **Local Files**: Open / save JSON files (native dialogs)
+- **Large-file Friendly**: Parsing and processing run in a dedicated Web Worker, so the UI never freezes
+
+## Usage
+
+1. **Input Data**: Paste JSON into the "JSON Input" panel on the left, or click "Open File" on the toolbar to load a local file
+2. **Formatting**: Click "Format" on the toolbar to write the result back into the input area; "Minify" outputs single-line JSON
+3. **Custom JS Processing**: Switch to the "JS Processing" tab, write a function body script (the parameter `data` is the current data), then click "Run"; the script must `return` a JSON-serializable result
+   - Syntax / runtime errors show type, message and line number at the top of the result area
+   - Infinite-loop scripts are terminated automatically after 5 seconds without affecting the plugin
+4. **View Switching**: Tabs at the top of the result area allow manual switching among table / image / tree / text; "Auto" uses smart detection
+5. **Snippet Management**: Click "Snippets" on the toolbar to create groups and snippets; "Insert" puts the code into the script editor, "Run" executes it immediately
+6. **Layout**: Drag the middle divider to adjust the input panel width (20%~60%), double-click to collapse; the toolbar offers fullscreen preview
+
+## Notes
+
+- Input limit is 50MB; larger inputs are rejected
+- JS scripts run in an isolated Worker with no UI or file access capability; scripts are written by the users themselves, equivalent to executing in the browser console
+- Snippets and UI preferences are stored in `%APPDATA%\my-desktop-tools\plugins\json-format\`; nothing is left behind after uninstalling the plugin
+- Supports embedded (inapp) and standalone window (desktop / popup) modes
+
+## Version History
+
+**v0.1.0** (first release)
+
+- Basic formatting / minification / validation
+- Custom JS processing (Worker isolation + timeout protection)
+- Four-view visualization (table / image / tree / text)
+- JS snippet library (grouping / sorting / persistence)
+- Local file open / save
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

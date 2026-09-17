@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.1.0 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.1.0/My.Desktop.Tools_1.1.0_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.1.0/My.Desktop.Tools_1.1.0_x64_zh-CN.msi) |
+| v1.1.0 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.1.0/My%20Desktop%20Tools_1.1.0_x64_en-US.msi) |
 
 ## 🔌 插件
 
@@ -19,7 +19,7 @@
 | ai-translator | 2.2.0 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.2.0/ai-translator-2.2.0.zip) |
 | crypto-toolkit | 1.3.0 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.3.0/crypto-toolkit-1.3.0.zip) |
 | image-toolkit | 1.0.0 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.0.0/image-toolkit-1.0.0.zip) |
-| json-format | 1.3.2 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.3.2/json-format-1.3.2.zip) |
+| json-format | 1.4.0 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.4.0/json-format-1.4.0.zip) |
 | json-to-excel | 2.1.0 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.1.0/json-to-excel-2.1.0.zip) |
 | password-manager | 2.1.0 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.1.0/password-manager-2.1.0.zip) |
 | pdf-toolkit | 1.0.0 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.0.0/pdf-toolkit-1.0.0.zip) |
