@@ -36,6 +36,49 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# AI Translator
+
+> One-click AI selection translation: automatic source language detection, multi-target side-by-side comparison, searchable and favorite-capable history.
+
+## Features
+
+- **Multi-target Side by Side**: Select up to 4 target languages at once in the popup; each language gets its own result card with independent copy and individual re-translation
+- **One-click Translation**: Select text in any application, trigger the quick action panel with the middle mouse button, and choose "AI Translator"
+- **Automatic Source Language Detection**: No need to pick the source language manually; the UI shows the detected result in real time
+- **Extensible Language Library**: 12 built-in languages; quick languages are customizable (up to 6 shown at the top of the popup)
+- **Translation History**: Search, pin favorites, delete individual entries; capacity adjustable in settings (20/50/100/200 entries)
+- **Custom Templates**: Besides the general/technical/colloquial presets, write your own translation style with the {lang} placeholder
+- **Multi-engine AI**: Calls the AI services configured in the core app (DeepSeek, OpenAI, Claude, Ollama, etc.); no need to host your own model
+- **Selectable Translation Model**: Follows the system default model by default, or pick any translation-capable model from the "AI Service → Models" dictionary in settings; switching the system default model takes effect on the very next translation
+
+## Usage
+
+1. Add providers and models on the core app's "AI Service → Models" page and set a default model
+2. Select the text to translate in any application
+3. Press the middle mouse button (or a custom hotkey) to bring up the quick action panel and choose "AI Translator"
+4. Translation results appear automatically in the popup; click the language capsules at the top to add or remove target languages (each language gets its own card)
+5. The bottom bar supports re-translating all and copying all; the main window offers Ctrl+Enter quick translation plus history viewing and search
+
+## Notes
+
+- Before use, configure providers, keys and the default model in the core app's "AI Service → Models"
+- Translation models are now managed centrally by the system: providers and keys are maintained in the "AI Service → Models" dictionary, and the plugin settings page only selects which model to use
+- Translation requires a network connection (except local Ollama)
+- Multi-target translation produces one AI request per language; a cost notice appears when multi-select is first enabled
+
+## Version History
+
+- Version: 2.1.0
+- Author: My Desktop Tools
+- Required core version: v0.36.2+ (the model selection feature requires a newer version; the follow-default mode is not restricted)
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

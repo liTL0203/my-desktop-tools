@@ -49,6 +49,48 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# Password Manager v2.0 (M1) User Guide
+
+> Local zero-knowledge password vault (v2 rewrite, milestone M1). Master-password key derivation + AES-256-GCM field-level encryption; data never leaves your device.
+
+## Features (v2.0 full release = M1 + M2)
+
+- **Zero-knowledge encrypted vault**: title/account/password/URL/notes/tags/custom fields are all encrypted with AES-256-GCM at rest; keys are derived from the master password (Argon2id) and never stored in plaintext. If the master password is lost, no data can be recovered (by design)
+- **Setup wizard**: live master-password strength evaluation + built-in recovery key generation (160-bit, shown only once, to be copied down and kept offline; skipping requires confirming the risk)
+- **Unlock & lock**: brute-force throttling (increasing wait after 5 consecutive failures), idle auto-lock (default 5 minutes, adjustable), Ctrl+L manual lock
+- **Entry management**: title/username/password/URL (https:// auto-prepended)/notes/favorites; **custom fields** (key-value, can be marked "password type" for masked display, with copying going through the auto-clear channel)
+- **Organization**: one level of folders (selectable via dropdown in the editor, creatable in place) + tags + favorites + recents + default account (unique per site, aggregated by eTLD+1, pinned to the top of the list)
+- **Search**: instant filtering across title/account/URL/tags/custom field names, supports Chinese pinyin initials (e.g. type "tb" for 淘宝/Taobao)
+- **Password generator**: random passwords / passphrases (EFF wordlist) / PIN with live entropy and strength evaluation; also usable from the lock screen
+- **Clipboard guard**: after copying from an entry, the clipboard auto-clears on a countdown (default 30 seconds, adjustable); it yields automatically if you copy something else in the meantime
+- **Password history**: password changes are recorded automatically (up to 10 per entry), viewable in the detail side drawer
+- **Encrypted backup**: export the whole vault as an encrypted .mdvault file (backup password independent of the master password); restore supports merge (duplicates by title+account are skipped) and overwrite (the current vault is archived automatically first)
+- **Forgot master password**: "Forgot master password?" on the lock screen → unlock with the recovery key
+- **Windows Hello quick unlock**: fingerprint / PIN instant unlock (DPAPI-bound to the current Windows user; toggle on the Settings page, enabling requires master password verification; automatically falls back to the master password when unavailable)
+- **TOTP one-time codes**: bind a verifier secret to an entry (Base32 / otpauth:// link — paste and use, SHA1/SHA256); the current code is shown inline in list rows + a 30-second countdown ring (turns red in the last 5 seconds), click to copy
+- **Popup fetch flow** (default standalone mini window 400×560): search on open, ↑↓ to select, Enter to copy the password, Alt+Enter to copy the account, ⌨ one-click fill into the foreground window
+- **Security Audit 2.0**: health score + five risk categories (weak passwords / reused passwords / unchanged for too long / http plaintext sites / 2FA-capable but not enabled) + a "Go fix" entry for each finding
+- **Automatic snapshots**: an automatic snapshot on the first unlock of each day; forced snapshots before password change / overwrite restore / snapshot restore; view / snapshot now / one-click restore on the Settings page (rolling retention of 10)
+- **Recycle bin**: deleted entries go to the recycle bin (auto-purged after 30 days) and can be restored to their original location in one click
+- **Auto-Type**: click the target app's input box → return to the plugin and click "⌨ Fill into foreground" (within 10 seconds) → automatically types account→TAB→password→ENTER; with multiple accounts a candidate list appears (quick-pick via number keys); automatically aborts with a notice if focus is stolen / the window runs as administrator
+- **Change master password**: verify the old password → re-wrap the key (data is not re-encrypted) → automatic snapshot first; the Hello cache is refreshed in sync
+- **Forgot-master-password wizard**: self-checks four recovery paths (Hello / recovery key / rebuild from backup / rebuild an empty vault from archive); old vaults are archived and never deleted
+- **QA quick save**: select text (account/password/URL) → middle click → "Save to Password Manager" → credentials are recognized automatically and the editor opens pre-filled
+- **Keyboard flow**: ↑↓ select, Enter copy password, Alt+Enter copy account, Ctrl+F search, Ctrl+N new entry, Ctrl+L lock
+
+## Notes
+
+- **v1 data is not compatible**: v2 is a completely new vault format implementation. If legacy vault files exist in the data directory, v2 **quarantines them automatically by renaming** (`vault-legacy-incompatible-*.db`, never read or deleted) and starts with a brand-new vault.
+- **Data directory**: `%APPDATA%\my-desktop-tools\plugin-data\password-manager\` (vault.db / settings.json / backups/), independent of the plugin installation directory; uninstalling and reinstalling does not affect your data.
+- **Recovery-key unlock session restrictions**: after unlocking via recovery key, copy / export / auto-type are suspended and resume once the master password is reset (preventing data from coexisting with an out-of-control key).
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

@@ -41,6 +41,54 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# PDF Toolkit
+
+> PDF Toolkit plugin - {{PLUGIN_DESCRIPTION}}
+
+## Features
+
+<!-- Describe the plugin's core features here, for end users -->
+<!-- Example:
+- Feature A: description
+- Feature B: description
+- Feature C: description
+-->
+
+## Usage
+
+<!-- Describe how to use this plugin here, for end users -->
+<!-- Example:
+1. Open My Desktop Tools
+2. Go to the "xxx" page in the left navigation bar
+3. Click the "Start" button
+4. ...
+-->
+
+## Notes
+
+<!-- Add information users need to know, for example -->
+<!-- - First use requires configuring xxx -->
+<!-- - Long-time running may xxx -->
+<!-- - Data is stored locally and never uploaded -->
+
+## Version History
+
+| Version | Date | Notes |
+|---------|------|-------|
+| 0.1.0 | - | Initial version |
+
+---
+
+**Plugin ID**: pdf-toolkit
+**Author**: {{PLUGIN_AUTHOR}}
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

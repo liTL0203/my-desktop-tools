@@ -43,6 +43,56 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# JSON to Excel
+
+> Convert JSON data to Excel spreadsheet files in one click, with nested flattening, multi-sheet export and data preview.
+
+## Features
+
+- **Quick Action Integration**: Select any JSON text and start the conversion with one click from the QuickAction panel
+- **Automatic Nested Flattening**: `{"user":{"name":"Tom"}}` is automatically flattened into a `user.name` column
+- **Multi-sheet Export**: When the root object contains multiple array fields, each array automatically becomes an independent worksheet
+- **Data Preview**: Preview the header and the first N rows of data before conversion
+- **Flexible Configuration**: Header style, null-value handling, adaptive column width, opening program and more are all configurable
+- **Open After Save**: After a successful save, the file can be opened automatically with Excel / WPS or similar programs
+
+## Usage
+
+### Method 1: Quick Action (Recommended)
+
+1. Select JSON text in any application
+2. Trigger the quick action (middle mouse button or hotkey)
+3. Choose "Convert to Excel" in the popup panel
+4. The plugin window opens automatically with the JSON data filled in
+5. Click the "Save as Excel" button and choose a save location
+6. The file opens automatically after being saved (can be disabled in settings)
+
+### Method 2: Direct Open
+
+1. Open "JSON to Excel" from the home page or quick launcher
+2. Paste or enter JSON data in the input box
+3. After verifying the preview, click "Save as Excel"
+
+## Configuration
+
+| Option | Description | Default |
+|--------|-------------|---------|
+| Open after save | Automatically open the file with an Excel program after a successful save | Enabled |
+| Open program path | Program path used to open the Excel file; leave empty for the system default | Empty |
+| Worksheet name | Default worksheet name | Sheet1 |
+| Nested flattening | Automatically flatten nested objects into dot.notation columns | Enabled |
+| Header style | bold / colored (with background) / plain (no style) | bold |
+| Null value display | Display text for null/undefined values | Empty |
+| Auto column width | Adjust column width automatically based on content | Enabled |
+| Preview rows | Maximum number of rows shown in the preview table | 50 |
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

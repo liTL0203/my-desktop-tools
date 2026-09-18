@@ -60,6 +60,73 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# Image Toolkit
+
+> Local image processing toolkit: format conversion, precise compression, crop & rotate, ID photo background color replacement, partial mosaic/redaction, long-image stitching, text/image watermarks, EXIF privacy cleanup. **All processing happens on your machine — images are never uploaded to any server.**
+
+## Features
+
+### Format Conversion & Compression
+- Supports five export formats: JPEG / PNG / WebP / BMP / ICO (ICO auto-generates six size layers from 16 to 256)
+- JPEG quality compression: 1-100 quality slider with real-time output size estimation
+- **Target-size compression**: enter a target size in KB and a binary search automatically outputs the highest quality that stays under the target (e.g., squeeze under 200KB)
+
+### Resize & Crop
+- Percentage / exact pixel scaling (with presets: WeChat sticker 240, avatar 512, 1080p/2K/4K)
+- Free crop and aspect-locked crop such as 1:1 / 4:3 / 16:9 (drag-a-box canvas interaction)
+- Rounded-rectangle / circular crop (avatar scenarios)
+
+### Rotate & Straighten
+- 90° rotation (Ctrl+[ / Ctrl+]), horizontal / vertical flip
+- ±45° arbitrary-angle straightening (0.1° steps) with automatic trimming of transparent edges
+
+### Background Color Replacement (Signature Feature)
+- Automatic solid-background detection + edge flood-fill removal (protects same-colored areas inside the foreground — a white shirt won't be wiped out by mistake)
+- Fine tuning with tolerance 0-100 and edge feathering 0-5px, plus manual color sampling
+- Replace with white / red / blue / a custom color, or keep the background transparent (PNG/WebP)
+
+### ID Photo Suite
+- Built-in specs such as 1-inch / 2-inch / small 2-inch / passport (300dpi); custom specs are supported and can be saved as presets
+- One-click photo output: background removal → background color replacement → spec crop → resampling, completed in a single pass
+- 6-inch photo-paper layout (1800×1200; auto-arranges ten 1-inch or six 2-inch photos)
+
+### Partial Mosaic / Redaction
+- Drag a box on the canvas to select a region, then apply mosaic (block size 4-64px) or Gaussian blur (radius 1-50px)
+- Manage multiple regions, each with its own effect
+
+### Stitching & Watermarks
+- Long-image stitching (vertical/horizontal, adjustable spacing, widths auto-normalized to the narrowest image)
+- Text watermark (font size/color/opacity/rotation; tiled or nine-grid positioning)
+- Image watermark (selected from the queue, composited correctly with the alpha channel)
+
+### Privacy
+- EXIF inspection (camera / time / focal length / GPS location)
+- Every export is re-encoded, so EXIF (including GPS) never carries over into output files
+
+## Usage
+
+1. **Import**: click "Import Images" or drag images straight into the window (JPG/PNG/WebP/BMP/GIF/TIFF/ICO supported, ≤100MB per image, up to 100 in the queue)
+2. **Edit**: pick a feature tab in the right-hand panel; parameter changes preview in real time; Ctrl+Z / Ctrl+Y to undo/redo
+3. **Export**: click "Apply & Preview Result" → in the result drawer click "Save to…" to pick a location; batch results can all be saved to a folder in one click
+
+## Notes
+
+- Images are processed locally end to end; there is no network activity of any kind
+- WebP export is lossless; to shrink file size use the JPEG target-size mode
+- Images with an alpha channel are filled with white automatically when exported to JPEG (the fill color is customizable in the conversion panel)
+- EXIF orientation from phone photos is corrected automatically (what you see is what you get)
+
+## Version History
+
+- v1.2.0: First complete release (V1.0 core pipeline + V1.1 ID photo/mosaic + V1.2 stitching/watermarks/EXIF/shape crop)
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

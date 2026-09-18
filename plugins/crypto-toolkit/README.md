@@ -82,6 +82,95 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# Crypto Toolkit
+
+> Local cryptography and compression toolbox: 70+ features covering encoding / hashing / symmetric encryption / asymmetric & JWT / KDF / file encryption / classical ciphers / compression & file conversion / generators / smart detection — all computed offline, with zero-trace privacy.
+
+## Features
+
+### Encoding (11 tools)
+- **Base64**: standard / URL-safe / no padding; lenient decoding (data: prefix / line breaks / spaces); 76-character line wrapping
+- **Hex**: upper/lowercase / grouping every 2 characters / 0x prefix
+- **Base32 / Base58 / Base62 / Base85** (Ascii85 z/y compact + Z85)
+- **URL encoding**: component / uri / full %XX — three modes aligned with browser behavior
+- **HTML entities / Unicode escapes (\u surrogate pairs) / radix byte strings / Morse code** (dual ·− style)
+
+### Hash Digests
+- **12 algorithms on one screen**: MD5 / full SHA family / full SHA3 family / SM3 (Chinese national standard) / CRC32
+- **HMAC** (six MD5/SHA algorithms), salted hashing, hash comparison (lenient options)
+- **File hashing**: drop in a file for streaming computation (≤200MB) with real-time, cancellable progress — consistent with certutil
+
+### Symmetric Encryption (7 algorithms)
+- **AES** (128/192/256 × ECB/CBC/CFB128/OFB/CTR/GCM, hand-written PKCS7/Zero/None padding)
+- **DES / 3DES** (16-byte two-key K1=K3 / 24-byte three-key)
+- **ChaCha20 family** (RFC 8439 counter semantics / XChaCha20 / Poly1305 AEAD)
+- **SM4 (Chinese national standard) / RC4 / Blowfish / XOR**
+- Output compatible with WebCrypto/OpenSSL (AEAD = ciphertext‖tag); independent key/IV badges + one-click generated key suites
+
+### Classical Ciphers (8 kinds)
+Caesar (including enumeration of all 25 shifts) / ROT13/47/N / Vigenère / Atbash / rail fence / Bacon (24/26 alphabets) / A1Z26 / simple substitution (random table + keyword generation)
+
+### Compression & File Conversion ★
+- **String compression**: gzip / zlib / deflate / brotli / lz4 + AUTO detection
+- **File → compressed string**: compress any file into Base64 text, ready to send by copy-paste
+- **Compressed string → file**: paste or drop a .txt; automatic format detection + magic-number type sniffing + save with a suggested extension
+- 512MB decompression-bomb protection; benefit hints (already-compressed files suggest direct Base64)
+
+### Generators
+Passwords (character sets / ambiguous-character exclusion / per-class guarantees), UUID v4 in batch, random bytes, algorithm key suites (one-click fill into the encryption panel), password strength assessment (entropy / five tiers / order-of-magnitude crack time / weak patterns)
+
+### Smart Detection
+Paste unknown content → analysis against 15 categories of signature rules → candidate cards ranked by confidence → one-click jump to the matching tool with the input pre-filled
+
+### RSA Toolbox (V1.1)
+- **Key generation**: 1024/2048/3072/4096-bit generation jobs (progress shown, cancellable); private key PKCS#8/PKCS#1 + public key SPKI; PEM importable by OpenSSL
+- **Encryption/decryption**: PKCS#1 v1.5 / OAEP-SHA256; long inputs segmented automatically (k-11 / k-34); interoperable both ways with OpenSSL
+- **Sign/verify**: PKCS1v15 + PSS (salt length = hash length), SHA-256/384/512; verification shows ✅/❌ instead of erroring; cross-verifiable with OpenSSL
+- **Key info**: type/format/bit length/exponent/modulus hex; fuzzy input never crashes
+
+### JWT Toolbox (V1.1)
+- **Decode**: three-segment parsing + JSON prettifying + human-readable exp/nbf/iat (with an "expired N days ago" badge) + security warning when the signature is unverified
+- **Sign**: HS256/384/512, verbatim-compatible with jwt.io
+- **Verify**: three-state result for signature/expiry/structure + one-click cross-fill
+
+### Key Derivation (KDF, V1.1)
+- **PBKDF2**: PRF SHA-256/512/SHA1, iterations up to 10,000,000; aligned with RFC 6070 vectors and cross-checked against Node crypto
+- **Argon2id**: full m/t/p/dkLen parameters; hex/base64 + PHC standard string (RFC 9106 alphabet); one-click OWASP recommended parameters
+- **Salt generation**: random 16-byte hex from OsRng
+
+### File Encryption .mydte (V1.1)
+- Any file (≤200MB) + password → Argon2id-derived key → AES-256-GCM container (200MB encrypted in 3.7s in real tests)
+- The container header contains no plaintext metadata such as file names; AAD protects the header against tampering
+- Decryption sniffs the type and suggests an extension; wrong password and corrupted container share one unified message that leaks nothing; linked with strength assessment
+
+## Usage
+
+1. Enable "Crypto Toolkit" in Plugin Manager
+2. Pick a tool from the left navigation tree; the right side uses a three-section layout (parameter bar + input area + output area)
+3. **Instant tools** (encoding/hashing/classical) auto-compute 300ms after input changes; **explicit-run tools** (encryption/compression/generation) run via the ▶ button or Ctrl+Enter
+4. **Format badges**: the input/output/key boxes each independently declare a TEXT / HEX / BASE64 interpretation (Hex input + Base64 tool = direct conversion)
+5. **⇄ Swap**: output back-fills the input + direction reversal + badge transfer
+6. **File operations**: drop in a file to hash/compress/Base64 it; results can be copied (≤8MB) or exported via the rfd save dialog
+
+## Notes
+
+- **Zero-trace privacy**: keys/plaintext/file contents are never written to logs nor persisted to config.json; history keeps only metadata (tool name/time/length), and input preview is off by default
+- All computation is local; there are no network requests of any kind
+- AES-GCM/ChaCha20-Poly1305 output = ciphertext‖tag (consistent with the WebCrypto/OpenSSL convention)
+- DES/RC4/ECB carry explicit security warnings and exist for compatibility and educational purposes only
+- Large files (>200MB) exceed the current version's limit
+
+## Version History
+
+- v1.0.0: Full V1.0 feature set (encoding/hashing/symmetric/classical/compression conversion/generators/smart detection/history & favorites)
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

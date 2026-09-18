@@ -63,6 +63,74 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# LAN Remote Desktop
+
+> Remote control that only works on the intranet: automatic device discovery, one-click connection, two-way clipboard, unattended access. No account, no relay server — traffic never leaves the LAN.
+
+## Features
+
+- **Device discovery**: automatically scans computers on the same subnet that have this plugin installed; across different but interconnected subnets, connect directly by entering the peer's IP
+- **Remote control**: opens the remote screen through the RustDesk engine (open-source software); operate it directly with mouse and keyboard
+- **Two-way clipboard**: Ctrl+C / Ctrl+V straight between the local and remote computer — copy on one side, paste on the other
+- **File transfer**: after connecting, use the dual-pane file transfer inside the RustDesk window
+- **Unattended access**: install the system service once on the controlled computer and set a fixed password; from then on it can be connected whenever it boots, with no one at the desk
+- **Multiple simultaneous sessions**: remote into several computers at once; manage them all on the Sessions page and disconnect with one click
+- **RDP connection** (optional): when the other side runs Windows Pro, switch to the system's built-in RDP channel (note: this locks the peer's desktop)
+- **LAN-only**: only intranet addresses can be connected; access from the public internet is impossible — a deliberate design that protects your computer
+
+## Usage
+
+### Controlling Others (Controller Side)
+
+1. Open the plugin, go to the "Devices" page, click **Rescan**, and wait for online devices on the same subnet to be listed
+2. If nothing is found (cross-subnet, AP isolation), enter the peer's **IP or IP:port** in the top-right corner to connect directly
+3. Click **Remote Connect** and enter the access password set on the peer (or choose "Request peer confirmation")
+4. Once connected, a RustDesk window opens the remote screen automatically — just start operating
+5. The "Sessions" page shows every connection in progress and supports one-click disconnect
+
+### Being Controlled (Controlled Side)
+
+1. Open the plugin and go to the "Controlled" page
+2. Click **Install as System Service** (requires administrator approval once); after installation and a reboot, it starts automatically at boot
+3. Set a **fixed access password** and choose the "Fixed password (recommended)" mode
+4. Keep **Allow LAN Discovery** enabled; if you don't want to be discoverable, turn it off (stealth mode) — others can still connect to you directly by IP
+5. After that, no further action is needed: the controller can connect with the password
+
+### Before First Use
+
+The remote screen is powered by the RustDesk engine. On first use, choose one of the three options under "Settings → Engine Management":
+
+- **Download from the official source** (recommended): automatically downloads the portable build and verifies its integrity
+- **Local import**: if you have already downloaded a RustDesk zip or exe yourself, enter its path to import
+- **Point to an existing install**: if RustDesk is already installed on this machine, just enter the path to its rustdesk.exe
+
+## Notes
+
+- This plugin **does not do public-internet remote control**: both computers must be in the same intranet (or routable inside it) and must not be separated by the public internet
+- Automatic discovery only covers the **same subnet**; for different but interconnected subnets, connect by entering the peer's IP directly
+- The engine is downloaded on demand (about 40-70MB) and is not bundled with the plugin; the plugin only distributes the official unmodified RustDesk build (AGPL-3.0 open-source software) and does not modify its source code
+- The plugin never stores any access password: the controller side types it in on every connection; the controlled side's password is kept by the RustDesk engine
+- After installing the controlled-side service, set the access password again (the engine's service-mode configuration is independent of normal mode)
+- When disconnecting a RustDesk session, if the engine runs in single-instance mode, all of its control windows are closed (a single connection cannot be disconnected precisely)
+- Viewing "who is connected to me" in real time is not yet supported (the engine provides no query interface); watch the service status instead
+- All data (history, settings, device list) is stored locally and is never uploaded to any server
+
+## Version History
+
+| Version | Date | Notes |
+|---------|------|-------|
+| 0.1.0 | 2026-09-14 | Initial release: LAN discovery / manual IP direct connection, RustDesk engine connection, two-way clipboard (engine-powered), unattended service management, quality presets, RDP passthrough, multi-session management |
+
+**Plugin ID**: remote-desktop
+**Author**: li_TL
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

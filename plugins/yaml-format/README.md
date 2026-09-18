@@ -30,6 +30,43 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# YAML Formatter v0.1.0
+
+> Offline YAML workbench: formatting, validation with error locating, minification, JSON conversion, flattening, and multi-document processing — designed for K8s manifests and CI configuration scenarios. All processing is done locally with no network requests.
+
+## Features
+
+- **Format / Validate**: Normalizes indentation and alignment; syntax errors are pinpointed to line and column with context highlighting; common paste mistakes such as Tab indentation are reported separately
+- **Comment preservation**: By default, round-trip formatting keeps `#` comments and key order (turn it off for pure data reordering); optional sorting by key name
+- **YAML ⇄ JSON**: Two-way conversion with one-click swap of input and result
+- **Flatten**: Expands nested structures into a dot-notation key-value table such as `server.port` / `users[0].name`, with one-click copy as .env-style text
+- **Multi-document**: K8s multi-resource files split by `---` are validated, viewed, and copied document by document, with each document's starting line annotated
+- **QuickAction integration**: Select YAML in any app and press the middle mouse button — the panel shows a validation result card (structure stats / K8s kind / error line-column location) right away; press Enter to open the plugin with the text loaded; the context menu jumps straight to format / convert to JSON / flatten / multi-document
+- **Files & preferences**: Open .yaml/.yml/.json files and save results; options such as indent width, line width, comments, and sorting are remembered automatically
+
+## Usage
+
+1. Main window: paste or open a file and it is formatted automatically; switch between the four functions via the top tabs; the bottom status bar shows validation results and statistics in real time
+2. QuickAction: select YAML text in any app → middle mouse button → the plugin's validation card appears in the panel → press Enter to open
+3. Shortcuts: Ctrl+S copies the result; Ctrl+B collapses the side panel (core convention); the split panes are draggable (double-click to reset)
+
+## Notes
+
+- Text processing limits: 10MB (file) / 5MB (editor); a warning appears when exceeded
+- Flattening is based on data values only (comments are not included); array indexes are shown as `[0]`
+- Multi-document splitting recognizes `---` only on standalone lines; `---` inside block scalars is an edge case — the formatted result is authoritative for full semantics
+
+## Version History
+
+- v0.1.0 (2026-09-16): Initial release
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

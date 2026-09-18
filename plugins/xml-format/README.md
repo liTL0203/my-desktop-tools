@@ -20,11 +20,47 @@
 1. 打开 My Desktop Tools，进入「XML 格式化」页面（或从独立窗口 / QuickAction 打开）。
 2. 粘贴或打开 XML 文件，点「格式化」；左侧为原始输入，右侧结果/结构树/XPath/转换四页签。
 3. 破损文档：状态栏显示错误数，点击即定位到输入中的错误行。
-4. 全程离线，数据不出本机。
+4. 支持多开：可同时打开多个独立窗口；QuickAction 连续触发会各开新窗并各自载入选区，互不影响。
+5. 全程离线，数据不出本机。
 
 ## 技术说明
 
 引擎为 Rust sidecar（quick-xml + sxd-xpath），前端 CodeMirror 6 语法高亮。校验为 well-formedness（非 XSD 语义校验）；输入上限 2MB。
+
+---
+
+<details>
+<summary>English</summary>
+
+# XML Formatter
+
+> Offline XML text workbench: formatting, minification, validation with error locating, structure tree, XPath queries, and JSON conversion.
+
+## Features
+
+- **XML formatting**: Re-indent with 2/4 spaces or Tab; comments, CDATA, declarations, and processing instructions are fully preserved; text-only nodes stay on a single line; attribute wrapping strategy (same line / one per line / auto) is configurable.
+- **Minify**: One-click single-lining that strips comments and extra whitespace; text content and CDATA are protected as-is.
+- **Validation**: Tag pairing, quote closing, and more — multiple errors reported in a single pass, each located to line:column, click to jump straight to it.
+- **Structure tree**: A collapsible structure tree is generated automatically after formatting; click a node to jump directly to its line in the result; element/attribute/depth/size statistics at a glance.
+- **XPath query**: Full XPath 1.0 syntax with common expressions preset; click a matched node to locate it.
+- **XML ⇄ JSON conversion**: Attributes get a `-` prefix, repeated elements merge into arrays, mixed content uses `#text`; the root name for JSON-to-XML is configurable.
+- **Entity escape/unescape**: Conversion between named entities and numeric entities.
+- **File support**: Open / save .xml files directly (native dialogs).
+- **QuickAction**: Select XML in any app and press the middle mouse button (or use the context menu) — see the structure stats result card even without opening the plugin; broken XML gets an error-location card directly; the context menu offers 5 direct actions (format & copy / minify / convert to JSON / validate & locate / escape).
+- **Dark/light theme + Chinese/English bilingual UI**: Follows the core theme and language with instant switching.
+
+## Usage
+
+1. Open My Desktop Tools and go to the "XML Formatter" page (or open it from a standalone window / QuickAction).
+2. Paste or open an XML file and click "Format"; the left side shows the raw input, and the right side has four tabs: result / structure tree / XPath / conversion.
+3. Broken documents: the status bar shows the error count; click it to jump to the error line in the input.
+4. Fully offline — data never leaves this machine.
+
+## Technical Notes
+
+The engine is a Rust sidecar (quick-xml + sxd-xpath); the frontend uses CodeMirror 6 for syntax highlighting. Validation is well-formedness checking (not XSD semantic validation); the input limit is 2MB.
+
+</details>
 
 ---
 

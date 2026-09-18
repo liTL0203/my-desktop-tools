@@ -45,6 +45,53 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# SQL Format
+
+> Offline SQL text workbench: formatting, minification, validation, multi-statement navigation, transformation, and static analysis
+
+## Features
+
+- **SQL formatting**: supports five dialects — MySQL / PostgreSQL / SQLite / SQL Server (T-SQL) / Oracle (PL/SQL); keyword casing, indentation, AND/OR line-break position, operator compactness, and blank lines between statements are all configurable, with three built-in presets: "Default / Compact / Relaxed".
+- **SQL minification**: remove comments and redundant whitespace in one click and compress the script into a single line for easy transfer; string literals are protected as-is.
+- **Syntax validation**: bracket/quote pairing checks with errors located down to the line; real-time hints via the status bar badge.
+- **Multi-statement navigation**: the script is automatically split by semicolons (semicolons inside strings and comments are ignored); click a statement tab to jump straight to it.
+- **Conversion tools**: SELECT to COUNT, table DDL to TypeScript interface, INSERT statements to CSV / JSON.
+- **Static analysis**: automatically extracts the list of involved tables and columns and flags common slow-query patterns (SELECT \*, OR in WHERE, UPDATE/DELETE without WHERE, unpaginated full-table queries).
+- **Snippet library**: built-in templates for common cases such as pagination, UPSERT, window-function Top-N, and per-day statistics; you can also save your own frequently used SQL.
+- **History**: every formatting run is recorded automatically (last 20 kept locally); click to restore.
+- **File support**: open / save .sql files directly.
+- **QuickAction**: select text in any app and press the middle mouse button (or use the right-click menu); once recognized as SQL, this plugin can be launched for one-click formatting, and statement statistics can be previewed even when the plugin is not open.
+
+## Usage
+
+1. Open My Desktop Tools and go to the "SQL Format" page (or open it from the standalone window / QuickAction).
+2. Paste SQL into the left input box and click the "Format" button; the beautified result appears on the right instantly.
+3. To adjust the style, click the ⚙ icon at the top right to change format options, or switch the preset and dialect at the top.
+4. Click "Minify" to get single-line SQL; click "Validate" to see syntax issues and the lines they occur on.
+5. Open the right panel button (▣) to use analysis, conversion, the snippet library, and history.
+6. The top of the result panel offers "Copy" or "Save .sql"; the input panel can import from a file.
+7. With "Live formatting" enabled in the status bar, the formatting result syncs automatically as you type.
+
+## Notes
+
+- This plugin **runs completely offline**: it never connects to any database and never uploads your SQL content; all settings, snippets, and history are saved only on this machine.
+- Input is limited to 2MB; opened .sql files are limited to 10MB — split overly large scripts first.
+- Syntax validation is a quick bracket/quote-level check and cannot replace the database's full syntax parsing; formatting error messages can serve as a reference for further troubleshooting.
+- Minification and formatting never change content inside strings; do not hand-write fake comment-symbol boundaries inside SQL strings.
+
+## Version History
+
+| Version | Date | Notes |
+|---------|------|-------|
+| 0.1.0 | 2026-09-14 | Initial release: formatting/minify/validate/multi-statement navigation/presets/five dialects + CodeMirror dual editors + conversion/analysis/snippets/history + .sql files + full QuickAction pipeline (LV1-LV3) |
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.

@@ -1,3 +1,10 @@
+# v1.1.0 更新说明 (2026-09-16)
+
+## 优化
+- 稳定性细节维护，随核心 1.2 生态同步
+
+---
+
 # Changelog
 
 # v1.0.0 (2026-09-16)
@@ -9,7 +16,7 @@
 
 All notable changes to this project will be documented in this file.
 
-## [0.1.0] - 2026-09-16
+## [1.0.0] - 2026-09-16
 
 ### Added
 
@@ -21,5 +28,6 @@ All notable changes to this project will be documented in this file.
 - **XPath 1.0 查询**：全量 1.0 语法（sxd-xpath），预置表达式，结果节点点击定位
 - **实体转义/反转义**：五预定义实体 + 数值实体互转
 - **.xml 文件打开/保存**：sidecar 子线程原生对话框
+- **多开窗口**：allowMultiple=true，可同时打开多个独立窗口；QuickAction 连续触发各开新窗并各自载入选区（FIFO 队列）
 - **QuickAction 集成**：xml 类型 + 形状规则精筛（LV2）、闪探结构结论卡/校验卡（LV3）、动态右键 5 条直达
 - 双主题（CSS 变量）+ 中英双语 i18n

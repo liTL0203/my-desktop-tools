@@ -51,6 +51,59 @@
 
 ---
 
+<details>
+<summary>English</summary>
+
+# System Info
+
+> All-in-one system information toolbox: browse all hardware and software info in a tool tree, monitor system load in real time, and check WiFi passwords, product keys, and other key credentials anytime
+
+## Features
+
+- **Tool tree navigation**: a categorized tree of 26 nodes on the left (Summary / Hardware / System / Network / Processes & Apps / Passwords & Keys / Peripherals & Ports) — information-dense, click any node to view it
+- **Real-time monitoring**: four metric rings for CPU (including current frequency) / memory / disk / network speed, off by default, refreshing every 2 seconds once enabled, auto-paused while the window is hidden; the bottom status bar always shows the latest values
+- **Passwords & keys** (for local use on this machine, available when running as administrator):
+  - WiFi passwords in plaintext (including WPA3 networks)
+  - VPN credentials: Windows built-in VPN accounts/PSK, WireGuard tunnel private keys, OpenVPN configurations
+  - Windows product key (decoded from the registry) and firmware OEM key
+  - BitLocker recovery keys (48 digits)
+  - Auto logon password at boot
+  - Credential Manager inventory (entries stored in plaintext by apps are shown directly; encrypted ones are honestly labeled)
+- **Full hardware details**: CPU specs, memory slot layout and frequencies, disk BusType/partitions/SMART health, exact GPU VRAM and resolutions, battery health, motherboard/BIOS, monitors
+- **System health**: Windows activation, Defender status, TPM, Secure Boot, power plans, page file
+- **Processes & apps**: process top ranking (sorted by memory/CPU/name + search), installed apps inventory, startup items
+- **Network diagnostics**: Internet—public IP—gateway—local machine four-node link diagram + probe details
+- **Report export**: TXT / Markdown / JSON formats, optionally including passwords and keys
+
+## Usage
+
+1. Open My Desktop Tools and go to "System Info"
+2. Click a category in the left tree to view the corresponding info (the search box at the top filters the table on the current page)
+3. On the Summary page, turn on the "Real-time monitoring" switch to start live metrics (valid within the session only, stops when closed)
+4. In the "Passwords & Keys" group, click the eye icon to reveal plaintext, or "Copy All" to take everything at once
+5. Use "Export" at the top to choose a format and whether to include passwords, then generate the report file
+
+## Notes
+
+- This plugin only presents information read-only: it never modifies any system setting, never kills processes, and never writes to the registry
+- Information is gathered via WMI and system commands; TPM / Secure Boot / SMART / BitLocker / WPA3 passwords require administrator privileges — everything becomes available automatically when My Desktop Tools is started as administrator
+- Some Credential Manager entries are encrypted by the apps themselves (e.g. git); they are honestly labeled "inner-layer encrypted" instead of showing garbled text
+- Passwords and keys are read live each time you enter the page and are never cached; exported reports include passwords by default, which can be turned off as needed
+- Public IP lookup uses an external API (ipify.org) and may fail under restricted networks
+- The battery node and WiFi password node are hidden automatically on machines without a battery / wireless adapter
+
+## Version History
+
+| Version | Date | Notes |
+|---------|------|-------|
+| 2.0.0 | 2026-09-09 | Tool tree UI redesign; real-time monitoring returns; Passwords & Keys domain (WiFi/VPN/product key/BitLocker/auto logon); Processes & Apps page; collection fixes (memory frequency/VRAM truncation/NVMe interface/SSD association/WiFi no-adapter fallback/monitor mapping) |
+| 1.3.0 | 2026-08-18 | Overview tile home page + skeleton screens + per-card retry |
+| 0.1.0 | 2026-08-11 | Initial release |
+
+</details>
+
+---
+
 ## ⚠️ Disclaimer
 
 - **"AS IS"**: This software is provided "AS IS", without any express or implied warranty, including but not limited to merchantability, fitness for a particular purpose, and non-infringement.
