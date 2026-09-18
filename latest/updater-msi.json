@@ -1,11 +1,11 @@
 {
-  "version": "1.1.0",
-  "notes": "## New Features\n\n- **Smarter AI Approvals**: A single \"Accept All\" action now completes an approval in one step, and approving a skill can grant it lasting trust — fewer interruptions while you stay in control; approval summaries are also rewritten in plain, friendly language\n- **Instant Interface Sync**: When AI reorganizes your tools into a different group, the interface follows immediately — no refresh required\n- **Plugin Overlay Windows**: Plugins gain a new always-on-top window form for lightweight, glanceable content, alongside the existing window types\n\n## Bug Fixes\n\n- **Floating Ball Clarity**: Icons on the AI floating ball are now clearly readable in every state and on any background\n- **Faster Tool Launching**: Fixed a regression in the launch-speed optimization that could interrupt the quick reopening of tools\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **更聪明的 AI 审批**：新增\"全部接受\"，一键完成审批；对技能的授权可长期生效——打扰更少，掌控不减；审批摘要也改用平实易懂的语言呈现\n- **界面即时同步**：AI 将工具调整到其他分组后，界面立即跟随，无需刷新\n- **插件覆盖窗口**：插件获得全新的置顶窗口形态，可展示轻量、一眼可读的内容，与既有窗口类型并存\n\n## 问题修复\n\n- **悬浮球清晰可读**：AI 悬浮球的图标在任意状态、任意背景下都清晰可辨\n- **工具启动提速修复**：修复了启动速度优化可能打断工具快速重新打开的回归问题\n\n</details>",
-  "pub_date": "2026-09-17T11:00:33.312Z",
+  "version": "1.2.0",
+  "notes": "## New Features\n\n- **Smarter Overlay Windows**: Desktop overlay components gain new interaction modes and auto-hide behavior — they stay out of your way until you need them, and respond naturally when you do\n- **Faster Tool Launches, Again**: A third round of launch-speed optimizations makes tools open even faster from the quick launcher and quick actions\n\n## Improvements\n\n- **Sharper Content Recognition**: Quick actions now recognize selected content more precisely, so ordinary long text is far less likely to trigger unrelated tool suggestions\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **覆盖窗口更聪明**：桌面覆盖组件新增交互模式与自动隐藏——不需要时安静让位，需要时自然响应\n- **工具启动再提速**：第三轮启动速度优化，从快捷启动与快捷操作打开工具更快\n\n## 优化改进\n\n- **内容识别更精准**：快捷操作对选中文本的识别更精确，普通长文本几乎不会再误触发无关的工具建议\n\n</details>",
+  "pub_date": "2026-09-18T16:23:37.746Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZENSazI2ZG5zY2gwbFhUVVpHZ3VqaEtmR3BDS0tSVHlsZHRVUE9QdFBiUStGbENpRVdER2ZGa3VjdzY0emhoZzNCR0xlTjZnWElqTXh0akJzUUc2VkFVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NjQxODY1CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjEuMF94NjRfZW4tVVMubXNpCkY0cVFGSkJzdDM2N2pZWDdoWW0wUDZmV0k2MDM0dGZoMHJObTdoazlvME1sVTlaOXNEZko4QllqKzNIbDR2aitiUmNGdHBVOGtJMStFU2dHaUhnWENBPT0K",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.1.0/My%20Desktop%20Tools_1.1.0_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZFBCc281M1duTGpoRWpVeW5kTzBMdVpaT01MblhsRzdNWEtWM1IyWkRDRTFLZ0ZSbDlVTHdhWEltTWNyM3BPZzFQeS9VSWQ5b0RUMU1ONVgwcU9iL3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5NzQ4NTYyCWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMF94NjRfZW4tVVMubXNpCldWNWJKamgvaE5iQ2pLU2lIZWY1eEJqYTNTakFpRmhTRlVtUUEydGcvNThmaEgxS1M5Q1prVXFXSXJwWVRFUmtwZ215aE5BNjVnaUpsQ2srTzdNZkNRPT0K",
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.0/My.Desktop.Tools_1.2.0_x64_en-US.msi"
     }
   }
 }

@@ -3,7 +3,7 @@
     {
       "id": "ai-translator",
       "name": "AI 翻译",
-      "version": "2.2.0",
+      "version": "2.3.0",
       "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -59,7 +59,7 @@
     {
       "id": "crypto-toolkit",
       "name": "加密解密工具箱",
-      "version": "1.3.0",
+      "version": "1.4.0",
       "description": "本地加密解密与压缩工具：Base64/Hex/URL 编码、AES/ChaCha20/国密加解密、哈希摘要、经典密码、文件压缩成字符串与还原",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -118,9 +118,57 @@
       }
     },
     {
+      "id": "desktop-styler",
+      "name": "桌面美化",
+      "version": "0.2.0",
+      "description": "AI 驱动的桌面美化：mac 风 Dock/顶栏/小组件 + 壁纸与系统外观 + 一键还原",
+      "author": "li_TL",
+      "authorUrl": "",
+      "category": "system-tools",
+      "icon": "package",
+      "iconVariant": "blue",
+      "iconUrl": "",
+      "iconUrlFallback": "",
+      "tags": [],
+      "downloadSize": 425370,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop"
+      ],
+      "updatedAt": "2026-09-16",
+      "purpose": {
+        "en": "Describe why this plugin was created and what problem it solves.",
+        "zh": "描述创建此插件的目的和它解决的问题。"
+      },
+      "useCases": {
+        "en": [
+          "Use case 1: describe a scenario where this plugin is useful",
+          "Use case 2: another scenario"
+        ],
+        "zh": [
+          "场景 1：描述此插件适用的一个场景",
+          "场景 2：另一个场景"
+        ]
+      },
+      "longDescription": {
+        "en": "A longer description of the plugin, shown in the detail modal.",
+        "zh": "插件的详细描述，在详情弹窗中展示。"
+      },
+      "features": {
+        "en": [
+          "Feature 1: describe a key feature",
+          "Feature 2: another feature"
+        ],
+        "zh": [
+          "功能 1：描述一个核心功能",
+          "功能 2：另一个功能"
+        ]
+      }
+    },
+    {
       "id": "image-toolkit",
       "name": "图片工具箱",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "本地图片处理：格式转换、精确压缩、裁剪旋转、证件照换底色、打码、拼接水印",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -169,7 +217,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -226,7 +274,7 @@
     {
       "id": "json-to-excel",
       "name": "JSON 转 Excel",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "description": "将 JSON 数据一键转换为 Excel 表格，支持嵌套展开、多 Sheet、数据预览",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -286,7 +334,7 @@
     {
       "id": "password-manager",
       "name": "密码管理器",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "description": "本地零知识加密密码保险库：主密码 + Windows Hello 解锁、密码生成器、安全体检、Popup 快速取密",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -353,7 +401,7 @@
     {
       "id": "pdf-toolkit",
       "name": "PDF 工具箱",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "本地 PDF 工具：Base64 直开预览、页面合并拆分排序、文字图片页码烧录、打印版式 N-up 缩放调整",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -402,7 +450,7 @@
     {
       "id": "pomodoro",
       "name": "番茄钟",
-      "version": "2.2.2",
+      "version": "2.3.0",
       "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -465,7 +513,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
-      "version": "3.2.1",
+      "version": "3.3.0",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -526,7 +574,7 @@
     {
       "id": "remote-desktop",
       "name": "内网远程桌面",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "纯内网远程桌面：自动发现/手动 IP 直连 + 引擎画面通道（RustDesk）+ 双向剪贴板 + 被控无人值守，流量不出内网",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -574,7 +622,7 @@
     {
       "id": "sql-format",
       "name": "SQL 美化",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "SQL 格式化、压缩、校验、多语句导航、转换与静态分析",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -641,7 +689,7 @@
     {
       "id": "sys-info",
       "name": "系统信息",
-      "version": "2.1.0",
+      "version": "2.2.0",
       "description": "系统信息一站式工具箱：工具树式浏览硬件/系统/网络/进程/外设，实时监控 CPU·内存·磁盘·网速，查看 WiFi 密码、VPN 凭据、产品密钥、BitLocker 恢复密钥并导出报告",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -702,7 +750,7 @@
     {
       "id": "xml-format",
       "name": "XML 格式化",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "XML 格式化、压缩、校验、结构树、XPath 查询与 JSON 互转",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -771,7 +819,7 @@
     {
       "id": "yaml-format",
       "name": "YAML 格式化",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "YAML 格式化、校验、压缩、JSON 互转、扁平化与多文档处理",
       "author": "My Desktop Tools",
       "authorUrl": "",

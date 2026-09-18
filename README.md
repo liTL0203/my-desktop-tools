@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.1.0 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.1.0/My%20Desktop%20Tools_1.1.0_x64_en-US.msi) |
+| v1.2.0 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.0/My.Desktop.Tools_1.2.0_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.0/My.Desktop.Tools_1.2.0_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -16,20 +16,21 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
-| ai-translator | 2.2.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.2.0/ai-translator-2.2.0.zip) |
-| crypto-toolkit | 1.3.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.3.0/crypto-toolkit-1.3.0.zip) |
-| image-toolkit | 1.0.0 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.0.0/image-toolkit-1.0.0.zip) |
-| json-format | 1.4.0 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.4.0/json-format-1.4.0.zip) |
-| json-to-excel | 2.1.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.1.0/json-to-excel-2.1.0.zip) |
-| password-manager | 2.1.0 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.1.0/password-manager-2.1.0.zip) |
-| pdf-toolkit | 1.0.0 | [Description](plugins/pdf-toolkit/) | [Changelog](plugins/pdf-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.0.0/pdf-toolkit-1.0.0.zip) |
-| pomodoro | 2.2.2 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.2.2/pomodoro-2.2.2.zip) |
-| proxy-switch | 3.2.1 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.2.1/proxy-switch-3.2.1.zip) |
-| remote-desktop | 1.0.0 | [Description](plugins/remote-desktop/) | [Changelog](plugins/remote-desktop/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.0.0/remote-desktop-1.0.0.zip) |
-| sql-format | 1.0.0 | [Description](plugins/sql-format/) | [Changelog](plugins/sql-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.0.0/sql-format-1.0.0.zip) |
-| sys-info | 2.1.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.1.0/sys-info-2.1.0.zip) |
-| xml-format | 1.0.0 | [Description](plugins/xml-format/) | [Changelog](plugins/xml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.0.0/xml-format-1.0.0.zip) |
-| yaml-format | 1.0.0 | [Description](plugins/yaml-format/) | [Changelog](plugins/yaml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v1.0.0/yaml-format-1.0.0.zip) |
+| ai-translator | 2.3.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.3.0/ai-translator-2.3.0.zip) |
+| crypto-toolkit | 1.4.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.4.0/crypto-toolkit-1.4.0.zip) |
+| desktop-styler | 0.2.0 | [Description](plugins/desktop-styler/) | [Changelog](plugins/desktop-styler/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.2.0/desktop-styler-0.2.0.zip) |
+| image-toolkit | 1.1.0 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.1.0/image-toolkit-1.1.0.zip) |
+| json-format | 1.5.0 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.5.0/json-format-1.5.0.zip) |
+| json-to-excel | 2.2.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.2.0/json-to-excel-2.2.0.zip) |
+| password-manager | 2.2.0 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.2.0/password-manager-2.2.0.zip) |
+| pdf-toolkit | 1.1.0 | [Description](plugins/pdf-toolkit/) | [Changelog](plugins/pdf-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.1.0/pdf-toolkit-1.1.0.zip) |
+| pomodoro | 2.3.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.3.0/pomodoro-2.3.0.zip) |
+| proxy-switch | 3.3.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.3.0/proxy-switch-3.3.0.zip) |
+| remote-desktop | 1.1.0 | [Description](plugins/remote-desktop/) | [Changelog](plugins/remote-desktop/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.1.0/remote-desktop-1.1.0.zip) |
+| sql-format | 1.1.0 | [Description](plugins/sql-format/) | [Changelog](plugins/sql-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.1.0/sql-format-1.1.0.zip) |
+| sys-info | 2.2.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.2.0/sys-info-2.2.0.zip) |
+| xml-format | 1.1.0 | [Description](plugins/xml-format/) | [Changelog](plugins/xml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.1.0/xml-format-1.1.0.zip) |
+| yaml-format | 1.1.0 | [Description](plugins/yaml-format/) | [Changelog](plugins/yaml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v1.1.0/yaml-format-1.1.0.zip) |
 
 ## 💻 System Requirements
 

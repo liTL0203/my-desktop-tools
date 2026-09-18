@@ -6,6 +6,19 @@
 
 ---
 
+# v1.2.0 (2026-09-18)
+
+## New Features
+
+- **Smarter Overlay Windows**: Desktop overlay components gain new interaction modes and auto-hide behavior — they stay out of your way until you need them, and respond naturally when you do
+- **Faster Tool Launches, Again**: A third round of launch-speed optimizations makes tools open even faster from the quick launcher and quick actions
+
+## Improvements
+
+- **Sharper Content Recognition**: Quick actions now recognize selected content more precisely, so ordinary long text is far less likely to trigger unrelated tool suggestions
+
+---
+
 # v1.1.0 (2026-09-17)
 
 ## New Features
