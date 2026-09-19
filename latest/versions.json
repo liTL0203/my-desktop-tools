@@ -1,7 +1,7 @@
 {
-  "core": "1.2.1",
-  "coreNotes": "## Improvements\n\n- **More Reliable Plugin Updates**: The marketplace's update engine has been rebuilt around a unified pipeline — updating a single plugin or all of them at once now follows the same robust path, with fewer edge cases and clearer outcomes\n\n## Bug Fixes\n\n- **Accurate Plugin Status**: Fixed an issue where a plugin that had once crashed could still be shown as unstable after being properly stopped and restarted — status now always reflects the current run\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **插件更新更可靠**：商城的更新引擎围绕统一流水线重构——单个更新与批量更新走同一条稳健路径，边缘情况更少、结果更明确\n\n## 问题修复\n\n- **插件状态准确显示**：修复了曾崩溃过的插件在正常停止并重启后仍显示为不稳定的问题——状态现在始终反映当前运行情况\n\n</details>",
-  "pubDate": "2026-09-19T00:17:27.812Z",
+  "core": "1.2.2",
+  "coreNotes": "## New Features\n\n- **Meet the Diff Toolkit**: A brand-new companion for comparing text and code — line-level and word-level diffs, structure-aware JSON comparison, and a jump-to-change list that makes every difference easy to locate. Fully offline, like everything else in the toolbox\n- **Smoother Batch Updates**: Refinements to the marketplace's batch update experience make keeping all your plugins current feel effortless\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **全新对比工具箱**：文本/代码对比的新伙伴——行级与词级差异、JSON 结构感知对比、差异清单快速定位，每一处不同一目了然；与其他功能一样完全离线\n- **批量更新更顺手**：插件商城批量更新体验打磨，让插件保持最新这件事更加轻松\n\n</details>",
+  "pubDate": "2026-09-19T03:15:20.415Z",
   "plugins": {
     "pomodoro": "2.3.0",
     "proxy-switch": "3.3.0",

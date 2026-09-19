@@ -6,6 +6,15 @@
 
 ---
 
+# v1.2.2 (2026-09-19)
+
+## New Features
+
+- **Meet the Diff Toolkit**: A brand-new companion for comparing text and code — line-level and word-level diffs, structure-aware JSON comparison, and a jump-to-change list that makes every difference easy to locate. Fully offline, like everything else in the toolbox
+- **Smoother Batch Updates**: Refinements to the marketplace's batch update experience make keeping all your plugins current feel effortless
+
+---
+
 # v1.2.1 (2026-09-19)
 
 ## Improvements
