@@ -6,6 +6,18 @@
 
 ---
 
+# v1.2.1 (2026-09-19)
+
+## Improvements
+
+- **More Reliable Plugin Updates**: The marketplace's update engine has been rebuilt around a unified pipeline — updating a single plugin or all of them at once now follows the same robust path, with fewer edge cases and clearer outcomes
+
+## Bug Fixes
+
+- **Accurate Plugin Status**: Fixed an issue where a plugin that had once crashed could still be shown as unstable after being properly stopped and restarted — status now always reflects the current run
+
+---
+
 # v1.2.0 (2026-09-18)
 
 ## New Features

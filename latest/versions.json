@@ -1,7 +1,7 @@
 {
-  "core": "1.2.0",
-  "coreNotes": "## New Features\n\n- **Smarter Overlay Windows**: Desktop overlay components gain new interaction modes and auto-hide behavior — they stay out of your way until you need them, and respond naturally when you do\n- **Faster Tool Launches, Again**: A third round of launch-speed optimizations makes tools open even faster from the quick launcher and quick actions\n\n## Improvements\n\n- **Sharper Content Recognition**: Quick actions now recognize selected content more precisely, so ordinary long text is far less likely to trigger unrelated tool suggestions\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **覆盖窗口更聪明**：桌面覆盖组件新增交互模式与自动隐藏——不需要时安静让位，需要时自然响应\n- **工具启动再提速**：第三轮启动速度优化，从快捷启动与快捷操作打开工具更快\n\n## 优化改进\n\n- **内容识别更精准**：快捷操作对选中文本的识别更精确，普通长文本几乎不会再误触发无关的工具建议\n\n</details>",
-  "pubDate": "2026-09-18T17:19:25.682Z",
+  "core": "1.2.1",
+  "coreNotes": "## Improvements\n\n- **More Reliable Plugin Updates**: The marketplace's update engine has been rebuilt around a unified pipeline — updating a single plugin or all of them at once now follows the same robust path, with fewer edge cases and clearer outcomes\n\n## Bug Fixes\n\n- **Accurate Plugin Status**: Fixed an issue where a plugin that had once crashed could still be shown as unstable after being properly stopped and restarted — status now always reflects the current run\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **插件更新更可靠**：商城的更新引擎围绕统一流水线重构——单个更新与批量更新走同一条稳健路径，边缘情况更少、结果更明确\n\n## 问题修复\n\n- **插件状态准确显示**：修复了曾崩溃过的插件在正常停止并重启后仍显示为不稳定的问题——状态现在始终反映当前运行情况\n\n</details>",
+  "pubDate": "2026-09-19T00:17:27.812Z",
   "plugins": {
     "pomodoro": "2.3.0",
     "proxy-switch": "3.3.0",
