@@ -178,7 +178,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/diff-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/diff-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 416230,
+      "downloadSize": 0,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
@@ -384,7 +384,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/password-manager/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/password-manager/icon.png",
       "tags": [],
-      "downloadSize": 2054161,
+      "downloadSize": 0,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",

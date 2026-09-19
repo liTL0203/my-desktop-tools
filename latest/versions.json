@@ -1,7 +1,7 @@
 {
-  "core": "1.2.2",
-  "coreNotes": "## New Features\n\n- **Meet the Diff Toolkit**: A brand-new companion for comparing text and code — line-level and word-level diffs, structure-aware JSON comparison, and a jump-to-change list that makes every difference easy to locate. Fully offline, like everything else in the toolbox\n- **Smoother Batch Updates**: Refinements to the marketplace's batch update experience make keeping all your plugins current feel effortless\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **全新对比工具箱**：文本/代码对比的新伙伴——行级与词级差异、JSON 结构感知对比、差异清单快速定位，每一处不同一目了然；与其他功能一样完全离线\n- **批量更新更顺手**：插件商城批量更新体验打磨，让插件保持最新这件事更加轻松\n\n</details>",
-  "pubDate": "2026-09-19T03:22:43.028Z",
+  "core": "1.2.3",
+  "coreNotes": "## Bug Fixes\n\n- **AI Chat Reliability**: Fixed message parsing failures that could interrupt AI conversations at the protocol level — exchanges now flow without unexpected drops\n- **Smoother Plugin Reinstall**: Reinstalling a plugin now refreshes its window immediately, so what you see always matches what was just installed\n\n## Improvements\n\n- **Smarter AI Adapter Selection**: The AI engine now pins an initial model when starting a session, eliminating a rare error where no suitable adapter could be found\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **AI 对话更可靠**：修复了协议层面的消息解析失败——AI 对话不再因此意外中断\n- **插件重装即刷新**：重装插件后窗口立即刷新，所见与刚装好的内容始终一致\n\n## 优化改进\n\n- **AI 适配器选择更聪明**：AI 引擎在会话启动时即锁定初始模型，消除了偶发的\"找不到合适适配器\"错误\n\n</details>",
+  "pubDate": "2026-09-19T21:08:27.337Z",
   "plugins": {
     "pomodoro": "2.3.0",
     "proxy-switch": "3.3.0",

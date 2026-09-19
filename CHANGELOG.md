@@ -6,6 +6,19 @@
 
 ---
 
+# v1.2.3 (2026-09-19)
+
+## Bug Fixes
+
+- **AI Chat Reliability**: Fixed message parsing failures that could interrupt AI conversations at the protocol level — exchanges now flow without unexpected drops
+- **Smoother Plugin Reinstall**: Reinstalling a plugin now refreshes its window immediately, so what you see always matches what was just installed
+
+## Improvements
+
+- **Smarter AI Adapter Selection**: The AI engine now pins an initial model when starting a session, eliminating a rare error where no suitable adapter could be found
+
+---
+
 # v1.2.2 (2026-09-19)
 
 ## New Features
