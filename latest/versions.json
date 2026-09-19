@@ -1,7 +1,7 @@
 {
   "core": "1.2.2",
   "coreNotes": "## New Features\n\n- **Meet the Diff Toolkit**: A brand-new companion for comparing text and code — line-level and word-level diffs, structure-aware JSON comparison, and a jump-to-change list that makes every difference easy to locate. Fully offline, like everything else in the toolbox\n- **Smoother Batch Updates**: Refinements to the marketplace's batch update experience make keeping all your plugins current feel effortless\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **全新对比工具箱**：文本/代码对比的新伙伴——行级与词级差异、JSON 结构感知对比、差异清单快速定位，每一处不同一目了然；与其他功能一样完全离线\n- **批量更新更顺手**：插件商城批量更新体验打磨，让插件保持最新这件事更加轻松\n\n</details>",
-  "pubDate": "2026-09-19T03:15:20.415Z",
+  "pubDate": "2026-09-19T03:22:43.028Z",
   "plugins": {
     "pomodoro": "2.3.0",
     "proxy-switch": "3.3.0",
@@ -9,7 +9,7 @@
     "json-format": "1.5.0",
     "sys-info": "2.2.0",
     "json-to-excel": "2.2.0",
-    "password-manager": "2.2.0",
+    "password-manager": "2.2.1",
     "crypto-toolkit": "1.4.0",
     "image-toolkit": "1.1.0",
     "pdf-toolkit": "1.1.0",
@@ -17,7 +17,8 @@
     "sql-format": "1.1.0",
     "xml-format": "1.1.0",
     "yaml-format": "1.1.0",
-    "desktop-styler": "0.2.0"
+    "desktop-styler": "0.2.0",
+    "diff-toolkit": "1.0.0"
   },
   "everything": {
     "version": "1.4.1.1032",
