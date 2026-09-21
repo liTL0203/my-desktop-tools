@@ -6,6 +6,18 @@
 
 ---
 
+# v1.2.6 (2026-09-21)
+
+## Bug Fixes
+
+- **Touchpad Scrolling Fixed at the Root**: Resolved the long-standing touchpad issue where scrolling inside a panel could bleed through to the page behind it — no more jumpy, double-scrolling views on touchpad devices
+
+## Improvements
+
+- **Smoother Transitions**: Unified animation timing across settings pages and popovers for a more consistent, polished feel
+
+---
+
 # v1.2.5 (2026-09-21)
 
 ## New Features

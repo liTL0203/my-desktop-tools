@@ -1,7 +1,7 @@
 {
-  "core": "1.2.5",
-  "coreNotes": "## New Features\n\n- **Plugin Global Hotkeys**: Plugins can now register system-wide shortcuts — and the first to use it, the all-new Clipboard History plugin, is available in the marketplace today (Alt+V to summon your copy history anytime)\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **插件全局热键通道**：插件现在可以注册系统级快捷键——首位使用者「剪切板历史」插件今日同步上架商城，随时随地 Alt+V 唤起复制历史\n\n</details>",
-  "pubDate": "2026-09-21T04:41:29.039Z",
+  "core": "1.2.6",
+  "coreNotes": "## Bug Fixes\n\n- **Touchpad Scrolling Fixed at the Root**: Resolved the long-standing touchpad issue where scrolling inside a panel could bleed through to the page behind it — no more jumpy, double-scrolling views on touchpad devices\n\n## Improvements\n\n- **Smoother Transitions**: Unified animation timing across settings pages and popovers for a more consistent, polished feel\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **触控板滚动穿透根治**：修复了长期存在的触控板问题——面板内滚动不再穿透到背后的页面，触控板设备上视图不再跳动、不再双重滚动\n\n## 优化改进\n\n- **过渡动画更顺滑**：统一了设置页与弹出层的动画时长，整体观感更一致、更精致\n\n</details>",
+  "pubDate": "2026-09-21T10:41:31.453Z",
   "plugins": {
     "pomodoro": "2.3.1",
     "proxy-switch": "3.3.1",

@@ -163,22 +163,22 @@
     {
       "id": "desktop-styler",
       "name": "桌面美化",
-      "version": "0.2.1",
+      "version": "0.2.2",
       "description": "AI 驱动的桌面美化：mac 风 Dock/顶栏/小组件 + 壁纸与系统外观 + 一键还原",
       "author": "li_TL",
       "authorUrl": "",
       "category": "system-tools",
       "icon": "package",
       "iconVariant": "blue",
-      "iconUrl": "",
-      "iconUrlFallback": "",
+      "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/desktop-styler/icon.png",
+      "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/desktop-styler/icon.png",
       "tags": [],
-      "downloadSize": 430107,
+      "downloadSize": 434024,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-09-16",
+      "updatedAt": "",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -484,7 +484,7 @@
     {
       "id": "pdf-toolkit",
       "name": "PDF 工具箱",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "本地 PDF 工具：Base64 直开预览、页面合并拆分排序、文字图片页码烧录、打印版式 N-up 缩放调整",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -494,13 +494,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pdf-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pdf-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 4510295,
+      "downloadSize": 4517735,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-16",
+      "updatedAt": "",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -657,7 +657,7 @@
     {
       "id": "remote-desktop",
       "name": "内网远程桌面",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "description": "纯内网远程桌面：自动发现/手动 IP 直连 + 引擎画面通道（RustDesk）+ 双向剪贴板 + 被控无人值守，流量不出内网",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -667,12 +667,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/remote-desktop/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/remote-desktop/icon.png",
       "tags": [],
-      "downloadSize": 464076,
+      "downloadSize": 464933,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-09-16",
+      "updatedAt": "",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"

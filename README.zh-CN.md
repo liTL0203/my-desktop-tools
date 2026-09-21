@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.2.5 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.5/My%20Desktop%20Tools_1.2.5_x64_en-US.msi) |
+| v1.2.6 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.6/My.Desktop.Tools_1.2.6_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.6/My.Desktop.Tools_1.2.6_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -19,16 +19,16 @@
 | ai-translator | 2.4.1 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.4.1/ai-translator-2.4.1.zip) |
 | clipboard | 1.0.0 | [说明](plugins/clipboard/) | [版本历史](plugins/clipboard/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.0.0/clipboard-1.0.0.zip) |
 | crypto-toolkit | 1.5.1 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.5.1/crypto-toolkit-1.5.1.zip) |
-| desktop-styler | 0.2.1 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.2.1/desktop-styler-0.2.1.zip) |
+| desktop-styler | 0.2.2 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.2.2/desktop-styler-0.2.2.zip) |
 | diff-toolkit | 1.0.1 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.0.1/diff-toolkit-1.0.1.zip) |
 | image-toolkit | 1.1.1 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.1.1/image-toolkit-1.1.1.zip) |
 | json-format | 1.6.1 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.6.1/json-format-1.6.1.zip) |
 | json-to-excel | 2.2.1 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.2.1/json-to-excel-2.2.1.zip) |
 | password-manager | 2.2.2 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.2.2/password-manager-2.2.2.zip) |
-| pdf-toolkit | 1.1.1 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.1.1/pdf-toolkit-1.1.1.zip) |
+| pdf-toolkit | 1.1.2 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.1.2/pdf-toolkit-1.1.2.zip) |
 | pomodoro | 2.3.1 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.3.1/pomodoro-2.3.1.zip) |
 | proxy-switch | 3.3.1 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.3.1/proxy-switch-3.3.1.zip) |
-| remote-desktop | 1.1.1 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.1.1/remote-desktop-1.1.1.zip) |
+| remote-desktop | 1.1.2 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.1.2/remote-desktop-1.1.2.zip) |
 | sql-format | 1.1.1 | [说明](plugins/sql-format/) | [版本历史](plugins/sql-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.1.1/sql-format-1.1.1.zip) |
 | sys-info | 2.2.1 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.2.1/sys-info-2.2.1.zip) |
 | xml-format | 1.1.1 | [说明](plugins/xml-format/) | [版本历史](plugins/xml-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.1.1/xml-format-1.1.1.zip) |
