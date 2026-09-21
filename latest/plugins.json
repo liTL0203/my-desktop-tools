@@ -13,7 +13,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/ai-translator/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/ai-translator/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 320953,
       "requiresPayment": false,
       "supportedModes": [
         "popup"
@@ -57,6 +57,49 @@
       }
     },
     {
+      "id": "clipboard",
+      "name": "剪切板历史",
+      "version": "0.1.0",
+      "description": "剪切板历史管理：自动记录、智能分类、敏感掩码、搜索置顶、格式感知二级操作与多选合并",
+      "author": "My Desktop Tools",
+      "authorUrl": "",
+      "category": "system-tools",
+      "icon": "package",
+      "iconVariant": "blue",
+      "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/clipboard/icon.png",
+      "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/clipboard/icon.png",
+      "tags": [],
+      "downloadSize": 0,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop",
+        "popup"
+      ],
+      "updatedAt": "",
+      "purpose": {
+        "en": "Clipboard history that makes copied content searchable, processable and protected: automatic recording with smart type detection, sensitive masking for OTP and card numbers, pin-as-template, per-type actions like QR code and JSON formatting, and multi-select merge paste.",
+        "zh": "让复制过的内容能被搜索、被加工、被保护：自动记录并智能分类，验证码与卡号自动掩码，置顶收藏当短语模板，链接生码、JSON 格式化等就地二级操作，多选按序合并粘贴。"
+      },
+      "useCases": {
+        "en": [
+          "Find back: search a long paragraph copied 20 minutes ago by keyword, source app or type",
+          "Frequent paste: pin addresses and account names as permanent templates",
+          "Privacy: verification codes are masked by default and only revealed temporarily",
+          "Content processing: generate QR for links, format JSON, convert HEX to RGB in place",
+          "Assembly work: select multiple snippets and merge-copy them in order"
+        ],
+        "zh": [
+          "找回内容：按关键词、来源应用或类型搜索 20 分钟前复制过的长文案",
+          "高频粘贴：地址、账号等固定内容置顶收藏，永不淘汰",
+          "隐私保护：验证码默认掩码显示，需要时临时回显",
+          "就地加工：链接生成二维码、JSON 一键格式化、颜色 HEX 与 RGB 互转",
+          "拼装组合：多选多条内容，按顺序合并复制"
+        ]
+      },
+      "longDescription": {},
+      "features": {}
+    },
+    {
       "id": "crypto-toolkit",
       "name": "加密解密工具箱",
       "version": "1.5.0",
@@ -69,7 +112,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/crypto-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/crypto-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 1899071,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -267,7 +310,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-format/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 1052681,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",

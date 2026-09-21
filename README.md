@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.2.4 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.4/My.Desktop.Tools_1.2.4_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.4/My.Desktop.Tools_1.2.4_x64_zh-CN.msi) |
+| v1.2.4 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.4/My%20Desktop%20Tools_1.2.4_x64_en-US.msi) |
 
 ## 🔌 Plugins
 
@@ -17,6 +17,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
 | ai-translator | 2.4.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.4.0/ai-translator-2.4.0.zip) |
+| clipboard | 0.1.0 | [Description](plugins/clipboard/) | [Changelog](plugins/clipboard/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v0.1.0/clipboard-0.1.0.zip) |
 | crypto-toolkit | 1.5.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.5.0/crypto-toolkit-1.5.0.zip) |
 | desktop-styler | 0.2.0 | [Description](plugins/desktop-styler/) | [Changelog](plugins/desktop-styler/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.2.0/desktop-styler-0.2.0.zip) |
 | diff-toolkit | 1.0.0 | [Description](plugins/diff-toolkit/) | [Changelog](plugins/diff-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.0.0/diff-toolkit-1.0.0.zip) |
