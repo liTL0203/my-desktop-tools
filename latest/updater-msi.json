@@ -1,11 +1,11 @@
 {
   "version": "1.2.5",
   "notes": "## New Features\n\n- **Plugin Global Hotkeys**: Plugins can now register system-wide shortcuts — and the first to use it, the all-new Clipboard History plugin, is available in the marketplace today (Alt+V to summon your copy history anytime)\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **插件全局热键通道**：插件现在可以注册系统级快捷键——首位使用者「剪切板历史」插件今日同步上架商城，随时随地 Alt+V 唤起复制历史\n\n</details>",
-  "pub_date": "2026-09-21T04:12:59.490Z",
+  "pub_date": "2026-09-21T04:41:29.031Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZERsWkUydUJDNXROYUxPVU9OeHE2akVmKy9ucEJicGlraFoxWVhpNkk5akhtRVVKYjhPbVdYblZBeHNCQ3VHYlVsM1lVNlA5NnZTR25EM2tEMkNBZ1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTYzOTYyCWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuNV94NjRfZW4tVVMubXNpCklZSEkxWlU4SU1BdENIRDI3YzRWNzB2OG9PaXkrbEdwdEFiaVNiUm1lUk1nTng3bitUU0ZJVk5zSEpnUzJvT2pweE1tY00zbkYrcWNpY2NsZEFad0FRPT0K",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.5/My.Desktop.Tools_1.2.5_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.5/My%20Desktop%20Tools_1.2.5_x64_en-US.msi"
     }
   }
 }

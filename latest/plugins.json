@@ -13,7 +13,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/ai-translator/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/ai-translator/icon.png",
       "tags": [],
-      "downloadSize": 320953,
+      "downloadSize": 341251,
       "requiresPayment": false,
       "supportedModes": [
         "popup"
@@ -69,7 +69,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/clipboard/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/clipboard/icon.png",
       "tags": [],
-      "downloadSize": 1336006,
+      "downloadSize": 1333895,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -112,7 +112,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/crypto-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/crypto-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 1899071,
+      "downloadSize": 1898288,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -173,7 +173,7 @@
       "iconUrl": "",
       "iconUrlFallback": "",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 430107,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
@@ -221,7 +221,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/diff-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/diff-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 417818,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
@@ -261,7 +261,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/image-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/image-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 1149785,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -310,7 +310,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-format/icon.png",
       "tags": [],
-      "downloadSize": 1050161,
+      "downloadSize": 1051767,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -367,7 +367,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-to-excel/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-to-excel/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 773567,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
@@ -427,7 +427,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/password-manager/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/password-manager/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 2057183,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -494,7 +494,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pdf-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pdf-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 4510295,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -543,7 +543,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pomodoro/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pomodoro/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 450285,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -606,7 +606,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/proxy-switch/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/proxy-switch/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 3237923,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -667,7 +667,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/remote-desktop/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/remote-desktop/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 464076,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
@@ -715,7 +715,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sql-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sql-format/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 973212,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -782,7 +782,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sys-info/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sys-info/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 514877,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -843,7 +843,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/xml-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/xml-format/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 864086,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -912,7 +912,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/yaml-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/yaml-format/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 854390,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
