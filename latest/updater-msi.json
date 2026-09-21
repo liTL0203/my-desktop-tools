@@ -1,11 +1,11 @@
 {
   "version": "1.2.7",
   "notes": "## Improvements\n\n- **Consistent Design Foundations**: Unified the styling variable naming across the whole app and folded in global shared styles — an internal polish that keeps every page visually consistent as the toolbox grows\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **设计基础更统一**：全局统一样式变量命名并沉淀公共样式——一次内部打磨，让工具箱在持续壮大时每个页面依然保持一致的观感\n\n</details>",
-  "pub_date": "2026-09-21T12:49:53.568Z",
+  "pub_date": "2026-09-21T12:54:59.181Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEdGcUZGWE9pMnI3eFgvZmNHZGRtZ21ITVZnWXB1Nmh6T3dheWNLMVJ6RWZKT0NRR0lZMnhLMDkrYU9hU3hBRTNmZzFHcm9wR3ArNFd4K2UxMk90ZVFrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzg5OTk0OTI0CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuN194NjRfZW4tVVMubXNpCk5VeWQrUDV5N2dZMXFxOUJGM29VWUYvVlF5TUk4K01IdEFmSHNrUmYrejFyNTlJdzRIdWk0N0t0WXdKdXVFVmdsUHNIbTB6TDVaOXQ0a0l4K0VRWUJnPT0K",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.7/My.Desktop.Tools_1.2.7_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.7/My%20Desktop%20Tools_1.2.7_x64_en-US.msi"
     }
   }
 }

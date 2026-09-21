@@ -1,12 +1,12 @@
 {
   "core": "1.2.7",
   "coreNotes": "## Improvements\n\n- **Consistent Design Foundations**: Unified the styling variable naming across the whole app and folded in global shared styles — an internal polish that keeps every page visually consistent as the toolbox grows\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **设计基础更统一**：全局统一样式变量命名并沉淀公共样式——一次内部打磨，让工具箱在持续壮大时每个页面依然保持一致的观感\n\n</details>",
-  "pubDate": "2026-09-21T12:49:53.572Z",
+  "pubDate": "2026-09-21T12:54:59.183Z",
   "plugins": {
     "pomodoro": "2.3.1",
     "proxy-switch": "3.3.1",
     "ai-translator": "2.4.1",
-    "json-format": "1.6.1",
+    "json-format": "1.6.2",
     "sys-info": "2.2.1",
     "json-to-excel": "2.2.1",
     "password-manager": "2.2.2",
