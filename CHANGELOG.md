@@ -6,6 +6,14 @@
 
 ---
 
+# v1.2.7 (2026-09-21)
+
+## Improvements
+
+- **Consistent Design Foundations**: Unified the styling variable naming across the whole app and folded in global shared styles — an internal polish that keeps every page visually consistent as the toolbox grows
+
+---
+
 # v1.2.6 (2026-09-21)
 
 ## Bug Fixes

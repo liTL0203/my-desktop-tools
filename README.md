@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.2.6 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.6/My.Desktop.Tools_1.2.6_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.6/My.Desktop.Tools_1.2.6_x64_zh-CN.msi) |
+| v1.2.7 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.7/My.Desktop.Tools_1.2.7_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.7/My.Desktop.Tools_1.2.7_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -22,7 +22,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | desktop-styler | 0.2.2 | [Description](plugins/desktop-styler/) | [Changelog](plugins/desktop-styler/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.2.2/desktop-styler-0.2.2.zip) |
 | diff-toolkit | 1.0.1 | [Description](plugins/diff-toolkit/) | [Changelog](plugins/diff-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.0.1/diff-toolkit-1.0.1.zip) |
 | image-toolkit | 1.1.1 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.1.1/image-toolkit-1.1.1.zip) |
-| json-format | 1.6.1 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.6.1/json-format-1.6.1.zip) |
+| json-format | 1.6.2 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.6.2/json-format-1.6.2.zip) |
 | json-to-excel | 2.2.1 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.2.1/json-to-excel-2.2.1.zip) |
 | password-manager | 2.2.2 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.2.2/password-manager-2.2.2.zip) |
 | pdf-toolkit | 1.1.2 | [Description](plugins/pdf-toolkit/) | [Changelog](plugins/pdf-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.1.2/pdf-toolkit-1.1.2.zip) |
