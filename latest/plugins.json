@@ -3,7 +3,7 @@
     {
       "id": "ai-translator",
       "name": "AI 翻译",
-      "version": "2.4.0",
+      "version": "2.4.1",
       "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -59,7 +59,7 @@
     {
       "id": "clipboard",
       "name": "剪切板历史",
-      "version": "0.1.0",
+      "version": "1.0.0",
       "description": "剪切板历史管理：自动记录、智能分类、敏感掩码、搜索置顶、格式感知二级操作与多选合并",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -69,13 +69,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/clipboard/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/clipboard/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 1336006,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "",
+      "updatedAt": "2026-09-16",
       "purpose": {
         "en": "Clipboard history that makes copied content searchable, processable and protected: automatic recording with smart type detection, sensitive masking for OTP and card numbers, pin-as-template, per-type actions like QR code and JSON formatting, and multi-select merge paste.",
         "zh": "让复制过的内容能被搜索、被加工、被保护：自动记录并智能分类，验证码与卡号自动掩码，置顶收藏当短语模板，链接生码、JSON 格式化等就地二级操作，多选按序合并粘贴。"
@@ -102,7 +102,7 @@
     {
       "id": "crypto-toolkit",
       "name": "加密解密工具箱",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "description": "本地加密解密与压缩工具：Base64/Hex/URL 编码、AES/ChaCha20/国密加解密、哈希摘要、经典密码、文件压缩成字符串与还原",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -163,7 +163,7 @@
     {
       "id": "desktop-styler",
       "name": "桌面美化",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "description": "AI 驱动的桌面美化：mac 风 Dock/顶栏/小组件 + 壁纸与系统外观 + 一键还原",
       "author": "li_TL",
       "authorUrl": "",
@@ -211,7 +211,7 @@
     {
       "id": "diff-toolkit",
       "name": "内容对比工具",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "description": "文本/代码行级+词级对比、JSON 结构感知对比，差异清单快速定位",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -251,7 +251,7 @@
     {
       "id": "image-toolkit",
       "name": "图片工具箱",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "本地图片处理：格式转换、精确压缩、裁剪旋转、证件照换底色、打码、拼接水印",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -300,7 +300,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.6.0",
+      "version": "1.6.1",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -310,7 +310,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-format/icon.png",
       "tags": [],
-      "downloadSize": 1052681,
+      "downloadSize": 1050161,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -357,7 +357,7 @@
     {
       "id": "json-to-excel",
       "name": "JSON 转 Excel",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "description": "将 JSON 数据一键转换为 Excel 表格，支持嵌套展开、多 Sheet、数据预览",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -417,7 +417,7 @@
     {
       "id": "password-manager",
       "name": "密码管理器",
-      "version": "2.2.1",
+      "version": "2.2.2",
       "description": "本地零知识加密密码保险库：主密码 + Windows Hello 解锁、密码生成器、安全体检、Popup 快速取密",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -484,7 +484,7 @@
     {
       "id": "pdf-toolkit",
       "name": "PDF 工具箱",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "本地 PDF 工具：Base64 直开预览、页面合并拆分排序、文字图片页码烧录、打印版式 N-up 缩放调整",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -533,7 +533,7 @@
     {
       "id": "pomodoro",
       "name": "番茄钟",
-      "version": "2.3.0",
+      "version": "2.3.1",
       "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -596,7 +596,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
-      "version": "3.3.0",
+      "version": "3.3.1",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -657,7 +657,7 @@
     {
       "id": "remote-desktop",
       "name": "内网远程桌面",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "纯内网远程桌面：自动发现/手动 IP 直连 + 引擎画面通道（RustDesk）+ 双向剪贴板 + 被控无人值守，流量不出内网",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -705,7 +705,7 @@
     {
       "id": "sql-format",
       "name": "SQL 美化",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "SQL 格式化、压缩、校验、多语句导航、转换与静态分析",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -772,7 +772,7 @@
     {
       "id": "sys-info",
       "name": "系统信息",
-      "version": "2.2.0",
+      "version": "2.2.1",
       "description": "系统信息一站式工具箱：工具树式浏览硬件/系统/网络/进程/外设，实时监控 CPU·内存·磁盘·网速，查看 WiFi 密码、VPN 凭据、产品密钥、BitLocker 恢复密钥并导出报告",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -833,7 +833,7 @@
     {
       "id": "xml-format",
       "name": "XML 格式化",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "XML 格式化、压缩、校验、结构树、XPath 查询与 JSON 互转",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -902,7 +902,7 @@
     {
       "id": "yaml-format",
       "name": "YAML 格式化",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "YAML 格式化、校验、压缩、JSON 互转、扁平化与多文档处理",
       "author": "My Desktop Tools",
       "authorUrl": "",

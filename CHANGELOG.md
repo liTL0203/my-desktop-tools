@@ -6,6 +6,14 @@
 
 ---
 
+# v1.2.5 (2026-09-21)
+
+## New Features
+
+- **Plugin Global Hotkeys**: Plugins can now register system-wide shortcuts — and the first to use it, the all-new Clipboard History plugin, is available in the marketplace today (Alt+V to summon your copy history anytime)
+
+---
+
 # v1.2.4 (2026-09-21)
 
 ## New Features
