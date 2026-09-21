@@ -6,6 +6,18 @@
 
 ---
 
+# v1.2.4 (2026-09-21)
+
+## New Features
+
+- **Refined Quick Action Panel**: The panel now sizes itself more comfortably and anchors to your mouse position — it appears exactly where you're working, not where it guesses
+
+## Improvements
+
+- **Faster, Steadier Content Flash-Probe**: Selection detection got a performance and stability pass — suggestions appear quicker and hang less on tricky content
+
+---
+
 # v1.2.3 (2026-09-19)
 
 ## Bug Fixes

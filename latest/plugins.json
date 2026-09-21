@@ -3,7 +3,7 @@
     {
       "id": "ai-translator",
       "name": "AI 翻译",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -59,7 +59,7 @@
     {
       "id": "crypto-toolkit",
       "name": "加密解密工具箱",
-      "version": "1.4.0",
+      "version": "1.5.0",
       "description": "本地加密解密与压缩工具：Base64/Hex/URL 编码、AES/ChaCha20/国密加解密、哈希摘要、经典密码、文件压缩成字符串与还原",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -257,7 +257,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.5.0",
+      "version": "1.6.0",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",

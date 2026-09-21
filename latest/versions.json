@@ -1,7 +1,7 @@
 {
-  "core": "1.2.3",
-  "coreNotes": "## Bug Fixes\n\n- **AI Chat Reliability**: Fixed message parsing failures that could interrupt AI conversations at the protocol level — exchanges now flow without unexpected drops\n- **Smoother Plugin Reinstall**: Reinstalling a plugin now refreshes its window immediately, so what you see always matches what was just installed\n\n## Improvements\n\n- **Smarter AI Adapter Selection**: The AI engine now pins an initial model when starting a session, eliminating a rare error where no suitable adapter could be found\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **AI 对话更可靠**：修复了协议层面的消息解析失败——AI 对话不再因此意外中断\n- **插件重装即刷新**：重装插件后窗口立即刷新，所见与刚装好的内容始终一致\n\n## 优化改进\n\n- **AI 适配器选择更聪明**：AI 引擎在会话启动时即锁定初始模型，消除了偶发的\"找不到合适适配器\"错误\n\n</details>",
-  "pubDate": "2026-09-19T21:08:27.337Z",
+  "core": "1.2.4",
+  "coreNotes": "## New Features\n\n- **Refined Quick Action Panel**: The panel now sizes itself more comfortably and anchors to your mouse position — it appears exactly where you're working, not where it guesses\n\n## Improvements\n\n- **Faster, Steadier Content Flash-Probe**: Selection detection got a performance and stability pass — suggestions appear quicker and hang less on tricky content\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **快捷操作面板更精致**：面板尺寸更舒适，并支持鼠标位置锚定——出现在你正在工作的地方，而不是它猜测的地方\n\n## 优化改进\n\n- **闪探更快更稳**：选区检测完成一轮性能与稳定性打磨——建议出现更快，复杂内容下更不容易卡顿\n\n</details>",
+  "pubDate": "2026-09-21T00:37:21.466Z",
   "plugins": {
     "pomodoro": "2.3.0",
     "proxy-switch": "3.3.0",
