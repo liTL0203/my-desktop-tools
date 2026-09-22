@@ -6,23 +6,15 @@
 
 ---
 
-# v1.2.7 (2026-09-21)
-
-## Improvements
-
-- **Consistent Design Foundations**: Unified the styling variable naming across the whole app and folded in global shared styles — an internal polish that keeps every page visually consistent as the toolbox grows
-
----
-
-# v1.2.6 (2026-09-21)
+# v1.2.11 (2026-09-22)
 
 ## Bug Fixes
 
-- **Touchpad Scrolling Fixed at the Root**: Resolved the long-standing touchpad issue where scrolling inside a panel could bleed through to the page behind it — no more jumpy, double-scrolling views on touchpad devices
+- **Interface Styles Fully Restored**: Fixed the interface styling issues that appeared in the two most recent releases — every page now returns to its former, stable appearance. If you were affected, updating to this version resolves it
 
-## Improvements
+## Notes
 
-- **Smoother Transitions**: Unified animation timing across settings pages and popovers for a more consistent, polished feel
+- The touchpad scroll-through fix shipped in a recent release has been temporarily reverted together with the overall rollback, ensuring the interface stays on the proven stable baseline; it will return in an upcoming version
 
 ---
 

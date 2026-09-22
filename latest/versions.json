@@ -1,7 +1,7 @@
 {
-  "core": "1.2.7",
-  "coreNotes": "## Improvements\n\n- **Consistent Design Foundations**: Unified the styling variable naming across the whole app and folded in global shared styles — an internal polish that keeps every page visually consistent as the toolbox grows\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **设计基础更统一**：全局统一样式变量命名并沉淀公共样式——一次内部打磨，让工具箱在持续壮大时每个页面依然保持一致的观感\n\n</details>",
-  "pubDate": "2026-09-21T12:54:59.183Z",
+  "core": "1.2.11",
+  "coreNotes": "## Bug Fixes\n\n- **Interface Styles Fully Restored**: Fixed the interface styling issues that appeared in the two most recent releases — every page now returns to its former, stable appearance. If you were affected, updating to this version resolves it\n\n## Notes\n\n- The touchpad scroll-through fix shipped in a recent release has been temporarily reverted together with the overall rollback, ensuring the interface stays on the proven stable baseline; it will return in an upcoming version\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **界面样式全面恢复**：修复了最近两个版本中出现的界面样式异常——所有页面恢复到此前的稳定观感。如果你受到了影响，升级到本版本即可解决\n\n## 说明\n\n- 此前版本中的触控板滚动穿透修复随本次整体回退暂时移除，以确保界面回到经过验证的稳定基线；该修复将在后续版本中重新提供\n\n</details>",
+  "pubDate": "2026-09-22T23:28:17.641Z",
   "plugins": {
     "pomodoro": "2.3.1",
     "proxy-switch": "3.3.1",

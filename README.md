@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.2.7 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.7/My%20Desktop%20Tools_1.2.7_x64_en-US.msi) |
+| v1.2.11 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.11/My.Desktop.Tools_1.2.11_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.11/My.Desktop.Tools_1.2.11_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
