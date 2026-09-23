@@ -1,7 +1,7 @@
 {
-  "core": "1.2.12",
-  "coreNotes": "## New Features\n\n- **Plugin Sizes in the Marketplace**: Every plugin card and detail page now shows its download size, so you know exactly how much you're getting before installing\n\n## Bug Fixes\n\n- **Touchpad Scrolling, Restored**: The fix for touchpad scroll-through — briefly absent from the previous release — is back, delivered in its own isolated form with the interface styling untouched\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **商城显示插件大小**：每张插件卡片与详情页现展示下载大小，安装前即可了解体积\n\n## 问题修复\n\n- **触控板滚动修复回归**：此前版本中暂时移除的触控板滚动穿透修复现已回归——以独立隔离方式交付，不触碰界面样式体系\n\n</details>",
-  "pubDate": "2026-09-23T00:40:17.445Z",
+  "core": "1.2.13",
+  "coreNotes": "## Bug Fixes\n\n- **Style Stability Hardened at the Root**: Eliminated a configuration pattern that could break the entire interface styling under the app's security policy — the same pattern behind the recent style issues. This version is hardened against it permanently; if you saw broken styles in the previous release, this one resolves it for good\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **样式稳定性根治**：消除了一种在应用安全策略下可能导致整页样式失效的配置模式——正是近期样式问题的同款根源。本版本对其永久免疫；如果你在上一版本中看到样式异常，升级到本版本即可彻底解决\n\n</details>",
+  "pubDate": "2026-09-23T03:16:12.333Z",
   "plugins": {
     "pomodoro": "2.3.1",
     "proxy-switch": "3.3.1",

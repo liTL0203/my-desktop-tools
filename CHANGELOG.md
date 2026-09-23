@@ -6,6 +6,14 @@
 
 ---
 
+# v1.2.13 (2026-09-23)
+
+## Bug Fixes
+
+- **Style Stability Hardened at the Root**: Eliminated a configuration pattern that could break the entire interface styling under the app's security policy — the same pattern behind the recent style issues. This version is hardened against it permanently; if you saw broken styles in the previous release, this one resolves it for good
+
+---
+
 # v1.2.12 (2026-09-23)
 
 ## New Features
