@@ -1,11 +1,11 @@
 {
   "version": "1.2.14",
   "notes": "## New Features\n\n- **Native File Dialogs for Plugins**: Plugins gain properly-behaved open and save file dialogs through a new system bridge — windows come to the front reliably, and the PDF Toolkit adopts it in this same update\n\n## Bug Fixes\n\n- **Dialog Focus on Windows**: Fixed the issue where file dialogs could appear behind the main window or fail to take focus\n- **Quick Action Reliability**: The quick action panel now falls back to the clipboard when reading the selection fails, and closes more gracefully when you click away\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **插件原生文件对话框**：插件通过新的系统桥获得行为规范的开文件/保存对话框——窗口可靠置前，PDF 工具箱在本次更新中率先采用\n\n## 问题修复\n\n- **Windows 对话框焦点**：修复了文件对话框可能出现在主窗口后面、或无法获取焦点的问题\n- **快捷操作可靠性**：选区读取失败时自动回退到剪贴板；点击面板外关闭的行为更自然\n\n</details>",
-  "pub_date": "2026-09-23T16:27:12.392Z",
+  "pub_date": "2026-09-23T16:40:07.606Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEMveitPQ0wzOWppcTNFL0ZqV1RuMFNWMHNxVCtFR1pUYS94NWRwbWIxd2o0cHQxajZKY2JjaXdJVVRteksrK2ZYZ2xiV1BHSmtRdVVSQzh6bHZTQ3cwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTgwODEzCWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMTRfeDY0X2VuLVVTLm1zaQpoVkJKRE94RnFndVQxVXRIVENvVXEyaUpOVjFJdGxnUnFwOHB1bkxlTjA5bGNNVlBlaTgzZ3BUemxwUUlUdGRuNGYvU0VWT1FXdUZkSFpVRGNuVi9EQT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.14/My.Desktop.Tools_1.2.14_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.14/My%20Desktop%20Tools_1.2.14_x64_en-US.msi"
     }
   }
 }
