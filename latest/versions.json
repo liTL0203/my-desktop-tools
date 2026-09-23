@@ -1,7 +1,7 @@
 {
-  "core": "1.2.13",
-  "coreNotes": "## Bug Fixes\n\n- **Style Stability Hardened at the Root**: Eliminated a configuration pattern that could break the entire interface styling under the app's security policy — the same pattern behind the recent style issues. This version is hardened against it permanently; if you saw broken styles in the previous release, this one resolves it for good\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **样式稳定性根治**：消除了一种在应用安全策略下可能导致整页样式失效的配置模式——正是近期样式问题的同款根源。本版本对其永久免疫；如果你在上一版本中看到样式异常，升级到本版本即可彻底解决\n\n</details>",
-  "pubDate": "2026-09-23T03:54:54.412Z",
+  "core": "1.2.14",
+  "coreNotes": "## New Features\n\n- **Native File Dialogs for Plugins**: Plugins gain properly-behaved open and save file dialogs through a new system bridge — windows come to the front reliably, and the PDF Toolkit adopts it in this same update\n\n## Bug Fixes\n\n- **Dialog Focus on Windows**: Fixed the issue where file dialogs could appear behind the main window or fail to take focus\n- **Quick Action Reliability**: The quick action panel now falls back to the clipboard when reading the selection fails, and closes more gracefully when you click away\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **插件原生文件对话框**：插件通过新的系统桥获得行为规范的开文件/保存对话框——窗口可靠置前，PDF 工具箱在本次更新中率先采用\n\n## 问题修复\n\n- **Windows 对话框焦点**：修复了文件对话框可能出现在主窗口后面、或无法获取焦点的问题\n- **快捷操作可靠性**：选区读取失败时自动回退到剪贴板；点击面板外关闭的行为更自然\n\n</details>",
+  "pubDate": "2026-09-23T16:27:12.400Z",
   "plugins": {
     "pomodoro": "2.3.1",
     "proxy-switch": "3.3.1",

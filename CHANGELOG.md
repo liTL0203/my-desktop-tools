@@ -6,6 +6,19 @@
 
 ---
 
+# v1.2.14 (2026-09-23)
+
+## New Features
+
+- **Native File Dialogs for Plugins**: Plugins gain properly-behaved open and save file dialogs through a new system bridge — windows come to the front reliably, and the PDF Toolkit adopts it in this same update
+
+## Bug Fixes
+
+- **Dialog Focus on Windows**: Fixed the issue where file dialogs could appear behind the main window or fail to take focus
+- **Quick Action Reliability**: The quick action panel now falls back to the clipboard when reading the selection fails, and closes more gracefully when you click away
+
+---
+
 # v1.2.13 (2026-09-23)
 
 ## Bug Fixes
