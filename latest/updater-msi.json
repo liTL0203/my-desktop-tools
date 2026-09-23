@@ -1,11 +1,11 @@
 {
-  "version": "1.2.11",
-  "notes": "## Bug Fixes\n\n- **Interface Styles Fully Restored**: Fixed the interface styling issues that appeared in the two most recent releases — every page now returns to its former, stable appearance. If you were affected, updating to this version resolves it\n\n## Notes\n\n- The touchpad scroll-through fix shipped in a recent release has been temporarily reverted together with the overall rollback, ensuring the interface stays on the proven stable baseline; it will return in an upcoming version\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **界面样式全面恢复**：修复了最近两个版本中出现的界面样式异常——所有页面恢复到此前的稳定观感。如果你受到了影响，升级到本版本即可解决\n\n## 说明\n\n- 此前版本中的触控板滚动穿透修复随本次整体回退暂时移除，以确保界面回到经过验证的稳定基线；该修复将在后续版本中重新提供\n\n</details>",
-  "pub_date": "2026-09-22T23:28:17.638Z",
+  "version": "1.2.12",
+  "notes": "## New Features\n\n- **Plugin Sizes in the Marketplace**: Every plugin card and detail page now shows its download size, so you know exactly how much you're getting before installing\n\n## Bug Fixes\n\n- **Touchpad Scrolling, Restored**: The fix for touchpad scroll-through — briefly absent from the previous release — is back, delivered in its own isolated form with the interface styling untouched\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **商城显示插件大小**：每张插件卡片与详情页现展示下载大小，安装前即可了解体积\n\n## 问题修复\n\n- **触控板滚动修复回归**：此前版本中暂时移除的触控板滚动穿透修复现已回归——以独立隔离方式交付，不触碰界面样式体系\n\n</details>",
+  "pub_date": "2026-09-23T00:40:17.440Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEFLVXJMUWdHT211eTZsalJnRFIvbWs2UkZlbm9mQm5Ec3REam5TOVJmNjZ2U214LzNrdzBQMFFiOS9QTk1FcVpYRlhYQzNGdk5GMlN4U2hyVThzYXcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTE5Njc3CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMTFfeDY0X2VuLVVTLm1zaQpKNTVXYjE5T0lENXVraWJjWkZKRkRoZW9LVms4TEdRY05wNFFxbnN0S05IU0hoZmhlY0pPZWROYVRha2w0NWlLZ3QrRDdDem1qbTJLS1lXZzFWY3REQT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.11/My.Desktop.Tools_1.2.11_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEVFTEl4NTB3ZGpZT3F3eG5PZ3J4NU1zdkxhNEt5eUxBZlJka2FlT3NPdVk0TXB1aGxncDBVWTIrM3lPSngvbFNzVmpNRjN4SkRsN0Q5QUl5NTRxcmcwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTI0MDAxCWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMTJfeDY0X2VuLVVTLm1zaQpsT1E0S1lBdFJWMklobGF6bWxuOXBlV2l4YmFPTU1WcEhSQWtJZm1GQUNDbkpISDdadHpqMEpGZWpDM283aXRTUDI5VWxKTHlmVDY3SFpuNEtpcHdEZz09Cg==",
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.12/My.Desktop.Tools_1.2.12_x64_en-US.msi"
     }
   }
 }

@@ -1,7 +1,7 @@
 {
-  "core": "1.2.11",
-  "coreNotes": "## Bug Fixes\n\n- **Interface Styles Fully Restored**: Fixed the interface styling issues that appeared in the two most recent releases — every page now returns to its former, stable appearance. If you were affected, updating to this version resolves it\n\n## Notes\n\n- The touchpad scroll-through fix shipped in a recent release has been temporarily reverted together with the overall rollback, ensuring the interface stays on the proven stable baseline; it will return in an upcoming version\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **界面样式全面恢复**：修复了最近两个版本中出现的界面样式异常——所有页面恢复到此前的稳定观感。如果你受到了影响，升级到本版本即可解决\n\n## 说明\n\n- 此前版本中的触控板滚动穿透修复随本次整体回退暂时移除，以确保界面回到经过验证的稳定基线；该修复将在后续版本中重新提供\n\n</details>",
-  "pubDate": "2026-09-22T23:28:17.641Z",
+  "core": "1.2.12",
+  "coreNotes": "## New Features\n\n- **Plugin Sizes in the Marketplace**: Every plugin card and detail page now shows its download size, so you know exactly how much you're getting before installing\n\n## Bug Fixes\n\n- **Touchpad Scrolling, Restored**: The fix for touchpad scroll-through — briefly absent from the previous release — is back, delivered in its own isolated form with the interface styling untouched\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **商城显示插件大小**：每张插件卡片与详情页现展示下载大小，安装前即可了解体积\n\n## 问题修复\n\n- **触控板滚动修复回归**：此前版本中暂时移除的触控板滚动穿透修复现已回归——以独立隔离方式交付，不触碰界面样式体系\n\n</details>",
+  "pubDate": "2026-09-23T00:40:17.445Z",
   "plugins": {
     "pomodoro": "2.3.1",
     "proxy-switch": "3.3.1",
