@@ -1,11 +1,11 @@
 {
   "version": "1.2.13",
   "notes": "## Bug Fixes\n\n- **Style Stability Hardened at the Root**: Eliminated a configuration pattern that could break the entire interface styling under the app's security policy — the same pattern behind the recent style issues. This version is hardened against it permanently; if you saw broken styles in the previous release, this one resolves it for good\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **样式稳定性根治**：消除了一种在应用安全策略下可能导致整页样式失效的配置模式——正是近期样式问题的同款根源。本版本对其永久免疫；如果你在上一版本中看到样式异常，升级到本版本即可彻底解决\n\n</details>",
-  "pub_date": "2026-09-23T03:16:12.328Z",
+  "pub_date": "2026-09-23T03:54:54.409Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEswWk1IZ1hPekxFWDdKdXpJdnE5K1dGdHRabm9aUFpZS1pZSW5jbnFydysrMnQwVTA3S0tJUnpTeEQ4RXRiYTloRzhxVGtCeUN2T2JNRndUUitIV3dzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMTMzMzU3CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMTNfeDY0X2VuLVVTLm1zaQpBbXJwdHFIa29xUmMvVWQxTXJTeDlTc1Y5a3podnphMjhtbGFTSmlYemphMkRxVlZ1dko4dHQwc3RZbnZISzFPZmgrSDNrZVdoOUtCZ1RCTnh6VjBCUT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.13/My.Desktop.Tools_1.2.13_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.13/My%20Desktop%20Tools_1.2.13_x64_en-US.msi"
     }
   }
 }

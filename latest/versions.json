@@ -1,12 +1,12 @@
 {
   "core": "1.2.13",
   "coreNotes": "## Bug Fixes\n\n- **Style Stability Hardened at the Root**: Eliminated a configuration pattern that could break the entire interface styling under the app's security policy — the same pattern behind the recent style issues. This version is hardened against it permanently; if you saw broken styles in the previous release, this one resolves it for good\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **样式稳定性根治**：消除了一种在应用安全策略下可能导致整页样式失效的配置模式——正是近期样式问题的同款根源。本版本对其永久免疫；如果你在上一版本中看到样式异常，升级到本版本即可彻底解决\n\n</details>",
-  "pubDate": "2026-09-23T03:16:12.333Z",
+  "pubDate": "2026-09-23T03:54:54.412Z",
   "plugins": {
     "pomodoro": "2.3.1",
     "proxy-switch": "3.3.1",
     "ai-translator": "2.4.1",
-    "json-format": "1.6.2",
+    "json-format": "1.7.0",
     "sys-info": "2.2.1",
     "json-to-excel": "2.2.1",
     "password-manager": "2.2.2",

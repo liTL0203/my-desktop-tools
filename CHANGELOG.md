@@ -14,18 +14,6 @@
 
 ---
 
-# v1.2.12 (2026-09-23)
-
-## New Features
-
-- **Plugin Sizes in the Marketplace**: Every plugin card and detail page now shows its download size, so you know exactly how much you're getting before installing
-
-## Bug Fixes
-
-- **Touchpad Scrolling, Restored**: The fix for touchpad scroll-through — briefly absent from the previous release — is back, delivered in its own isolated form with the interface styling untouched
-
----
-
 # v1.2.11 (2026-09-22)
 
 ## Bug Fixes
