@@ -6,6 +6,15 @@
 
 ---
 
+# v1.2.15 (2026-09-24)
+
+## Bug Fixes
+
+- **Dialogs Always on Top**: Fixed an issue where system file dialogs could be hidden behind always-on-top windows — they now reliably appear in front, right where you expect them
+- **Plugin Import Window**: The plugin import dialog no longer falls behind the main window when triggered from certain views
+
+---
+
 # v1.2.14 (2026-09-23)
 
 ## New Features

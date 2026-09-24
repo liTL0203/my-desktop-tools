@@ -112,7 +112,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/crypto-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/crypto-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 1901094,
+      "downloadSize": 1900478,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -261,7 +261,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/image-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/image-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 1151235,
+      "downloadSize": 1151467,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -427,7 +427,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/password-manager/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/password-manager/icon.png",
       "tags": [],
-      "downloadSize": 2055459,
+      "downloadSize": 2054986,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -494,7 +494,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pdf-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pdf-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 4517431,
+      "downloadSize": 4515743,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",

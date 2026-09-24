@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.2.14 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.14/My%20Desktop%20Tools_1.2.14_x64_en-US.msi) |
+| v1.2.15 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.15/My.Desktop.Tools_1.2.15_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.15/My.Desktop.Tools_1.2.15_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
