@@ -69,7 +69,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/clipboard/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/clipboard/icon.png",
       "tags": [],
-      "downloadSize": 1405674,
+      "downloadSize": 1415629,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -268,6 +268,54 @@
         "popup"
       ],
       "updatedAt": "2026-09-23",
+      "purpose": {
+        "en": "Describe why this plugin was created and what problem it solves.",
+        "zh": "描述创建此插件的目的和它解决的问题。"
+      },
+      "useCases": {
+        "en": [
+          "Use case 1: describe a scenario where this plugin is useful",
+          "Use case 2: another scenario"
+        ],
+        "zh": [
+          "场景 1：描述此插件适用的一个场景",
+          "场景 2：另一个场景"
+        ]
+      },
+      "longDescription": {
+        "en": "A longer description of the plugin, shown in the detail modal.",
+        "zh": "插件的详细描述，在详情弹窗中展示。"
+      },
+      "features": {
+        "en": [
+          "Feature 1: describe a key feature",
+          "Feature 2: another feature"
+        ],
+        "zh": [
+          "功能 1：描述一个核心功能",
+          "功能 2：另一个功能"
+        ]
+      }
+    },
+    {
+      "id": "input-lock",
+      "name": "防误触锁定",
+      "version": "1.0.0",
+      "description": "清理键盘鼠标时的输入防护罩：一键锁定全局键鼠输入防误触，专属手势秒解，多重自动恢复兜底",
+      "author": "li_TL",
+      "authorUrl": "",
+      "category": "system-tools",
+      "icon": "package",
+      "iconVariant": "blue",
+      "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/input-lock/icon.png",
+      "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/input-lock/icon.png",
+      "tags": [],
+      "downloadSize": 0,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop"
+      ],
+      "updatedAt": "",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"

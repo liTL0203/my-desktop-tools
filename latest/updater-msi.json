@@ -1,11 +1,11 @@
 {
-  "version": "1.2.15",
-  "notes": "## Bug Fixes\n\n- **Dialogs Always on Top**: Fixed an issue where system file dialogs could be hidden behind always-on-top windows — they now reliably appear in front, right where you expect them\n- **Plugin Import Window**: The plugin import dialog no longer falls behind the main window when triggered from certain views\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **对话框始终置前**：修复了系统文件对话框可能被置顶窗口遮挡的问题——现在可靠地出现在最前，就在你期望的位置\n- **插件导入窗口**：从部分视图触发时，插件导入对话框不再落到主窗口后面\n\n</details>",
-  "pub_date": "2026-09-24T02:08:10.305Z",
+  "version": "1.2.17",
+  "notes": "## New Features\n\n- **Easier Sponsorship Access**: The sponsor page can now be reached directly from settings, and intercepted payments are handled more gracefully\n\n## Improvements\n\n- **More Reliable Plugin Hotkeys**: Plugin global shortcuts now filter by app state and debounce rapid triggers — fewer misfires, no double-fires\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **赞助页更易达**：设置页现可直接打开赞助页，被拦截的支付处理更从容\n\n## 优化改进\n\n- **插件热键更可靠**：插件全局快捷键现按应用状态过滤并对快速触发防抖——误触发更少，不再连发\n\n</details>",
+  "pub_date": "2026-09-25T00:51:13.102Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEQ4dGJyakJHT2FRdWZId1lYNC9EQTRtczZJcGJMekRWQTVITmwwejRHOHVCTFU1a3p0N0M5MlBvNVYyNXhGL1BIWWQvNHNlZXNnL0ZmV1Y5RC9QQUFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjE1NjcwCWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMTVfeDY0X2VuLVVTLm1zaQp2ZGYybTAvNWdXcElDWksvYnFuTG5BYys1YUJIOU1jdEFGZ3lxWkg5MlZGNkNjZ2pRNitOcDg3emtVMkJKelFkcjIrUEY0dnEvMXREOFo5NlRRR2pBUT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.15/My.Desktop.Tools_1.2.15_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZE13UUFXdW5HNXRTTHVhV3U4Z0tTaG1NZkZxemc3ZXVQWW4vZ1VsUGpTTjhUT3kwTVVQeUxOUzRRc1p4YmdOMUE2Z2dodGd2d2JTV2RJVUhQbGlvZ3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjk3NDI5CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMTdfeDY0X2VuLVVTLm1zaQp3VE9Mbk96Q1Fya2hwRGwzSk90bzlDSmdMVmR1YzhQZ3dmWGhidmJmTlViMU5LL3paNCtQdCtZSThnejJnK2h6MzNOaDJJekR4WXJqUHRlaG9iUUlDQT09Cg==",
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.17/My.Desktop.Tools_1.2.17_x64_en-US.msi"
     }
   }
 }

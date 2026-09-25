@@ -6,6 +6,18 @@
 
 ---
 
+# v1.2.17 (2026-09-25)
+
+## New Features
+
+- **Easier Sponsorship Access**: The sponsor page can now be reached directly from settings, and intercepted payments are handled more gracefully
+
+## Improvements
+
+- **More Reliable Plugin Hotkeys**: Plugin global shortcuts now filter by app state and debounce rapid triggers — fewer misfires, no double-fires
+
+---
+
 # v1.2.15 (2026-09-24)
 
 ## Bug Fixes

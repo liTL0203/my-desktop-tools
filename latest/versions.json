@@ -1,7 +1,7 @@
 {
-  "core": "1.2.15",
-  "coreNotes": "## Bug Fixes\n\n- **Dialogs Always on Top**: Fixed an issue where system file dialogs could be hidden behind always-on-top windows — they now reliably appear in front, right where you expect them\n- **Plugin Import Window**: The plugin import dialog no longer falls behind the main window when triggered from certain views\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **对话框始终置前**：修复了系统文件对话框可能被置顶窗口遮挡的问题——现在可靠地出现在最前，就在你期望的位置\n- **插件导入窗口**：从部分视图触发时，插件导入对话框不再落到主窗口后面\n\n</details>",
-  "pubDate": "2026-09-24T02:08:10.312Z",
+  "core": "1.2.17",
+  "coreNotes": "## New Features\n\n- **Easier Sponsorship Access**: The sponsor page can now be reached directly from settings, and intercepted payments are handled more gracefully\n\n## Improvements\n\n- **More Reliable Plugin Hotkeys**: Plugin global shortcuts now filter by app state and debounce rapid triggers — fewer misfires, no double-fires\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **赞助页更易达**：设置页现可直接打开赞助页，被拦截的支付处理更从容\n\n## 优化改进\n\n- **插件热键更可靠**：插件全局快捷键现按应用状态过滤并对快速触发防抖——误触发更少，不再连发\n\n</details>",
+  "pubDate": "2026-09-25T00:51:13.110Z",
   "plugins": {
     "pomodoro": "2.3.2",
     "proxy-switch": "3.3.2",
