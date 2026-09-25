@@ -6,6 +6,14 @@
 
 ---
 
+# v1.2.18 (2026-09-25)
+
+## New Features
+
+- **Path-Mode Dialogs for Plugins**: A new dialog mode joins the plugin bridge — tools like the Image Toolkit now offer system open/save dialogs through it (see the Image Toolkit update in the marketplace)
+
+---
+
 # v1.2.17 (2026-09-25)
 
 ## New Features

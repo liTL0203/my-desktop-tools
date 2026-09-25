@@ -251,7 +251,7 @@
     {
       "id": "image-toolkit",
       "name": "图片工具箱",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "description": "本地图片处理：格式转换、精确压缩、裁剪旋转、证件照换底色、打码、拼接水印",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -300,7 +300,7 @@
     {
       "id": "input-lock",
       "name": "防误触锁定",
-      "version": "1.0.0",
+      "version": "1.1.0",
       "description": "清理键盘鼠标时的输入防护罩：一键锁定全局键鼠输入防误触，专属手势秒解，多重自动恢复兜底",
       "author": "li_TL",
       "authorUrl": "",
@@ -310,7 +310,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/input-lock/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/input-lock/icon.png",
       "tags": [],
-      "downloadSize": 361258,
+      "downloadSize": 361094,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
@@ -333,25 +333,25 @@
         ]
       },
       "longDescription": {
-        "en": "Locks all keyboard and mouse input system-wide while you clean your devices. Only the unlock gesture (default: press Esc three times within 2 seconds, switchable to hold-Esc-3s or Ctrl+Alt+F) gets through. A top banner shows the countdown and blocked-input count. Safety nets: hard time limit forces auto-release (30 min default, 5-120 adjustable, cannot be disabled); if the plugin exits unexpectedly the OS restores input immediately; Ctrl+Alt+Del always works as the OS-level last resort.",
-        "zh": "清理设备期间锁定系统级键盘与鼠标输入，仅放行解锁手势（默认 2 秒内连按 Esc ×3，可切换长按 Esc 3 秒或 Ctrl+Alt+F）。顶部横幅常显剩余时间与拦截次数。多重安全网：硬性时长到点强制自动解除（默认 30 分钟，5-120 可调、不可关闭）；插件异常退出时系统级立即恢复输入；Ctrl+Alt+Del 是操作系统级安全序列，永远可用。"
+        "en": "Locks all keyboard and mouse input system-wide while you clean your devices. Only the unlock gesture (default: press Esc three times within 2 seconds, switchable to hold-Esc-3s or Ctrl+Alt+U) gets through. A top banner shows the countdown and blocked-input count. Safety nets: hard time limit forces auto-release (30 min default, 5-120 adjustable, cannot be disabled); if the plugin exits unexpectedly the OS restores input immediately.",
+        "zh": "清理设备期间锁定系统级键盘与鼠标输入，仅放行解锁手势（默认 2 秒内连按 Esc ×3，可切换长按 Esc 3 秒或 Ctrl+Alt+U）。顶部横幅常显剩余时间与拦截次数。多重安全网：硬性时长到点强制自动解除（默认 30 分钟，5-120 可调、不可关闭）；插件意外退出时系统级立即恢复输入。"
       },
       "features": {
         "en": [
           "One-click lock of all keyboard & mouse input (Win32 low-level hooks, installed only while locked)",
-          "Deliberate unlock gestures: Esc x3 / hold Esc 3s / Ctrl+Alt+F",
+          "Deliberate unlock gestures: Esc x3 / hold Esc 3s / Ctrl+Alt+U",
           "Hard-limit auto-release + OS-level recovery if the plugin dies",
           "Top status banner with countdown and blocked-input counter",
-          "Scope: All / Keyboard only / Mouse only; optional lock-on-open via hotkey",
-          "Global hotkey Ctrl+Alt+K; light/dark themes; English & Chinese"
+          "Scope: All / Keyboard only / Mouse only; optional lock-on-open",
+          "Light/dark themes; English & Chinese"
         ],
         "zh": [
           "一键锁定全局键鼠输入（Win32 低级钩子，仅防护期间安装）",
-          "刻意解锁手势：Esc ×3 / 长按 Esc 3 秒 / Ctrl+Alt+F",
+          "刻意解锁手势：Esc ×3 / 长按 Esc 3 秒 / Ctrl+Alt+U",
           "硬性时长兜底自动解除 + 插件异常退出系统级输入自愈",
           "顶部状态横幅：倒计时 + 拦截计数 + 手势提示",
-          "锁定范围：全部 / 仅键盘 / 仅鼠标；可选热键开窗即锁",
-          "全局热键 Ctrl+Alt+K；明暗双主题；中英双语"
+          "锁定范围：全部 / 仅键盘 / 仅鼠标；可选开窗即锁",
+          "明暗双主题；中英双语"
         ]
       }
     },
@@ -731,6 +731,55 @@
         "desktop"
       ],
       "updatedAt": "2026-09-25",
+      "purpose": {
+        "en": "Describe why this plugin was created and what problem it solves.",
+        "zh": "描述创建此插件的目的和它解决的问题。"
+      },
+      "useCases": {
+        "en": [
+          "Use case 1: describe a scenario where this plugin is useful",
+          "Use case 2: another scenario"
+        ],
+        "zh": [
+          "场景 1：描述此插件适用的一个场景",
+          "场景 2：另一个场景"
+        ]
+      },
+      "longDescription": {
+        "en": "A longer description of the plugin, shown in the detail modal.",
+        "zh": "插件的详细描述，在详情弹窗中展示。"
+      },
+      "features": {
+        "en": [
+          "Feature 1: describe a key feature",
+          "Feature 2: another feature"
+        ],
+        "zh": [
+          "功能 1：描述一个核心功能",
+          "功能 2：另一个功能"
+        ]
+      }
+    },
+    {
+      "id": "screenshot-tool",
+      "name": "截图助手",
+      "version": "0.1.0",
+      "description": "截图、标注、提取文字与翻译：热键唤起，框选即截，识别翻译一步到位",
+      "author": "li_TL",
+      "authorUrl": "",
+      "category": "capture",
+      "icon": "package",
+      "iconVariant": "blue",
+      "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/screenshot-tool/icon.png",
+      "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/screenshot-tool/icon.png",
+      "tags": [],
+      "downloadSize": 0,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop",
+        "popup"
+      ],
+      "updatedAt": "",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"

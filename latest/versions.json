@@ -1,7 +1,7 @@
 {
-  "core": "1.2.17",
-  "coreNotes": "## New Features\n\n- **Easier Sponsorship Access**: The sponsor page can now be reached directly from settings, and intercepted payments are handled more gracefully\n\n## Improvements\n\n- **More Reliable Plugin Hotkeys**: Plugin global shortcuts now filter by app state and debounce rapid triggers — fewer misfires, no double-fires\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **赞助页更易达**：设置页现可直接打开赞助页，被拦截的支付处理更从容\n\n## 优化改进\n\n- **插件热键更可靠**：插件全局快捷键现按应用状态过滤并对快速触发防抖——误触发更少，不再连发\n\n</details>",
-  "pubDate": "2026-09-25T02:37:12.786Z",
+  "core": "1.2.18",
+  "coreNotes": "## New Features\n\n- **Path-Mode Dialogs for Plugins**: A new dialog mode joins the plugin bridge — tools like the Image Toolkit now offer system open/save dialogs through it (see the Image Toolkit update in the marketplace)\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **插件路径模式对话框**：插件桥新增对话框模式——图片工具箱等工具由此获得系统级开文件/保存对话框（详见商城的图片工具箱更新）\n\n</details>",
+  "pubDate": "2026-09-25T13:01:39.283Z",
   "plugins": {
     "pomodoro": "2.4.0",
     "proxy-switch": "3.4.0",

@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.2.17 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.17/My%20Desktop%20Tools_1.2.17_x64_en-US.msi) |
+| v1.2.18 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.18/My.Desktop.Tools_1.2.18_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.18/My.Desktop.Tools_1.2.18_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -21,8 +21,8 @@
 | crypto-toolkit | 1.6.0 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.6.0/crypto-toolkit-1.6.0.zip) |
 | desktop-styler | 0.3.0 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.0/desktop-styler-0.3.0.zip) |
 | diff-toolkit | 1.1.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.1.0/diff-toolkit-1.1.0.zip) |
-| image-toolkit | 1.2.0 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.2.0/image-toolkit-1.2.0.zip) |
-| input-lock | 1.0.0 | [说明](plugins/input-lock/) | [版本历史](plugins/input-lock/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.0.0/input-lock-1.0.0.zip) |
+| image-toolkit | 1.3.0 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.3.0/image-toolkit-1.3.0.zip) |
+| input-lock | 1.1.0 | [说明](plugins/input-lock/) | [版本历史](plugins/input-lock/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.1.0/input-lock-1.1.0.zip) |
 | json-format | 1.8.0 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.8.0/json-format-1.8.0.zip) |
 | json-to-excel | 2.4.0 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.4.0/json-to-excel-2.4.0.zip) |
 | password-manager | 2.3.0 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.3.0/password-manager-2.3.0.zip) |
@@ -30,6 +30,7 @@
 | pomodoro | 2.4.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.4.0/pomodoro-2.4.0.zip) |
 | proxy-switch | 3.4.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.4.0/proxy-switch-3.4.0.zip) |
 | remote-desktop | 1.2.0 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.2.0/remote-desktop-1.2.0.zip) |
+| screenshot-tool | 0.1.0 | [说明](plugins/screenshot-tool/) | [版本历史](plugins/screenshot-tool/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v0.1.0/screenshot-tool-0.1.0.zip) |
 | sql-format | 1.2.0 | [说明](plugins/sql-format/) | [版本历史](plugins/sql-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.2.0/sql-format-1.2.0.zip) |
 | sys-info | 2.3.0 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.3.0/sys-info-2.3.0.zip) |
 | xml-format | 1.2.0 | [说明](plugins/xml-format/) | [版本历史](plugins/xml-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.2.0/xml-format-1.2.0.zip) |

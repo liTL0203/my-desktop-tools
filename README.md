@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.2.17 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.17/My%20Desktop%20Tools_1.2.17_x64_en-US.msi) |
+| v1.2.18 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.18/My.Desktop.Tools_1.2.18_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.18/My.Desktop.Tools_1.2.18_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -21,8 +21,8 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | crypto-toolkit | 1.6.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.6.0/crypto-toolkit-1.6.0.zip) |
 | desktop-styler | 0.3.0 | [Description](plugins/desktop-styler/) | [Changelog](plugins/desktop-styler/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.0/desktop-styler-0.3.0.zip) |
 | diff-toolkit | 1.1.0 | [Description](plugins/diff-toolkit/) | [Changelog](plugins/diff-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.1.0/diff-toolkit-1.1.0.zip) |
-| image-toolkit | 1.2.0 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.2.0/image-toolkit-1.2.0.zip) |
-| input-lock | 1.0.0 | [Description](plugins/input-lock/) | [Changelog](plugins/input-lock/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.0.0/input-lock-1.0.0.zip) |
+| image-toolkit | 1.3.0 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.3.0/image-toolkit-1.3.0.zip) |
+| input-lock | 1.1.0 | [Description](plugins/input-lock/) | [Changelog](plugins/input-lock/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.1.0/input-lock-1.1.0.zip) |
 | json-format | 1.8.0 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.8.0/json-format-1.8.0.zip) |
 | json-to-excel | 2.4.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.4.0/json-to-excel-2.4.0.zip) |
 | password-manager | 2.3.0 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.3.0/password-manager-2.3.0.zip) |
@@ -30,6 +30,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | pomodoro | 2.4.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.4.0/pomodoro-2.4.0.zip) |
 | proxy-switch | 3.4.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.4.0/proxy-switch-3.4.0.zip) |
 | remote-desktop | 1.2.0 | [Description](plugins/remote-desktop/) | [Changelog](plugins/remote-desktop/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.2.0/remote-desktop-1.2.0.zip) |
+| screenshot-tool | 0.1.0 | [Description](plugins/screenshot-tool/) | [Changelog](plugins/screenshot-tool/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v0.1.0/screenshot-tool-0.1.0.zip) |
 | sql-format | 1.2.0 | [Description](plugins/sql-format/) | [Changelog](plugins/sql-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.2.0/sql-format-1.2.0.zip) |
 | sys-info | 2.3.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.3.0/sys-info-2.3.0.zip) |
 | xml-format | 1.2.0 | [Description](plugins/xml-format/) | [Changelog](plugins/xml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.2.0/xml-format-1.2.0.zip) |
