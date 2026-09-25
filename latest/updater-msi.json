@@ -1,11 +1,11 @@
 {
   "version": "1.2.17",
   "notes": "## New Features\n\n- **Easier Sponsorship Access**: The sponsor page can now be reached directly from settings, and intercepted payments are handled more gracefully\n\n## Improvements\n\n- **More Reliable Plugin Hotkeys**: Plugin global shortcuts now filter by app state and debounce rapid triggers — fewer misfires, no double-fires\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **赞助页更易达**：设置页现可直接打开赞助页，被拦截的支付处理更从容\n\n## 优化改进\n\n- **插件热键更可靠**：插件全局快捷键现按应用状态过滤并对快速触发防抖——误触发更少，不再连发\n\n</details>",
-  "pub_date": "2026-09-25T00:51:13.102Z",
+  "pub_date": "2026-09-25T02:37:12.782Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZE13UUFXdW5HNXRTTHVhV3U4Z0tTaG1NZkZxemc3ZXVQWW4vZ1VsUGpTTjhUT3kwTVVQeUxOUzRRc1p4YmdOMUE2Z2dodGd2d2JTV2RJVUhQbGlvZ3dBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjk3NDI5CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMTdfeDY0X2VuLVVTLm1zaQp3VE9Mbk96Q1Fya2hwRGwzSk90bzlDSmdMVmR1YzhQZ3dmWGhidmJmTlViMU5LL3paNCtQdCtZSThnejJnK2h6MzNOaDJJekR4WXJqUHRlaG9iUUlDQT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.17/My.Desktop.Tools_1.2.17_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.17/My%20Desktop%20Tools_1.2.17_x64_en-US.msi"
     }
   }
 }

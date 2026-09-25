@@ -3,7 +3,7 @@
     {
       "id": "ai-translator",
       "name": "AI 翻译",
-      "version": "2.4.2",
+      "version": "2.5.0",
       "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -13,12 +13,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/ai-translator/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/ai-translator/icon.png",
       "tags": [],
-      "downloadSize": 342152,
+      "downloadSize": 340935,
       "requiresPayment": false,
       "supportedModes": [
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Frequent context switching to translation tools disrupts workflow. This plugin embeds AI translation into the desktop—select text, get instant results.",
         "zh": "在阅读外文资料、编写国际化代码或与海外同事沟通时，频繁切换翻译工具打断工作流。AI 翻译插件将翻译能力嵌入桌面，选中即译，让语言不再成为障碍。"
@@ -59,7 +59,7 @@
     {
       "id": "clipboard",
       "name": "剪切板历史",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "剪切板历史管理：自动记录、智能分类、敏感掩码、搜索置顶、格式感知二级操作与多选合并",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -69,13 +69,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/clipboard/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/clipboard/icon.png",
       "tags": [],
-      "downloadSize": 1415629,
+      "downloadSize": 1415720,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Clipboard history that makes copied content searchable, processable and protected: automatic recording with smart type detection, sensitive masking for OTP and card numbers, pin-as-template, per-type actions like QR code and JSON formatting, and multi-select merge paste.",
         "zh": "让复制过的内容能被搜索、被加工、被保护：自动记录并智能分类，验证码与卡号自动掩码，置顶收藏当短语模板，链接生码、JSON 格式化等就地二级操作，多选按序合并粘贴。"
@@ -102,7 +102,7 @@
     {
       "id": "crypto-toolkit",
       "name": "加密解密工具箱",
-      "version": "1.5.2",
+      "version": "1.6.0",
       "description": "本地加密解密与压缩工具：Base64/Hex/URL 编码、AES/ChaCha20/国密加解密、哈希摘要、经典密码、文件压缩成字符串与还原",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -112,13 +112,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/crypto-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/crypto-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 1900478,
+      "downloadSize": 1900740,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Developers constantly juggle encoded strings (Base64/Hex/JWT), digests, and cipher payloads between browsers, terminals, and docs — usually via random websites that leak data. This plugin bundles the full crypto/encoding workflow into one offline toolbox with zero-trace privacy.",
         "zh": "开发者经常在浏览器、终端、文档之间来回处理编码字符串（Base64/Hex/JWT）、摘要与密文，通常求助随机网站、存在数据泄露风险。本插件把完整加密/编码工作流装进一个离线工具箱，零痕迹保护隐私。"
@@ -163,7 +163,7 @@
     {
       "id": "desktop-styler",
       "name": "桌面美化",
-      "version": "0.2.2",
+      "version": "0.3.0",
       "description": "AI 驱动的桌面美化：mac 风 Dock/顶栏/小组件 + 壁纸与系统外观 + 一键还原",
       "author": "li_TL",
       "authorUrl": "",
@@ -173,12 +173,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/desktop-styler/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/desktop-styler/icon.png",
       "tags": [],
-      "downloadSize": 433457,
+      "downloadSize": 456371,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -211,7 +211,7 @@
     {
       "id": "diff-toolkit",
       "name": "内容对比工具",
-      "version": "1.0.2",
+      "version": "1.1.0",
       "description": "文本/代码行级+词级对比、JSON 结构感知对比，差异清单快速定位",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -221,12 +221,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/diff-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/diff-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 417972,
+      "downloadSize": 419028,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Compare anything, not just code. This plugin provides line-level plus word-level text diff with ignore rules, JSON structure-aware comparison that treats key order as irrelevant and detects array reordering, a jumpable change list, and similarity statistics — all computed in a local Rust sidecar.",
         "zh": "万物皆可对比，不止代码。行级+词级文本对比（可忽略空白/大小写）、JSON 结构感知对比（键序无关、识别数组重排）、可跳转的差异清单与相似度统计，引擎全部在本地 Rust Sidecar 完成。"
@@ -251,7 +251,7 @@
     {
       "id": "image-toolkit",
       "name": "图片工具箱",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "description": "本地图片处理：格式转换、精确压缩、裁剪旋转、证件照换底色、打码、拼接水印",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -261,13 +261,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/image-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/image-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 1151467,
+      "downloadSize": 1152547,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -310,45 +310,55 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/input-lock/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/input-lock/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 361258,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "",
+      "updatedAt": "2026-09-25",
       "purpose": {
-        "en": "Describe why this plugin was created and what problem it solves.",
-        "zh": "描述创建此插件的目的和它解决的问题。"
+        "en": "An input shield for cleaning your keyboard and mouse: lock all keyboard & mouse input with one click so wiping never triggers random actions, with deliberate gesture unlock and multiple auto-recovery safeguards.",
+        "zh": "清理键盘鼠标时的输入防护罩：一键锁定全局键鼠输入，擦拭产生的乱按乱点全部拦下，屏幕保持常显；刻意设计的解锁手势秒解，多重自动恢复兜底。"
       },
       "useCases": {
         "en": [
-          "Use case 1: describe a scenario where this plugin is useful",
-          "Use case 2: another scenario"
+          "Cleaning the keyboard: turn on protection, wipe away, unlock with Esc x3 when done",
+          "Cleaning/disinfecting mouse, touchpad or desk area without stray clicks",
+          "Keeping the screen visible while input is locked (unlike Win+L lock screen)"
         ],
         "zh": [
-          "场景 1：描述此插件适用的一个场景",
-          "场景 2：另一个场景"
+          "擦键盘：开启防护放心擦拭，擦完连按 Esc ×3 秒解",
+          "清洁/消毒鼠标、触控板或桌面区域，不担心手滑误点",
+          "锁定输入但屏幕保持常显（与 Win+L 锁屏不同，回来看得见）"
         ]
       },
       "longDescription": {
-        "en": "A longer description of the plugin, shown in the detail modal.",
-        "zh": "插件的详细描述，在详情弹窗中展示。"
+        "en": "Locks all keyboard and mouse input system-wide while you clean your devices. Only the unlock gesture (default: press Esc three times within 2 seconds, switchable to hold-Esc-3s or Ctrl+Alt+F) gets through. A top banner shows the countdown and blocked-input count. Safety nets: hard time limit forces auto-release (30 min default, 5-120 adjustable, cannot be disabled); if the plugin exits unexpectedly the OS restores input immediately; Ctrl+Alt+Del always works as the OS-level last resort.",
+        "zh": "清理设备期间锁定系统级键盘与鼠标输入，仅放行解锁手势（默认 2 秒内连按 Esc ×3，可切换长按 Esc 3 秒或 Ctrl+Alt+F）。顶部横幅常显剩余时间与拦截次数。多重安全网：硬性时长到点强制自动解除（默认 30 分钟，5-120 可调、不可关闭）；插件异常退出时系统级立即恢复输入；Ctrl+Alt+Del 是操作系统级安全序列，永远可用。"
       },
       "features": {
         "en": [
-          "Feature 1: describe a key feature",
-          "Feature 2: another feature"
+          "One-click lock of all keyboard & mouse input (Win32 low-level hooks, installed only while locked)",
+          "Deliberate unlock gestures: Esc x3 / hold Esc 3s / Ctrl+Alt+F",
+          "Hard-limit auto-release + OS-level recovery if the plugin dies",
+          "Top status banner with countdown and blocked-input counter",
+          "Scope: All / Keyboard only / Mouse only; optional lock-on-open via hotkey",
+          "Global hotkey Ctrl+Alt+K; light/dark themes; English & Chinese"
         ],
         "zh": [
-          "功能 1：描述一个核心功能",
-          "功能 2：另一个功能"
+          "一键锁定全局键鼠输入（Win32 低级钩子，仅防护期间安装）",
+          "刻意解锁手势：Esc ×3 / 长按 Esc 3 秒 / Ctrl+Alt+F",
+          "硬性时长兜底自动解除 + 插件异常退出系统级输入自愈",
+          "顶部状态横幅：倒计时 + 拦截计数 + 手势提示",
+          "锁定范围：全部 / 仅键盘 / 仅鼠标；可选热键开窗即锁",
+          "全局热键 Ctrl+Alt+K；明暗双主题；中英双语"
         ]
       }
     },
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.7.1",
+      "version": "1.8.0",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -358,13 +368,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-format/icon.png",
       "tags": [],
-      "downloadSize": 1191931,
+      "downloadSize": 1192906,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Developers frequently handle complex JSON data when debugging APIs, editing configs, or exchanging data. This plugin integrates formatting, compression, querying, and visualization into one tool.",
         "zh": "开发者在调试 API、配置文件、数据交换时经常需要处理复杂的 JSON 数据。JSON 格式化插件将格式化、压缩、查询、可视化整合到一个工具中，替代多个在线工具。"
@@ -405,7 +415,7 @@
     {
       "id": "json-to-excel",
       "name": "JSON 转 Excel",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "description": "将 JSON 数据一键转换为 Excel 表格，支持嵌套展开、多 Sheet、数据预览",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -415,12 +425,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-to-excel/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-to-excel/icon.png",
       "tags": [],
-      "downloadSize": 773333,
+      "downloadSize": 775382,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Manually converting JSON data into Excel spreadsheets is tedious, and online converters pose data privacy risks. This plugin provides a local, offline JSON-to-Excel converter with nested object flattening and multi-sheet support.",
         "zh": "手动将 JSON 数据转换为 Excel 表格既繁琐又耗时，在线转换工具还存在数据隐私风险。本插件提供本地离线的 JSON 转 Excel 工具，支持嵌套对象自动展开和多 Sheet 导出。"
@@ -465,7 +475,7 @@
     {
       "id": "password-manager",
       "name": "密码管理器",
-      "version": "2.2.3",
+      "version": "2.3.0",
       "description": "本地零知识加密密码保险库：主密码 + Windows Hello 解锁、密码生成器、安全体检、Popup 快速取密",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -475,13 +485,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/password-manager/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/password-manager/icon.png",
       "tags": [],
-      "downloadSize": 2054986,
+      "downloadSize": 2056680,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Reusing a few passwords across dozens of sites is the norm, and cloud password managers raise privacy concerns. This plugin provides a local zero-knowledge vault: master-password key derivation, field-level AES-256-GCM encryption, instant search-copy with guarded clipboard, and a one-time recovery key.",
         "zh": "在几十个网站之间复用少量密码是常态，而云端密码管理器又带来隐私顾虑。本插件提供本地零知识加密保险库：主密码派生密钥、字段级 AES-256-GCM 加密、即搜即复制（剪贴板自动清除）与一次性恢复密钥。"
@@ -532,7 +542,7 @@
     {
       "id": "pdf-toolkit",
       "name": "PDF 工具箱",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "description": "本地 PDF 工具：Base64 直开预览、页面合并拆分排序、文字图片页码烧录、打印版式 N-up 缩放调整",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -542,13 +552,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pdf-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pdf-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 4515743,
+      "downloadSize": 5607287,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -581,7 +591,7 @@
     {
       "id": "pomodoro",
       "name": "番茄钟",
-      "version": "2.3.2",
+      "version": "2.4.0",
       "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -591,13 +601,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pomodoro/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pomodoro/icon.png",
       "tags": [],
-      "downloadSize": 450271,
+      "downloadSize": 449818,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Modern life is full of distractions. This plugin applies the classic Pomodoro Technique (25min focus + 5min break) to help overcome procrastination and build healthy deep work habits.",
         "zh": "现代生活中干扰无处不在，社交媒体、邮件、消息通知不断打断专注。番茄钟 Pro 基于经典的番茄工作法（25 分钟专注 + 5 分钟休息），帮助你克服拖延症，建立健康的深度工作习惯。"
@@ -644,7 +654,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
-      "version": "3.3.2",
+      "version": "3.4.0",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -654,13 +664,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/proxy-switch/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/proxy-switch/icon.png",
       "tags": [],
-      "downloadSize": 3238393,
+      "downloadSize": 3239340,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Manually switching proxy nodes in multi-proxy environments is tedious and error-prone. This plugin integrates node management, rule engine, and auto-switching strategies into one tool.",
         "zh": "在多代理环境下手动切换代理节点既繁琐又容易出错。代理切换插件将节点管理、规则引擎、自动切换策略整合到一个工具中，让网络代理管理变得简单高效。"
@@ -705,7 +715,7 @@
     {
       "id": "remote-desktop",
       "name": "内网远程桌面",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "description": "纯内网远程桌面：自动发现/手动 IP 直连 + 引擎画面通道（RustDesk）+ 双向剪贴板 + 被控无人值守，流量不出内网",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -715,12 +725,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/remote-desktop/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/remote-desktop/icon.png",
       "tags": [],
-      "downloadSize": 465009,
+      "downloadSize": 466376,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -753,7 +763,7 @@
     {
       "id": "sql-format",
       "name": "SQL 美化",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "description": "SQL 格式化、压缩、校验、多语句导航、转换与静态分析",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -763,13 +773,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sql-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sql-format/icon.png",
       "tags": [],
-      "downloadSize": 976443,
+      "downloadSize": 975756,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Developers constantly deal with unformatted SQL: single-line queries from logs, messy scripts written by others, INSERT data to convert. This plugin provides an offline SQL text workbench with formatting, compression, validation, statement navigation, transformations and static analysis — without ever connecting to a database.",
         "zh": "开发者每天都在和未格式化的 SQL 打交道：日志里捞出来的单行查询、别人写的乱格式脚本、需要转换的 INSERT 数据。本插件提供离线 SQL 文本工作台：格式化、压缩、校验、多语句导航、转换与静态分析，全程不连接数据库。"
@@ -820,7 +830,7 @@
     {
       "id": "sys-info",
       "name": "系统信息",
-      "version": "2.2.2",
+      "version": "2.3.0",
       "description": "系统信息一站式工具箱：工具树式浏览硬件/系统/网络/进程/外设，实时监控 CPU·内存·磁盘·网速，查看 WiFi 密码、VPN 凭据、产品密钥、BitLocker 恢复密钥并导出报告",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -830,13 +840,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sys-info/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sys-info/icon.png",
       "tags": [],
-      "downloadSize": 515567,
+      "downloadSize": 515652,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "When troubleshooting hardware, upgrading configs, or diagnosing networks, users need a quick system overview. This plugin consolidates scattered system tools into a unified interface.",
         "zh": "在排查硬件问题、升级配置、网络诊断时，用户需要快速获取系统全貌。系统信息插件将分散在各处的系统工具整合为统一界面，一站式查看所有关键信息。"
@@ -881,7 +891,7 @@
     {
       "id": "xml-format",
       "name": "XML 格式化",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "description": "XML 格式化、压缩、校验、结构树、XPath 查询与 JSON 互转",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -891,13 +901,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/xml-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/xml-format/icon.png",
       "tags": [],
-      "downloadSize": 864589,
+      "downloadSize": 864729,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Developers constantly handle unformatted XML: SOAP requests, pom.xml, Android layouts, RSS feeds and sitemaps. This plugin provides an offline XML workbench with formatting, minifying, well-formedness validation with line/column location, structure tree browsing, XPath 1.0 queries and bidirectional XML-JSON conversion — all fully local.",
         "zh": "开发者每天都在和未格式化的 XML 打交道：SOAP 报文、pom.xml、Android 布局、RSS 与 sitemap。本插件提供离线 XML 文本工作台：格式化、压缩、校验（定位到行:列）、结构树浏览、XPath 查询与 XML⇄JSON 双向转换，全程本地完成。"
@@ -950,7 +960,7 @@
     {
       "id": "yaml-format",
       "name": "YAML 格式化",
-      "version": "1.1.2",
+      "version": "1.2.0",
       "description": "YAML 格式化、校验、压缩、JSON 互转、扁平化与多文档处理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -960,13 +970,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/yaml-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/yaml-format/icon.png",
       "tags": [],
-      "downloadSize": 858408,
+      "downloadSize": 854887,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-23",
+      "updatedAt": "2026-09-25",
       "purpose": {
         "en": "Developers handle YAML constantly when editing Kubernetes manifests, CI pipelines and app configs. This plugin integrates formatting with comment preservation, validation with line/column location, minifying, YAML-JSON conversion, flattening and multi-document handling into one offline workbench.",
         "zh": "开发者频繁处理 K8s 清单、CI 流水线与应用配置中的 YAML。本插件把保留注释的格式化、行列级校验定位、压缩、YAML-JSON 互转、扁平化与多文档处理整合为一个离线工作台。"
