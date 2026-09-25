@@ -1,11 +1,11 @@
 {
   "version": "1.2.18",
   "notes": "## New Features\n\n- **Path-Mode Dialogs for Plugins**: A new dialog mode joins the plugin bridge — tools like the Image Toolkit now offer system open/save dialogs through it (see the Image Toolkit update in the marketplace)\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **插件路径模式对话框**：插件桥新增对话框模式——图片工具箱等工具由此获得系统级开文件/保存对话框（详见商城的图片工具箱更新）\n\n</details>",
-  "pub_date": "2026-09-25T13:01:39.278Z",
+  "pub_date": "2026-09-25T13:08:45.067Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZExoTmFXREpFRTRqcDU5dzNnZElFSWpJQlZ2RFllWFRHS3NpcnpTYUlkdmVTZVYrZ2IvYll1T0ZWbXhxUDJkY0xVUFRzeVVoZGdIek1wZnJlR1ZhdUFjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMzQxMjg5CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMThfeDY0X2VuLVVTLm1zaQpSL0hFd1o4YmE3QUJKVi81Qngrbzc3UHhhSUdLai9hSThnQVc5RnM2MUxlaDEvQjZZQ0I3UHFzUUwxc21kakp4OVhQR2E4aEVObThoMHliRktQeFpCZz09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.18/My.Desktop.Tools_1.2.18_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.18/My%20Desktop%20Tools_1.2.18_x64_en-US.msi"
     }
   }
 }

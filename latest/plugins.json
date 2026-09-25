@@ -261,7 +261,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/image-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/image-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 1152547,
+      "downloadSize": 1164703,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -310,7 +310,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/input-lock/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/input-lock/icon.png",
       "tags": [],
-      "downloadSize": 361094,
+      "downloadSize": 362018,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
