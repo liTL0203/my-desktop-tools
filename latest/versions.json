@@ -1,9 +1,9 @@
 {
   "core": "1.2.18",
   "coreNotes": "## New Features\n\n- **Path-Mode Dialogs for Plugins**: A new dialog mode joins the plugin bridge — tools like the Image Toolkit now offer system open/save dialogs through it (see the Image Toolkit update in the marketplace)\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **插件路径模式对话框**：插件桥新增对话框模式——图片工具箱等工具由此获得系统级开文件/保存对话框（详见商城的图片工具箱更新）\n\n</details>",
-  "pubDate": "2026-09-25T13:08:45.070Z",
+  "pubDate": "2026-09-26T00:28:08.438Z",
   "plugins": {
-    "pomodoro": "2.4.0",
+    "pomodoro": "3.0.0",
     "proxy-switch": "3.4.0",
     "ai-translator": "2.5.0",
     "json-format": "1.8.0",

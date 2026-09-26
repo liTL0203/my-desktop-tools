@@ -27,7 +27,7 @@
 | json-to-excel | 2.4.0 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.4.0/json-to-excel-2.4.0.zip) |
 | password-manager | 2.3.0 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.3.0/password-manager-2.3.0.zip) |
 | pdf-toolkit | 1.2.0 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.2.0/pdf-toolkit-1.2.0.zip) |
-| pomodoro | 2.4.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v2.4.0/pomodoro-2.4.0.zip) |
+| pomodoro | 3.0.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.0.0/pomodoro-3.0.0.zip) |
 | proxy-switch | 3.4.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.4.0/proxy-switch-3.4.0.zip) |
 | remote-desktop | 1.2.0 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.2.0/remote-desktop-1.2.0.zip) |
 | screenshot-tool | 0.1.0 | [说明](plugins/screenshot-tool/) | [版本历史](plugins/screenshot-tool/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v0.1.0/screenshot-tool-0.1.0.zip) |

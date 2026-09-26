@@ -591,8 +591,8 @@
     {
       "id": "pomodoro",
       "name": "番茄钟",
-      "version": "2.4.0",
-      "description": "25+5 专注模式，自动短休息/长休息切换，统计记录",
+      "version": "3.0.0",
+      "description": "专注-休息循环节奏器：模式预设、任务绑定、休息引导、专注洞察",
       "author": "My Desktop Tools",
       "authorUrl": "",
       "category": "focus",
@@ -601,53 +601,57 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pomodoro/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pomodoro/icon.png",
       "tags": [],
-      "downloadSize": 449818,
+      "downloadSize": 523236,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-25",
+      "updatedAt": "2026-09-26",
       "purpose": {
-        "en": "Modern life is full of distractions. This plugin applies the classic Pomodoro Technique (25min focus + 5min break) to help overcome procrastination and build healthy deep work habits.",
-        "zh": "现代生活中干扰无处不在，社交媒体、邮件、消息通知不断打断专注。番茄钟 Pro 基于经典的番茄工作法（25 分钟专注 + 5 分钟休息），帮助你克服拖延症，建立健康的深度工作习惯。"
+        "en": "Modern life is full of distractions. This plugin applies the classic Pomodoro Technique (focus + break cycles) with task binding, guided breaks and focus insights to help you build healthy deep-work habits.",
+        "zh": "现代生活中干扰无处不在。番茄钟基于经典的番茄工作法（专注-休息循环），配合任务绑定、休息引导与专注洞察，帮助你克服拖延，建立健康的深度工作习惯。"
       },
       "useCases": {
         "en": [
-          "Study and exam prep: sustained focus for long study sessions",
-          "Remote work: manage work rhythm and avoid prolonged sitting",
-          "Project management: break complex tasks into manageable pomodoros",
-          "Habit building: maintain daily pomodoro count for consistent rhythm"
+          "Study and exam prep: sustained focus with 25+5 or 50+10 presets",
+          "Remote work: manage work rhythm, guided eye-rest and breathing breaks",
+          "Project work: bind tasks to pomodoros and track estimated vs actual effort",
+          "Habit building: daily goal, streak tracking and focus heatmap"
         ],
         "zh": [
-          "学习备考：考研、考证、语言学习等需要长时间专注的场景",
-          "远程办公：居家办公时自我管理工作节奏，避免久坐",
-          "项目管理：将复杂任务拆解为多个番茄钟，逐步推进",
-          "习惯养成：每日固定番茄钟数量，培养稳定的工作节律"
+          "学习备考：经典 25+5 或深度 50+10 预设，长时间专注不失调",
+          "远程办公：自动衔接的工作休息节奏，护眼与呼吸引导避免久坐",
+          "项目推进：任务绑定番茄计时，预估与实际投入一目了然",
+          "习惯养成：每日目标、连续天数与专注热力图，看见自己的节律"
         ]
       },
       "longDescription": {
-        "en": "Pomodoro Pro is a focus efficiency tool based on the scientific Pomodoro Technique. Through 25-minute focus + 5-minute break cycles, it helps you overcome procrastination and boost productivity.",
-        "zh": "番茄钟 Pro 是一款基于科学番茄工作法的专注效率工具。通过 25 分钟专注 + 5 分钟休息的循环，帮助你克服拖延症，提升工作效率。"
+        "en": "A focus rhythm tool built on the Pomodoro Technique: mode presets (Classic/Deep/Custom), task-bound pomodoros, guided breaks (20-20-20 eye rest, 4-4-6 breathing), synthesized ambient sound, and focus insights (streak, heatmap, hourly distribution, task ranking). Wall-clock timing keeps counting accurately across system sleep, and a system beep fallback reminds you of phase changes even when the window is closed.",
+        "zh": "一款基于番茄工作法的专注节奏工具：节奏预设（经典/深度/自定义）、任务绑定计时、休息引导（20-20-20 护眼、4-4-6 呼吸）、纯合成音景，以及专注洞察（连续天数、热力图、时段分布、任务排行）。计时采用墙钟基准，系统睡眠唤醒后依然准确；窗口关闭时由后台系统提示音兜底，不错过任何阶段切换。"
       },
       "features": {
         "en": [
-          "Customizable focus/break durations (5/15/25/45/60 min)",
-          "Multiple white noise backgrounds (rain, cafe, fireplace, keyboard)",
-          "Task management integration with pomodoro timer binding",
-          "Daily/weekly focus statistics with visual charts",
-          "Desktop floating window and standalone window dual mode",
-          "Focus achievement system and level unlocking",
-          "Local encrypted data storage, privacy secured"
+          "Rhythm presets: Classic 25+5, Deep 50+10, and Custom durations",
+          "Task binding: pomodoro counts and minutes accumulate per task",
+          "Guided breaks: 20-20-20 eye rest and 4-4-6 breathing animation",
+          "Distraction pad: capture stray thoughts mid-focus, resolve them on break",
+          "Focus insights: streak, 12-week heatmap, hourly golden window, task ranking",
+          "Synthesized ambient sound: rain, fireplace, cafe (no audio files)",
+          "Smart reminders: phase chime, last-10-second tick, system beep fallback",
+          "Strict mode for discipline training; CSV/JSON data export",
+          "Wall-clock based timing, accurate across system sleep"
         ],
         "zh": [
-          "自定义专注时长和休息时长（5/15/25/45/60 分钟）",
-          "多种白噪音背景音（雨声、咖啡馆、壁炉、键盘声）",
-          "任务管理集成，支持番茄计时绑定任务",
-          "每日/每周专注数据统计和可视化图表",
-          "桌面悬浮窗和独立窗口双模式",
-          "专注成就系统和等级解锁",
-          "数据本地加密存储，隐私安全"
+          "节奏预设：经典 25+5、深度 50+10 与自定义时长",
+          "任务绑定：每个任务的番茄数与投入分钟自动累计",
+          "休息引导：20-20-20 护眼提示与 4-4-6 呼吸动画",
+          "分心记事本：专注中随手记录杂念，休息时逐条处理",
+          "专注洞察：连续天数、12 周热力图、黄金时段分布、任务投入排行",
+          "合成音景：雨声、壁炉、咖啡馆（Web Audio 实时合成，无音频文件）",
+          "智能提醒：阶段提示音、最后 10 秒滴答、窗口关闭系统音兜底",
+          "严格模式助力自律训练；支持 CSV/JSON 数据导出",
+          "墙钟基准计时，系统睡眠唤醒后依然准确"
         ]
       }
     },
@@ -767,45 +771,55 @@
       "description": "截图、标注、提取文字与翻译：热键唤起，框选即截，识别翻译一步到位",
       "author": "li_TL",
       "authorUrl": "",
-      "category": "capture",
+      "category": "system-tools",
       "icon": "package",
       "iconVariant": "blue",
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/screenshot-tool/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/screenshot-tool/icon.png",
       "tags": [],
-      "downloadSize": 0,
+      "downloadSize": 551348,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "",
+      "updatedAt": "2026-09-26",
       "purpose": {
-        "en": "Describe why this plugin was created and what problem it solves.",
-        "zh": "描述创建此插件的目的和它解决的问题。"
+        "en": "Capture, annotate, extract text and translate screenshots in one place — a local-first alternative to WeChat screenshots.",
+        "zh": "把截图、标注、提取文字、翻译收进一个工具：热键唤起、框选即截、识别翻译一步到位，全程本地识别。"
       },
       "useCases": {
         "en": [
-          "Use case 1: describe a scenario where this plugin is useful",
-          "Use case 2: another scenario"
+          "Press Ctrl+Alt+A, drag a region, draw a red box or arrow, hit Enter — the annotated image is already in the clipboard, ready to paste into chat.",
+          "Snap a paragraph from a document or image and extract the text without retyping, then copy it in one click.",
+          "Select foreign-language content and translate it side by side or in-place, then copy the translation."
         ],
         "zh": [
-          "场景 1：描述此插件适用的一个场景",
-          "场景 2：另一个场景"
+          "按 Ctrl+Alt+A 框选区域，画红框箭头标注，回车——图片已进剪贴板，直接粘贴到聊天里。",
+          "截一段文档或图片里的文字，一键提取免手打，整段复制。",
+          "框选外文内容，对照或原位贴回翻译后一键复制译文。"
         ]
       },
       "longDescription": {
-        "en": "A longer description of the plugin, shown in the detail modal.",
-        "zh": "插件的详细描述，在详情弹窗中展示。"
+        "en": "A screenshot assistant for daily communication and reading: region capture with magnifier and color picker, six annotation tools (rectangle / ellipse / arrow / pen / mosaic / text) with undo, offline text recognition via the built-in Windows OCR engine, and translation through the host app's AI gateway with zero extra configuration. Everything except translation stays on your machine — no image ever leaves the device.",
+        "zh": "面向日常沟通与阅读的截图助手：放大镜取色辅助的精确框选、六种标注工具（矩形/椭圆/箭头/画笔/马赛克/文字）与撤销重做、基于 Windows 系统内置 OCR 的离线文字识别、以及复用主程序 AI 网关的零配置翻译（对照与原位贴回两种形态）。除翻译仅发送提取后的文本外，截图与识别全程本地完成，图片不出本机。"
       },
       "features": {
         "en": [
-          "Feature 1: describe a key feature",
-          "Feature 2: another feature"
+          "Hotkey (Ctrl+Alt+A) summon with capture-on-open",
+          "Region selection with 8 handles, arrow-key nudging and a 3x magnifier with color readout",
+          "Six annotation tools with color and stroke width",
+          "Offline OCR via the built-in Windows engine: block list, smart merge, copy all",
+          "Translation via the host AI gateway: side-by-side and in-place overlay, copy translated or both",
+          "Copy to clipboard as bitmap or save as PNG/JPG"
         ],
         "zh": [
-          "功能 1：描述一个核心功能",
-          "功能 2：另一个功能"
+          "热键唤起（Ctrl+Alt+A）+ 开窗即截",
+          "精确框选：8 柄微调、方向键挪动、3 倍放大镜取色",
+          "六种标注工具：矩形/椭圆/箭头/画笔/马赛克/文字，颜色与粗细可调",
+          "系统内置 OCR 离线识别：分块勾选、智能合并、一键复制",
+          "AI 网关翻译：对照分栏与原位贴回，可复制译文或双语",
+          "复制位图到剪贴板，或另存为 PNG/JPG"
         ]
       }
     },
