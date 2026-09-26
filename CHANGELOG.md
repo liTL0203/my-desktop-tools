@@ -6,6 +6,15 @@
 
 ---
 
+# v1.2.19 (2026-09-26)
+
+## New Features
+
+- **Plugin AI Skills**: Plugins can now declare AI skills they provide, and the AI engine can route requests to them — the desktop customization suite is the first to adopt this (see its update in the marketplace)
+- **Generic Plugin Events**: A new event bridge lets plugins broadcast and react to each other's activities, opening the door to richer cross-tool experiences
+
+---
+
 # v1.2.18 (2026-09-25)
 
 ## New Features

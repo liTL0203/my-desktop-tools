@@ -163,7 +163,7 @@
     {
       "id": "desktop-styler",
       "name": "桌面美化",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "description": "AI 驱动的桌面美化：mac 风 Dock/顶栏/小组件 + 壁纸与系统外观 + 一键还原",
       "author": "li_TL",
       "authorUrl": "",
@@ -178,7 +178,7 @@
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-09-25",
+      "updatedAt": "2026-09-26",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -469,6 +469,54 @@
           "转换前表格化数据预览",
           "可配置导出：表头样式、空值处理、自动列宽",
           "QuickAction 集成：快捷操作面板自动识别 JSON 文本"
+        ]
+      }
+    },
+    {
+      "id": "lan-share",
+      "name": "就近快传",
+      "version": "0.1.0",
+      "description": "内网文件传输与共享：附近设备自动发现、配对加密直传、断点续传、远程浏览共享目录、浏览器免安装收发、信任设备剪贴板同步",
+      "author": "My Desktop Tools",
+      "authorUrl": "",
+      "category": "network-control",
+      "icon": "package",
+      "iconVariant": "blue",
+      "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/lan-share/icon.png",
+      "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/lan-share/icon.png",
+      "tags": [],
+      "downloadSize": 0,
+      "requiresPayment": false,
+      "supportedModes": [
+        "desktop"
+      ],
+      "updatedAt": "",
+      "purpose": {
+        "en": "Describe why this plugin was created and what problem it solves.",
+        "zh": "描述创建此插件的目的和它解决的问题。"
+      },
+      "useCases": {
+        "en": [
+          "Use case 1: describe a scenario where this plugin is useful",
+          "Use case 2: another scenario"
+        ],
+        "zh": [
+          "场景 1：描述此插件适用的一个场景",
+          "场景 2：另一个场景"
+        ]
+      },
+      "longDescription": {
+        "en": "A longer description of the plugin, shown in the detail modal.",
+        "zh": "插件的详细描述，在详情弹窗中展示。"
+      },
+      "features": {
+        "en": [
+          "Feature 1: describe a key feature",
+          "Feature 2: another feature"
+        ],
+        "zh": [
+          "功能 1：描述一个核心功能",
+          "功能 2：另一个功能"
         ]
       }
     },

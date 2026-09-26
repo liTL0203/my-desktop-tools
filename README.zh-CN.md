@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.2.18 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.18/My%20Desktop%20Tools_1.2.18_x64_en-US.msi) |
+| v1.2.19 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.19/My.Desktop.Tools_1.2.19_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.19/My.Desktop.Tools_1.2.19_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -19,12 +19,13 @@
 | ai-translator | 2.5.0 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.5.0/ai-translator-2.5.0.zip) |
 | clipboard | 1.2.0 | [说明](plugins/clipboard/) | [版本历史](plugins/clipboard/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.2.0/clipboard-1.2.0.zip) |
 | crypto-toolkit | 1.6.0 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.6.0/crypto-toolkit-1.6.0.zip) |
-| desktop-styler | 0.3.0 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.0/desktop-styler-0.3.0.zip) |
+| desktop-styler | 0.3.1 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.1/desktop-styler-0.3.1.zip) |
 | diff-toolkit | 1.1.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.1.0/diff-toolkit-1.1.0.zip) |
 | image-toolkit | 1.3.0 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.3.0/image-toolkit-1.3.0.zip) |
 | input-lock | 1.1.0 | [说明](plugins/input-lock/) | [版本历史](plugins/input-lock/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.1.0/input-lock-1.1.0.zip) |
 | json-format | 1.8.0 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.8.0/json-format-1.8.0.zip) |
 | json-to-excel | 2.4.0 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.4.0/json-to-excel-2.4.0.zip) |
+| lan-share | 0.1.0 | [说明](plugins/lan-share/) | [版本历史](plugins/lan-share/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v0.1.0/lan-share-0.1.0.zip) |
 | password-manager | 2.3.0 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.3.0/password-manager-2.3.0.zip) |
 | pdf-toolkit | 1.2.0 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.2.0/pdf-toolkit-1.2.0.zip) |
 | pomodoro | 3.0.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.0.0/pomodoro-3.0.0.zip) |
