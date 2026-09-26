@@ -30,7 +30,7 @@
 | pomodoro | 3.0.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.0.0/pomodoro-3.0.0.zip) |
 | proxy-switch | 3.4.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.4.0/proxy-switch-3.4.0.zip) |
 | remote-desktop | 1.2.0 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.2.0/remote-desktop-1.2.0.zip) |
-| screenshot-tool | 0.1.0 | [说明](plugins/screenshot-tool/) | [版本历史](plugins/screenshot-tool/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v0.1.0/screenshot-tool-0.1.0.zip) |
+| screenshot-tool | 1.0.0 | [说明](plugins/screenshot-tool/) | [版本历史](plugins/screenshot-tool/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.0.0/screenshot-tool-1.0.0.zip) |
 | sql-format | 1.2.0 | [说明](plugins/sql-format/) | [版本历史](plugins/sql-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.2.0/sql-format-1.2.0.zip) |
 | sys-info | 2.3.0 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.3.0/sys-info-2.3.0.zip) |
 | xml-format | 1.2.0 | [说明](plugins/xml-format/) | [版本历史](plugins/xml-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.2.0/xml-format-1.2.0.zip) |
