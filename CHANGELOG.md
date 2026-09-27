@@ -6,6 +6,14 @@
 
 ---
 
+# v1.2.20 (2026-09-27)
+
+## Improvements
+
+- **Live System Status**: The status area (CPU, memory, network) now refreshes in real time with a smarter update mechanism — always current, never jumpy
+
+---
+
 # v1.2.19 (2026-09-26)
 
 ## New Features
