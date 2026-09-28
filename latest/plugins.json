@@ -521,64 +521,6 @@
       }
     },
     {
-      "id": "net-toolkit",
-      "name": "网络工具箱",
-      "version": "0.1.0",
-      "description": "一体化网络运维工具箱：本机真实 ICMP Ping 多目标对比、TCP 端口扫描、多服务器 DNS 传播对比、Wake-on-LAN 唤醒、HTTP 五段耗时与 SSL 证书检测，附子网计算 / VLSM 规划 / IPv6 / MAC 厂商全套离线计算器",
-      "author": "My Desktop Tools",
-      "authorUrl": "",
-      "category": "network-control",
-      "icon": "package",
-      "iconVariant": "blue",
-      "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/net-toolkit/icon.png",
-      "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/net-toolkit/icon.png",
-      "tags": [],
-      "downloadSize": 1560820,
-      "requiresPayment": false,
-      "supportedModes": [
-        "desktop"
-      ],
-      "updatedAt": "",
-      "purpose": {
-        "en": "Online network tools probe from their own servers, not yours, and scatter subnet calculators across ad-filled pages. This toolkit probes from your machine — real ICMP ping, TCP port connect, custom DNS servers, Wake-on-LAN, HTTP phase timing and TLS certificate checks — with every calculator (subnet, VLSM, IPv6, MAC vendor) working fully offline.",
-        "zh": "在线网络工具测的是「他们的服务器 → 目标」，本机连通性问题它们测不到，且计算器散落在满屏广告的网页里。这个工具箱从你的电脑直接探测——真实 ICMP Ping、TCP 端口、自定义 DNS、远程唤醒、HTTP 五段耗时与证书检测——并内置子网 / VLSM / IPv6 / MAC 厂商全套离线计算器。"
-      },
-      "useCases": {
-        "en": [
-          "Network feels off: ping several targets side by side from this PC with a live latency chart, loss markers and threshold alerts",
-          "Planning an office LAN: enter each department's host count and get a ready-to-paste VLSM subnet plan",
-          "After a DNS migration, compare answers from Ali, Tencent, 114, Google and your router at once to see whose cache lags behind"
-        ],
-        "zh": [
-          "网络时好时坏：从本机同时 Ping 多个目标，看实时延迟曲线、丢包标记与阈值告警",
-          "规划办公室局域网：按各部门主机数一键得出可直接抄进路由器的 VLSM 子网划分",
-          "DNS 切换后：并排对比阿里、腾讯、114、谷歌与路由器的解析结果，一眼看出谁还在返回旧记录"
-        ]
-      },
-      "longDescription": {
-        "en": "An all-in-one network toolkit for students, home-lab owners and junior admins. Seven pages: Overview (local network status at a glance), Ping (multi-target real ICMP with charts and monitoring), Port Scan (TCP connect with presets and a service fingerprint table), DNS (multi-resolver propagation matrix), IP Calc (subnet calculator, base conversions, IPv6, VLSM planner — all offline), LAN (Wake-on-LAN, MAC vendor lookup, ARP table), and HTTP/Cert (five-phase timing waterfall, redirect chain, certificate expiry). Select any IP, domain or URL anywhere and the Quick Action menu offers to probe it instantly. Every feature has a hover '?' explanation. No ads, no rate limits, dark and light themes.",
-        "zh": "面向学生、家庭实验室与初级运维的一体化网络工具箱。七个页签：总览（本机网络状态一目了然）、Ping（多目标真实 ICMP + 延迟图表 + 持续监控）、端口扫描（TCP 直连 + 场景预设 + 服务对照）、DNS（多服务器传播对比矩阵）、IP 计算（子网计算 / 进制转换 / IPv6 / VLSM 规划，全部离线）、局域网（Wake-on-LAN 唤醒 / MAC 厂商 / ARP 邻居表）、HTTP·证书（五段耗时瀑布 / 重定向链 / 证书到期）。任意界面选中 IP、域名或 URL，右键即可直达探测。全部功能配有「?」悬停说明。无广告、无次数限制、明暗双主题。"
-      },
-      "features": {
-        "en": [
-          "Real ICMP ping from this machine, up to 6 targets side by side with loss/jitter stats and threshold alerts",
-          "TCP port scan with presets (common 20 / web / database / remote / mail), service table and high-risk port hints",
-          "DNS propagation matrix: one domain queried at up to 8 servers simultaneously with per-server timing",
-          "VLSM subnet planner plus subnet calculator, IPv4/IPv6 conversions and MAC vendor lookup — all offline",
-          "Wake-on-LAN with a saved device list, ARP neighbor table with automatic vendor labels",
-          "HTTP probe with DNS/TCP/TLS/first-byte/download waterfall, redirect chain and TLS certificate expiry"
-        ],
-        "zh": [
-          "本机真实 ICMP Ping，最多 6 目标并排，含丢包 / 抖动统计与阈值告警",
-          "TCP 端口扫描：常用 20 / Web / 数据库 / 远程 / 邮件预设 + 服务对照表 + 高危端口提示",
-          "DNS 传播对比矩阵：一个域名同时发往最多 8 台服务器，逐台计时",
-          "VLSM 子网规划器 + 子网计算器 + IPv4/IPv6 进制转换 + MAC 厂商查询，全部离线可用",
-          "Wake-on-LAN 一键唤醒（设备保存列表）+ ARP 邻居表自动标注厂商",
-          "HTTP 探测：DNS/TCP/TLS/首字节/下载五段耗时瀑布 + 重定向链 + TLS 证书到期检测"
-        ]
-      }
-    },
-    {
       "id": "password-manager",
       "name": "密码管理器",
       "version": "2.3.0",
