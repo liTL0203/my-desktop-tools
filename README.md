@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.2.20 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.20/My.Desktop.Tools_1.2.20_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.20/My.Desktop.Tools_1.2.20_x64_zh-CN.msi) |
+| v1.2.20 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.20/My%20Desktop%20Tools_1.2.20_x64_en-US.msi) |
 
 ## 🔌 Plugins
 
@@ -25,7 +25,8 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | input-lock | 1.1.0 | [Description](plugins/input-lock/) | [Changelog](plugins/input-lock/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.1.0/input-lock-1.1.0.zip) |
 | json-format | 1.8.0 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.8.0/json-format-1.8.0.zip) |
 | json-to-excel | 2.4.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.4.0/json-to-excel-2.4.0.zip) |
-| lan-share | 0.1.0 | [Description](plugins/lan-share/) | [Changelog](plugins/lan-share/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v0.1.0/lan-share-0.1.0.zip) |
+| lan-share | 1.0.0 | [Description](plugins/lan-share/) | [Changelog](plugins/lan-share/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v1.0.0/lan-share-1.0.0.zip) |
+| net-toolkit | 0.1.0 | [Description](plugins/net-toolkit/) | [Changelog](plugins/net-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/net-toolkit-v0.1.0/net-toolkit-0.1.0.zip) |
 | password-manager | 2.3.0 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.3.0/password-manager-2.3.0.zip) |
 | pdf-toolkit | 1.2.0 | [Description](plugins/pdf-toolkit/) | [Changelog](plugins/pdf-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.2.0/pdf-toolkit-1.2.0.zip) |
 | pomodoro | 3.0.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.0.0/pomodoro-3.0.0.zip) |
