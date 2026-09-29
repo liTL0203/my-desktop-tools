@@ -30,29 +30,53 @@
     "sha256": "c42efad041d4c0bb4d4ac97ae7cbe89f153ec1fe078772392e749c7f5d5282d3"
   },
   "aiRuntime": {
-    "version": "0.1.5-rc.2",
-    "revision": "7cfbf046f17ca177",
+    "version": "0.1.7-rc.2",
+    "revision": "c83f6821b365a423",
     "minCoreVersion": "0.45.0",
-    "size": 366041666,
-    "sha256": "7cfbf046f17ca17794f397ddc90fa3a3058dad65c92a1d6b3b13039206300201",
-    "releasedAt": "2026-09-14",
+    "size": 494960425,
+    "sha256": "c83f6821b365a42358720016d8209d9fd1055e24ef8ca5ae7f20cfb7c778ad2d",
+    "releasedAt": "2026-09-29",
     "notes": [
       {
+        "type": "imp",
+        "text": "AI 引擎整体升级至 0.1.7 线，包含跨两个版本线积累的大量稳定性修复"
+      },
+      {
+        "type": "fix",
+        "text": "修复超长对话请求可能被附加信息阻塞、导致回复中断的问题"
+      },
+      {
+        "type": "fix",
+        "text": "修复会话历史翻页错位、旧格式会话升级后内容不完整等会话稳定性问题"
+      },
+      {
+        "type": "fix",
+        "text": "修复图表渲染布局异常、长对话压缩后图片内容丢失的问题"
+      },
+      {
         "type": "feat",
-        "text": "AI 引擎支持独立获取与更新，不再随核心安装包分发"
+        "text": "对话中的计划与方案以卡片形式清晰呈现，摘要一目了然"
+      },
+      {
+        "type": "feat",
+        "text": "模型选择优化：已发现的模型直显名称，模型编号等宽展示"
       },
       {
         "type": "imp",
-        "text": "首次启用 AI 服务时自动下载并安装运行时（支持暂停与断点续传）"
+        "text": "与技能服务的连接协议升级，兼容性与稳定性增强"
       },
       {
         "type": "imp",
-        "text": "运行时与核心版本解耦，引擎可独立升级"
+        "text": "聊天界面渲染性能优化，长对话更流畅"
+      },
+      {
+        "type": "imp",
+        "text": "行为调整：修改 AI 模型字典或主题设置后，需重启应用（或关闭再开启一次 AI 总开关）后生效"
       }
     ],
     "urls": {
-      "gitee": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.1.5-rc.2/dsh-runtime-0.1.5-rc.2.tar.gz",
-      "github": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.1.5-rc.2/dsh-runtime-0.1.5-rc.2.tar.gz"
+      "gitee": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.1.7-rc.2/dsh-runtime-0.1.7-rc.2.tar.gz",
+      "github": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.1.7-rc.2/dsh-runtime-0.1.7-rc.2.tar.gz"
     }
   }
 }
