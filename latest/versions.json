@@ -1,7 +1,7 @@
 {
   "core": "1.2.20",
   "coreNotes": "## Improvements\n\n- **Live System Status**: The status area (CPU, memory, network) now refreshes in real time with a smarter update mechanism — always current, never jumpy\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **系统状态实时刷新**：状态区（CPU、内存、网络）采用更聪明的实时刷新机制——始终最新，且不跳动\n\n</details>",
-  "pubDate": "2026-09-30T02:58:22.367Z",
+  "pubDate": "2026-09-30T11:42:18.274Z",
   "plugins": {
     "pomodoro": "3.0.0",
     "proxy-switch": "3.4.0",
@@ -23,7 +23,8 @@
     "input-lock": "1.1.0",
     "screenshot-tool": "1.0.0",
     "lan-share": "1.0.0",
-    "net-toolkit": "1.0.0"
+    "net-toolkit": "1.0.0",
+    "lid-motion": "1.0.0"
   },
   "everything": {
     "version": "1.4.1.1032",

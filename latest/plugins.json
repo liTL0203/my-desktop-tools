@@ -368,7 +368,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-format/icon.png",
       "tags": [],
-      "downloadSize": 1192906,
+      "downloadSize": 1138139,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -517,6 +517,64 @@
         "zh": [
           "功能 1：描述一个核心功能",
           "功能 2：另一个功能"
+        ]
+      }
+    },
+    {
+      "id": "lid-motion",
+      "name": "合盖动效",
+      "version": "1.0.0",
+      "description": "把折叠屏的转场仪式感带进笔记本：合盖/开盖时播放凝霜入眠、破晓展开等同源质感动画；接管合盖策略可一键还原，无外接屏自动入睡兜底",
+      "author": "li_TL",
+      "authorUrl": "",
+      "category": "system-tools",
+      "icon": "package",
+      "iconVariant": "blue",
+      "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/lid-motion/icon.png",
+      "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/lid-motion/icon.png",
+      "tags": [],
+      "downloadSize": 341895,
+      "requiresPayment": false,
+      "supportedModes": [],
+      "updatedAt": "2026-09-30",
+      "purpose": {
+        "en": "Bring the foldable-phone close ritual to your laptop: when you close or open the lid, a Duo-style transition animation (frost-fade, dawn-unfold and more) plays on screen. Lid policy takeover is fully reversible, and the machine auto-sleeps after a delay when no external display is attached.",
+        "zh": "把折叠屏手机的合盖仪式感带进笔记本：合上/打开盖子时在屏幕上播放同源质感的转场动画（凝霜入眠、破晓展开等）。合盖策略接管可一键还原；无外接屏时延时自动入睡兜底。"
+      },
+      "useCases": {
+        "en": [
+          "Docked with an external monitor: close the lid and watch the frost-fade animation instead of a hard blackout",
+          "Solo laptop: open the lid and get greeted by the dawn-unfold animation",
+          "Kids/students: the sleepy companion pet waves goodnight when the lid closes"
+        ],
+        "zh": [
+          "接外接屏办公：合上笔记本，外接屏播放凝霜入眠动画而不是瞬间黑屏",
+          "单屏笔记本：打开盖子，破晓展开动画迎接你回到工作",
+          "学生党：合盖时桌面小家伙打哈欠睡去，开盖时蹦跳着迎接"
+        ]
+      },
+      "longDescription": {
+        "en": "Recreates the iPhone Duo fold-transition feel on Windows laptops. The sidecar listens to lid open/close power notifications, freezes the screen with BitBlt, and plays the selected transition (frost-fade / stardust / retro CRT / sleepy pet for closing; dawn-unfold / ripple / pet greeting for opening) on a fullscreen transparent overlay. To make the closing animation visible, the plugin temporarily sets the lid-close action to \"Do nothing\" (original AC/DC values are persisted and restored on disable; self-heals on next launch if the core was killed). When no display remains active after closing, the machine auto-sleeps after a configurable delay (1-30 min). Desktop PCs degrade gracefully to preview-only mode.",
+        "zh": "在 Windows 笔记本上复刻 iPhone Duo 的折叠转场质感。Sidecar 监听合盖/开盖电源通知，BitBlt 冻结当前画面，在全屏透明覆盖层上播放所选转场（合盖：凝霜入眠/星尘归仓/复古关机/伙伴入眠；开盖：破晓展开/涟漪苏醒/伙伴迎接）。为让合盖动画可见，插件会把「合盖时执行」临时改为「不操作」（AC/DC 原值持久化，停用即还原；核心被硬杀则下次启动自愈核对）。合盖后若无活动显示器，按可配置延时（1-30 分钟）自动入睡。台式机自动降级为仅预览模式。"
+      },
+      "features": {
+        "en": [
+          "Seven transition effects ported from the interactive demo (4 closing + 3 opening)",
+          "Real frozen-screen frames (BitBlt, JPEG-chunked delivery to the overlay)",
+          "Reversible lid-policy takeover with self-healing restore; no admin rights needed",
+          "Auto-sleep fallback (1-30 min) when no external display remains after closing",
+          "Battery-aware mode: keep system default behavior when on DC power",
+          "Manual preview buttons walk the full pipeline without touching the lid",
+          "Light/dark themes; English & Chinese"
+        ],
+        "zh": [
+          "七个转场效果全量移植自交互 Demo（合盖 4 + 开盖 3）",
+          "真实冻结画面（BitBlt 抓屏，JPEG 分块送达覆盖层）",
+          "合盖策略接管可逆 + 自愈还原；无需管理员权限",
+          "合盖后无外接屏按延时（1-30 分钟）自动入睡兜底",
+          "电池感知：可设仅接电源时接管，电池保持系统默认",
+          "设置页手动预览走完整管线，不用真合盖即可验收效果",
+          "明暗双主题；中英双语"
         ]
       }
     },

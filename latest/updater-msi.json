@@ -1,7 +1,7 @@
 {
   "version": "1.2.20",
   "notes": "## Improvements\n\n- **Live System Status**: The status area (CPU, memory, network) now refreshes in real time with a smarter update mechanism — always current, never jumpy\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **系统状态实时刷新**：状态区（CPU、内存、网络）采用更聪明的实时刷新机制——始终最新，且不跳动\n\n</details>",
-  "pub_date": "2026-09-30T02:58:22.362Z",
+  "pub_date": "2026-09-30T11:42:18.268Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEdlYVVHS2NGRWJNdnlPbHR4d2dKV2FwOXlMSlh1elArUE52c0xKVnZwWDNEbUhUbTh3NS8zWUEwb0hWcUR2THRDR2JEaG03bFRjdHhXREZnMWdoWEFJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNTIwODY0CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMjBfeDY0X2VuLVVTLm1zaQpNSzRxVkRFNE95aSthYm0rZ1JGY1N0ZTNtTWdjT2k3S3kwUkQ3WUJJQjQwZDBYa2Z4dml0VndpeDZzbitmZjNTR1FNVE1jMStmTkNCcno5N05hZStDdz09Cg==",
