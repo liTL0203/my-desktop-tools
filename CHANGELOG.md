@@ -6,6 +6,14 @@
 
 ---
 
+# v1.2.22 (2026-09-30)
+
+## Improvements
+
+- **Faster, More Reliable Marketplace**: The plugin catalog now races both network sources and takes whichever responds first — the marketplace opens quicker, stays usable when one source is slow, and can fall back to the last known catalog when offline
+
+---
+
 # v1.2.20 (2026-09-27)
 
 ## Improvements

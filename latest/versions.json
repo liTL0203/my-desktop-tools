@@ -1,7 +1,7 @@
 {
-  "core": "1.2.20",
-  "coreNotes": "## Improvements\n\n- **Live System Status**: The status area (CPU, memory, network) now refreshes in real time with a smarter update mechanism — always current, never jumpy\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **系统状态实时刷新**：状态区（CPU、内存、网络）采用更聪明的实时刷新机制——始终最新，且不跳动\n\n</details>",
-  "pubDate": "2026-09-30T11:42:18.274Z",
+  "core": "1.2.22",
+  "coreNotes": "## Improvements\n\n- **Faster, More Reliable Marketplace**: The plugin catalog now races both network sources and takes whichever responds first — the marketplace opens quicker, stays usable when one source is slow, and can fall back to the last known catalog when offline\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **商城更快更稳**：插件目录改为双源竞速——哪个源先响应用哪个，商城打开更快；单一源慢时不受拖累，离线时回退到最近一次的目录缓存\n\n</details>",
+  "pubDate": "2026-09-30T14:43:50.744Z",
   "plugins": {
     "pomodoro": "3.0.0",
     "proxy-switch": "3.4.0",
