@@ -1,7 +1,7 @@
 {
   "core": "1.2.22",
   "coreNotes": "## Improvements\n\n- **Faster, More Reliable Marketplace**: The plugin catalog now races both network sources and takes whichever responds first — the marketplace opens quicker, stays usable when one source is slow, and can fall back to the last known catalog when offline\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **商城更快更稳**：插件目录改为双源竞速——哪个源先响应用哪个，商城打开更快；单一源慢时不受拖累，离线时回退到最近一次的目录缓存\n\n</details>",
-  "pubDate": "2026-09-30T14:43:50.744Z",
+  "pubDate": "2026-10-05T05:53:52.080Z",
   "plugins": {
     "pomodoro": "3.0.0",
     "proxy-switch": "3.4.0",
@@ -24,7 +24,7 @@
     "screenshot-tool": "1.0.0",
     "lan-share": "1.0.0",
     "net-toolkit": "1.0.0",
-    "lid-motion": "1.0.0"
+    "lid-motion": "1.1.0"
   },
   "everything": {
     "version": "1.4.1.1032",

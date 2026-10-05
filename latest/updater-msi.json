@@ -1,11 +1,11 @@
 {
   "version": "1.2.22",
   "notes": "## Improvements\n\n- **Faster, More Reliable Marketplace**: The plugin catalog now races both network sources and takes whichever responds first — the marketplace opens quicker, stays usable when one source is slow, and can fall back to the last known catalog when offline\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **商城更快更稳**：插件目录改为双源竞速——哪个源先响应用哪个，商城打开更快；单一源慢时不受拖累，离线时回退到最近一次的目录缓存\n\n</details>",
-  "pub_date": "2026-09-30T14:43:50.738Z",
+  "pub_date": "2026-10-05T05:53:52.073Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEF5ZUNyc2RUVnozWjhwNDdaa0lvOUIvbXNlS3FtVmROYmV0T2E1QXZ5Ymwyc2dhUHovOWV3SkZheEduMXpXT0pPeXNvRU9VU1ZmZU02a3RvMlJqb1FnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzc5NDE1CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMjJfeDY0X2VuLVVTLm1zaQpoY3RhWDBCSVRzMVAxUGlWdGcyYXltcWIyWGFNTVdsaXdOVDVMSTB1RStWeE8yc1NGUGxZMVZWUG9SSE1KcG9PZVhnRHBmbjFWUm11b1JwS2JqM1lDdz09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.22/My.Desktop.Tools_1.2.22_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.22/My%20Desktop%20Tools_1.2.22_x64_en-US.msi"
     }
   }
 }
