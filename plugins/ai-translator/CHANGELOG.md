@@ -1,3 +1,36 @@
+# v2.6.0 更新说明 (2026-10-04)
+
+## 新增
+- **生词本**：词典卡词头一键收词（自动附首个例句语境）；生词本面板支持删除、清空、翻卡浏览，导出 CSV / Anki 可直接导入；同词同语言自动去重更新（上限 1000）
+- **TTS 发音**：词头喇叭按钮按系统音色朗读（自动匹配中/英/日/韩语种），新发音自动打断上一条
+- **多模型对比**：设置页选 2-3 个对比模型，翻译后一键并排比较各模型译文（含耗时，单模型失败不影响其他）
+- **PDF 断行修复**：自动合并 PDF 复制文本的硬换行与连字符断词（中英文规则区分），长文按段落结构分块翻译；设置页可关闭
+
+## 改进
+- 所有翻译模板要求保持原文段落结构；超过 1500 字符的长文自动分块并按段落拼回，不再糊成一坨
+- 词典卡词头新增发音与收词操作按钮（Popup 与 InApp 均可用）
+
+---
+
+<details>
+<summary>English (v2.6.0)</summary>
+
+# v2.6.0 Release Notes (2026-10-04)
+
+## New Features
+- **Wordbook**: one-tap word collection from dictionary cards (with first example as context); panel with flip-card study, CSV / Anki export, dedup updates (cap 1000)
+- **TTS Pronunciation**: speaker button reads the headword with system voices (auto language matching); new request interrupts the previous one
+- **Multi-model Compare**: pick 2-3 models in settings, then compare translations side-by-side after a run
+- **PDF line-break fix**: merges hard line breaks and hyphenated wraps from PDF copies; long texts are chunked by paragraph structure (toggle in settings)
+
+## Improved
+- All prompt templates now preserve paragraph structure; texts over 1500 chars are chunked and re-joined by paragraphs
+- Dictionary card headwords gained speak / add-to-wordbook actions (both Popup and InApp)
+
+</details>
+
+---
+
 # v2.5.0 更新说明 (2026-09-25)
 
 ## 新增
