@@ -3,7 +3,7 @@
     {
       "id": "ai-translator",
       "name": "AI 翻译",
-      "version": "2.5.0",
+      "version": "2.6.0",
       "description": "选中文字后一键 AI 翻译，支持自动识别源语言和多目标语言切换",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -18,7 +18,7 @@
       "supportedModes": [
         "popup"
       ],
-      "updatedAt": "2026-09-25",
+      "updatedAt": "2026-10-04",
       "purpose": {
         "en": "Frequent context switching to translation tools disrupts workflow. This plugin embeds AI translation into the desktop—select text, get instant results.",
         "zh": "在阅读外文资料、编写国际化代码或与海外同事沟通时，频繁切换翻译工具打断工作流。AI 翻译插件将翻译能力嵌入桌面，选中即译，让语言不再成为障碍。"
@@ -102,7 +102,7 @@
     {
       "id": "crypto-toolkit",
       "name": "加密解密工具箱",
-      "version": "1.7.0",
+      "version": "1.8.0",
       "description": "本地加密解密与压缩工具：Base64/Hex/URL 编码、AES/ChaCha20/国密加解密、哈希摘要、经典密码、文件压缩成字符串与还原",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -118,7 +118,7 @@
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-03",
+      "updatedAt": "2026-10-08",
       "purpose": {
         "en": "Developers constantly juggle encoded strings (Base64/Hex/JWT), digests, and cipher payloads between browsers, terminals, and docs — usually via random websites that leak data. This plugin bundles the full crypto/encoding workflow into one offline toolbox with zero-trace privacy.",
         "zh": "开发者经常在浏览器、终端、文档之间来回处理编码字符串（Base64/Hex/JWT）、摘要与密文，通常求助随机网站、存在数据泄露风险。本插件把完整加密/编码工作流装进一个离线工具箱，零痕迹保护隐私。"

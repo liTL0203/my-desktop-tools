@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.2.23 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.23/My%20Desktop%20Tools_1.2.23_x64_en-US.msi) |
+| v1.2.24 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.24/My.Desktop.Tools_1.2.24_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.24/My.Desktop.Tools_1.2.24_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -16,9 +16,9 @@
 
 | 插件 | 版本 | 说明 | 版本历史 | 下载 |
 |------|------|------|----------|------|
-| ai-translator | 2.5.0 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.5.0/ai-translator-2.5.0.zip) |
+| ai-translator | 2.6.0 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.6.0/ai-translator-2.6.0.zip) |
 | clipboard | 1.3.0 | [说明](plugins/clipboard/) | [版本历史](plugins/clipboard/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.3.0/clipboard-1.3.0.zip) |
-| crypto-toolkit | 1.7.0 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.7.0/crypto-toolkit-1.7.0.zip) |
+| crypto-toolkit | 1.8.0 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.8.0/crypto-toolkit-1.8.0.zip) |
 | desktop-styler | 0.3.1 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.1/desktop-styler-0.3.1.zip) |
 | diff-toolkit | 1.2.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.2.0/diff-toolkit-1.2.0.zip) |
 | image-toolkit | 1.3.0 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.3.0/image-toolkit-1.3.0.zip) |

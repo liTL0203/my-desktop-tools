@@ -6,6 +6,19 @@
 
 ---
 
+# v1.2.24 (2026-10-05)
+
+## New Features
+
+- **Translatable Text Preview**: The quick action panel now recognizes English/Chinese text and single words, offering an AI-translation guide card the moment you select something worth translating
+- **Desktop AI Skills for Dock Management**: The AI engine can now manage dock apps for the desktop customization suite
+
+## Bug Fixes
+
+- **Reliable Text Selection**: Reworked how the quick action panel acquires focus — selection capture no longer races with panel opening, and standalone plugin windows pass context correctly
+
+---
+
 # v1.2.23 (2026-10-05)
 
 ## New Features

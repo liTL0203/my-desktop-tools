@@ -1,7 +1,7 @@
 {
-  "core": "1.2.23",
-  "coreNotes": "## New Features\n\n- **Hotkey Summons, Anchored**: Plugins that declare a compact window can now be summoned by hotkey right next to your cursor — like the Clipboard History, the window appears where you are instead of a fixed spot\n- **Desktop Skills Extended**: The AI engine now manages dock apps for the desktop customization suite (add/remove entries on your dock through AI commands)\n\n## Improvements\n\n- **Sharper Quick Preview**: Built-in quick-action previews gained accuracy refinements for several content types\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **热键唤起·光标锚定**：声明紧凑窗的插件可由热键唤起在光标附近——像剪切板历史那样，窗口出现在你正在的位置而非固定位置\n- **桌面技能扩展**：AI 引擎现可管理桌面美化套件的停靠应用（通过 AI 指令增删 Dock 条目）\n\n## 优化改进\n\n- **快捷预览更准**：内置快捷预览对多种内容类型的识别更精确\n\n</details>",
-  "pubDate": "2026-10-05T13:24:34.985Z",
+  "core": "1.2.24",
+  "coreNotes": "## New Features\n\n- **Translatable Text Preview**: The quick action panel now recognizes English/Chinese text and single words, offering an AI-translation guide card the moment you select something worth translating\n- **Desktop AI Skills for Dock Management**: The AI engine can now manage dock apps for the desktop customization suite\n\n## Bug Fixes\n\n- **Reliable Text Selection**: Reworked how the quick action panel acquires focus — selection capture no longer races with panel opening, and standalone plugin windows pass context correctly\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **可翻译文本预览**：快捷操作面板现可识别英文/中文与单词，选中值得翻译的内容时即刻给出 AI 翻译引导卡片\n- **桌面 AI 技能扩展**：AI 引擎现可管理桌面美化套件的 Dock 应用\n\n## 问题修复\n\n- **选区获取更可靠**：重构了快捷操作面板的焦点获取时机——选区捕获不再与面板打开竞态，独立插件窗口上下文传递正确\n\n</details>",
+  "pubDate": "2026-10-05T15:43:32.739Z",
   "plugins": {
     "pomodoro": "3.0.0",
     "proxy-switch": "3.4.0",
