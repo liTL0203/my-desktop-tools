@@ -6,6 +6,19 @@
 
 ---
 
+# v1.2.23 (2026-10-05)
+
+## New Features
+
+- **Hotkey Summons, Anchored**: Plugins that declare a compact window can now be summoned by hotkey right next to your cursor — like the Clipboard History, the window appears where you are instead of a fixed spot
+- **Desktop Skills Extended**: The AI engine now manages dock apps for the desktop customization suite (add/remove entries on your dock through AI commands)
+
+## Improvements
+
+- **Sharper Quick Preview**: Built-in quick-action previews gained accuracy refinements for several content types
+
+---
+
 # v1.2.22 (2026-09-30)
 
 ## Improvements

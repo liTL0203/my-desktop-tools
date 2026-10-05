@@ -1,7 +1,7 @@
 {
-  "core": "1.2.22",
-  "coreNotes": "## Improvements\n\n- **Faster, More Reliable Marketplace**: The plugin catalog now races both network sources and takes whichever responds first — the marketplace opens quicker, stays usable when one source is slow, and can fall back to the last known catalog when offline\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **商城更快更稳**：插件目录改为双源竞速——哪个源先响应用哪个，商城打开更快；单一源慢时不受拖累，离线时回退到最近一次的目录缓存\n\n</details>",
-  "pubDate": "2026-10-05T05:53:52.080Z",
+  "core": "1.2.23",
+  "coreNotes": "## New Features\n\n- **Hotkey Summons, Anchored**: Plugins that declare a compact window can now be summoned by hotkey right next to your cursor — like the Clipboard History, the window appears where you are instead of a fixed spot\n- **Desktop Skills Extended**: The AI engine now manages dock apps for the desktop customization suite (add/remove entries on your dock through AI commands)\n\n## Improvements\n\n- **Sharper Quick Preview**: Built-in quick-action previews gained accuracy refinements for several content types\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **热键唤起·光标锚定**：声明紧凑窗的插件可由热键唤起在光标附近——像剪切板历史那样，窗口出现在你正在的位置而非固定位置\n- **桌面技能扩展**：AI 引擎现可管理桌面美化套件的停靠应用（通过 AI 指令增删 Dock 条目）\n\n## 优化改进\n\n- **快捷预览更准**：内置快捷预览对多种内容类型的识别更精确\n\n</details>",
+  "pubDate": "2026-10-05T06:21:42.229Z",
   "plugins": {
     "pomodoro": "3.0.0",
     "proxy-switch": "3.4.0",

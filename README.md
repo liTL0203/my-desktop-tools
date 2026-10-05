@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.2.22 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.22/My%20Desktop%20Tools_1.2.22_x64_en-US.msi) |
+| v1.2.23 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.23/My.Desktop.Tools_1.2.23_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.23/My.Desktop.Tools_1.2.23_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -33,7 +33,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | pomodoro | 3.1.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.1.0/pomodoro-3.1.0.zip) |
 | proxy-switch | 3.5.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.5.0/proxy-switch-3.5.0.zip) |
 | remote-desktop | 1.2.0 | [Description](plugins/remote-desktop/) | [Changelog](plugins/remote-desktop/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.2.0/remote-desktop-1.2.0.zip) |
-| screenshot-tool | 1.1.0 | [Description](plugins/screenshot-tool/) | [Changelog](plugins/screenshot-tool/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.1.0/screenshot-tool-1.1.0.zip) |
+| screenshot-tool | 1.1.1 | [Description](plugins/screenshot-tool/) | [Changelog](plugins/screenshot-tool/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.1.1/screenshot-tool-1.1.1.zip) |
 | sql-format | 1.3.0 | [Description](plugins/sql-format/) | [Changelog](plugins/sql-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.3.0/sql-format-1.3.0.zip) |
 | sys-info | 2.3.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.3.0/sys-info-2.3.0.zip) |
 | sys-pulse | 0.1.0 | [Description](plugins/sys-pulse/) | [Changelog](plugins/sys-pulse/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-pulse-v0.1.0/sys-pulse-0.1.0.zip) |

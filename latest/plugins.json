@@ -939,7 +939,7 @@
     {
       "id": "screenshot-tool",
       "name": "截图助手",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "截图、标注、提取文字与翻译：热键唤起，框选即截，识别翻译一步到位",
       "author": "li_TL",
       "authorUrl": "",
@@ -949,7 +949,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/screenshot-tool/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/screenshot-tool/icon.png",
       "tags": [],
-      "downloadSize": 1171051,
+      "downloadSize": 1170595,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
