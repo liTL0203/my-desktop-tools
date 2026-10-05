@@ -1,38 +1,44 @@
 # 内容对比工具
 
-> 内容对比工具插件 - 万物皆可对比：文本/代码行级+词级对比、JSON 结构感知对比，差异清单快速定位
+> 内容对比工具插件 - 万物皆可对比：文本/JSON/CSV 表格/文件夹/图片五种对比，词级定位与差异清单快速巡检
 
 ## 功能介绍
 
-- **文本 / 代码对比**：行级 + 行内词级双层定位，不仅告诉你哪行变了，还精确到哪个词
-- **三视图**：并排对比 / 统一视图 / 仅看差异，未变更区域自动折叠
-- **差异清单**：每处差异带摘录预览（`旧值 → 新值`），点击跳转定位；上一处 / 下一处顺向巡检
-- **忽略规则**：忽略行尾空白 / 忽略全部空白 / 忽略大小写，实时重算（统计与相似度同步刷新）
-- **JSON 结构对比**：按键路径比较而非按行硬比——键顺序无关、识别数组重排（⇄）、类型变化标注；树视图 ⇄ 原文对比随时切换；非法 JSON 自动回退文本对比
-- **统计徽章**：`+新增 −删除 ~修改` 与相似度百分比，一眼判断改动幅度
-- **输入三通道**：粘贴、拖拽文本文件（≤10MB）、系统文件对话框；一键交换左右
-- **本地计算**：diff 引擎全部在本地 Rust 进程完成，内容不出本机
+- **文本 / 代码对比**：行级 + 行内词级双层定位；**中文逐字、西文按词**精确高亮
+- **三视图 + 概览标尺**：并排 / 统一 / 仅看差异；未变更区域自动折叠；右侧标尺展示差异分布，点击直达
+- **差异清单**：每处差异带摘录预览（`旧值 → 新值`），点击跳转；首个 / 上一处 / 下一处巡检
+- **忽略规则**：行尾/全部空白、大小写三档 + **正则规则**（如忽略注释行、时间戳字段）+ **数值容差**（阈值内数值视为相同），实时重算
+- **JSON 结构对比**：键顺序无关、识别数组重排（⇄）、类型变化标注；树视图 ⇄ 原文切换；非法 JSON 自动回退
+- **CSV 表格对比**：按键列对齐（顺序无关），单元格级 旧值→新值，列头变化计数，仅差异行过滤
+- **文件夹对比**：递归对比两目录，快速（大小+时间）或内容校验（SHA-256）两种模式，状态过滤与汇总；文本文件点击即下钻到行级对比
+- **图片对比**：并排 / 滑动分隔线 / 叠加渐变 / 差异混合（相同区域变黑只发光差异）四种模式，附差异像素比例
+- **导出报告**：一键导出自包含 HTML 报告（统计+清单+明细），双击即看、无需安装
+- **QuickAction**：任意位置选中文本 → 与剪贴板一键对比（预览卡直接显示统计），或设为对比左/右侧
+- **统计与性能**：`+新增 −删除 ~修改` 与相似度；虚拟滚动支撑数万行；本地 Rust 计算，内容不出本机
 
 ## 使用方法
 
 1. 打开 My Desktop Tools，进入「内容对比工具」
-2. 在左右两栏分别粘贴 / 拖入要比对的内容（或点「打开文件」选择文本文件）
-3. 点击中间的对比按钮（或按 Ctrl+Enter）；开启「实时对比」后修改内容自动重算
-4. 用右侧差异清单或上一处 / 下一处按钮巡检每一处不同
-5. 粘贴 JSON 内容并切到「JSON 对比」页签，可获得结构树对比
+2. 文本/JSON/表格页签：左右两栏粘贴 / 拖入内容（或「打开文件」）；文件夹页签：输入或选择两个目录；图片页签：拖入两张图片
+3. 点击对比按钮（或 Ctrl+Enter）；开启「实时对比」后修改自动重算
+4. 用差异清单、概览标尺或巡检按钮逐处检查；工具栏「规则」里配置正则忽略与数值容差
+5. 在任意应用选中一段文本，快捷操作面板里点「文本对比」即可与剪贴板比对
 
 ## 注意事项
 
-- 单侧输入上限 10MB / 50000 行，超出会明确提示
-- 文件读取按 UTF-8 编码；其他编码的文本可能出现乱码（建议先转存 UTF-8）
-- 视图模式、忽略规则、实时开关等偏好会自动保存，重启后保留
-- 对比结果不落盘，关闭插件即清空；输入内容不会上传到任何地方
+- 文本单侧上限 10MB / 50000 行；文件夹上限 20000 条目（超大树可用过滤缩小）
+- 文件读取按 UTF-8；其他编码文本可能乱码；「内容校验」模式对大目录耗时较长（逐文件哈希）
+- 图片对比为纯前端处理，单图 ≤20MB；两图尺寸不同时按左图尺寸缩放比较并提示
+- 视图/规则/容差等偏好自动保存；对比结果不落盘，输入内容不会上传到任何地方
+
 
 ## 版本信息
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
-| 0.1.0 | 2026-09-19 | 初始版本：文本行级+词级对比、三视图、差异清单、忽略规则、JSON 结构对比、偏好持久化 |
+| 1.2.0 | 2026-10-05 | 竞品对标大版本：中文词级修复、概览标尺、虚拟滚动、正则忽略规则+数值容差、CSV 表格对比、文件夹对比、图片对比、HTML 报告导出、QuickAction 与剪贴板对比 |
+| 1.1.0 | 2026-09-25 | 维护性同步 |
+| 1.0.0 | 2026-09-19 | 首发上架：文本行级+词级对比、三视图、差异清单、忽略规则、JSON 结构对比、偏好持久化 |
 
 ---
 
@@ -41,37 +47,42 @@
 
 # Content Diff Tool
 
-> diff-toolkit plugin - Compare anything, not just code: line + word level text diff, JSON structure-aware diff, and a jumpable change list.
+> diff-toolkit plugin - Compare anything, not just code: text, JSON, CSV tables, folders and images, with word-level highlights and a jumpable change list.
 
 ## Features
 
-- **Text / code diff**: line-level plus in-line word-level highlights, down to the exact changed word
-- **Three views**: side-by-side, unified, and changes-only; unchanged regions auto-fold
-- **Change list**: every difference with an excerpt preview (`old → new`); click to jump, step through with previous / next
-- **Ignore rules**: ignore trailing whitespace / all whitespace / letter case, recomputed instantly with stats refreshed
-- **JSON structure diff**: compares by key path instead of raw lines — key order irrelevant, array reordering detected (⇄), type changes flagged; switch between tree and raw text views; invalid JSON falls back to text diff automatically
-- **Statistics**: `+added −deleted ~modified` badges and a similarity percentage
-- **Three input channels**: paste, drop a text file (≤10MB), or the system file dialog; one-click side swap
-- **Fully local**: the diff engine runs in a local Rust process; nothing leaves your machine
+- **Text / code diff**: line-level plus word-level highlights; CJK characters marked one by one, western text word by word
+- **Three views + overview rail**: side-by-side, unified, changes-only; unchanged regions auto-fold; a rail on the right shows the difference distribution, click to jump
+- **Change list**: every difference with an excerpt preview (`old → new`); first / previous / next navigation
+- **Ignore rules**: trailing / all whitespace, letter case, plus **regex rules** (comment lines, timestamp fields) and **numeric tolerance**; recomputed instantly
+- **JSON structure diff**: key order irrelevant, array reordering detected (⇄), type changes flagged; tree ⇄ raw views; invalid JSON falls back automatically
+- **CSV table diff**: rows aligned by the key column (order independent), cell-level old → new, per-column change counts, changed-rows filter
+- **Folder diff**: recursively compare two folders in quick (size + mtime) or content-check (SHA-256) mode, with status filters and summaries; click a text file to drill into its line diff
+- **Image diff**: side-by-side, swipe divider, fade blend, and difference blend (identical pixels turn black); diff-pixel ratio included
+- **Report export**: one click to a self-contained HTML report (stats + change list + details), opens anywhere without installation
+- **QuickAction**: select text anywhere and compare it against the clipboard in one click (preview card shows the stats), or set it as either side
+- **Statistics & performance**: `+added −deleted ~modified` and similarity; virtual scrolling handles tens of thousands of lines; fully local Rust engine
 
 ## Usage
 
 1. Open My Desktop Tools and go to the content diff tool
-2. Paste or drop content into the left and right panes (or use Open File)
-3. Press the compare button in the middle (or Ctrl+Enter); with Live enabled, edits recompute automatically
-4. Inspect each difference via the change list or the previous / next buttons
-5. Paste JSON and switch to the JSON tab for the structure tree comparison
+2. Text/JSON/table tabs: paste or drop content into both panes (or Open File); folder tab: enter or pick two directories; image tab: drop two images
+3. Press compare (or Ctrl+Enter); with Live enabled, edits recompute automatically
+4. Inspect differences via the change list, the overview rail, or the navigation buttons; configure regex rules and numeric tolerance in the Rules popover
+5. Select text in any app and use "文本对比" in the QuickAction panel to compare against the clipboard
 
 ## Notes
 
-- Per-side limit: 10MB / 50,000 lines
-- Files are read as UTF-8; other encodings may look garbled
-- View mode, ignore rules and the live switch are remembered across restarts
-- Results are never written to disk and inputs are never uploaded
+- Text per-side limit: 10MB / 50,000 lines; folders cap at 20,000 entries (use filters on huge trees)
+- Files are read as UTF-8; other encodings may look garbled; content-check mode is slower on large trees (per-file hashing)
+- Image compare is pure frontend, ≤20MB per image; different dimensions are scaled to the left image's size with a notice
+- Preferences are remembered; results are never written to disk and inputs are never uploaded
 
 | Version | Date | Notes |
 |---------|------|-------|
-| 0.1.0 | 2026-09-19 | Initial release: text diff (line + word), three views, change list, ignore rules, JSON structure diff, persisted preferences |
+| 1.2.0 | 2026-10-05 | Competitor-parity release: CJK word-level fix, overview rail, virtual scrolling, regex rules + numeric tolerance, CSV table diff, folder diff, image diff, HTML report export, QuickAction clipboard compare |
+| 1.1.0 | 2026-09-25 | Maintenance sync |
+| 1.0.0 | 2026-09-19 | Initial release: text diff (line + word), three views, change list, ignore rules, JSON structure diff, persisted preferences |
 
 </details>
 

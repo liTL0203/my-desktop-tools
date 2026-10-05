@@ -211,7 +211,7 @@
     {
       "id": "diff-toolkit",
       "name": "内容对比工具",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "description": "文本/JSON/CSV/文件夹/图片对比：词级定位、忽略规则、差异清单、本地计算",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -221,12 +221,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/diff-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/diff-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 849588,
+      "downloadSize": 854010,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-10-05",
+      "updatedAt": "2026-10-06",
       "purpose": {
         "en": "Compare anything, not just code. This plugin provides line-level plus word-level text diff with ignore rules, JSON structure-aware comparison that treats key order as irrelevant and detects array reordering, a jumpable change list, and similarity statistics — all computed in a local Rust sidecar.",
         "zh": "万物皆可对比，不止代码。行级+词级文本对比（可忽略空白/大小写）、JSON 结构感知对比（键序无关、识别数组重排）、可跳转的差异清单与相似度统计，引擎全部在本地 Rust Sidecar 完成。"

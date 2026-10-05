@@ -20,7 +20,7 @@
 | clipboard | 1.3.0 | [说明](plugins/clipboard/) | [版本历史](plugins/clipboard/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.3.0/clipboard-1.3.0.zip) |
 | crypto-toolkit | 1.8.0 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.8.0/crypto-toolkit-1.8.0.zip) |
 | desktop-styler | 0.3.1 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.1/desktop-styler-0.3.1.zip) |
-| diff-toolkit | 1.2.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.2.0/diff-toolkit-1.2.0.zip) |
+| diff-toolkit | 1.3.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.3.0/diff-toolkit-1.3.0.zip) |
 | image-toolkit | 1.3.0 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.3.0/image-toolkit-1.3.0.zip) |
 | input-lock | 1.2.0 | [说明](plugins/input-lock/) | [版本历史](plugins/input-lock/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.2.0/input-lock-1.2.0.zip) |
 | json-format | 1.8.0 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.8.0/json-format-1.8.0.zip) |
