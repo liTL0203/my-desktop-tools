@@ -17,7 +17,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
 | ai-translator | 2.5.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.5.0/ai-translator-2.5.0.zip) |
-| clipboard | 1.2.0 | [Description](plugins/clipboard/) | [Changelog](plugins/clipboard/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.2.0/clipboard-1.2.0.zip) |
+| clipboard | 1.3.0 | [Description](plugins/clipboard/) | [Changelog](plugins/clipboard/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.3.0/clipboard-1.3.0.zip) |
 | crypto-toolkit | 1.7.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.7.0/crypto-toolkit-1.7.0.zip) |
 | desktop-styler | 0.3.1 | [Description](plugins/desktop-styler/) | [Changelog](plugins/desktop-styler/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.1/desktop-styler-0.3.1.zip) |
 | diff-toolkit | 1.2.0 | [Description](plugins/diff-toolkit/) | [Changelog](plugins/diff-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.2.0/diff-toolkit-1.2.0.zip) |

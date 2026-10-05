@@ -17,7 +17,7 @@
 | 插件 | 版本 | 说明 | 版本历史 | 下载 |
 |------|------|------|----------|------|
 | ai-translator | 2.5.0 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.5.0/ai-translator-2.5.0.zip) |
-| clipboard | 1.2.0 | [说明](plugins/clipboard/) | [版本历史](plugins/clipboard/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.2.0/clipboard-1.2.0.zip) |
+| clipboard | 1.3.0 | [说明](plugins/clipboard/) | [版本历史](plugins/clipboard/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.3.0/clipboard-1.3.0.zip) |
 | crypto-toolkit | 1.7.0 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.7.0/crypto-toolkit-1.7.0.zip) |
 | desktop-styler | 0.3.1 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.1/desktop-styler-0.3.1.zip) |
 | diff-toolkit | 1.2.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.2.0/diff-toolkit-1.2.0.zip) |
