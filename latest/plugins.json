@@ -300,7 +300,7 @@
     {
       "id": "input-lock",
       "name": "防误触锁定",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "description": "清理键盘鼠标时的输入防护罩：一键锁定全局键鼠输入防误触，专属手势秒解，多重自动恢复兜底",
       "author": "li_TL",
       "authorUrl": "",
@@ -310,12 +310,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/input-lock/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/input-lock/icon.png",
       "tags": [],
-      "downloadSize": 320988,
+      "downloadSize": 320250,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-10-04",
+      "updatedAt": "2026-10-08",
       "purpose": {
         "en": "An input shield for cleaning your keyboard and mouse: lock all keyboard & mouse input with one click so wiping never triggers random actions, with deliberate gesture unlock and multiple auto-recovery safeguards.",
         "zh": "清理键盘鼠标时的输入防护罩：一键锁定全局键鼠输入，擦拭产生的乱按乱点全部拦下，屏幕保持常显；刻意设计的解锁手势秒解，多重自动恢复兜底。"

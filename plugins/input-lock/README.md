@@ -6,11 +6,15 @@
 
 - **一键防护**：点击「开始防护」即锁定全局键盘与鼠标输入，擦拭产生的乱按乱点不会传给任何程序，屏幕保持可见不熄灭
 - **快速开启**：在主窗口或快捷启动（搜「防触 / 锁定」）打开插件，一键进入防护
-- **专属手势解锁**：默认 2 秒内连按 `Esc ×3` 解锁——刻意设计，擦拭的零散乱按不会误触发；可在设置中切换为「长按 Esc 3 秒」或「Ctrl+Alt+U」
+- **专属手势解锁**：默认 2 秒内连按 `Esc ×3` 解锁——刻意设计，擦拭的零散乱按不会误触发；可在设置中切换为「长按 Esc 3 秒」「Ctrl+Alt+U」或「输入解锁短语」
 - **多重自动恢复兜底**：最长锁定时长到点强制自动解除（默认 30 分钟，5-120 可调、不可关闭）；即使本插件异常退出，系统也会立即恢复输入
 - **锁定状态一目了然**：屏幕顶部常驻横幅显示剩余时间与已拦截次数，并提示当前解锁方式
 - **灵活范围**：全部 / 仅键盘 / 仅鼠标三种锁定范围，适配不同清理场景
 - **开窗即锁**（可选）：开启后打开控制窗即自动 3 秒倒计时进入防护，倒计时内可取消
+- **锁定期防息屏**（默认开启）：防护期间屏幕保持常亮，横幅与倒计时始终可见
+- **拦截音效**（可选）：拦截到输入时轻响一声，擦拭时不抬头也能确认防护在工作
+- **放行媒体键**（可选）：防护期间音量、播放/暂停等媒体键仍可正常使用
+- **解锁短语**（可选第 4 手势）：键入自定义短语（3-8 位小写字母/数字，默认 `unlock`）解锁，刻意性最强
 
 ## 使用方法
 
@@ -31,6 +35,8 @@
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| 1.2.0 | 2026-10-04 | 「擦得更安心」竞品吸收四件套：锁定期防息屏 / 拦截音效 / 放行媒体键 / 解锁短语（第 4 手势） |
+| 1.1.0 | 2026-09-25 | 解锁手势改 Ctrl+Alt+U；移除全局热键，改为主窗口 / 快捷启动进入 |
 | 1.0.0 | 2026-09-25 | 首个版本：一键锁定 / 手势解锁 / 兜底自动解除 / 顶部横幅 / 范围与手势设置 |
 
 ---
@@ -51,11 +57,15 @@
 
 - **One-click protection**: lock global keyboard & mouse input; accidental presses while wiping never reach any app, and the screen stays visible
 - **Fast activation**: open the plugin from the main window or Quick Launcher (search "input lock")
-- **Deliberate unlock gesture**: press `Esc ×3` within 2 seconds (default) — scattered wiping presses won't trigger it; switchable to "hold Esc 3s" or "Ctrl+Alt+U" in settings
+- **Deliberate unlock gesture**: press `Esc ×3` within 2 seconds (default) — scattered wiping presses won't trigger it; switchable to "hold Esc 3s", "Ctrl+Alt+U", or "type unlock phrase" in settings
 - **Multiple auto-recovery safeguards**: forced auto-release when the hard limit is reached (30 min by default, adjustable 5-120, cannot be disabled); if the plugin exits unexpectedly, the OS restores input immediately
 - **Clear status**: a top banner shows remaining time, blocked-input count, and the current unlock gesture
 - **Flexible scope**: All / Keyboard only / Mouse only
 - **Lock on open** (optional): with this enabled, opening the control window starts a cancellable 3-second countdown into protection
+- **Keep screen awake** (on by default): the screen stays on while protecting, so the banner and countdown are always visible
+- **Block feedback sound** (optional): a soft tick on each blocked input — protection confirmed without looking up
+- **Allow media keys** (optional): volume and play/pause keys still work while protecting
+- **Unlock phrase** (optional 4th gesture): type a custom phrase (3-8 lowercase letters/digits, default `unlock`) to unlock — the most deliberate option
 
 ## Usage
 
@@ -74,6 +84,8 @@
 
 | Version | Date | Notes |
 |---------|------|-------|
+| 1.2.0 | 2026-10-04 | "Wipe with confidence" competitor-absorption pack: keep-awake / block feedback sound / allow media keys / unlock phrase (4th gesture) |
+| 1.1.0 | 2026-09-25 | Unlock gesture changed to Ctrl+Alt+U; global hotkey removed — enter via main window / Quick Launcher |
 | 1.0.0 | 2026-09-25 | Initial release: one-click lock / gesture unlock / hard-limit auto-release / top banner / scope & gesture settings |
 
 **Plugin ID**: input-lock
