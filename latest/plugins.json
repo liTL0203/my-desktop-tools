@@ -643,7 +643,7 @@
     {
       "id": "password-manager",
       "name": "密码管理器",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "description": "本地零知识加密密码保险库：主密码 + Windows Hello 解锁、密码生成器、安全体检、Popup 快速取密",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -653,13 +653,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/password-manager/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/password-manager/icon.png",
       "tags": [],
-      "downloadSize": 2875188,
+      "downloadSize": 2833354,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-05",
+      "updatedAt": "2026-10-08",
       "purpose": {
         "en": "Reusing a few passwords across dozens of sites is the norm, and cloud password managers raise privacy concerns. This plugin provides a local zero-knowledge vault: master-password key derivation, field-level AES-256-GCM encryption, instant search-copy with guarded clipboard, and a one-time recovery key.",
         "zh": "在几十个网站之间复用少量密码是常态，而云端密码管理器又带来隐私顾虑。本插件提供本地零知识加密保险库：主密码派生密钥、字段级 AES-256-GCM 加密、即搜即复制（剪贴板自动清除）与一次性恢复密钥。"

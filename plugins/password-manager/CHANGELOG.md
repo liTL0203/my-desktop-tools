@@ -1,3 +1,48 @@
+# v2.4.0 更新说明 (2026-10-08)
+
+## 新增
+- **CSV 导入/导出**：Chrome / Edge / Firefox / Bitwarden / 1Password / LastPass 导出自动识别，预览与重复策略可选；明文导出需主密码验证（UTF-8 BOM 兼容 Excel）
+- **泄露检查（HIBP）**：可选 k-匿名查询——只发送密码 SHA-1 哈希前 5 位，本机之外零泄露；体检新增「已泄露」卡片与逐条命中数
+- **KeePass 导入**：支持 .kdbx（2.x/4.x，密码密钥）只读导入，分组树展平为文件夹，TOTP 种子与自定义字段自动映射
+- **条目类型模板**：登录 / 安全笔记 / 银行卡 / Wi-Fi / 软件授权，模板预填结构化字段
+- **用户名生成器**：word.word+数字 记忆友好型（EFF 词表，实时熵提示）
+- **Popup 打开自动 Hello**：保险库锁定且启用 Windows Hello 时打开即静默解锁
+
+---
+
+# v2.3.0 Release Notes (2026-10-05)
+
+> Competitor-benchmark round: migration pipeline, breach check, multi-type entries. Full analysis in the plugin research docs.
+
+## New Features
+
+- **CSV Import / Export (P0)**: import from Chrome / Edge / Firefox / Bitwarden / 1Password / LastPass CSV exports with automatic format detection, preview, and duplicate strategy (skip / overwrite); plaintext CSV export (master-password verified, UTF-8 BOM for Excel); empty-vault onboarding now offers "Import" as the primary path
+- **HIBP Breach Check (P1)**: opt-in Have-I-Been-Pwned scanning using k-anonymity (only the first 5 characters of each password's SHA-1 hash ever leave the machine); new "Breached" card in Health Check with per-entry hit counts; graceful network-error reporting that never blocks local checks
+- **KeePass .kdbx Import (P1)**: read-only import of KeePass 2.x/4.x databases (password key); group tree flattened to "Parent/Child" folders, TOTP seeds recognized, custom string fields mapped (Protected values become secret fields)
+- **Entry Type Templates (P2)**: Login / Secure Note / Bank Card / Wi-Fi / Software License; template chips pre-fill structured custom fields; note type hides credential fields; license/card relabel the password field contextually
+- **Username Generator (P2)**: memorable word.word+digits usernames (EFF wordlist), lowercase, live entropy
+- **Auto Hello on Popup Open (P1)**: when the vault is locked and Windows Hello is enabled, opening the plugin auto-attempts silent unlock (KeePassXC-inspired, one less click)
+
+<details>
+<summary>中文说明</summary>
+
+# v2.3.0 更新说明 (2026-10-05)
+
+> 竞品对标轮：迁移链路、泄露检查、多类型条目。完整对标分析见插件研究文档。
+
+## 新增功能
+
+- **CSV 导入 / 导出（P0）**：自动识别 Chrome / Edge / Firefox / Bitwarden / 1Password / LastPass 导出格式，预览 + 重复策略（跳过/覆盖）；明文 CSV 导出（主密码验证，UTF-8 BOM Excel 直开）；空库首屏提供「从浏览器导入」主入口
+- **HIBP 泄露检查（P1）**：默认关闭；开启后 k-匿名查询（仅密码 SHA-1 前 5 位出网，服务端无法得知密码）；体检新增「已泄露」卡（每条命中次数）；网络失败优雅降级不影响本地五类检测
+- **KeePass .kdbx 导入（P1）**：只读导入 KeePass 2.x/4.x 库（主密码密钥）；分组树拍平为「父/子」文件夹；识别 TOTP 种子；自定义字符串字段映射（Protected 值 → 密码型）
+- **条目类型模板（P2）**：登录 / 安全笔记 / 银行卡 / Wi-Fi / 软件许可；模板一键预填结构化字段；笔记类型隐藏凭据区；许可证/银行卡的密码字段按语境改名
+- **用户名生成器（P2）**：好记 词.词+数字 用户名（EFF 词表，小写），实时熵
+- **popup 自动 Hello（P1）**：锁定态且已启用 Hello 时，打开插件自动尝试静默解锁（学 KeePassXC，少点一次）
+
+</details>
+
+---
+
 # v2.3.0 更新说明 (2026-09-25)
 
 ## 新增

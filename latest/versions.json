@@ -1,7 +1,7 @@
 {
   "core": "1.2.24",
   "coreNotes": "## New Features\n\n- **Translatable Text Preview**: The quick action panel now recognizes English/Chinese text and single words, offering an AI-translation guide card the moment you select something worth translating\n- **Desktop AI Skills for Dock Management**: The AI engine can now manage dock apps for the desktop customization suite\n\n## Bug Fixes\n\n- **Reliable Text Selection**: Reworked how the quick action panel acquires focus — selection capture no longer races with panel opening, and standalone plugin windows pass context correctly\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **可翻译文本预览**：快捷操作面板现可识别英文/中文与单词，选中值得翻译的内容时即刻给出 AI 翻译引导卡片\n- **桌面 AI 技能扩展**：AI 引擎现可管理桌面美化套件的 Dock 应用\n\n## 问题修复\n\n- **选区获取更可靠**：重构了快捷操作面板的焦点获取时机——选区捕获不再与面板打开竞态，独立插件窗口上下文传递正确\n\n</details>",
-  "pubDate": "2026-10-06T15:38:07.835Z",
+  "pubDate": "2026-10-06T15:53:25.121Z",
   "plugins": {
     "pomodoro": "3.0.0",
     "proxy-switch": "3.4.0",
@@ -9,7 +9,7 @@
     "json-format": "1.8.0",
     "sys-info": "2.3.0",
     "json-to-excel": "2.5.0",
-    "password-manager": "2.3.0",
+    "password-manager": "2.4.0",
     "crypto-toolkit": "1.8.0",
     "image-toolkit": "1.4.0",
     "pdf-toolkit": "1.2.0",
