@@ -1,3 +1,33 @@
+# v2.5.0 更新说明 (2026-10-02)
+
+## 新增（竞品对标落地）
+- JSONL/NDJSON 输入：日志/流式导出的逐行 JSON 直接解析（整体解析失败自动按行回退，状态栏显示 JSONL 徽标）；逐行解析失败精确到行号
+- 复制表格：一键把当前工作表按列设置生成 TSV 复制到剪贴板，直接粘贴到 Excel/飞书/微信，全程免存文件
+- 数组处理三模式：嵌套数组可选「JSON 串 / 展开子行 / 拆子表」（顶栏切换，作用于预览与导出）
+- 表格操作：按列排序（升降序）、整行去重、删除全空行/全空列（统计条入口，作用于预览与导出）
+- 列统计速览：列菜单顶部显示非空/空/去重数与 min/max/avg（全量数据现算）
+- xlsx 冻结表头 + 自动筛选（⚙ 高级设置可关）
+- 日期列显示格式可选（4 预设 + 自定义 Excel 格式串）
+- CSV 细节选项：分隔符（逗号/分号/Tab/竖线）、行尾 CRLF/LF、强制引号（⚙ 高级设置）
+- 拖入文件编码自动嗅探：BOM（UTF-8/16/32）→ UTF-8 严格 → GBK 回退，老导出文件不再乱码
+- 体验：JSON 结构变化提示「列操作已重置」；顶层标量等报错升级为带下一步建议的引导文案
+
+## 复验修复（同日）
+- 修复「表格操作」弹层不可见（position:fixed 未设坐标渲染在视口外）——现锚定触发按钮定位
+- 编辑器内直接 Ctrl+V 粘贴单行 JSON 现在也会自动格式化（此前仅粘贴按钮/拖入/快捷操作三条路径）
+- 「预览行数 / 工作表名称 / 空值显示」修改后立即重预览（此前要等下次内容变化才生效）
+- ⚙ 高级设置补回 v1 的「空值显示 / 自动列宽」两项；导出组标题标注「保存/导出时生效」，表头样式悬停提示同
+- 修复编辑器语法高亮层自 v2.0 起渲染为单行的问题：scoped 样式不作用于 v-html 内容（.hl-line display:block 从未生效），行内容全部挤在一条物理线上、仅行号竖排；改 :deep() 后逐行竖排、行号对齐、JSON 着色（此前着色也因同因未生效）一并恢复
+
+<details>
+<summary>English summary</summary>
+
+- JSONL/NDJSON input with line-accurate errors; one-click "copy table" as TSV to clipboard; array handling modes (JSON string / expand rows / split sheets); table ops (sort / dedupe / drop empty rows & cols); per-column stats (filled / distinct / min / max / avg); xlsx freeze header + autofilter; date display formats; CSV delimiter / EOL / quote options; drag-drop encoding auto-sniff (BOM / UTF-8 / GBK); structure-change toast and smarter parse errors.
+
+</details>
+
+---
+
 # v2.4.0 更新说明 (2026-09-25)
 
 ## 新增
