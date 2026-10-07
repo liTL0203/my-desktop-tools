@@ -6,6 +6,14 @@
 
 ---
 
+# v1.2.25 (2026-10-07)
+
+## New Features
+
+- **Draggable Overlay Widgets**: Desktop overlay widgets (like the system monitor) can now be dragged anywhere with the mouse — plugins position them precisely using physical-pixel coordinates, and interaction modes restore cleanly to their default state
+
+---
+
 # v1.2.24 (2026-10-05)
 
 ## New Features
