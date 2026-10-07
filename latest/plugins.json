@@ -585,7 +585,7 @@
     {
       "id": "net-toolkit",
       "name": "网络工具箱",
-      "version": "1.1.0",
+      "version": "1.2.0",
       "description": "一体化网络运维工具箱：本机真实 ICMP Ping 多目标对比、路由追踪逐跳定位、TCP 端口扫描、多服务器 DNS 传播对比、Whois 归属查询、Wake-on-LAN 唤醒、HTTP 五段耗时与 SSL 证书检测，附子网计算 / VLSM 规划 / IPv6 / MAC 厂商全套离线计算器",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -595,7 +595,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/net-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/net-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 2170713,
+      "downloadSize": 2220749,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"

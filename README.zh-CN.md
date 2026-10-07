@@ -27,7 +27,7 @@
 | json-to-excel | 2.5.0 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.5.0/json-to-excel-2.5.0.zip) |
 | lan-share | 1.1.0 | [说明](plugins/lan-share/) | [版本历史](plugins/lan-share/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v1.1.0/lan-share-1.1.0.zip) |
 | lid-motion | 1.1.0 | [说明](plugins/lid-motion/) | [版本历史](plugins/lid-motion/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/lid-motion-v1.1.0/lid-motion-1.1.0.zip) |
-| net-toolkit | 1.1.0 | [说明](plugins/net-toolkit/) | [版本历史](plugins/net-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/net-toolkit-v1.1.0/net-toolkit-1.1.0.zip) |
+| net-toolkit | 1.2.0 | [说明](plugins/net-toolkit/) | [版本历史](plugins/net-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/net-toolkit-v1.2.0/net-toolkit-1.2.0.zip) |
 | password-manager | 2.4.0 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.4.0/password-manager-2.4.0.zip) |
 | pdf-toolkit | 1.3.0 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.3.0/pdf-toolkit-1.3.0.zip) |
 | pomodoro | 3.2.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.2.0/pomodoro-3.2.0.zip) |
