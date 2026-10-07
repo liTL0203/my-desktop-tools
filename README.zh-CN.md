@@ -29,7 +29,7 @@
 | lid-motion | 1.1.0 | [说明](plugins/lid-motion/) | [版本历史](plugins/lid-motion/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/lid-motion-v1.1.0/lid-motion-1.1.0.zip) |
 | net-toolkit | 1.1.0 | [说明](plugins/net-toolkit/) | [版本历史](plugins/net-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/net-toolkit-v1.1.0/net-toolkit-1.1.0.zip) |
 | password-manager | 2.4.0 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.4.0/password-manager-2.4.0.zip) |
-| pdf-toolkit | 1.2.0 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.2.0/pdf-toolkit-1.2.0.zip) |
+| pdf-toolkit | 1.3.0 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.3.0/pdf-toolkit-1.3.0.zip) |
 | pomodoro | 3.1.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.1.0/pomodoro-3.1.0.zip) |
 | proxy-switch | 3.5.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.5.0/proxy-switch-3.5.0.zip) |
 | remote-desktop | 1.2.0 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.2.0/remote-desktop-1.2.0.zip) |
