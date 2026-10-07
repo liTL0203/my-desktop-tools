@@ -36,9 +36,9 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | screenshot-tool | 1.1.14 | [Description](plugins/screenshot-tool/) | [Changelog](plugins/screenshot-tool/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.1.14/screenshot-tool-1.1.14.zip) |
 | sql-format | 1.3.0 | [Description](plugins/sql-format/) | [Changelog](plugins/sql-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.3.0/sql-format-1.3.0.zip) |
 | sys-info | 2.4.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.4.0/sys-info-2.4.0.zip) |
-| sys-pulse | 0.1.0 | [Description](plugins/sys-pulse/) | [Changelog](plugins/sys-pulse/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-pulse-v0.1.0/sys-pulse-0.1.0.zip) |
+| sys-pulse | 0.2.0 | [Description](plugins/sys-pulse/) | [Changelog](plugins/sys-pulse/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-pulse-v0.2.0/sys-pulse-0.2.0.zip) |
 | xml-format | 1.3.0 | [Description](plugins/xml-format/) | [Changelog](plugins/xml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.3.0/xml-format-1.3.0.zip) |
-| yaml-format | 0.2.0 | [Description](plugins/yaml-format/) | [Changelog](plugins/yaml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v0.2.0/yaml-format-0.2.0.zip) |
+| yaml-format | 1.3.0 | [Description](plugins/yaml-format/) | [Changelog](plugins/yaml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v1.3.0/yaml-format-1.3.0.zip) |
 
 ## 💻 System Requirements
 

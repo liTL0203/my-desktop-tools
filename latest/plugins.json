@@ -1136,7 +1136,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/xml-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/xml-format/icon.png",
       "tags": [],
-      "downloadSize": 945938,
+      "downloadSize": 948372,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
@@ -1199,7 +1199,7 @@
     {
       "id": "yaml-format",
       "name": "YAML 格式化",
-      "version": "0.2.0",
+      "version": "1.3.0",
       "description": "YAML 格式化、校验、压缩、JSON 互转、扁平化与多文档处理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -1209,13 +1209,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/yaml-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/yaml-format/icon.png",
       "tags": [],
-      "downloadSize": 848568,
+      "downloadSize": 850557,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-05",
+      "updatedAt": "2026-10-08",
       "purpose": {
         "en": "Developers handle YAML constantly when editing Kubernetes manifests, CI pipelines and app configs. This plugin integrates formatting with comment preservation, validation with line/column location, minifying, YAML-JSON conversion, flattening and multi-document handling into one offline workbench.",
         "zh": "开发者频繁处理 K8s 清单、CI 流水线与应用配置中的 YAML。本插件把保留注释的格式化、行列级校验定位、压缩、YAML-JSON 互转、扁平化与多文档处理整合为一个离线工作台。"
