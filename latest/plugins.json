@@ -362,7 +362,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.8.0",
+      "version": "1.9.0",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -372,13 +372,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-format/icon.png",
       "tags": [],
-      "downloadSize": 1138139,
+      "downloadSize": 1818107,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-25",
+      "updatedAt": "2026-10-08",
       "purpose": {
         "en": "Developers frequently handle complex JSON data when debugging APIs, editing configs, or exchanging data. This plugin integrates formatting, compression, querying, and visualization into one tool.",
         "zh": "开发者在调试 API、配置文件、数据交换时经常需要处理复杂的 JSON 数据。JSON 格式化插件将格式化、压缩、查询、可视化整合到一个工具中，替代多个在线工具。"
@@ -1008,7 +1008,7 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sql-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sql-format/icon.png",
       "tags": [],
-      "downloadSize": 945384,
+      "downloadSize": 946430,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
