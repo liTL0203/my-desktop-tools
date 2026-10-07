@@ -759,7 +759,7 @@
     {
       "id": "pomodoro",
       "name": "番茄钟",
-      "version": "3.1.0",
+      "version": "3.2.0",
       "description": "专注-休息循环节奏器：模式预设、任务绑定、休息引导、专注洞察",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -769,13 +769,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pomodoro/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pomodoro/icon.png",
       "tags": [],
-      "downloadSize": 523236,
+      "downloadSize": 503307,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-02",
+      "updatedAt": "2026-10-08",
       "purpose": {
         "en": "Modern life is full of distractions. This plugin applies the classic Pomodoro Technique (focus + break cycles) with task binding, guided breaks and focus insights to help you build healthy deep-work habits.",
         "zh": "现代生活中干扰无处不在。番茄钟基于经典的番茄工作法（专注-休息循环），配合任务绑定、休息引导与专注洞察，帮助你克服拖延，建立健康的深度工作习惯。"

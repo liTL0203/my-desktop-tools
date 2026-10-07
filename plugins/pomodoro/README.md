@@ -5,23 +5,27 @@
 ## 功能
 
 - **节奏预设**：经典 25+5、深度 50+10、自定义时长，胶囊一键切换（快捷键 1/2/3）
-- **任务绑定**：任务清单带预计番茄数与进度点，「专注此任务」一键启动，投入分钟自动累计
+- **自由专注**：正计时模式，无固定时长，完成按实际时间计入
+- **任务绑定**：任务清单带预计番茄数、进度点与单条备注，「专注此任务」一键启动，投入分钟自动累计
+- **预计完成时间**：按剩余任务预估推算今日完成时刻
 - **休息引导**：短休默认 20-20-20 护眼提示，长休默认 4-4-6 呼吸动画
-- **分心记事本**：专注中想起别的事随手记下（不打断计时），休息时逐条处理
-- **专注洞察**：连续天数与最佳纪录、12 周专注热力图、24 小时时段分布（黄金时段）、任务投入排行
-- **音景**：雨声 / 壁炉 / 咖啡馆（Web Audio 实时合成，无音频文件），可设专注时自动播放
+- **分心记事本**：专注中想起别的事随手记下并可打归因标签（统计打断原因分布），休息时逐条处理
+- **专注洞察**：连续天数与最佳纪录、12 周热力图、24 小时时段分布（黄金时段）、任务投入排行、本周 vs 上周周报
+- **像素番茄花园**：近 14 天专注收获以像素植物呈现，品种随累计番茄解锁
+- **音景**：雨声 / 壁炉 / 咖啡馆 / 海浪 / 微风（Web Audio 实时合成），主辅双通道混音，可设专注自动播放与休息切换
 - **智能提醒**：阶段完成提示音、最后 10 秒滴答；窗口关闭时由后台系统提示音兜底
+- **分享与导出**：今日成绩卡片导出 PNG；全部专注记录导出 CSV / JSON
 - **严格模式**：专注中不可暂停（只能放弃本轮且不计入统计），助力自律训练
-- **数据导出**：全部专注记录导出为 CSV / JSON
+- **预备启动**：可选的开始前 3 秒预备动画，降低启动阻力
 
 ## 使用方法
 
 1. 打开 My Desktop Tools，进入「番茄钟」页面
 2. 顶部切换 专注 / 任务 / 统计 三个视图，右上角齿轮进入设置
-3. 在「任务」视图添加任务（可设预计番茄数），点任务行的「专注此任务」直接开始
-4. 专注视图按空格开始/暂停；S 跳过阶段；E 提前完成本轮
+3. 在「任务」视图添加任务（可设预计番茄数），点任务行的「专注此任务」直接开始；或选择「自由专注」正计时
+4. 专注视图按空格开始/暂停；S 跳过阶段；E 完成本轮（自由专注同样适用）
 5. 阶段结束自动衔接（进休息默认开启，回专注可按需开启）
-6. 在「统计」视图查看热力图/时段分布/任务排行，并可导出数据
+6. 在「统计」视图查看热力图/时段分布/打断归因/周报，并可分享成绩卡或导出数据
 
 ## 注意事项
 
@@ -35,6 +39,7 @@
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| 3.1.0 | 2026-10-02 | 竞品对标增量：自由专注、目标双口径、预计完成时间、打断归因、像素番茄花园、音景扩展与双通道混音、周报卡、分享卡片、任务备注、热力图双数据、预备启动 |
 | 3.0.0 | 2026-09-26 | v3 重设计：节奏预设、任务绑定、休息引导、分心记事本、专注洞察（热力图/时段分布/连续天数/任务排行）、合成音景、严格模式、墙钟计时、系统音兜底、数据导出与按月分片；存储格式换代（v2 数据自动备份不迁移） |
 | 2.4.0 | 2026-09-25 | 依赖升级与工程同步 |
 | 2.0.0 | 2026-04-01 | 独立插件版本：双主题、自动短/长休息切换、本地统计 |
@@ -51,23 +56,27 @@
 ## Features
 
 - **Rhythm presets**: Classic 25+5, Deep 50+10, and Custom durations, one-click switching (keys 1/2/3)
-- **Task binding**: task list with estimated pomodoros and progress dots; "Focus on this" starts instantly; minutes accumulate per task
+- **Free focus**: stopwatch mode with no fixed length; actual time counted on completion
+- **Task binding**: task list with estimated pomodoros, progress dots and a single note; "Focus on this" starts instantly; minutes accumulate per task
+- **Estimated finish**: projects when today's tasks will be done based on remaining estimates
 - **Guided breaks**: 20-20-20 eye rest on short breaks, 4-4-6 breathing animation on long breaks
-- **Distraction pad**: capture stray thoughts mid-focus (without breaking the timer), resolve them on break
-- **Focus insights**: streak and best record, 12-week heatmap, 24-hour distribution (golden hours), task ranking
-- **Ambience**: rain / fireplace / cafe, synthesized in real time with Web Audio (no audio files); optional autoplay during focus
+- **Distraction pad**: capture stray thoughts mid-focus with cause tags (interruption analytics included), resolve them on break
+- **Focus insights**: streak and best record, 12-week heatmap, 24-hour distribution (golden hours), task ranking, weekly comparison
+- **Pixel tomato garden**: recent 14 days of focus harvest as pixel plants, species unlock with cumulative pomodoros
+- **Ambience**: rain / fireplace / cafe / waves / breeze synthesized in real time; dual-channel mixing; optional autoplay during focus and break switching
 - **Smart reminders**: phase-completion chime, last-10-second tick; a system beep fallback covers phase changes while the window is closed
+- **Share & export**: today's scorecard as PNG; all sessions exportable as CSV / JSON
 - **Strict mode**: pausing disabled during focus (abandon only, uncounted) for discipline training
-- **Data export**: all sessions exportable as CSV / JSON
+- **Prep countdown**: optional 3-second pre-start animation
 
 ## How to use
 
 1. Open My Desktop Tools and go to the Pomodoro page
 2. Switch between Focus / Tasks / Stats views at the top; open settings via the gear icon
-3. Add tasks in the Tasks view (with estimated pomodoros); click "Focus on this" to start
-4. Press Space to start/pause; S to skip; E to finish the round early
+3. Add tasks in the Tasks view (with estimated pomodoros); click "Focus on this" to start, or pick Free focus for open-ended sessions
+4. Press Space to start/pause; S to skip; E to finish the round (works for free focus too)
 5. Phases chain automatically (entering breaks is on by default; starting the next round is optional)
-6. Review heatmap / hourly distribution / task ranking in Stats, and export your data
+6. Review heatmap / hourly distribution / interruption causes / weekly report in Stats; share a scorecard or export your data
 
 ## Notes
 
@@ -79,6 +88,7 @@
 
 | Version | Date | Notes |
 |---------|------|-------|
+| 3.1.0 | 2026-10-02 | Competitor-driven increments: free focus, dual goal types, estimated finish, interruption causes, pixel garden, expanded ambience with dual-channel mixing, weekly report, share card, task notes, heatmap dual data, prep countdown |
 | 3.0.0 | 2026-09-26 | v3 redesign: presets, task binding, guided breaks, distraction pad, insights (heatmap/hourly/streak/ranking), synthesized ambience, strict mode, wall-clock timing, beep fallback, export and monthly sharding; storage format replaced (v2 data backed up, not migrated) |
 | 2.4.0 | 2026-09-25 | Dependency upgrades and engineering sync |
 | 2.0.0 | 2026-04-01 | Standalone plugin: dual themes, auto break switching, local stats |
