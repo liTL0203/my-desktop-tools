@@ -1065,7 +1065,7 @@
     {
       "id": "sys-info",
       "name": "系统信息",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "description": "系统信息一站式工具箱：工具树式浏览硬件/系统/网络/进程/外设，实时监控 CPU·内存·磁盘·网速，查看 WiFi 密码、VPN 凭据、产品密钥、BitLocker 恢复密钥并导出报告",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -1075,13 +1075,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sys-info/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sys-info/icon.png",
       "tags": [],
-      "downloadSize": 541439,
+      "downloadSize": 541064,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-09-25",
+      "updatedAt": "2026-10-08",
       "purpose": {
         "en": "When troubleshooting hardware, upgrading configs, or diagnosing networks, users need a quick system overview. This plugin consolidates scattered system tools into a unified interface.",
         "zh": "在排查硬件问题、升级配置、网络诊断时，用户需要快速获取系统全貌。系统信息插件将分散在各处的系统工具整合为统一界面，一站式查看所有关键信息。"
