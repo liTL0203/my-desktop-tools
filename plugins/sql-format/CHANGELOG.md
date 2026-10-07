@@ -1,3 +1,24 @@
+# v1.3.0 更新说明 (2026-10-05)
+
+## 新增
+- 方言扩充（A2）：5 → 19 个，按数据库家族分组下拉——新增 MariaDB/TiDB/BigQuery/Snowflake/Redshift/ClickHouse/Trino/Hive/Spark/SingleStoreDB/Db2/Db2 for i/N1QL/标准 SQL
+- 格式选项补齐（A1）：括号表达式行宽上限、数据类型大小写、函数名大小写、分号独立成行（对标 Poor SQL/sqlformat.org 选项深度）
+- 局部保护标签（A3）：`[noformat]…[/noformat]` 标记的代码块格式化/压缩时原样保留，`[minify]…[/minify]` 标记的代码块局部压缩（Poor SQL 独门能力对齐）
+- 选中大小写转换（A4）：输入面板头 AA/aa/Aa 三钮，对选中片段转大写/小写/首字母大写（DBeaver 右键同款）
+- 宿主语言转义（A5）：转换面板新增 SQL → Python 三引号 / Java text block / TS 模板串（含引号与反斜杠转义）
+- 按方言记忆选项（A6）：格式选项支持「全局默认 + 方言专属覆盖」双层结构，一个方言一套风格（DataGrip 心智对齐）
+- AI 四件套（A7）：解释 SQL / 优化建议 / 修复建议 / 自然语言 → SQL，经核心 AI 网关调用；发送前有明确的出网数据流向确认；未配置 AI 时内联降级提示；NL→SQL 结果可一键插入并格式化
+
+## 修复
+- 输入框占位提示压在行号槽上的问题（改用 CodeMirror 官方 placeholder 扩展，渲染在内容区内且随语言切换更新）
+- 「保存 .sql / 打开」对话框被压在核心主窗后面的问题——改走核心文件桥（token 模式）：对话框以宿主窗口为属主正确置前，且路径不落插件手；纯浏览器 dev 无桥时自动回退旧 sidecar 通道
+
+## 优化
+- 语句导航过滤纯守卫标签残段，chips 更干净
+- invokeCore 桥支持自定义超时（AI 60s，其余 10s 不变）
+
+---
+
 # v1.2.0 更新说明 (2026-09-25)
 
 ## 新增
