@@ -1,11 +1,11 @@
 {
-  "version": "1.2.25",
-  "notes": "## New Features\n\n- **Draggable Overlay Widgets**: Desktop overlay widgets (like the system monitor) can now be dragged anywhere with the mouse — plugins position them precisely using physical-pixel coordinates, and interaction modes restore cleanly to their default state\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **桌面挂件自由拖动**：桌面覆盖挂件（如系统监控条）现在可以随鼠标拖到任意位置——插件按物理像素精确定位，交互模式可干净恢复默认状态\n\n</details>",
-  "pub_date": "2026-10-07T22:58:25.352Z",
+  "version": "1.2.26",
+  "notes": "## Bug Fixes\n\n- **Quick Action Panel Focus & Closing, Fixed at the Root**: The selection panel no longer loses focus races, no longer fails to close, and no longer vanishes when your mouse merely travels toward it — click-away closing now works exactly as expected, and duplicated translation guide cards are gone\n- **Plugin Windows Close Smarter**: Closing a standalone plugin window (the title-bar X) now keeps it warm in the background — reopening is instant, with no reload wait; idle windows are reclaimed automatically. Also fixed: plugins that default to in-app mode no longer silently fail to open their main panel\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **快捷操作面板焦点与关闭根治**：选区面板不再丢失焦点竞态、不再关不掉、也不再因鼠标移向面板途中而误消失——点击面板外关闭完全符合预期；翻译引导卡重复显示问题一并消除\n- **插件窗口关闭更聪明**：独立插件窗口点标题栏 X 现在保温隐藏——重新打开即刻就绪，无需等待加载；闲置窗口自动回收。另修复：默认应用内形态的插件打开主面板不再静默无反应\n\n</details>",
+  "pub_date": "2026-10-11T03:37:39.569Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZE5wOUpvNkVscnk5TnA1K0U5RUg5dTlZZzBydmZ3TWRrWEJCZXkyRHJLNW9vemJVQXphNDZnTWlYd2pZWEFsUnBJTHM1dW1EeEZDWFNjNGVXdGsxdXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxMzkyMzk1CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMjVfeDY0X2VuLVVTLm1zaQozUmI2OWtwU1d5QmJ6c1g4T2crNlVtWlRkT2V1cTRoQ0NJcms5QTh6Q0FyRE5zL1Q2ME1jSVdpL3k3NnMxZ051YUNodUcyMlFRRDJzY3A5cGpMbVhEZz09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.25/My.Desktop.Tools_1.2.25_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZExBRnp5bDJoVmdwSHJXYWVGYWROS1U0enZXSis4VHNDYVVySkx5bTVHYVUvWGhraGJXUEJDWkdoTVJpT3ZnbVE0SnFzcnVMdzIvMDFDcTdBdVZ5WmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjg5ODM4CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMjZfeDY0X2VuLVVTLm1zaQoxVW1lQmNzL2Z2aGRETHJFb2FSY3JvM2lkRG9hWXF6K00yYmkrakFiNy9zSVh6MUQ3MWVjZmFGeU9wWFQ5eDJwd2VOVEVSeGxBTVI3MENjendpenFBQT09Cg==",
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.26/My.Desktop.Tools_1.2.26_x64_en-US.msi"
     }
   }
 }

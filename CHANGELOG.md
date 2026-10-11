@@ -6,6 +6,15 @@
 
 ---
 
+# v1.2.26 (2026-10-11)
+
+## Bug Fixes
+
+- **Quick Action Panel Focus & Closing, Fixed at the Root**: The selection panel no longer loses focus races, no longer fails to close, and no longer vanishes when your mouse merely travels toward it — click-away closing now works exactly as expected, and duplicated translation guide cards are gone
+- **Plugin Windows Close Smarter**: Closing a standalone plugin window (the title-bar X) now keeps it warm in the background — reopening is instant, with no reload wait; idle windows are reclaimed automatically. Also fixed: plugins that default to in-app mode no longer silently fail to open their main panel
+
+---
+
 # v1.2.25 (2026-10-07)
 
 ## New Features

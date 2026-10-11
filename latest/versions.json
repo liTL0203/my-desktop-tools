@@ -1,7 +1,7 @@
 {
-  "core": "1.2.25",
-  "coreNotes": "## New Features\n\n- **Draggable Overlay Widgets**: Desktop overlay widgets (like the system monitor) can now be dragged anywhere with the mouse — plugins position them precisely using physical-pixel coordinates, and interaction modes restore cleanly to their default state\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **桌面挂件自由拖动**：桌面覆盖挂件（如系统监控条）现在可以随鼠标拖到任意位置——插件按物理像素精确定位，交互模式可干净恢复默认状态\n\n</details>",
-  "pubDate": "2026-10-07T22:58:25.385Z",
+  "core": "1.2.26",
+  "coreNotes": "## Bug Fixes\n\n- **Quick Action Panel Focus & Closing, Fixed at the Root**: The selection panel no longer loses focus races, no longer fails to close, and no longer vanishes when your mouse merely travels toward it — click-away closing now works exactly as expected, and duplicated translation guide cards are gone\n- **Plugin Windows Close Smarter**: Closing a standalone plugin window (the title-bar X) now keeps it warm in the background — reopening is instant, with no reload wait; idle windows are reclaimed automatically. Also fixed: plugins that default to in-app mode no longer silently fail to open their main panel\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **快捷操作面板焦点与关闭根治**：选区面板不再丢失焦点竞态、不再关不掉、也不再因鼠标移向面板途中而误消失——点击面板外关闭完全符合预期；翻译引导卡重复显示问题一并消除\n- **插件窗口关闭更聪明**：独立插件窗口点标题栏 X 现在保温隐藏——重新打开即刻就绪，无需等待加载；闲置窗口自动回收。另修复：默认应用内形态的插件打开主面板不再静默无反应\n\n</details>",
+  "pubDate": "2026-10-11T03:37:39.573Z",
   "plugins": {
     "pomodoro": "3.2.0",
     "proxy-switch": "3.4.0",
