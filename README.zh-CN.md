@@ -31,7 +31,7 @@
 | password-manager | 2.4.0 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.4.0/password-manager-2.4.0.zip) |
 | pdf-toolkit | 1.3.0 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.3.0/pdf-toolkit-1.3.0.zip) |
 | pomodoro | 3.2.0 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.2.0/pomodoro-3.2.0.zip) |
-| proxy-switch | 3.5.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.5.0/proxy-switch-3.5.0.zip) |
+| proxy-switch | 3.6.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.6.0/proxy-switch-3.6.0.zip) |
 | remote-desktop | 1.2.0 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.2.0/remote-desktop-1.2.0.zip) |
 | screenshot-tool | 1.1.14 | [说明](plugins/screenshot-tool/) | [版本历史](plugins/screenshot-tool/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.1.14/screenshot-tool-1.1.14.zip) |
 | sql-format | 1.3.0 | [说明](plugins/sql-format/) | [版本历史](plugins/sql-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.3.0/sql-format-1.3.0.zip) |

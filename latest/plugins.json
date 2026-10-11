@@ -830,7 +830,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
-      "version": "3.5.0",
+      "version": "3.6.0",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -840,13 +840,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/proxy-switch/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/proxy-switch/icon.png",
       "tags": [],
-      "downloadSize": 3239340,
+      "downloadSize": 2195334,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-05",
+      "updatedAt": "2026-10-09",
       "purpose": {
         "en": "Manually switching proxy nodes in multi-proxy environments is tedious and error-prone. This plugin integrates node management, rule engine, and auto-switching strategies into one tool.",
         "zh": "在多代理环境下手动切换代理节点既繁琐又容易出错。代理切换插件将节点管理、规则引擎、自动切换策略整合到一个工具中，让网络代理管理变得简单高效。"

@@ -1,7 +1,7 @@
 {
   "version": "1.2.27",
   "notes": "## Improvements\n\n- **Selection Detection with Zero Clipboard Impact**: Selecting text for quick actions no longer touches your clipboard — the engine now reads without writing, detects new content by clipboard sequence number, and never leaves duplicate entries in your clipboard history. The old \"restore clipboard after action\" setting is no longer needed and has been retired\n- **Smarter Same-Content Behavior**: An explicit selection always shows a fresh preview; only the clipboard fallback avoids repeating identical content. The previous \"return to preview\" capsule is now \"Analyze Content\" for on-demand review\n- **Preview Cards Get Proper Icons**: Built-in quick preview fact indicators now use crisp vector icons\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **选区检测零剪贴板副作用**：选中文字呼出快捷操作不再污染你的剪贴板——引擎只读不写，按剪贴板序列号检测新内容，剪贴板历史不再出现重复条目；旧有的「操作后恢复剪贴板」设置已无需要，随之移除\n- **同内容行为更聪明**：明确的选区永远展示全新预览；仅剪贴板后备场景避免重复展示相同内容。原「返回预览」胶囊更名「内容分析」供随时回看\n- **预览卡图标升级**：内置快捷预览的事实指示改用清晰的矢量图标\n\n</details>",
-  "pub_date": "2026-10-11T13:14:14.220Z",
+  "pub_date": "2026-10-11T22:01:42.399Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEE4ZVd5NUhhcUtCQkU5UDhqRVp1djhxaEVFRXR1alhJNUFjd2Y1NmltamlmRW9ncE9XSEFJQkE3Rmd2akVoUDFqeW9wU3NObzdHSS9uNU16YzdSOUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzEwNjM0CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMjdfeDY0X2VuLVVTLm1zaQo0S0pnTWo3VHBITnpxeU1jaEFwdXgxTWt1MGpHSldVdnBFcmZ5Q0xsZ0FsMm8rNnR5ZG80WGphVWZXdFoydVVCS2F2UUY4RXlwWFNKanliQ1I5UnpCdz09Cg==",
