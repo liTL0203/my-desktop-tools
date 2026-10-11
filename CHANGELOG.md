@@ -6,6 +6,16 @@
 
 ---
 
+# v1.2.27 (2026-10-11)
+
+## Improvements
+
+- **Selection Detection with Zero Clipboard Impact**: Selecting text for quick actions no longer touches your clipboard — the engine now reads without writing, detects new content by clipboard sequence number, and never leaves duplicate entries in your clipboard history. The old "restore clipboard after action" setting is no longer needed and has been retired
+- **Smarter Same-Content Behavior**: An explicit selection always shows a fresh preview; only the clipboard fallback avoids repeating identical content. The previous "return to preview" capsule is now "Analyze Content" for on-demand review
+- **Preview Cards Get Proper Icons**: Built-in quick preview fact indicators now use crisp vector icons
+
+---
+
 # v1.2.26 (2026-10-11)
 
 ## Bug Fixes

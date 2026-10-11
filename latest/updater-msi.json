@@ -1,11 +1,11 @@
 {
-  "version": "1.2.26",
-  "notes": "## Bug Fixes\n\n- **Quick Action Panel Focus & Closing, Fixed at the Root**: The selection panel no longer loses focus races, no longer fails to close, and no longer vanishes when your mouse merely travels toward it — click-away closing now works exactly as expected, and duplicated translation guide cards are gone\n- **Plugin Windows Close Smarter**: Closing a standalone plugin window (the title-bar X) now keeps it warm in the background — reopening is instant, with no reload wait; idle windows are reclaimed automatically. Also fixed: plugins that default to in-app mode no longer silently fail to open their main panel\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n\n- **快捷操作面板焦点与关闭根治**：选区面板不再丢失焦点竞态、不再关不掉、也不再因鼠标移向面板途中而误消失——点击面板外关闭完全符合预期；翻译引导卡重复显示问题一并消除\n- **插件窗口关闭更聪明**：独立插件窗口点标题栏 X 现在保温隐藏——重新打开即刻就绪，无需等待加载；闲置窗口自动回收。另修复：默认应用内形态的插件打开主面板不再静默无反应\n\n</details>",
-  "pub_date": "2026-10-11T03:37:39.569Z",
+  "version": "1.2.27",
+  "notes": "## Improvements\n\n- **Selection Detection with Zero Clipboard Impact**: Selecting text for quick actions no longer touches your clipboard — the engine now reads without writing, detects new content by clipboard sequence number, and never leaves duplicate entries in your clipboard history. The old \"restore clipboard after action\" setting is no longer needed and has been retired\n- **Smarter Same-Content Behavior**: An explicit selection always shows a fresh preview; only the clipboard fallback avoids repeating identical content. The previous \"return to preview\" capsule is now \"Analyze Content\" for on-demand review\n- **Preview Cards Get Proper Icons**: Built-in quick preview fact indicators now use crisp vector icons\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n\n- **选区检测零剪贴板副作用**：选中文字呼出快捷操作不再污染你的剪贴板——引擎只读不写，按剪贴板序列号检测新内容，剪贴板历史不再出现重复条目；旧有的「操作后恢复剪贴板」设置已无需要，随之移除\n- **同内容行为更聪明**：明确的选区永远展示全新预览；仅剪贴板后备场景避免重复展示相同内容。原「返回预览」胶囊更名「内容分析」供随时回看\n- **预览卡图标升级**：内置快捷预览的事实指示改用清晰的矢量图标\n\n</details>",
+  "pub_date": "2026-10-11T09:24:47.602Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZExBRnp5bDJoVmdwSHJXYWVGYWROS1U0enZXSis4VHNDYVVySkx5bTVHYVUvWGhraGJXUEJDWkdoTVJpT3ZnbVE0SnFzcnVMdzIvMDFDcTdBdVZ5WmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNjg5ODM4CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMjZfeDY0X2VuLVVTLm1zaQoxVW1lQmNzL2Z2aGRETHJFb2FSY3JvM2lkRG9hWXF6K00yYmkrakFiNy9zSVh6MUQ3MWVjZmFGeU9wWFQ5eDJwd2VOVEVSeGxBTVI3MENjendpenFBQT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.26/My.Desktop.Tools_1.2.26_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEE4ZVd5NUhhcUtCQkU5UDhqRVp1djhxaEVFRXR1alhJNUFjd2Y1NmltamlmRW9ncE9XSEFJQkE3Rmd2akVoUDFqeW9wU3NObzdHSS9uNU16YzdSOUFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxNzEwNjM0CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMjdfeDY0X2VuLVVTLm1zaQo0S0pnTWo3VHBITnpxeU1jaEFwdXgxTWt1MGpHSldVdnBFcmZ5Q0xsZ0FsMm8rNnR5ZG80WGphVWZXdFoydVVCS2F2UUY4RXlwWFNKanliQ1I5UnpCdz09Cg==",
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.27/My.Desktop.Tools_1.2.27_x64_en-US.msi"
     }
   }
 }
