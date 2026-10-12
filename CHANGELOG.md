@@ -6,6 +6,15 @@
 
 ---
 
+# v1.2.28 (2026-10-12)
+
+## Improvements
+
+- **Plugin Lifecycle, Managed by One Source of Truth**: All plugin start/stop/crash state transitions now flow through a single audited gateway — manual stops are no longer misreported as unexpected crashes, and every state change carries its real reason. A new event timeline tab in the plugin manager lets you review and filter a session's full history of plugin events
+- **Lighter Plugin Housekeeping**: Plugin counters in the UI are now event-driven with a five-minute safety net instead of constant polling — less background work, same accuracy
+
+---
+
 # v1.2.27 (2026-10-11)
 
 ## Improvements
