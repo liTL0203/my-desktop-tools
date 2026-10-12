@@ -527,7 +527,7 @@
     {
       "id": "lid-motion",
       "name": "合盖动效",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "description": "把折叠屏的转场仪式感带进笔记本：合盖/开盖时播放凝霜入眠、破晓展开等同源质感动画；接管合盖策略可一键还原，无外接屏自动入睡兜底",
       "author": "li_TL",
       "authorUrl": "",
@@ -537,10 +537,10 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/lid-motion/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/lid-motion/icon.png",
       "tags": [],
-      "downloadSize": 342965,
+      "downloadSize": 344331,
       "requiresPayment": false,
       "supportedModes": [],
-      "updatedAt": "2026-09-30",
+      "updatedAt": "2026-10-09",
       "purpose": {
         "en": "Bring the foldable-phone close ritual to your laptop: when you close or open the lid, a Duo-style transition animation (frost-fade, dawn-unfold and more) plays on screen. Lid policy takeover is fully reversible, and the machine auto-sleeps after a delay when no external display is attached.",
         "zh": "把折叠屏手机的合盖仪式感带进笔记本：合上/打开盖子时在屏幕上播放同源质感的转场动画（凝霜入眠、破晓展开等）。合盖策略接管可一键还原；无外接屏时延时自动入睡兜底。"
