@@ -1,11 +1,11 @@
 {
   "version": "1.2.31",
   "notes": "## New Features\n\n- **Education Category & Custom Categories for Plugins**: A new Education category joins the marketplace, and — more importantly — plugins can now define their own categories with localized labels and icons without waiting for a core release. Self-built or shared plugins show up properly organized from day one\n- **Live Reload for Plugin Development**: When developing a plugin, saved code changes now hot-sync into the running app — no more manual restart cycles while iterating\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n\n- **教育分类与插件自定义分类**：商城新增「教育课堂」分类；更重要的是——插件现可自带分类（含多语言标签与图标），无需等待核心发版。自建或分享的插件从第一天起就能正确归类展示\n- **插件开发热同步**：开发插件时保存代码即热同步到运行中的应用——迭代调试不再手动重启循环\n\n</details>",
-  "pub_date": "2026-10-15T00:10:54.149Z",
+  "pub_date": "2026-10-15T00:18:36.874Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEg3aUZHSzRGN1Y1WEZaZkZrUU5Pa0N3aERGNk9wTkxUUnBXTWtPMjd6ZEgxMUxVMmRyREdpOW9NbzdSRmZoQncyZG0rUTJaOXdqTWVwcXdpVnZUVndzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkyMDIzMDM0CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjIuMzFfeDY0X2VuLVVTLm1zaQpqbzlXYnNJbitnQlZDcll3R1d1dnR6U2FQRGo1VjdNVDVIaktmZGpzYnZDam5INXU0anhiYlM4ckRrSmpIZmVGYkJta1psUmJNRGFHb3JrYllPRFpEUT09Cg==",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.31/My.Desktop.Tools_1.2.31_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.31/My%20Desktop%20Tools_1.2.31_x64_en-US.msi"
     }
   }
 }
