@@ -6,6 +6,15 @@
 
 ---
 
+# v1.2.31 (2026-10-15)
+
+## New Features
+
+- **Education Category & Custom Categories for Plugins**: A new Education category joins the marketplace, and — more importantly — plugins can now define their own categories with localized labels and icons without waiting for a core release. Self-built or shared plugins show up properly organized from day one
+- **Live Reload for Plugin Development**: When developing a plugin, saved code changes now hot-sync into the running app — no more manual restart cycles while iterating
+
+---
+
 # v1.2.28 (2026-10-12)
 
 ## Improvements

@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.2.28 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.28/My.Desktop.Tools_1.2.28_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.28/My.Desktop.Tools_1.2.28_x64_zh-CN.msi) |
+| v1.2.31 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.31/My.Desktop.Tools_1.2.31_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.31/My.Desktop.Tools_1.2.31_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -23,7 +23,7 @@
 | diff-toolkit | 1.3.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.3.0/diff-toolkit-1.3.0.zip) |
 | image-toolkit | 1.4.0 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.4.0/image-toolkit-1.4.0.zip) |
 | input-lock | 1.3.0 | [说明](plugins/input-lock/) | [版本历史](plugins/input-lock/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.3.0/input-lock-1.3.0.zip) |
-| json-format | 1.9.0 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.9.0/json-format-1.9.0.zip) |
+| json-format | 1.9.1 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.9.1/json-format-1.9.1.zip) |
 | json-to-excel | 2.5.0 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.5.0/json-to-excel-2.5.0.zip) |
 | lan-share | 1.2.0 | [说明](plugins/lan-share/) | [版本历史](plugins/lan-share/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v1.2.0/lan-share-1.2.0.zip) |
 | lid-motion | 1.1.1 | [说明](plugins/lid-motion/) | [版本历史](plugins/lid-motion/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/lid-motion-v1.1.1/lid-motion-1.1.1.zip) |

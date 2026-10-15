@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.2.28 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.28/My.Desktop.Tools_1.2.28_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.28/My.Desktop.Tools_1.2.28_x64_zh-CN.msi) |
+| v1.2.31 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.31/My.Desktop.Tools_1.2.31_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.31/My.Desktop.Tools_1.2.31_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -23,7 +23,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | diff-toolkit | 1.3.0 | [Description](plugins/diff-toolkit/) | [Changelog](plugins/diff-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.3.0/diff-toolkit-1.3.0.zip) |
 | image-toolkit | 1.4.0 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.4.0/image-toolkit-1.4.0.zip) |
 | input-lock | 1.3.0 | [Description](plugins/input-lock/) | [Changelog](plugins/input-lock/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.3.0/input-lock-1.3.0.zip) |
-| json-format | 1.9.0 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.9.0/json-format-1.9.0.zip) |
+| json-format | 1.9.1 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.9.1/json-format-1.9.1.zip) |
 | json-to-excel | 2.5.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.5.0/json-to-excel-2.5.0.zip) |
 | lan-share | 1.2.0 | [Description](plugins/lan-share/) | [Changelog](plugins/lan-share/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v1.2.0/lan-share-1.2.0.zip) |
 | lid-motion | 1.1.1 | [Description](plugins/lid-motion/) | [Changelog](plugins/lid-motion/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/lid-motion-v1.1.1/lid-motion-1.1.1.zip) |
