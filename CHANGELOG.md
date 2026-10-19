@@ -6,6 +6,24 @@
 
 ---
 
+# v1.2.32 (2026-10-19)
+
+## New Features
+- **Plugin Config Hot-Reload**: Manually edited a plugin's config file (manifest.json)? The app now notices the change right away — plugins under development reload automatically without losing their state, and installed plugins show a one-click reload prompt, so no app restart is needed.
+- **New Plugin Folders Recognized Automatically**: Drop a new plugin folder into the plugins directory and the app discovers it on its own — development plugins register silently, while formal plugins get a prompt to load them.
+- **Clearer Plugin Config Errors**: When a manually edited plugin config can't be read, the notification now explains the reason instead of failing silently.
+
+## Bug Fixes
+- **Market Card Alignment**: Fixed misaligned buttons on market cards when a plugin has many tags, and made the loading placeholder match the real card height.
+- **Plugin Crash Recovery Timing**: Fixed an issue where the wait time before auto-restarting a crashed plugin could be twice as long as intended.
+- **Quick Launcher Search**: Fixed single-letter searches so that items containing the letter rank correctly above non-matches.
+- **Global Hotkeys at Startup**: Fixed a rare issue where global hotkey actions were dropped during the first moments after the app launched.
+
+## Improvements
+- **Smoother Plugin Development Loop**: Tweaking a plugin no longer requires restarting the app or reloading windows by hand — changes take effect through the reload flow above.
+
+---
+
 # v1.2.31 (2026-10-15)
 
 ## New Features
