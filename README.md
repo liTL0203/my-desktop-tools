@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.2.32 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.32/My.Desktop.Tools_1.2.32_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.32/My.Desktop.Tools_1.2.32_x64_zh-CN.msi) |
+| v1.2.32 | Windows 10 or later (64-bit) | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.2.32/My%20Desktop%20Tools_1.2.32_x64_en-US.msi) |
 
 ## 🔌 Plugins
 
@@ -16,29 +16,29 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 
 | Plugin | Version | Description | Changelog | Download |
 |------|------|------|----------|------|
-| ai-translator | 2.6.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.6.0/ai-translator-2.6.0.zip) |
-| clipboard | 1.3.0 | [Description](plugins/clipboard/) | [Changelog](plugins/clipboard/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.3.0/clipboard-1.3.0.zip) |
-| crypto-toolkit | 1.8.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.8.0/crypto-toolkit-1.8.0.zip) |
-| desktop-styler | 0.3.1 | [Description](plugins/desktop-styler/) | [Changelog](plugins/desktop-styler/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.3.1/desktop-styler-0.3.1.zip) |
-| diff-toolkit | 1.3.0 | [Description](plugins/diff-toolkit/) | [Changelog](plugins/diff-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.3.0/diff-toolkit-1.3.0.zip) |
-| image-toolkit | 1.4.0 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.4.0/image-toolkit-1.4.0.zip) |
-| input-lock | 1.3.0 | [Description](plugins/input-lock/) | [Changelog](plugins/input-lock/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.3.0/input-lock-1.3.0.zip) |
-| json-format | 1.9.1 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.9.1/json-format-1.9.1.zip) |
-| json-to-excel | 2.5.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.5.0/json-to-excel-2.5.0.zip) |
-| lan-share | 1.2.0 | [Description](plugins/lan-share/) | [Changelog](plugins/lan-share/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v1.2.0/lan-share-1.2.0.zip) |
-| lid-motion | 1.1.1 | [Description](plugins/lid-motion/) | [Changelog](plugins/lid-motion/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/lid-motion-v1.1.1/lid-motion-1.1.1.zip) |
-| net-toolkit | 1.2.0 | [Description](plugins/net-toolkit/) | [Changelog](plugins/net-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/net-toolkit-v1.2.0/net-toolkit-1.2.0.zip) |
-| password-manager | 2.4.0 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.4.0/password-manager-2.4.0.zip) |
-| pdf-toolkit | 1.3.0 | [Description](plugins/pdf-toolkit/) | [Changelog](plugins/pdf-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.3.0/pdf-toolkit-1.3.0.zip) |
-| pomodoro | 3.2.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.2.0/pomodoro-3.2.0.zip) |
-| proxy-switch | 3.6.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.6.0/proxy-switch-3.6.0.zip) |
-| remote-desktop | 1.2.0 | [Description](plugins/remote-desktop/) | [Changelog](plugins/remote-desktop/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.2.0/remote-desktop-1.2.0.zip) |
-| screenshot-tool | 1.1.14 | [Description](plugins/screenshot-tool/) | [Changelog](plugins/screenshot-tool/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.1.14/screenshot-tool-1.1.14.zip) |
-| sql-format | 1.3.0 | [Description](plugins/sql-format/) | [Changelog](plugins/sql-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.3.0/sql-format-1.3.0.zip) |
-| sys-info | 2.4.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.4.0/sys-info-2.4.0.zip) |
-| sys-pulse | 0.2.0 | [Description](plugins/sys-pulse/) | [Changelog](plugins/sys-pulse/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-pulse-v0.2.0/sys-pulse-0.2.0.zip) |
-| xml-format | 1.3.0 | [Description](plugins/xml-format/) | [Changelog](plugins/xml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.3.0/xml-format-1.3.0.zip) |
-| yaml-format | 1.3.0 | [Description](plugins/yaml-format/) | [Changelog](plugins/yaml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v1.3.0/yaml-format-1.3.0.zip) |
+| ai-translator | 2.7.0 | [Description](plugins/ai-translator/) | [Changelog](plugins/ai-translator/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.7.0/ai-translator-2.7.0.zip) |
+| clipboard | 1.4.0 | [Description](plugins/clipboard/) | [Changelog](plugins/clipboard/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.4.0/clipboard-1.4.0.zip) |
+| crypto-toolkit | 1.9.0 | [Description](plugins/crypto-toolkit/) | [Changelog](plugins/crypto-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.9.0/crypto-toolkit-1.9.0.zip) |
+| desktop-styler | 0.4.0 | [Description](plugins/desktop-styler/) | [Changelog](plugins/desktop-styler/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.4.0/desktop-styler-0.4.0.zip) |
+| diff-toolkit | 1.4.0 | [Description](plugins/diff-toolkit/) | [Changelog](plugins/diff-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.4.0/diff-toolkit-1.4.0.zip) |
+| image-toolkit | 1.5.0 | [Description](plugins/image-toolkit/) | [Changelog](plugins/image-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.5.0/image-toolkit-1.5.0.zip) |
+| input-lock | 1.4.0 | [Description](plugins/input-lock/) | [Changelog](plugins/input-lock/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.4.0/input-lock-1.4.0.zip) |
+| json-format | 1.10.0 | [Description](plugins/json-format/) | [Changelog](plugins/json-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.10.0/json-format-1.10.0.zip) |
+| json-to-excel | 2.6.0 | [Description](plugins/json-to-excel/) | [Changelog](plugins/json-to-excel/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.6.0/json-to-excel-2.6.0.zip) |
+| lan-share | 1.3.0 | [Description](plugins/lan-share/) | [Changelog](plugins/lan-share/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v1.3.0/lan-share-1.3.0.zip) |
+| lid-motion | 1.2.0 | [Description](plugins/lid-motion/) | [Changelog](plugins/lid-motion/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/lid-motion-v1.2.0/lid-motion-1.2.0.zip) |
+| net-toolkit | 1.3.0 | [Description](plugins/net-toolkit/) | [Changelog](plugins/net-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/net-toolkit-v1.3.0/net-toolkit-1.3.0.zip) |
+| password-manager | 2.5.0 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.5.0/password-manager-2.5.0.zip) |
+| pdf-toolkit | 1.4.0 | [Description](plugins/pdf-toolkit/) | [Changelog](plugins/pdf-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.4.0/pdf-toolkit-1.4.0.zip) |
+| pomodoro | 3.3.0 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.3.0/pomodoro-3.3.0.zip) |
+| proxy-switch | 3.7.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.7.0/proxy-switch-3.7.0.zip) |
+| remote-desktop | 1.3.0 | [Description](plugins/remote-desktop/) | [Changelog](plugins/remote-desktop/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.3.0/remote-desktop-1.3.0.zip) |
+| screenshot-tool | 1.2.0 | [Description](plugins/screenshot-tool/) | [Changelog](plugins/screenshot-tool/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.2.0/screenshot-tool-1.2.0.zip) |
+| sql-format | 1.4.0 | [Description](plugins/sql-format/) | [Changelog](plugins/sql-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.4.0/sql-format-1.4.0.zip) |
+| sys-info | 2.5.0 | [Description](plugins/sys-info/) | [Changelog](plugins/sys-info/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.5.0/sys-info-2.5.0.zip) |
+| sys-pulse | 1.0.0 | [Description](plugins/sys-pulse/) | [Changelog](plugins/sys-pulse/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-pulse-v1.0.0/sys-pulse-1.0.0.zip) |
+| xml-format | 1.4.0 | [Description](plugins/xml-format/) | [Changelog](plugins/xml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.4.0/xml-format-1.4.0.zip) |
+| yaml-format | 1.4.0 | [Description](plugins/yaml-format/) | [Changelog](plugins/yaml-format/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v1.4.0/yaml-format-1.4.0.zip) |
 
 ## 💻 System Requirements
 
