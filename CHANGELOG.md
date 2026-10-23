@@ -6,6 +6,14 @@
 
 ---
 
+# v1.2.33 (2026-10-23)
+
+## Bug Fixes
+- **AI Custom Routes Keep Their Endpoint**: Fixed an issue where the API endpoint address of a custom AI route could be dropped during configuration generation, leaving the route unusable. Custom routes now always carry the endpoint you configured.
+- **Smoother AI Engine Upgrades**: When the built-in AI engine version changes, legacy configuration combinations that no longer match the new engine no longer cause settings import to be rejected or model entries to go missing. The matching configuration is rebuilt automatically, and your own settings files are preserved.
+
+---
+
 # v1.2.32 (2026-10-19)
 
 ## New Features
