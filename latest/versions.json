@@ -33,49 +33,29 @@
     "sha256": "c42efad041d4c0bb4d4ac97ae7cbe89f153ec1fe078772392e749c7f5d5282d3"
   },
   "aiRuntime": {
-    "version": "0.2.1-rc.2",
-    "revision": "1e0e3014af3f27fd",
+    "version": "0.1.5-rc.2",
+    "revision": "7cfbf046f17ca177",
     "minCoreVersion": "0.45.0",
-    "size": 514010764,
-    "sha256": "1e0e3014af3f27fd5a3d417d2448a7efdbfc552f617b1d550a172a06bd1fe472",
-    "releasedAt": "2026-10-23",
+    "size": 366041666,
+    "sha256": "7cfbf046f17ca17794f397ddc90fa3a3058dad65c92a1d6b3b13039206300201",
+    "releasedAt": "2026-09-14",
     "notes": [
       {
         "type": "imp",
-        "text": "AI 引擎升级至 0.2.1 线，包含跨版本积累的大量稳定性与性能修复"
-      },
-      {
-        "type": "fix",
-        "text": "修复模型回复偶发出现空文本、旧会话重新打开失败的问题"
+        "text": "AI 引擎支持独立获取与更新，不再随核心安装包分发"
       },
       {
         "type": "imp",
-        "text": "切换不同模型提供方后，历史对话内容完整保留"
+        "text": "首次启用 AI 服务时自动下载并安装运行时（支持暂停与断点续传）"
       },
       {
         "type": "imp",
-        "text": "会话列表加载与长会话渲染性能优化，长对话更流畅"
-      },
-      {
-        "type": "feat",
-        "text": "模型选择器支持模糊搜索，查找模型更快"
-      },
-      {
-        "type": "feat",
-        "text": "聊天字号支持快捷键调节，阅读更舒适"
-      },
-      {
-        "type": "fix",
-        "text": "修复模型选择菜单在窗口边缘显示不全、输入框光标与选区异常等界面问题"
-      },
-      {
-        "type": "imp",
-        "text": "修改 AI 模型字典或主题设置后，需重启应用（或关闭再开启一次 AI 总开关）后生效"
+        "text": "运行时与核心版本解耦，引擎可独立升级"
       }
     ],
     "urls": {
-      "gitee": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.2.1-rc.2/dsh-runtime-0.2.1-rc.2.tar.gz",
-      "github": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.2.1-rc.2/dsh-runtime-0.2.1-rc.2.tar.gz"
+      "gitee": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.1.5-rc.2/dsh-runtime-0.1.5-rc.2.tar.gz",
+      "github": "https://github.com/liTL0203/my-desktop-tools/releases/download/ai-runtime-0.1.5-rc.2/dsh-runtime-0.1.5-rc.2.tar.gz"
     }
   }
 }
