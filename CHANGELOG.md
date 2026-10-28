@@ -6,6 +6,26 @@
 
 ---
 
+# v1.2.34 (2026-10-28)
+
+## New Features
+- **Smarter Quick Actions**: Select any text and the panel instantly recommends plugins that can handle it — matching now runs locally on content features (JSON, SQL, XML, YAML, encoded or encrypted strings, and more), with no waiting for plugins to respond. Results appear immediately and stay consistent every time.
+- **Enter Opens the Recommended Plugin**: With content selected, press Enter to open the top recommended plugin directly — no extra click needed.
+- **Idle Panel Becomes a Launcher**: When nothing is selected, the Quick Action panel turns into a quick launcher for common actions, and shows what kind of content your clipboard holds.
+- **Custom Plugin Hotkeys**: Assign a dedicated hotkey to each plugin, with a master switch and per-plugin switches to control them individually.
+- **Redesigned Usage Statistics**: Plugin usage records and statistics are merged into one page — an overview of conclusions, two-column detail cards, and an event timeline, all in a single view.
+- **Plugin Startup Timing**: The performance page now tracks how long each plugin takes to start, with P50/P95 percentile cards.
+
+## Improvements
+- **Plugins Open Faster**: Frequently used plugins are preloaded during idle time, plugin resources use a disk cache, and the asset channel is upgraded — reopening a plugin feels noticeably snappier.
+- **Leaner Plugin Manager**: The running-plugin resource table is condensed from 14 columns to 6, with a expandable row for full details.
+
+## Bug Fixes
+- **Quick Action Reliability**: Fixed a series of recommendation issues — selected JSON not suggesting the JSON tool, recommendations varying between tries, and some older plugins never appearing as available.
+- **Enter Content Delivery**: Fixed an issue where content occasionally failed to fill in after opening a plugin via Enter.
+
+---
+
 # v1.2.33 (2026-10-23)
 
 ## Bug Fixes

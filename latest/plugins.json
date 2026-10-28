@@ -102,7 +102,7 @@
     {
       "id": "crypto-toolkit",
       "name": "加密解密工具箱",
-      "version": "1.9.0",
+      "version": "1.9.1",
       "description": "本地加密解密与压缩工具：Base64/Hex/URL 编码、AES/ChaCha20/国密加解密、哈希摘要、经典密码、文件压缩成字符串与还原",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -112,13 +112,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/crypto-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/crypto-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 1864618,
+      "downloadSize": 1868018,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Developers constantly juggle encoded strings (Base64/Hex/JWT), digests, and cipher payloads between browsers, terminals, and docs — usually via random websites that leak data. This plugin bundles the full crypto/encoding workflow into one offline toolbox with zero-trace privacy.",
         "zh": "开发者经常在浏览器、终端、文档之间来回处理编码字符串（Base64/Hex/JWT）、摘要与密文，通常求助随机网站、存在数据泄露风险。本插件把完整加密/编码工作流装进一个离线工具箱，零痕迹保护隐私。"
@@ -251,7 +251,7 @@
     {
       "id": "image-toolkit",
       "name": "图片工具箱",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "description": "本地图片处理：格式转换、精确压缩、裁剪旋转、证件照换底色、打码、拼接水印",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -261,13 +261,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/image-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/image-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 12579684,
+      "downloadSize": 12579383,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -362,7 +362,7 @@
     {
       "id": "json-format",
       "name": "JSON 格式化",
-      "version": "1.10.0",
+      "version": "1.10.1",
       "description": "JSON 解析、格式化、压缩、JS 处理与多维可视化",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -372,13 +372,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-format/icon.png",
       "tags": [],
-      "downloadSize": 1820819,
+      "downloadSize": 1820939,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Developers frequently handle complex JSON data when debugging APIs, editing configs, or exchanging data. This plugin integrates formatting, compression, querying, and visualization into one tool.",
         "zh": "开发者在调试 API、配置文件、数据交换时经常需要处理复杂的 JSON 数据。JSON 格式化插件将格式化、压缩、查询、可视化整合到一个工具中，替代多个在线工具。"
@@ -419,7 +419,7 @@
     {
       "id": "json-to-excel",
       "name": "JSON 转 Excel",
-      "version": "2.6.0",
+      "version": "2.6.1",
       "description": "将 JSON 数据一键转换为 Excel 表格，支持嵌套展开、多 Sheet、数据预览",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -429,12 +429,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/json-to-excel/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/json-to-excel/icon.png",
       "tags": [],
-      "downloadSize": 748688,
+      "downloadSize": 749231,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Manually converting JSON data into Excel spreadsheets is tedious, and online converters pose data privacy risks. This plugin provides a local, offline JSON-to-Excel converter with nested object flattening and multi-sheet support.",
         "zh": "手动将 JSON 数据转换为 Excel 表格既繁琐又耗时，在线转换工具还存在数据隐私风险。本插件提供本地离线的 JSON 转 Excel 工具，支持嵌套对象自动展开和多 Sheet 导出。"
@@ -585,7 +585,7 @@
     {
       "id": "net-toolkit",
       "name": "网络工具箱",
-      "version": "1.3.0",
+      "version": "1.3.1",
       "description": "一体化网络运维工具箱：本机真实 ICMP Ping 多目标对比、路由追踪逐跳定位、TCP 端口扫描、多服务器 DNS 传播对比、Whois 归属查询、Wake-on-LAN 唤醒、HTTP 五段耗时与 SSL 证书检测，附子网计算 / VLSM 规划 / IPv6 / MAC 厂商全套离线计算器",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -595,12 +595,12 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/net-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/net-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 2225607,
+      "downloadSize": 2224666,
       "requiresPayment": false,
       "supportedModes": [
         "desktop"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Online network tools probe from their own servers, not yours, and scatter subnet calculators across ad-filled pages. This toolkit probes from your machine — real ICMP ping, TCP port connect, custom DNS servers, Wake-on-LAN, HTTP phase timing and TLS certificate checks — with every calculator (subnet, VLSM, IPv6, MAC vendor) working fully offline.",
         "zh": "在线网络工具测的是「他们的服务器 → 目标」，本机连通性问题它们测不到，且计算器散落在满屏广告的网页里。这个工具箱从你的电脑直接探测——真实 ICMP Ping、TCP 端口、自定义 DNS、远程唤醒、HTTP 五段耗时与证书检测——并内置子网 / VLSM / IPv6 / MAC 厂商全套离线计算器。"
@@ -643,7 +643,7 @@
     {
       "id": "password-manager",
       "name": "密码管理器",
-      "version": "2.5.0",
+      "version": "2.5.1",
       "description": "本地零知识加密密码保险库：主密码 + Windows Hello 解锁、密码生成器、安全体检、Popup 快速取密",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -653,13 +653,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/password-manager/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/password-manager/icon.png",
       "tags": [],
-      "downloadSize": 2838904,
+      "downloadSize": 2839064,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Reusing a few passwords across dozens of sites is the norm, and cloud password managers raise privacy concerns. This plugin provides a local zero-knowledge vault: master-password key derivation, field-level AES-256-GCM encryption, instant search-copy with guarded clipboard, and a one-time recovery key.",
         "zh": "在几十个网站之间复用少量密码是常态，而云端密码管理器又带来隐私顾虑。本插件提供本地零知识加密保险库：主密码派生密钥、字段级 AES-256-GCM 加密、即搜即复制（剪贴板自动清除）与一次性恢复密钥。"
@@ -710,7 +710,7 @@
     {
       "id": "pdf-toolkit",
       "name": "PDF 工具箱",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "description": "本地 PDF 工具：Base64 直开预览、页面合并拆分排序、文字图片页码烧录、打印版式 N-up 缩放调整",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -720,13 +720,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/pdf-toolkit/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/pdf-toolkit/icon.png",
       "tags": [],
-      "downloadSize": 5568415,
+      "downloadSize": 4316033,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Describe why this plugin was created and what problem it solves.",
         "zh": "描述创建此插件的目的和它解决的问题。"
@@ -830,7 +830,7 @@
     {
       "id": "proxy-switch",
       "name": "代理管理",
-      "version": "3.7.0",
+      "version": "3.7.1",
       "description": "TUN 模式系统级流量路由引擎，虚拟网卡全局流量劫持 + 规则智能路由 + 多代理组管理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -840,13 +840,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/proxy-switch/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/proxy-switch/icon.png",
       "tags": [],
-      "downloadSize": 2194193,
+      "downloadSize": 1711691,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Manually switching proxy nodes in multi-proxy environments is tedious and error-prone. This plugin integrates node management, rule engine, and auto-switching strategies into one tool.",
         "zh": "在多代理环境下手动切换代理节点既繁琐又容易出错。代理切换插件将节点管理、规则引擎、自动切换策略整合到一个工具中，让网络代理管理变得简单高效。"
@@ -998,7 +998,7 @@
     {
       "id": "sql-format",
       "name": "SQL 美化",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "description": "SQL 格式化、压缩、校验、多语句导航、转换与静态分析",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -1008,13 +1008,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/sql-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/sql-format/icon.png",
       "tags": [],
-      "downloadSize": 946673,
+      "downloadSize": 947520,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Developers constantly deal with unformatted SQL: single-line queries from logs, messy scripts written by others, INSERT data to convert. This plugin provides an offline SQL text workbench with formatting, compression, validation, statement navigation, transformations and static analysis — without ever connecting to a database.",
         "zh": "开发者每天都在和未格式化的 SQL 打交道：日志里捞出来的单行查询、别人写的乱格式脚本、需要转换的 INSERT 数据。本插件提供离线 SQL 文本工作台：格式化、压缩、校验、多语句导航、转换与静态分析，全程不连接数据库。"
@@ -1174,7 +1174,7 @@
     {
       "id": "xml-format",
       "name": "XML 格式化",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "description": "XML 格式化、压缩、校验、结构树、XPath 查询与 JSON 互转",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -1184,13 +1184,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/xml-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/xml-format/icon.png",
       "tags": [],
-      "downloadSize": 947696,
+      "downloadSize": 948241,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Developers constantly handle unformatted XML: SOAP requests, pom.xml, Android layouts, RSS feeds and sitemaps. This plugin provides an offline XML workbench with formatting, minifying, well-formedness validation with line/column location, structure tree browsing, XPath 1.0 queries and bidirectional XML-JSON conversion — all fully local.",
         "zh": "开发者每天都在和未格式化的 XML 打交道：SOAP 报文、pom.xml、Android 布局、RSS 与 sitemap。本插件提供离线 XML 文本工作台：格式化、压缩、校验（定位到行:列）、结构树浏览、XPath 查询与 XML⇄JSON 双向转换，全程本地完成。"
@@ -1247,7 +1247,7 @@
     {
       "id": "yaml-format",
       "name": "YAML 格式化",
-      "version": "1.4.0",
+      "version": "1.4.1",
       "description": "YAML 格式化、校验、压缩、JSON 互转、扁平化与多文档处理",
       "author": "My Desktop Tools",
       "authorUrl": "",
@@ -1257,13 +1257,13 @@
       "iconUrl": "https://gitee.com/li_tl/my-desktop-tools/raw/master/plugins/yaml-format/icon.png",
       "iconUrlFallback": "https://raw.githubusercontent.com/liTL0203/my-desktop-tools/master/plugins/yaml-format/icon.png",
       "tags": [],
-      "downloadSize": 848021,
+      "downloadSize": 848863,
       "requiresPayment": false,
       "supportedModes": [
         "desktop",
         "popup"
       ],
-      "updatedAt": "2026-10-19",
+      "updatedAt": "2026-10-28",
       "purpose": {
         "en": "Developers handle YAML constantly when editing Kubernetes manifests, CI pipelines and app configs. This plugin integrates formatting with comment preservation, validation with line/column location, minifying, YAML-JSON conversion, flattening and multi-document handling into one offline workbench.",
         "zh": "开发者频繁处理 K8s 清单、CI 流水线与应用配置中的 YAML。本插件把保留注释的格式化、行列级校验定位、压缩、YAML-JSON 互转、扁平化与多文档处理整合为一个离线工作台。"
