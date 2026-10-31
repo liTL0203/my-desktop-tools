@@ -6,6 +6,26 @@
 
 ---
 
+# v1.3.0 (2026-10-31)
+
+## New Features
+- **External AI Client Access (MCP)**: Cherry Studio / Cursor / ZCode and other AI clients can now connect to the toolbox via MCP — 26 tools covering plugin listing, groups, usage stats, settings, plus group creation and plugin toggling. Every mutating action pops an approval card you control; the access card in AI Service offers one-click config copy, and agent skill packs self-install and self-update.
+- **AI Service Page Redesign**: Hero status band + segmented tabs layout; engine diagnostics collapsed into its own tab for a calmer overview.
+- **QuickAction Panel Instant Open**: The selection panel now appears the moment matching plugins are declared — enhanced probing no longer blocks the panel.
+- **Plugin Manager Page Split**: The six-tab single page is now five dedicated pages (Market / Monitor / Logs / Settings / Stats) with direct URLs; the frosted-glass tab bar look is preserved, legacy deep links keep working.
+
+## Bug Fixes
+- **QuickAction Content Mix-up**: Selecting different strings back-to-back no longer feeds the previous selection to a plugin — three clipboard/snapshot/delivery races eliminated (verified against real multi-selection sessions).
+- **Marketplace Rough Edges**: Local ZIP uninstall now asks for confirmation; detail pages no longer show empty tabs for scaffold placeholder copy.
+- **Hidden-Window Polling Leak**: Resource polling no longer restarts while you are on another page after restoring from a minimized window.
+
+## Improvements
+- **Autostart & Upgrade Failure Notifications**: Plugins that fail to autostart or upgrade now raise a system notification with the reason; autostart order follows declared plugin dependencies (dependency-first, cycle-safe).
+- **Version & Update Dialogs Redesign**: Version history dialog fixes arrow clipping and gains overflow fade; the update flow merges three setting rows into one and re-splits dialog responsibilities.
+- **Core Hardening**: Windows manifest UAC level corrected (asInvoker); a latent elevation hint no longer appears for non-elevated installs.
+
+---
+
 # v1.2.34 (2026-10-28)
 
 ## New Features
