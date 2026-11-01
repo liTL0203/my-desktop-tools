@@ -6,6 +6,22 @@
 
 ---
 
+# v1.4.0 (2026-11-01)
+
+## New Features
+- **Settings Search & Layout Refresh**: Settings gains a search box that jumps straight to matching options; the "Version" and "Update" pages merge into one; jump-style entries adopt a clearer form; and the settings page now adapts to narrow windows without squeezing.
+- **Two New Charts in Usage Statistics**: Plugin startup timing becomes a two-tone bar chart (P50/P95 at a glance, the card now lives in the statistics detail layer); usage events gain a per-day stacked bar chart — click a day to drill into that day's events.
+- **Plugin Icons in the Monitor Table**: The plugin-name column of the resource monitor table now shows each plugin's real icon (same channel as market cards and the bottom-bar bubbles).
+- **Gentle Sponsor Expiry Reminder**: Sponsorship status moves to a more prominent spot in settings; three days before expiry you get one gentle reminder — no more abrupt pop-ups. Orphaned legacy trial files are cleaned up automatically.
+
+## Improvements
+- **Dead Switches Removed**: Two settings toggles with no actual backend effect (game mode / memory optimization) are gone — they previously did nothing when turned on. Configuration writes are now lock-protected for extra stability.
+
+## Bug Fixes
+- **"Check for Updates Automatically" Switch**: The toggle had lost its effect due to a missing internal reference; it now works again.
+
+---
+
 # v1.3.1 (2026-11-01)
 
 ## Bug Fixes
