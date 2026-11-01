@@ -6,6 +6,18 @@
 
 ---
 
+# v1.3.1 (2026-11-01)
+
+## Bug Fixes
+- **AI Service "More Info" Dialog**: The client guide list in the external-access dialog rendered collapsed into vertical one-character-per-line columns — layout rule copied from the old card wrongly matched the new structure. Rows now lay out full-width (name + step per row, long steps wrap normally).
+
+## Improvements
+- **AI Service Overview — Two Access Paths Side by Side**: The built-in AI assistant and external-client access (MCP) now appear as two equal cards on the overview, each with its own status and toggle — no more primary/secondary nesting.
+- **Quick Actions on the External-Access Card**: "Copy access config" and "Reset key" move out of the dialog onto the card itself (frequent actions, no extra click). The mislabeled "Copy playbook" button is gone — it actually copies the MCP access config, and the new button says exactly that; the dialog now holds only notes and per-client guides.
+- **Data Storage Consolidation**: Core config files now live together under the `settings\` folder (marketplace favorites and Quick Launcher pinned items merged into the main config), with automatic one-time migration on upgrade — no manual steps. Fixed the upgrade backup chain missing plugin-management settings (groups/heartbeat/thresholds were previously excluded); fixed the anonymous-stats device identifier going empty. The Pomodoro plugin likewise no longer stores its data inside the install directory (updating or uninstalling no longer wipes focus-session data).
+
+---
+
 # v1.3.0 (2026-10-31)
 
 ## New Features
