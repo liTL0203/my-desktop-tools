@@ -6,6 +6,13 @@
 
 ---
 
+# v1.4.1 (2026-11-05)
+
+## Bug Fixes
+- **QuickAction Content Mix-up with Multi-Window Plugins**: When a plugin that supports multiple windows (e.g. json-format) had several windows open, a new trigger could deliver the selected content to an old window, leaving the new one blank. Content delivery now binds to the window actually shown for this trigger; stale windows can no longer intercept it. Window semantics aligned: each trigger opens a new window for its content (hidden warm-up windows are reused for instant display).
+
+---
+
 # v1.4.0 (2026-11-01)
 
 ## New Features

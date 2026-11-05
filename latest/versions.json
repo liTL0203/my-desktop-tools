@@ -1,12 +1,12 @@
 {
-  "core": "1.4.0",
-  "coreNotes": "## New Features\n- **Settings Search & Layout Refresh**: Settings gains a search box that jumps straight to matching options; the \"Version\" and \"Update\" pages merge into one; jump-style entries adopt a clearer form; and the settings page now adapts to narrow windows without squeezing.\n- **Two New Charts in Usage Statistics**: Plugin startup timing becomes a two-tone bar chart (P50/P95 at a glance, the card now lives in the statistics detail layer); usage events gain a per-day stacked bar chart — click a day to drill into that day's events.\n- **Plugin Icons in the Monitor Table**: The plugin-name column of the resource monitor table now shows each plugin's real icon (same channel as market cards and the bottom-bar bubbles).\n- **Gentle Sponsor Expiry Reminder**: Sponsorship status moves to a more prominent spot in settings; three days before expiry you get one gentle reminder — no more abrupt pop-ups. Orphaned legacy trial files are cleaned up automatically.\n\n## Improvements\n- **Dead Switches Removed**: Two settings toggles with no actual backend effect (game mode / memory optimization) are gone — they previously did nothing when turned on. Configuration writes are now lock-protected for extra stability.\n\n## Bug Fixes\n- **\"Check for Updates Automatically\" Switch**: The toggle had lost its effect due to a missing internal reference; it now works again.\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n- **设置页搜索与布局优化**：设置页新增搜索框，输入即定位到对应选项；「版本」与「更新」两页合并为一页；跳转类条目改为更清晰的形态；窄窗口下设置页自适应布局不再挤压。\n- **使用统计两幅新图表**：插件启动耗时改为双色条形图（P50/P95 一目了然，耗时卡归入统计页明细层）；使用事件新增按天堆叠柱状图——点击某一天即可下钻查看当日事件明细。\n- **资源监控表插件图标**：插件管理「监控」表格的插件名称列现在显示插件真实图标（与商城卡片、底栏气泡同一通道）。\n- **赞赏到期温和提醒**：赞赏状态前置到设置页更显眼的位置；到期前 3 天会收到一次温和提醒，不再有突兀弹窗；历史的孤儿试用残留文件自动清理。\n\n## 优化改进\n- **清理无效开关**：移除两个没有实际后端作用的设置开关（游戏模式 / 内存优化——此前打开也不会产生任何效果）；配置文件写入加锁，保存更稳。\n\n## 问题修复\n- **「自动检查更新」开关失效**：该开关因内部引用遗漏而失去作用，现已恢复正常。\n\n</details>",
-  "pubDate": "2026-11-01T16:29:39.017Z",
+  "core": "1.4.1",
+  "coreNotes": "## Bug Fixes\n- **QuickAction Content Mix-up with Multi-Window Plugins**: When a plugin that supports multiple windows (e.g. json-format) had several windows open, a new trigger could deliver the selected content to an old window, leaving the new one blank. Content delivery now binds to the window actually shown for this trigger; stale windows can no longer intercept it. Window semantics aligned: each trigger opens a new window for its content (hidden warm-up windows are reused for instant display).\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n- **快捷操作多开插件窗口内容串窗**：多开窗口的插件（如 JSON 格式化）同时开多个窗口时，新触发的选中内容可能被旧窗口截走、新窗口空白。内容投递现绑定「本次触发实际展示的窗口」，旧窗口不再截胡。窗口语义统一：每次触发出的内容由新窗口承载（隐藏保温窗口复用秒显）。\n\n</details>",
+  "pubDate": "2026-11-05T16:29:13.650Z",
   "plugins": {
     "pomodoro": "3.3.0",
     "proxy-switch": "3.7.1",
     "ai-translator": "2.7.0",
-    "json-format": "1.10.1",
+    "json-format": "1.11.0",
     "sys-info": "2.5.0",
     "json-to-excel": "2.6.1",
     "password-manager": "2.5.1",
