@@ -8,7 +8,7 @@
 
 | Version | Platform | Download |
 |------|------|------|
-| v1.4.1 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.1/My.Desktop.Tools_1.4.1_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.1/My.Desktop.Tools_1.4.1_x64_zh-CN.msi) |
+| v1.4.2 | Windows 10 or later (64-bit) | [MSI (English)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My.Desktop.Tools_1.4.2_x64_en-US.msi) · [MSI (中文)](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My.Desktop.Tools_1.4.2_x64_zh-CN.msi) |
 
 ## 🔌 Plugins
 
@@ -30,7 +30,7 @@ Open **Plugin Manager** in My Desktop Tools, click "Install Plugin", and select 
 | net-toolkit | 1.4.0 | [Description](plugins/net-toolkit/) | [Changelog](plugins/net-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/net-toolkit-v1.4.0/net-toolkit-1.4.0.zip) |
 | password-manager | 2.5.2 | [Description](plugins/password-manager/) | [Changelog](plugins/password-manager/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.5.2/password-manager-2.5.2.zip) |
 | pdf-toolkit | 1.4.1 | [Description](plugins/pdf-toolkit/) | [Changelog](plugins/pdf-toolkit/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.4.1/pdf-toolkit-1.4.1.zip) |
-| pomodoro | 3.3.1 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.3.1/pomodoro-3.3.1.zip) |
+| pomodoro | 3.3.2 | [Description](plugins/pomodoro/) | [Changelog](plugins/pomodoro/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.3.2/pomodoro-3.3.2.zip) |
 | proxy-switch | 3.8.0 | [Description](plugins/proxy-switch/) | [Changelog](plugins/proxy-switch/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.8.0/proxy-switch-3.8.0.zip) |
 | remote-desktop | 1.3.1 | [Description](plugins/remote-desktop/) | [Changelog](plugins/remote-desktop/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.3.1/remote-desktop-1.3.1.zip) |
 | screenshot-tool | 1.3.0 | [Description](plugins/screenshot-tool/) | [Changelog](plugins/screenshot-tool/CHANGELOG.md) | [Download](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.3.0/screenshot-tool-1.3.0.zip) |

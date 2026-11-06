@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.4.1 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.1/My.Desktop.Tools_1.4.1_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.1/My.Desktop.Tools_1.4.1_x64_zh-CN.msi) |
+| v1.4.2 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My.Desktop.Tools_1.4.2_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My.Desktop.Tools_1.4.2_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -30,7 +30,7 @@
 | net-toolkit | 1.4.0 | [说明](plugins/net-toolkit/) | [版本历史](plugins/net-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/net-toolkit-v1.4.0/net-toolkit-1.4.0.zip) |
 | password-manager | 2.5.2 | [说明](plugins/password-manager/) | [版本历史](plugins/password-manager/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/password-manager-v2.5.2/password-manager-2.5.2.zip) |
 | pdf-toolkit | 1.4.1 | [说明](plugins/pdf-toolkit/) | [版本历史](plugins/pdf-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pdf-toolkit-v1.4.1/pdf-toolkit-1.4.1.zip) |
-| pomodoro | 3.3.1 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.3.1/pomodoro-3.3.1.zip) |
+| pomodoro | 3.3.2 | [说明](plugins/pomodoro/) | [版本历史](plugins/pomodoro/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/pomodoro-v3.3.2/pomodoro-3.3.2.zip) |
 | proxy-switch | 3.8.0 | [说明](plugins/proxy-switch/) | [版本历史](plugins/proxy-switch/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/proxy-switch-v3.8.0/proxy-switch-3.8.0.zip) |
 | remote-desktop | 1.3.1 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.3.1/remote-desktop-1.3.1.zip) |
 | screenshot-tool | 1.3.0 | [说明](plugins/screenshot-tool/) | [版本历史](plugins/screenshot-tool/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.3.0/screenshot-tool-1.3.0.zip) |

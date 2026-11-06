@@ -6,6 +6,13 @@
 
 ---
 
+# v1.4.2 (2026-11-06)
+
+## Improvements
+- **Launch with Administrator Privileges (restored by design decision)**: The app now requests elevation on launch again, so plugins that need admin rights (e.g. Proxy Manager) work directly without an extra elevation restart. Applies since v1.3.1's change that silently removed the prompt.
+
+---
+
 # v1.4.1 (2026-11-05)
 
 ## Bug Fixes

@@ -1,7 +1,7 @@
 {
-  "core": "1.4.1",
-  "coreNotes": "## Bug Fixes\n- **QuickAction Content Mix-up with Multi-Window Plugins**: When a plugin that supports multiple windows (e.g. json-format) had several windows open, a new trigger could deliver the selected content to an old window, leaving the new one blank. Content delivery now binds to the window actually shown for this trigger; stale windows can no longer intercept it. Window semantics aligned: each trigger opens a new window for its content (hidden warm-up windows are reused for instant display).\n\n<details>\n<summary>中文说明</summary>\n\n## 问题修复\n- **快捷操作多开插件窗口内容串窗**：多开窗口的插件（如 JSON 格式化）同时开多个窗口时，新触发的选中内容可能被旧窗口截走、新窗口空白。内容投递现绑定「本次触发实际展示的窗口」，旧窗口不再截胡。窗口语义统一：每次触发出的内容由新窗口承载（隐藏保温窗口复用秒显）。\n\n</details>",
-  "pubDate": "2026-11-05T16:29:13.650Z",
+  "core": "1.4.2",
+  "coreNotes": "## Improvements\n- **Launch with Administrator Privileges (restored by design decision)**: The app now requests elevation on launch again, so plugins that need admin rights (e.g. Proxy Manager) work directly without an extra elevation restart. Applies since v1.3.1's change that silently removed the prompt.\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n- **恢复启动时提权（用户决策）**：程序打开时重新弹出管理员权限提示（UAC），需要权限的插件（如代理管理）可直接使用，无需再走按需提权重启。v1.3.1 起静默取消该提示的行为已按你的选择恢复。\n\n</details>",
+  "pubDate": "2026-11-06T01:34:19.030Z",
   "plugins": {
     "pomodoro": "3.3.0",
     "proxy-switch": "3.7.1",
