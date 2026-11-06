@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.4.2 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My.Desktop.Tools_1.4.2_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My.Desktop.Tools_1.4.2_x64_zh-CN.msi) |
+| v1.4.2 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My%20Desktop%20Tools_1.4.2_x64_en-US.msi) |
 
 ## 🔌 插件
 
@@ -17,7 +17,7 @@
 | 插件 | 版本 | 说明 | 版本历史 | 下载 |
 |------|------|------|----------|------|
 | ai-translator | 2.7.0 | [说明](plugins/ai-translator/) | [版本历史](plugins/ai-translator/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/ai-translator-v2.7.0/ai-translator-2.7.0.zip) |
-| clipboard | 1.5.0 | [说明](plugins/clipboard/) | [版本历史](plugins/clipboard/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.5.0/clipboard-1.5.0.zip) |
+| clipboard | 1.6.0 | [说明](plugins/clipboard/) | [版本历史](plugins/clipboard/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/clipboard-v1.6.0/clipboard-1.6.0.zip) |
 | crypto-toolkit | 1.9.3 | [说明](plugins/crypto-toolkit/) | [版本历史](plugins/crypto-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/crypto-toolkit-v1.9.3/crypto-toolkit-1.9.3.zip) |
 | desktop-styler | 0.4.0 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.4.0/desktop-styler-0.4.0.zip) |
 | diff-toolkit | 1.5.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.5.0/diff-toolkit-1.5.0.zip) |
