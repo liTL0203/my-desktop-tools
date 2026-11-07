@@ -6,6 +6,17 @@
 
 ---
 
+# v1.4.3 (2026-11-07)
+
+## Improvements
+- **Smarter Panel When Nothing Is Selected**: With no text selected, the Quick Action panel now consistently shows the launcher grid (common actions one keystroke away) instead of being hijacked into a clipboard content card. Clipboard analysis becomes the first cell of the grid — an entry card with a content summary (Enter to analyze, Esc to go back). The content card appears only when you actually selected text.
+- **Panel Appears Faster**: In no-selection scenarios the panel's list now shows in about 0.2s instead of up to 0.5s+ (the slow path now yields a usable list immediately).
+
+## Bug Fixes
+- **Clipboard Analysis Page Layout**: The entry-card area no longer leaves a large blank bottom (it now fills elastically); the source-text preview expands from 100 to 400 characters; opening the analysis page auto-expands the "open with" list.
+
+---
+
 # v1.4.2 (2026-11-06)
 
 ## Improvements

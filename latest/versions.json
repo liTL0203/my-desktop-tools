@@ -1,7 +1,7 @@
 {
-  "core": "1.4.2",
-  "coreNotes": "## Improvements\n- **Launch with Administrator Privileges (restored by design decision)**: The app now requests elevation on launch again, so plugins that need admin rights (e.g. Proxy Manager) work directly without an extra elevation restart. Applies since v1.3.1's change that silently removed the prompt.\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n- **恢复启动时提权（用户决策）**：程序打开时重新弹出管理员权限提示（UAC），需要权限的插件（如代理管理）可直接使用，无需再走按需提权重启。v1.3.1 起静默取消该提示的行为已按你的选择恢复。\n\n</details>",
-  "pubDate": "2026-11-07T03:03:19.981Z",
+  "core": "1.4.3",
+  "coreNotes": "## Improvements\n- **Smarter Panel When Nothing Is Selected**: With no text selected, the Quick Action panel now consistently shows the launcher grid (common actions one keystroke away) instead of being hijacked into a clipboard content card. Clipboard analysis becomes the first cell of the grid — an entry card with a content summary (Enter to analyze, Esc to go back). The content card appears only when you actually selected text.\n- **Panel Appears Faster**: In no-selection scenarios the panel's list now shows in about 0.2s instead of up to 0.5s+ (the slow path now yields a usable list immediately).\n\n## Bug Fixes\n- **Clipboard Analysis Page Layout**: The entry-card area no longer leaves a large blank bottom (it now fills elastically); the source-text preview expands from 100 to 400 characters; opening the analysis page auto-expands the \"open with\" list.\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n- **无选区时面板更聪明**：没有选中内容时，快捷操作面板固定显示启动器网格（常用操作一步直达），不再被剪贴板内容“顶替”成内容卡；剪贴板分析收纳为网格首格的入口卡——带内容字数摘要，回车进入分析、Esc 返回网格。只有真实选中文本时才显示内容卡。\n- **面板出现更快**：无选区场景下面板列表从最快也要半秒出头，提速到约 0.2 秒出现（慢路径现在先放行可用列表）。\n\n## 问题修复\n- **剪贴板分析页布局**：入口卡区域不再底部大片空白（改为弹性充满）；原文预览从 100 字符扩展到 400 字符；进入分析页自动展开「打开方式」列表。\n\n</details>",
+  "pubDate": "2026-11-07T09:49:14.913Z",
   "plugins": {
     "pomodoro": "3.3.0",
     "proxy-switch": "3.7.1",
