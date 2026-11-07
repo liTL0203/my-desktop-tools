@@ -8,17 +8,21 @@
 
 **Ping 探测**：本机真实 ICMP（无需管理员）。最多 6 个目标并排对比：丢包率、最小/平均/最大延迟、抖动、趋势缩略图；点击任一目标查看实时延迟曲线（含阈值线、超阈值黄点、丢包红叉）与回包日志。支持持续监控与固定 20 次两种模式，结果可导出 CSV。
 
-**路由追踪**：真实 ICMP 逐跳探测（免管理员），每跳 3 次探测，展示延迟条形、跳点 IP、反向解析域名与丢包情况；到达目标 / 不可达自动判别，可中途停止。
+**路由追踪**：真实 ICMP 逐跳探测（免管理员），每跳 3 次探测，展示延迟条形、跳点 IP、反向解析域名与丢包情况；到达目标 / 不可达自动判别，可中途停止。公网跳点附归属地标注（离线库优先）与**地理轨迹图**——跳点按经纬度连线绘制在经纬网上，路径绕行一眼看出。
 
 **端口扫描**：TCP 直连探测，开放 / 关闭 / 过滤三态与握手延迟。内置常用 20 端口、Web、数据库、远程访问、邮件五套预设，也支持 `80,443,8000-8100` 自定义写法。并发与超时可调，高危端口（SMB / RDP / VNC / Redis 等）附风险提示。
 
-**DNS 查询**：一个域名同时发往最多 8 台 DNS 服务器（阿里 / 腾讯 / 114 / 谷歌 / Cloudflare / 路由器 / 自定义），并排对比解析结果、TTL 与解析耗时；结果不一致的会被标出——DNS 刚切换时一眼看出谁还在返回旧记录。支持 A / AAAA / CNAME / MX / TXT / NS / SOA / PTR / CAA 全部记录类型。
+**公网判定**：判断本机是否直接暴露在公网——NAT / CGNAT / 直连 / 离线四态判定 + NAT 链路图 + 分状态建议；RFC 全表 26 段保留地址分类器（输入即判）；支持挂载自备的 ip2region / GeoLite2 离线库（.xdb / .mmdb），本地全字段解析 IP、不限次数、数据不出本机。
+
+**网络体检**：一键并行检测网关延迟、公网出口、DNS 解析与常用站点连通性，「是网断了还是网站挂了」一眼可判，支持一键复制体检报告发给别人。
+
+**DNS 查询**：一个域名同时发往最多 8 台 DNS 服务器（阿里 / 腾讯 / 114 / 谷歌 / Cloudflare / 路由器 / 自定义），并排对比解析结果、TTL 与解析耗时；结果不一致的会被标出——DNS 刚切换时一眼看出谁还在返回旧记录。支持 A / AAAA / CNAME / MX / TXT / NS / SOA / PTR / CAA 全部记录类型。附带**污染检测**：将本地明文 DNS 的解析结果与 DoH 加密可信通道对比，命中注入特征时明确警示——「域名打不开是不是被劫持」有据可查。
 
 **Whois**：查询域名或 IP 的注册信息——自动从 IANA 根服务器跟随到注册局 / 注册商（最多两跳），注册商、注册组织、创建 / 到期时间、状态、名称服务器等关键字段以中文标签摘要展示，并可查看原始记录。
 
 **IP 计算**（完全离线）：子网计算器（网络地址 / 广播 / 掩码 / 反掩码 / 可用范围 / 二进制，一键复制）；IPv4 点分、整数、二进制、十六进制互转；IPv6 展开 / 压缩；VLSM 子网规划器——按各部门主机数自动划分，结果可直接抄进路由器。
 
-**局域网**：Wake-on-LAN 远程唤醒（保存设备列表，魔术包连发 3 次）；MAC 厂商识别（内置 OUI 离线数据库）与随机本地 MAC 生成；ARP 邻居表（自动标注每台设备的厂商，可发现陌生设备）。
+**局域网**：Wake-on-LAN 远程唤醒（保存设备列表，魔术包连发 3 次）；MAC 厂商识别（内置 OUI 离线数据库）与随机本地 MAC 生成；ARP 邻居表（自动标注厂商）；**设备扫描**——一键发现局域网在线设备的 IP / MAC / 厂商 / 主机名，扫到即可一键加入唤醒列表；**本机连接**——本机全部 TCP/UDP 连接与监听端口及其所属进程，「哪个程序在联网、谁连着我」一目了然。
 
 **HTTP·证书**：一次请求拆成 DNS / TCP / TLS / 等待首字节 / 下载五段计时，慢在哪一步一目了然；重定向链完整可视化；响应头清单；SSL 证书的颁发者、有效期、剩余天数徽章与备用域名（SAN）。
 
@@ -43,7 +47,9 @@
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
-| 0.1.0 | 2026-09-28 | 首个开发版本 |
+| 1.4.0 | 2026-11-07 | 公网探测多端点降级链；Whois 限流识别与 RDAP 兜底；DNS 污染检测；本机连接表；路由地理轨迹；分类器输入修复等，详见 CHANGELOG |
+| 1.2.0 | 2026-10-08 | IP 离线库解析（自备 xdb / mmdb 本地全字段解析） |
+| 1.0.0 | 2026-09-30 | 首次公开发布 |
 
 ---
 
@@ -60,13 +66,19 @@ An all-in-one network toolkit. The biggest difference from online tools: every p
 
 **Ping**: real ICMP from this PC (no admin required). Up to 6 targets side by side: loss, min/avg/max latency, jitter and trend sparklines; click any target for the live latency chart (threshold line, warning dots, loss marks) and reply log. Continuous monitoring or fixed 20-ping mode; export to CSV.
 
+**Public IP Check**: whether this machine is directly exposed to the internet — NAT / CGNAT / direct / offline four-state verdict with a NAT chain diagram and per-state advice; a classifier covering all 26 RFC reserved ranges; mount your own ip2region / GeoLite2 databases (.xdb / .mmdb) for unlimited local full-field IP lookups that never leave your machine.
+
+**Network Health**: one-click parallel check of gateway latency, public exit, DNS resolution and popular-site reachability — "is it my network or the website?" answered at a glance, with a copyable report.
+
 **Port Scan**: TCP connect with open/closed/filtered states and handshake latency. Presets (common 20 / web / database / remote / mail) plus custom ranges like `80,443,8000-8100`. Adjustable concurrency and timeout; high-risk ports (SMB / RDP / VNC / Redis) flagged.
 
-**DNS**: query one domain at up to 8 servers simultaneously (Ali / Tencent / 114 / Google / Cloudflare / router / custom) and compare answers, TTL and timing side by side; mismatches are highlighted — right after a DNS switch you instantly see who still serves the old record. All record types: A / AAAA / CNAME / MX / TXT / NS / SOA / PTR / CAA.
+**DNS**: query one domain at up to 8 servers simultaneously (Ali / Tencent / 114 / Google / Cloudflare / router / custom) and compare answers, TTL and timing side by side; mismatches are highlighted — right after a DNS switch you instantly see who still serves the old record. All record types: A / AAAA / CNAME / MX / TXT / NS / SOA / PTR / CAA. Includes a **pollution check** comparing plain-text local DNS answers against a DoH trusted channel, with explicit warnings on injection signatures.
+
+**LAN**: Wake-on-LAN with a saved device list (3 magic packets per wake); MAC vendor lookup (offline OUI database); ARP neighbor table with vendor labels; **device scan** — one click to discover live LAN devices (IP / MAC / vendor / hostname) and add any to the wake list; **local connections** — every TCP/UDP connection and listening port with its owning process.
+
+**Traceroute**: real ICMP hop-by-hop (no admin), 3 probes per hop with latency bars, PTR names and loss; public hops get geo labels (offline DB first) and a **geo trail map** plotting hops by coordinates on a graticule.
 
 **IP Calc** (fully offline): subnet calculator (network / broadcast / mask / wildcard / usable range / binary, copy with one click); IPv4 dotted / integer / binary / hex conversions; IPv6 expand / compress; VLSM planner — allocate subnets by each department's host count, ready to paste into your router.
-
-**LAN**: Wake-on-LAN with a saved device list (3 magic packets per wake); MAC vendor lookup (offline OUI database) and random local MAC generation; ARP neighbor table with automatic vendor labels.
 
 **HTTP / Cert**: every request split into DNS / TCP / TLS / first-byte / download timing; full redirect chain; response headers; TLS certificate issuer, validity, days-left badge and SANs.
 
@@ -91,7 +103,9 @@ An all-in-one network toolkit. The biggest difference from online tools: every p
 
 | Version | Date | Notes |
 |---------|------|-------|
-| 0.1.0 | 2026-09-28 | Initial development release |
+| 1.4.0 | 2026-11-07 | Multi-endpoint public IP probing; Whois rate-limit detection + RDAP fallback; DNS pollution check; local connections; geo trail; classifier input fix — see CHANGELOG |
+| 1.2.0 | 2026-10-08 | Offline IP database lookups (bring-your-own xdb / mmdb) |
+| 1.0.0 | 2026-09-30 | First public release |
 
 </details>
 
