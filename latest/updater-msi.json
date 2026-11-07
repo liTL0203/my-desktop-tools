@@ -1,11 +1,11 @@
 {
   "version": "1.4.2",
   "notes": "## Improvements\n- **Launch with Administrator Privileges (restored by design decision)**: The app now requests elevation on launch again, so plugins that need admin rights (e.g. Proxy Manager) work directly without an extra elevation restart. Applies since v1.3.1's change that silently removed the prompt.\n\n<details>\n<summary>中文说明</summary>\n\n## 优化改进\n- **恢复启动时提权（用户决策）**：程序打开时重新弹出管理员权限提示（UAC），需要权限的插件（如代理管理）可直接使用，无需再走按需提权重启。v1.3.1 起静默取消该提示的行为已按你的选择恢复。\n\n</details>",
-  "pub_date": "2026-11-06T14:56:21.660Z",
+  "pub_date": "2026-11-07T01:34:48.016Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZERWTDhqQTk5emNCMmRLdWs1R1kyMUMzRHZyZFQyRWg0TWdsNWR4VEFYVzVxTlhoY0VEaXlLc0ZVSzdkV25sNVByc09Ta0JEOXZrTkd3MThVcXFmZEFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTI2NTU2CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjQuMl94NjRfZW4tVVMubXNpCldDVXdjbjMvQTBqZzh2MUVFKzdWd0YvSGo3TXp1Zk9NT0NDdmNLblJHSWFXMWZlZEt2RjJPMk5PVWJ1cG45bG84MlNUZjBPTTZIbU5nTGx4T1d1SkNnPT0K",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My%20Desktop%20Tools_1.4.2_x64_en-US.msi"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEFaWnJtWXRIb1RFYVhhVEtqdjV6MDBhWU1YNXJXMjhXUzFleGpPNXNpRUpxUDA0VTVRRFNGYnZxS05raXF2NVdNQXFsQWpCUzZISDBkSkFNY29RK1FjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDE1MjcyCWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjQuMl94NjRfZW4tVVMubXNpCnFZWjdWdytHdzV2YzBlS3JZYnBvNjQ2a3lOdnBYRmg4VWFpajY4S3E5a1N1bmRHVnRQSUNhQ095a0ZjcGNMK3ByTkxGS2lNZkthaGJjOXRyblZ3ekRRPT0K",
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.2/My.Desktop.Tools_1.4.2_x64_en-US.msi"
     }
   }
 }
