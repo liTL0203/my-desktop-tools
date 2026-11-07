@@ -1,3 +1,32 @@
+# v2.5.1 Release Notes (2026-11-07)
+
+## Bug Fixes
+- **China-friendly connectivity**: Internet probe now uses baidu.com:443 (domestic) + dns.google:53 (international) in parallel; public IP uses 4.ipw.cn / myip.ipip.net with ipify.org fallback — fixes "detecting forever" in China
+- **Credential manager column width**: fixed widths (target 300px, username 140px, blob 90px, password 150px) with word-break wrapping and full tooltip on hover — no more layout shift when revealing passwords
+- **Missing i18n key**: hw.battery now translates correctly in both zh-CN and en-US
+- **Drivers page filter**: category chips now actually filter the table (was display-only)
+
+## Refactoring
+- **Module split**: secrets.rs (1751 lines) split into secrets/ (5 files, max 646); collector.rs (1602 lines) split into collector/ (6 files, max 514) — zero functional change, 12/12 tests pass, clippy zero warnings, quality:audit zero hard-limit violations
+
+<details>
+<summary>中文说明</summary>
+
+# v2.5.1 更新说明 (2026-11-07)
+
+## 修复
+- **国内友好的连通性探测**：Internet 探测改为 baidu.com:443（国内）+ dns.google:53（国际）并行；公网 IP 改用 4.ipw.cn / myip.ipip.net（国内优先）——修复国内"永远检测中"的问题
+- **凭据管理器列宽固定**：目标列 300px 固定宽 + 自动换行 + 悬停看全文；密码列 150px 固定——切换明文/掩码列宽不再跳动
+- **缺失的 i18n 键**：hw.battery 中英文正常翻译
+- **驱动页筛选修复**：类别 chips 点击后表格实际跟随筛选
+
+## 重构
+- **模块拆分**：secrets.rs（1751 行）拆为 secrets/ 目录（5 文件，最大 646 行）；collector.rs（1602 行）拆为 collector/ 目录（6 文件，最大 514 行）——零功能变更，12/12 测试通过
+
+</details>
+
+---
+
 # v2.5.0 更新说明 (2026-10-19)
 
 ## 改进

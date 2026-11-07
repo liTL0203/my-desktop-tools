@@ -35,7 +35,7 @@
 | remote-desktop | 1.3.1 | [说明](plugins/remote-desktop/) | [版本历史](plugins/remote-desktop/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/remote-desktop-v1.3.1/remote-desktop-1.3.1.zip) |
 | screenshot-tool | 1.3.0 | [说明](plugins/screenshot-tool/) | [版本历史](plugins/screenshot-tool/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/screenshot-tool-v1.3.0/screenshot-tool-1.3.0.zip) |
 | sql-format | 1.5.0 | [说明](plugins/sql-format/) | [版本历史](plugins/sql-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sql-format-v1.5.0/sql-format-1.5.0.zip) |
-| sys-info | 2.5.0 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.5.0/sys-info-2.5.0.zip) |
+| sys-info | 2.5.1 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.5.1/sys-info-2.5.1.zip) |
 | sys-pulse | 1.1.0 | [说明](plugins/sys-pulse/) | [版本历史](plugins/sys-pulse/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-pulse-v1.1.0/sys-pulse-1.1.0.zip) |
 | xml-format | 1.5.0 | [说明](plugins/xml-format/) | [版本历史](plugins/xml-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.5.0/xml-format-1.5.0.zip) |
 | yaml-format | 1.5.0 | [说明](plugins/yaml-format/) | [版本历史](plugins/yaml-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v1.5.0/yaml-format-1.5.0.zip) |
