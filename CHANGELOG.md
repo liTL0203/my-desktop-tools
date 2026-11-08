@@ -6,6 +6,16 @@
 
 ---
 
+# v1.4.4 (2026-11-08)
+
+## New Features
+- **Visual Plugin Config Editor**: The config dialog in plugin management is now a visual editor — allowed-items lists (domains, commands, etc.) can be edited with toggles and chips instead of hand-editing JSON files; plugins without a config schema fall back to direct file editing automatically.
+
+## Bug Fixes
+- **Config Button Not Responding**: The config button on some plugin rows did nothing when clicked (event chain had two broken links); it now opens the dialog reliably.
+
+---
+
 # v1.4.3 (2026-11-07)
 
 ## Improvements

@@ -8,7 +8,7 @@
 
 | 版本 | 平台 | 下载 |
 |------|------|------|
-| v1.4.3 | Windows 10 及以上（64 位） | [MSI](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.3/My%20Desktop%20Tools_1.4.3_x64_en-US.msi) |
+| v1.4.4 | Windows 10 及以上（64 位） | [MSI 安装包（英文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.4/My.Desktop.Tools_1.4.4_x64_en-US.msi) · [MSI 安装包（中文）](https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.4/My.Desktop.Tools_1.4.4_x64_zh-CN.msi) |
 
 ## 🔌 插件
 
@@ -38,7 +38,7 @@
 | sys-info | 2.5.1 | [说明](plugins/sys-info/) | [版本历史](plugins/sys-info/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-info-v2.5.1/sys-info-2.5.1.zip) |
 | sys-pulse | 1.1.0 | [说明](plugins/sys-pulse/) | [版本历史](plugins/sys-pulse/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/sys-pulse-v1.1.0/sys-pulse-1.1.0.zip) |
 | xml-format | 1.5.0 | [说明](plugins/xml-format/) | [版本历史](plugins/xml-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/xml-format-v1.5.0/xml-format-1.5.0.zip) |
-| yaml-format | 1.5.0 | [说明](plugins/yaml-format/) | [版本历史](plugins/yaml-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v1.5.0/yaml-format-1.5.0.zip) |
+| yaml-format | 1.4.1 | [说明](plugins/yaml-format/) | [版本历史](plugins/yaml-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/yaml-format-v1.4.1/yaml-format-1.4.1.zip) |
 
 ## 💻 系统要求
 
