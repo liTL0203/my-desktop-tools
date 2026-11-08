@@ -1,11 +1,11 @@
 {
   "version": "1.4.4",
   "notes": "## New Features\n- **Visual Plugin Config Editor**: The config dialog in plugin management is now a visual editor — allowed-items lists (domains, commands, etc.) can be edited with toggles and chips instead of hand-editing JSON files; plugins without a config schema fall back to direct file editing automatically.\n\n## Bug Fixes\n- **Config Button Not Responding**: The config button on some plugin rows did nothing when clicked (event chain had two broken links); it now opens the dialog reliably.\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n- **插件配置可视化编辑**：插件管理里的配置弹窗改为可视化编辑——白名单类配置（域名、命令等）直接点选开关与标签增删，不再需要手工编辑 JSON 文件；未声明配置结构的插件自动退回直接编辑文件的方式。\n\n## 问题修复\n- **配置按钮无响应**：部分插件行的配置按钮点击无反应（事件链两处断点），现已可靠打开弹窗。\n\n</details>",
-  "pub_date": "2026-11-08T07:40:44.758Z",
+  "pub_date": "2026-11-08T15:49:30.511Z",
   "platforms": {
     "windows-x86_64": {
       "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUS3RZQU1YaCs4ZEUrYUxseC9VYUpuUWp1MnR6Ylg1NXRrYVRhQnAwdFhHQ1grU0tLcUoyQTlGYzVydGJBU1BuNmpWcWpNQ0xYVE1XbmJLS2FzMC8vVkRPWnlzcklSREF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MTIzNjM0CWZpbGU6TXkgRGVza3RvcCBUb29sc18xLjQuNF94NjRfZW4tVVMubXNpCitrbkJSUjFhZHZSaUN5ZzkzTlBKQVJyVm1sV2szZnA2N2cxdGE5VElmbWVQc3c1QVl2ZnFWRDVhQzRhb1BadXBiSkoraDczTm1kM2hkQkRLRVQvS0JnPT0K",
-      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.4/My.Desktop.Tools_1.4.4_x64_en-US.msi"
+      "url": "https://github.com/liTL0203/my-desktop-tools/releases/download/v1.4.4/My%20Desktop%20Tools_1.4.4_x64_en-US.msi"
     }
   }
 }
