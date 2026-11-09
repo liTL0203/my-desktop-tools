@@ -15,6 +15,7 @@
 - **拦截音效**（可选）：拦截到输入时轻响一声，擦拭时不抬头也能确认防护在工作
 - **放行媒体键**（可选）：防护期间音量、播放/暂停等媒体键仍可正常使用
 - **解锁短语**（可选第 4 手势）：键入自定义短语（3-8 位小写字母/数字，默认 `unlock`）解锁，刻意性最强
+- **使用统计**：空闲态显示上次防护的拦截次数与时长，设置区可看累计防护成果
 
 ## 使用方法
 
@@ -35,6 +36,10 @@
 
 | 版本 | 日期 | 说明 |
 |------|------|------|
+| 1.5.0 | 2026-11-09 | 使用统计（上次成果 + 累计）+ 倒计时平滑 |
+| 1.4.1 | 2026-11-04 | 布局打磨：设置折叠化（默认收起，主界面零滚动）+ 组件结构整理 |
+| 1.4.0 | 2026-10-19 | 例行维护版本：随核心程序一同重新构建发布，无功能变化 |
+| 1.3.0 | 2026-10-08 | 「擦得更安心」竞品吸收四件套：锁定期防息屏 / 拦截音效 / 放行媒体键 / 解锁短语（第 4 手势） |
 | 1.2.0 | 2026-10-04 | 「擦得更安心」竞品吸收四件套：锁定期防息屏 / 拦截音效 / 放行媒体键 / 解锁短语（第 4 手势） |
 | 1.1.0 | 2026-09-25 | 解锁手势改 Ctrl+Alt+U；移除全局热键，改为主窗口 / 快捷启动进入 |
 | 1.0.0 | 2026-09-25 | 首个版本：一键锁定 / 手势解锁 / 兜底自动解除 / 顶部横幅 / 范围与手势设置 |
@@ -66,6 +71,7 @@
 - **Block feedback sound** (optional): a soft tick on each blocked input — protection confirmed without looking up
 - **Allow media keys** (optional): volume and play/pause keys still work while protecting
 - **Unlock phrase** (optional 4th gesture): type a custom phrase (3-8 lowercase letters/digits, default `unlock`) to unlock — the most deliberate option
+- **Usage stats**: last session's blocked count and duration on the idle view; cumulative totals in settings
 
 ## Usage
 
@@ -84,6 +90,10 @@
 
 | Version | Date | Notes |
 |---------|------|-------|
+| 1.5.0 | 2026-11-09 | Usage stats (last session + cumulative) + smooth countdown |
+| 1.4.1 | 2026-11-04 | Layout polish: collapsible settings (collapsed by default, no scrolling) + component split |
+| 1.4.0 | 2026-10-19 | Routine maintenance rebuild shipped with the core app, no feature change |
+| 1.3.0 | 2026-10-08 | "Wipe with confidence" competitor-absorption pack: keep-awake / block feedback sound / allow media keys / unlock phrase (4th gesture) |
 | 1.2.0 | 2026-10-04 | "Wipe with confidence" competitor-absorption pack: keep-awake / block feedback sound / allow media keys / unlock phrase (4th gesture) |
 | 1.1.0 | 2026-09-25 | Unlock gesture changed to Ctrl+Alt+U; global hotkey removed — enter via main window / Quick Launcher |
 | 1.0.0 | 2026-09-25 | Initial release: one-click lock / gesture unlock / hard-limit auto-release / top banner / scope & gesture settings |

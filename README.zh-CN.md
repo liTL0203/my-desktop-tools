@@ -22,7 +22,7 @@
 | desktop-styler | 0.4.0 | [说明](plugins/desktop-styler/) | [版本历史](plugins/desktop-styler/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/desktop-styler-v0.4.0/desktop-styler-0.4.0.zip) |
 | diff-toolkit | 1.5.0 | [说明](plugins/diff-toolkit/) | [版本历史](plugins/diff-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/diff-toolkit-v1.5.0/diff-toolkit-1.5.0.zip) |
 | image-toolkit | 1.5.1 | [说明](plugins/image-toolkit/) | [版本历史](plugins/image-toolkit/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/image-toolkit-v1.5.1/image-toolkit-1.5.1.zip) |
-| input-lock | 1.4.1 | [说明](plugins/input-lock/) | [版本历史](plugins/input-lock/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.4.1/input-lock-1.4.1.zip) |
+| input-lock | 1.5.0 | [说明](plugins/input-lock/) | [版本历史](plugins/input-lock/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/input-lock-v1.5.0/input-lock-1.5.0.zip) |
 | json-format | 1.11.0 | [说明](plugins/json-format/) | [版本历史](plugins/json-format/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-format-v1.11.0/json-format-1.11.0.zip) |
 | json-to-excel | 2.7.0 | [说明](plugins/json-to-excel/) | [版本历史](plugins/json-to-excel/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/json-to-excel-v2.7.0/json-to-excel-2.7.0.zip) |
 | lan-share | 1.3.0 | [说明](plugins/lan-share/) | [版本历史](plugins/lan-share/CHANGELOG.md) | [下载](https://github.com/liTL0203/my-desktop-tools/releases/download/lan-share-v1.3.0/lan-share-1.3.0.zip) |

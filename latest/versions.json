@@ -1,7 +1,7 @@
 {
   "core": "1.4.4",
   "coreNotes": "## New Features\n- **Visual Plugin Config Editor**: The config dialog in plugin management is now a visual editor — allowed-items lists (domains, commands, etc.) can be edited with toggles and chips instead of hand-editing JSON files; plugins without a config schema fall back to direct file editing automatically.\n\n## Bug Fixes\n- **Config Button Not Responding**: The config button on some plugin rows did nothing when clicked (event chain had two broken links); it now opens the dialog reliably.\n\n<details>\n<summary>中文说明</summary>\n\n## 新增功能\n- **插件配置可视化编辑**：插件管理里的配置弹窗改为可视化编辑——白名单类配置（域名、命令等）直接点选开关与标签增删，不再需要手工编辑 JSON 文件；未声明配置结构的插件自动退回直接编辑文件的方式。\n\n## 问题修复\n- **配置按钮无响应**：部分插件行的配置按钮点击无反应（事件链两处断点），现已可靠打开弹窗。\n\n</details>",
-  "pubDate": "2026-11-08T15:49:30.514Z",
+  "pubDate": "2026-11-09T04:44:35.102Z",
   "plugins": {
     "pomodoro": "3.3.0",
     "proxy-switch": "3.7.1",
@@ -20,7 +20,7 @@
     "desktop-styler": "0.4.0",
     "diff-toolkit": "1.4.0",
     "clipboard": "1.6.0",
-    "input-lock": "1.4.0",
+    "input-lock": "1.5.0",
     "screenshot-tool": "1.2.0",
     "lan-share": "1.3.0",
     "net-toolkit": "1.4.0",
